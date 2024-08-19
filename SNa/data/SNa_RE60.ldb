@@ -1,0 +1,536 @@
+TDB: empty
+ADB: SNa
+problem: SNa
+description:
+# MAINa
+# NDC  Target RE 6030
+drate: 0
+timesteps: 2018 2019 2020 2021 2022 2023 2024 2025 2026 2027 2028 2029 2030 2031 2032 2033 2034 2035 2036 2037 2038 2039 2040 2041 2042
+loadregions:
+ltype ordered seasonal 1 0
+year 2019 1 10
+name aaa aab aac \
+baa bab bac bad \
+caa cab cac 
+length 0.096689 0.165753 0.069064 \
+0.101484 0.173974 0.028995 0.043493 \
+0.093493 0.160274 0.066781 
+energyforms:
+Final f
+# Final Energy
+Industry e l
+# Industry Electricity Final
+Commerce c l
+# Commerce Electricity Final
+Urban u l
+# Urban Electricity Final
+Rural r l
+# Rural Electricity Final
+SentOut s l f
+# Sentout Electricity Final
+Export E 
+# Export Elc
+*
+Tertiary t
+# Tertiary Energy
+Industry i l
+# Industry Electricity Tertiary
+Commerce c l
+# Commerce Electricity Tertiary
+Urban u l
+# Urban Electricity Tertiary
+Rural r l
+# Rural Electricity Tertiary
+Electricity e l f
+# Tertiary Electricity
+*
+Secondary s
+# Secondary Energy
+Electricity r l f
+# Secondary Electricity
+ElcDummy d l
+# Dummy elc for PS
+*
+Primary p
+# Primary Energy
+Bagasse b 
+# Bagasse
+Wood B 
+# Wood
+Hydro H 
+# Hydro
+Solar s l
+# Solar
+Wind w 
+# Wind
+Coal c 
+# Coal
+CoalCCS C 
+# Coal CCS
+Gas g 
+# Gas
+Nuclear n 
+# Nuclear
+Oil o 
+# Oil
+HFO h 
+# diesel
+Diesel d 
+# HFO
+Crude p 
+# Crude
+*
+Resources r
+# Resources
+Biomass b 
+# Biomass resource
+Coal c 
+# Coal resource
+*
+demand:
+c-f  ts 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+e-f  ts 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+r-f  ts 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+s-f  ts 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+u-f  ts 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+loadcurve:
+year 2019
+c-f 0.091518 0.175245 0.068275 0.096056 0.178391 \
+0.030494 0.041167 0.088493 0.164343 0.066018
+e-f 0.096689 0.165753 0.069064 0.101484 0.173974 \
+0.028995 0.043493 0.093493 0.160274 0.066781
+r-f 0.060015 0.175921 0.11559 0.058822 0.182783 \
+0.032932 0.062985 0.058128 0.169964 0.08286
+s-f 0.086856 0.134703 0.063661 0.113497 0.174437 \
+0.031716 0.047335 0.091081 0.164947 0.091767
+u-f 0.060015 0.175921 0.11559 0.058822 0.182783 \
+0.032932 0.062985 0.058128 0.169964 0.08286
+systems.SNWDLC00.h.capfac 0.590347 0.320686 0.406639 0.30275 0.141422 \
+0.122715 0.286989 0.283715 0.163844 0.200488
+systems.SNWDOC00.H.capfac 0.590347 0.320686 0.406639 0.30275 0.141422 \
+0.122715 0.286989 0.283715 0.163844 0.200488
+systems.SNWDOCZ002.J.capfac 0.744881 0.606844 0.696269 0.292865 0.23372 \
+0.27163 0.30662 0.380528 0.268839 0.333298
+systems.SNWDOCZ001.I.capfac 0.706789 0.55778 0.65593 0.250237 0.212242 \
+0.276126 0.278816 0.332986 0.249403 0.307196
+systems.SNWDLC_taiba_1.G.capfac 0.79788 0.623946 0.668242 0.319413 0.27346 \
+0.36508 0.363232 0.415379 0.315094 0.325762
+systems.SNWDLCZ005.F.capfac 0.734916 0.501847 0.453171 0.596757 0.31275 \
+0.23612 0.470133 0.465362 0.279191 0.240834
+systems.SNWDLCZ004.E.capfac 0.744655 0.452389 0.376906 0.611363 0.329688 \
+0.205988 0.360743 0.466432 0.298957 0.222757
+systems.SNWDLCZ003.D.capfac 0.79788 0.623946 0.668242 0.319413 0.27346 \
+0.36508 0.363232 0.415379 0.315094 0.325762
+systems.SNWDLCZ002.C.capfac 0.732321 0.529102 0.530879 0.440985 0.281481 \
+0.368542 0.529351 0.455667 0.275776 0.301825
+systems.SNWDLCZ001.B.capfac 0.784417 0.417521 0.424729 0.597388 0.360547 \
+0.185861 0.32611 0.505029 0.312164 0.246352
+systems.SNWDLC_taiba_ndiaye_.A.capfac 0.590347 0.320686 0.406639 0.30275 0.141422 \
+0.122715 0.286989 0.283715 0.163844 0.200488
+systems.SNSOPC00.i.capfac 0 0.372451 0.046058 0 0.368356 \
+0.142478 0.00134 0 0.311245 0.033462
+systems.SNSOPC_Touba.L.capfac 0 0.377578 0.148066 0 0.364346 \
+0.341256 0.026678 0 0.332431 0.089643
+systems.SNSOPC_Malicounda.K.capfac 0 0.380115 0.155552 0 0.369348 \
+0.35814 0.029567 0 0.333404 0.093728
+systems.SNSOPC_Bokhol.J.capfac 0 0.371274 0.131476 0 0.385744 \
+0.345743 0.022848 0 0.329592 0.080406
+systems.SNSOPCZ005.I.capfac 0 0.371275 0.131477 0 0.385745 \
+0.345743 0.022849 0 0.329592 0.080405
+systems.SNSOPCZ004.H.capfac 0 0.377103 0.146973 0 0.380412 \
+0.363788 0.027642 0 0.333633 0.089139
+systems.SNSOPCZ003.G.capfac 0 0.377578 0.148065 0 0.364346 \
+0.341256 0.026678 0 0.332431 0.089642
+systems.SNSOPCZ002.F.capfac 0 0.380115 0.155551 0 0.369348 \
+0.35814 0.029567 0 0.333404 0.093728
+systems.SNSOPCZ001.E.capfac 0 0.375761 0.143633 0 0.38712 \
+0.368656 0.027239 0 0.334135 0.088646
+systems.SNSOPC_ziguinchor_.D.capfac 0 0.372451 0.046058 0 0.368356 \
+0.142478 0.00134 0 0.311245 0.033462
+systems.SNSOPC_Centrale_Niass_financement_EAU.C.capfac 0 0.372451 0.046058 0 0.368356 \
+0.142478 0.00134 0 0.311245 0.033462
+systems.SNSOPC_Centrale_Diass_financement_Kfw.B.capfac 0 0.372451 0.046058 0 0.368356 \
+0.142478 0.00134 0 0.311245 0.033462
+systems.SNSOPC_5_IPP_de_20_MW.A.capfac 0 0.372451 0.046058 0 0.368356 \
+0.142478 0.00134 0 0.311245 0.033462
+systems.SNSOPU00.g.capfac 0 0.372451 0.046058 0 0.368356 \
+0.142478 0.00134 0 0.311245 0.033462
+systems.SNSOPB00.g.capfac 0 0.372451 0.046058 0 0.368356 \
+0.142478 0.00134 0 0.311245 0.033462
+systems.SNSOPR00.g.capfac 0 0.372451 0.046058 0 0.368356 \
+0.142478 0.00134 0 0.311245 0.033462
+systems.SNSOPS00.h.capfac 0 0.372451 0.046058 0 0.368356 \
+0.142478 0.00134 0 0.311245 0.033462
+systems.SNSOTN00.j.capfac 0 0 0 0 0 \
+0 0 0 0 0
+systems.SNSOTNZ002.C.capfac 0.07817 0.621289 0.848028 0.017231 0.567737 \
+0.805392 0.397068 0.021709 0.548545 0.562503
+systems.SNSOTNZ001.B.capfac 0.10546 0.620136 0.874596 0.02569 0.524007 \
+0.757857 0.422809 0.021943 0.535975 0.581056
+systems.SNSOTS00.k.capfac 0 0.470999 0.367085 0 0.470999 \
+0.526419 0.260862 0 0.471387 0.366153
+systems.SNSOTSZ002.E.capfac 0.529944 0.641723 0.955697 0.234376 0.562631 \
+0.862002 0.681333 0.247056 0.568489 0.768306
+systems.SNSOTSZ001.D.capfac 0.4723 0.643103 0.943211 0.208226 0.605619 \
+0.908555 0.733471 0.224812 0.581597 0.774753
+systems.SNRIDM_Sambangalou.A.capfac 0.009873 0.00978 0.00978 0.287976 0.290211 \
+0.290211 0.290211 0.349795 0.347465 0.347465
+systems.SNELPT04.B.capfac 0.055251 0.055251 0 0.057991 0.057991 \
+0.057991 0 0.053425 0.053425 0
+systems.SNELDT04_01.C.capfac 1 0 0 0 0 \
+0 0 0 0 0
+systems.SNELDT04_01.D.capfac 0 0 1 0 0 \
+0 0 0 0 0
+systems.SNELDT04_02.E.capfac 0 0 0 1 0 \
+0 0 0 0 0
+systems.SNELDT04_02.F.capfac 0 0 0 0 0 \
+0 1 0 0 0
+systems.SNELDT04_03.G.capfac 0 0 0 0 0 \
+0 0 1 0 0
+systems.SNELDT04_03.H.capfac 0 0 0 0 0 \
+0 0 0 0 1
+relationsc:
+relationsp:
+relationss:
+D_SNHYDM_Sambangalou D001 o 0
+*
+SS_SNELST04 SS01 o 0
+*
+relations1:
+ReserveMargin RM o 
+*
+CO2emissionskt CO2 o 
+*
+LocalRE RE o 
+*
+WDBR WDBR o 
+*
+PVBR PVBR o 
+*
+BMTC BMTC o 
+*
+Domestic DOM o 
+*
+InstantaneousWindPV IPW o 0
+*
+PC_SNELST04 PC01 o 
+*
+PS_SNELST04 PS01 o 0
+*
+DC_SNELST04_01 DC01 o 
+*
+DC_SNELST04_02 DC02 o 
+*
+DC_SNELST04_03 DC03 o 
+*
+relations2:
+variables:
+systems:
+SNEL00TDI a
+# Description: Industry Distribution
+*
+SNEL00TDU a
+# Description: Urban Distribution
+*
+SNEL00TDC a
+# Description: Commerce Distribution
+*
+SNEL00TDR a
+# Description: Rural Distribution
+*
+SNEL00T00 a
+# Description: Transmission
+*
+SNEL00TUI a
+# Description: Industry Demand
+*
+SNEL00TUU a
+# Description: Urban Demand
+*
+SNEL00TUC a
+# Description: Commerce Demand
+*
+SNEL00TUR a
+# Description: Rural Demand
+*
+SNEL00TUS a
+# Description: SentOut Demand
+*
+SNEL00e00 a
+# Description: Export of Electricity
+*
+SNEL00i00 I
+# Description: Import of Electricity
+*
+SNELBS00 z
+# Description: Backstop
+*
+SNDSRC00 g
+# Description: Generic Diesel Centralized
+*
+SNDSRC_Malicounda F
+# Description: Malicounda
+*
+SNDSRC_Boutoute E
+# Description: Boutoute
+*
+SNDSRC_Location D
+# Description: Location
+*
+SNDSRC_IPP_Tobene C
+# Description: IPP_Tobene
+*
+SNDSRC_IPP_Contour_Global B
+# Description: IPP_Contour_Global
+*
+SNDSRC_Gas_Turbine_ODS A
+# Description: Gas_Turbine_ODS
+*
+SNDSRI00 g
+# Description: Generic Diesel 100 kW system (Industry)
+*
+SNDSRU00 g
+# Description: Generic Diesel/Gasoline 1kW system (urban)
+*
+SNDSRB00 g
+# Description: Generic Diesel/Gasoline 1kW system (commercial buildings)
+*
+SNDSRR00 g
+# Description: Generic Diesel/Gasoline 1kW system (rural)
+*
+SNHFRC00 g
+# Description: Generic HFO
+*
+SNHFRC_Cap_Biches_3 J
+# Description: Cap-des-Biches G404 G405
+*
+SNHFRC_Cap_Biches_2 I
+# Description: Cap-des-Biches G403
+*
+SNHFRC_Cap_Biches_1 H
+# Description: Cap-des-Biches G401 G402
+*
+SNHFRC_Cap_IPP G
+# Description: Cap_IPP
+*
+SNHFRC_Kounoune_IPP F
+# Description: Kounoune_IPP
+*
+SNHFRC_Kaolack_C7 E
+# Description: Kaolack_C7
+*
+SNHFRC_Bel_air_1 D
+# Description: Bel-air G601/ Bel-air G602 / Bel-air G603 / Bel-air G604
+*
+SNHFRC_Bel_air_2 C
+# Description: Bel_air_G605/ Bel-air G606 
+*
+SNHFRC_Diesel_Generators_OHF A
+# Description: Diesel_Generators_OHF
+*
+SNHFSC00 h
+# Description: Generic HFO Turbine
+*
+SNHFSC_Steam_Turbine_OHF B
+# Description: Steam_Turbine_OHF
+*
+SNNGSC00 g
+# Description: Generic Gas Open Cycle
+*
+SNNGCC00 h
+# Description: Generic Gas Combined Cycle
+*
+SNNGCC_Kayar_Konoune B
+# Description: Kayar_Konoune
+*
+SNNGCC_Combined_Cycle_GAS A
+# Description: Combined_Cycle_GAS
+*
+SNCOCS00 g
+# Description: Generic Coal w CCS
+*
+SNCOSC00 g
+# Description: Generic Coal
+*
+SNCOSC_Sendou_ B
+# Description: Sendou_
+*
+SNCOSC_Mboro A
+# Description: Mboro
+*
+SNHYRO00 h
+# Description: Generic Hydro ROR
+*
+SNHYDM00 g
+# Description: Generic Hydro With Dam
+*
+SNHYDM_Sambangalou B
+# Description: Sambangalou
+*
+SNHYRO_Manantali(OMVS)partSenegal33 A
+# Description: Manantali_(OMVS)_part_Senegal_33_
+*
+SNHYMI00 g
+# Description: Generic Hydro Small
+*
+SNBMST00 g
+# Description: Generic Bagasse
+*
+SNBWST00 a
+# Description: Generic Wood
+*
+SNGOCV00 g
+# Description: Generic Geothermal
+*
+SNWDLC00 h
+# Description: Generic Wind
+*
+SNWDOC00 H
+# Description: Generic OffShore Wind
+*
+SNWDOCZ002 J
+# Description: Offshore Wind Zone 002
+*
+SNWDOCZ001 I
+# Description: Offshore Wind Zone 001
+*
+SNWDLC_taiba_1 G
+# Description: taiba_1
+*
+SNWDLCZ005 F
+# Description: Wind Zone 005
+*
+SNWDLCZ004 E
+# Description: Wind Zone 004
+*
+SNWDLCZ003 D
+# Description: Wind Zone 003
+*
+SNWDLCZ002 C
+# Description: Wind Zone 002
+*
+SNWDLCZ001 B
+# Description: Wind Zone 001
+*
+SNWDLC_taiba_ndiaye_ A
+# Description: taiba_ndiaye_
+*
+SNSOPC00 i
+# Description: Generic PV System (utility)
+*
+SNSOPC_Touba L
+# Description: Touba
+*
+SNSOPC_Malicounda K
+# Description: Malicounda
+*
+SNSOPC_Bokhol J
+# Description: Bokhol
+*
+SNSOPCZ005 I
+# Description: Solar PV Zone 005
+*
+SNSOPCZ004 H
+# Description: Solar PV Zone 004
+*
+SNSOPCZ003 G
+# Description: Solar PV Zone 003
+*
+SNSOPCZ002 F
+# Description: Solar PV Zone 002
+*
+SNSOPCZ001 E
+# Description: Solar PV Zone 001
+*
+SNSOPC_ziguinchor_ D
+# Description: ziguinchor_
+*
+SNSOPC_Centrale_Niass_financement_EAU C
+# Description: Centrale_Niass_financement_EAU
+*
+SNSOPC_Centrale_Diass_financement_Kfw B
+# Description: Centrale_Diass_financement_Kfw
+*
+SNSOPC_5_IPP_de_20_MW A
+# Description: 5_IPP_de_20_MW_Kaolack_Senergy_Mekhe_Merina_Sakal
+*
+SNSOPU00 g
+# Description: Generic PV system (roof top - urban)
+*
+SNSOPB00 g
+# Description: Generic PV system (roof top - commercial buildings)
+*
+SNSOPR00 g
+# Description: Generic PV system (roof top - rural)
+*
+SNSOPS00 h
+# Description: Generic PV with 2h Battery (roof top - rural)
+*
+SNSOTN00 j
+# Description: Generic Solar thermal no storage
+*
+SNSOTNZ002 C
+# Description: Solar CSP 6hrStor Zone 002
+*
+SNSOTNZ001 B
+# Description: Solar CSP 6hrStor Zone 001
+*
+SNSOTS00 k
+# Description: Generic Solar thermal with Storage
+*
+SNSOTSZ002 E
+# Description: Solar CSP 12hrStor Zone 002
+*
+SNSOTSZ001 D
+# Description: Solar CSP 12hrStor Zone 001
+*
+SNSOTG00 i
+# Description: Generic Solar thermal with Gas co-firing
+*
+SNBM00X00 a
+# Description: Extraction of Bagasse
+*
+SNBW00X00 a
+# Description: Extraction of Wood
+*
+SNHY00X00 a
+# Description: Supply of Hydro
+*
+SNSO00X00 a
+# Description: Supply of Solar
+*
+SNWD00X00 a
+# Description: Supply of Wind
+*
+SNHF00I00 a
+# Description: Import of HFO
+*
+SNDS00I00 a
+# Description: Import of Diesel
+*
+SNNG00X00 a
+# Description: Extraction of Natural Gas
+*
+SNCO00I00 a
+# Description: Import of Coal
+*
+SNRIDM_Sambangalou A
+*
+SNELST04 A
+# Description: Battery Storage 4 hrs
+2. activity B
+*
+SNELPT04 B
+*
+SNELDT04_01 C
+2. activity D
+*
+SNELDT04_02 E
+2. activity F
+*
+SNELDT04_03 G
+2. activity H
+*
+resources: 
+endata
+

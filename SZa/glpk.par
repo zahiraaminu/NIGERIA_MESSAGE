@@ -1,0 +1,10 @@
+scale yes
+intuplim 0
+basis no
+maxsols 1
+sensitivity no
+backtrack bestp
+branch drtom
+postsol yes
+presolv no
+method simplex

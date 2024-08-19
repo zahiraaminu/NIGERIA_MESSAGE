@@ -1,0 +1,28 @@
+
+	Statistics for model NGa
+
+	 29 energyforms on 6 levels
+	 36 loadregions
+	  5 demands
+	  0 cumulative relations
+	 25 relations
+	146 technologies
+	  0 resources with 0 grades
+	  9 secs used
+	 29 energyforms on 6 levels
+	 36 loadregions
+	  5 demands
+	  0 cumulative relations
+	 25 relations
+	146 technologies
+	  0 resources with 0 grades
+	  9 secs used
+
+	matrix statistics:
+	rows:   129880
+	cols:   97131
+	elms:   1733635
+	rhs:    30274
+	rngs:   345
+	bnds:   19562
+	dens:   0

@@ -1,0 +1,646 @@
+TDB: empty
+ADB: MLa
+problem: MLa
+description:
+# Mali
+drate: 10
+timesteps: 2018 2019 2020 2021 2022 2023 2024 2025 2026 2027 2028 2029 2030 2031 2032 2033 2034 2035 2036 2037 2038 2039 2040 2041 2042
+loadregions:
+ltype ordered seasonal 1 0
+year 2019 1 10
+name aaa aab aac \
+baa bab bac bad \
+caa cab cac 
+length 0.096689 0.165753 0.069064 \
+0.101484 0.173974 0.028995 0.043493 \
+0.093493 0.160274 0.066781 
+energyforms:
+Final f
+# Final Energy
+Industry e l
+# Industry Electricity Final
+Commerce c l
+# Commerce Electricity Final
+Urban u l
+# Urban Electricity Final
+Rural r l
+# Rural Electricity Final
+SentOut s l f
+# Sentout Electricity Final
+Export E 
+# Export Elc
+*
+Tertiary t
+# Tertiary Energy
+Industry i l
+# Industry Electricity Tertiary
+Commerce c l
+# Commerce Electricity Tertiary
+Urban u l
+# Urban Electricity Tertiary
+Rural r l
+# Rural Electricity Tertiary
+Electricity e l f
+# Tertiary Electricity
+*
+Secondary s
+# Secondary Energy
+Electricity o l f
+# Secondary Electricity
+ElcDummy d l
+# Dummy elc for PS
+*
+Primary p
+# Primary Energy
+Bagasse b 
+# Bagasse
+Wood B 
+# Wood
+Hydro H 
+# Hydro
+Solar s l
+# Solar
+Wind w 
+# Wind
+Coal c 
+# Coal
+CoalCCS C 
+# Coal CCS
+Gas g 
+# Gas
+Nuclear n 
+# Nuclear
+Oil o 
+# Oil
+HFO h 
+# diesel
+Diesel d 
+# HFO
+Crude p 
+# Crude
+*
+Resources r
+# Resources
+Biomass b 
+# Biomass resource
+Coal c 
+# Coal resource
+*
+DummyLevelStorage d
+# DummyLevelStorage
+DummyCom_MLELST04 A l
+# DummyCom_MLELST04
+*
+demand:
+c-f  ts 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+e-f  ts 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+r-f  ts 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+s-f  ts 407.65 426.37 448.89 473.7 500.03 527.3 555.11 586.24 619.53 654.19 689.64 725.47 764.33 805.12 847.07 889.64 932.44 977.47 1023.86 1071.01 1118.48 1166.01 1166.01
+u-f  ts 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+loadcurve:
+year 2019
+c-f 0.091518 0.175245 0.068275 0.096056 0.178391 \
+0.030494 0.041167 0.088493 0.164343 0.066018
+e-f 0.096689 0.165753 0.069064 0.101484 0.173974 \
+0.028995 0.043493 0.093493 0.160274 0.066781
+r-f 0.060015 0.175921 0.11559 0.058822 0.182783 \
+0.032932 0.062985 0.058128 0.169964 0.08286
+s-f 0.091353 0.141241 0.06876 0.158228 0.165014 \
+0.026846 0.04717 0.094519 0.139692 0.067177
+u-f 0.060015 0.175921 0.11559 0.058822 0.182783 \
+0.032932 0.062985 0.058128 0.169964 0.08286
+systems.MLHYRO_Sotuba_I.O.capfac 0 0 0 0.524178 0.526348 \
+0.526348 0.526348 0.540889 0.538543 0.538543
+systems.MLHYRO_Moussala.N.capfac 0 0 0 0.326364 0.328594 \
+0.328594 0.328594 0.376581 0.374241 0.374241
+systems.MLHYRO_Markala.M.capfac 0 0 0 0.452116 0.45431 \
+0.45431 0.45431 0.444563 0.442188 0.442188
+systems.MLHYRO_Labbezanga.L.capfac 0.359863 0.35802 0.35802 0.212212 0.213409 \
+0.213409 0.213409 0.908275 0.90888 0.90888
+systems.MLHYRO_Kenie.K.capfac 0 0 0 0.452116 0.45431 \
+0.45431 0.45431 0.444563 0.442188 0.442188
+systems.MLHYRO_Grand_Kenie.J.capfac 0 0 0 0.452116 0.45431 \
+0.45431 0.45431 0.444563 0.442188 0.442188
+systems.MLHYRO_Gourbassi.I.capfac 0.020103 0.020007 0.020007 0.33682 0.339046 \
+0.339046 0.339046 0.413743 0.411426 0.411426
+systems.MLHYRO_Gouina.G.capfac 0.058108 0.057842 0.057842 0.336385 0.338568 \
+0.338568 0.338568 0.417202 0.415107 0.415107
+systems.MLHYRO_Gaoulgo.F.capfac 0.359863 0.35802 0.35802 0.212212 0.213409 \
+0.213409 0.213409 0.908275 0.90888 0.90888
+systems.MLHYRO_Felou.E.capfac 0.095872 0.095434 0.095434 0.372241 0.374381 \
+0.374381 0.374381 0.547888 0.546019 0.546019
+systems.MLHYRO_Bindougou.D.capfac 0.465278 0.465264 0.465264 0.513427 0.513798 \
+0.513798 0.513798 0.521883 0.521494 0.521494
+systems.MLHYRO_Baoule_III-IV.C.capfac 0.043063 0.042956 0.042956 0.315935 0.318121 \
+0.318121 0.318121 0.320081 0.317818 0.317818
+systems.MLHYRO_Badoumbe.A.capfac 0.041238 0.041096 0.041096 0.348372 0.350556 \
+0.350556 0.350556 0.359651 0.357428 0.357428
+systems.MLWDLC00.h.capfac 0.461304 0.265548 0.315459 0.194063 0.094014 \
+0.055743 0.131246 0.287789 0.140823 0.198618
+systems.MLWDOC00.F.capfac 0.461304 0.265548 0.315459 0.194063 0.094014 \
+0.055743 0.131246 0.287789 0.140823 0.198618
+systems.MLWDLCZ005.E.capfac 0.801491 0.509999 0.470673 0.530334 0.403385 \
+0.227211 0.361344 0.564583 0.354998 0.324313
+systems.MLWDLCZ004.D.capfac 0.744129 0.601477 0.458303 0.563746 0.422606 \
+0.238712 0.32968 0.722897 0.524543 0.432468
+systems.MLWDLCZ003.C.capfac 0.763834 0.605505 0.520284 0.528455 0.418276 \
+0.242425 0.320868 0.712632 0.507727 0.543428
+systems.MLWDLCZ002.B.capfac 0.777394 0.608581 0.475722 0.580892 0.43062 \
+0.223879 0.344188 0.6333 0.449843 0.39011
+systems.MLWDLCZ001.A.capfac 0.688344 0.576371 0.473284 0.58831 0.469233 \
+0.292218 0.355766 0.736967 0.544877 0.510732
+systems.MLSOPC00.i.capfac 0 0.370674 0 0 0.366778 \
+0.064438 0 0 0.354949 0
+systems.MLSOPC_SOLAR_FARM.M.capfac 0 0.389897 0.102324 0 0.37426 \
+0.250846 0 0 0.357367 0.060562
+systems.MLSOPC_Koutiala.L.capfac 0 0.39895 0.082395 0 0.367489 \
+0.198266 0 0 0.383625 0.052123
+systems.MLSOPC_Sikasso.K.capfac 0 0.39895 0.082395 0 0.367489 \
+0.198266 0 0 0.383625 0.052123
+systems.MLSOPC_Koulikoro.J.capfac 0 0.397526 0.091831 0 0.359447 \
+0.215567 0 0 0.379242 0.060221
+systems.MLSOPC_Kati.I.capfac 0 0.397526 0.091831 0 0.359447 \
+0.215567 0 0 0.379242 0.060221
+systems.MLSOPC_Kita.H.capfac 0 0.396747 0.103522 0 0.350719 \
+0.230297 0 0 0.371659 0.066314
+systems.MLSOPCZ005.G.capfac 0 0.389897 0.102327 0 0.37426 \
+0.250846 0 0 0.357367 0.060562
+systems.MLSOPCZ004.F.capfac 0 0.396747 0.103525 0 0.350719 \
+0.230297 0 0 0.371659 0.066314
+systems.MLSOPCZ003.E.capfac 0 0.397526 0.09183 0 0.359447 \
+0.215567 0 0 0.379242 0.060221
+systems.MLSOPCZ002.D.capfac 0 0.399877 0.098595 0 0.342565 \
+0.226534 0 0 0.375261 0.066901
+systems.MLSOPCZ001.C.capfac 0 0.39895 0.082394 0 0.367489 \
+0.198266 0 0 0.383625 0.052123
+systems.MLSOPC_WAPP_SOLAR_.B.capfac 0 0.370674 0 0 0.366778 \
+0.064438 0 0 0.354949 0
+systems.MLSOPC_Mopti_SOLAR_.A.capfac 0 0.370674 0 0 0.366778 \
+0.064438 0 0 0.354949 0
+systems.MLSOPU00.g.capfac 0 0.370674 0 0 0.366778 \
+0.064438 0 0 0.354949 0
+systems.MLSOPB00.g.capfac 0 0.370674 0 0 0.366778 \
+0.064438 0 0 0.354949 0
+systems.MLSOPR00.g.capfac 0 0.370674 0 0 0.366778 \
+0.064438 0 0 0.354949 0
+systems.MLSOPS00.h.capfac 0 0.370674 0 0 0.366778 \
+0.064438 0 0 0.354949 0
+systems.MLSOTNZ002.C.capfac 0.095975 0.680971 0.867966 0.023473 0.695763 \
+0.867034 0.482439 0 0.668059 0.747373
+systems.MLSOTNZ001.B.capfac 0.068358 0.674835 0.82813 0 0.704082 \
+0.861141 0.399335 0 0.670697 0.711732
+systems.MLSOTS00.k.capfac 0 0.470999 0.367085 0 0.470999 \
+0.526419 0.260862 0 0.471387 0.366153
+systems.MLSOTSZ002.E.capfac 0.604537 0.701987 0.942145 0.338015 0.738388 \
+0.963809 0.854013 0.415091 0.696994 0.908624
+systems.MLSOTSZ001.D.capfac 0.531402 0.701688 0.928413 0.269913 0.74657 \
+0.983515 0.847195 0.383808 0.70126 0.890653
+systems.MLRIDM_Taoussa.A.capfac 0.287827 0.286094 0.286094 0.148925 0.150052 \
+0.150052 0.150052 0.852136 0.852706 0.852706
+systems.MLRIDM_Selingue.B.capfac 0 0 0 0.342998 0.345232 \
+0.345232 0.345232 0.287503 0.285103 0.285103
+systems.MLRIDM_Manantali.C.capfac 0.132899 0.131752 0.131752 0.18053 0.182703 \
+0.182703 0.182703 0.808582 0.80741 0.80741
+systems.MLELPT04.D.capfac 0.055251 0.055251 0 0.057991 0.057991 \
+0.057991 0 0.053425 0.053425 0
+systems.MLELDT04_01.E.capfac 1 0 0 0 0 \
+0 0 0 0 0
+systems.MLELDT04_01.F.capfac 0 0 1 0 0 \
+0 0 0 0 0
+systems.MLELDT04_02.G.capfac 0 0 0 1 0 \
+0 0 0 0 0
+systems.MLELDT04_02.H.capfac 0 0 0 0 0 \
+0 1 0 0 0
+systems.MLELDT04_03.I.capfac 0 0 0 0 0 \
+0 0 1 0 0
+systems.MLELDT04_03.J.capfac 0 0 0 0 0 \
+0 0 0 0 1
+relationsc:
+relationsp:
+relationss:
+D_MLHYDM_Taoussa D001 o 0
+*
+D_MLHYDM_Selingue D002 o 0
+*
+D_MLHYDM_Manantali D003 o 0
+*
+SS_MLELST04 SS01 o 0
+*
+relations1:
+ReserveMargin RM o 
+*
+CO2emissionskt CO2 o 
+*
+LocalRE RE o 
+upper c 0
+*
+WDBR WDBR o 
+upper ts 50 53.3333 56.6667 60 63.3333 66.6667 70 74 78 82 86.0198 90.4889 92.3911 94.2933 96.1956 98.0978 100 102 104 106 108 110 110
+*
+PVBR PVBR o 
+*
+BMTC BMTC o 
+*
+Domestic DOM o 
+*
+InstantaneousWindPV IPW o 0
+*
+PC_MLELST04 PC01 o 
+*
+PS_MLELST04 PS01 o 0
+*
+DC_MLELST04_01 DC01 o 
+*
+DC_MLELST04_02 DC02 o 
+*
+DC_MLELST04_03 DC03 o 
+*
+DX_MLEXDT00 DX01 o 
+*
+relations2:
+variables:
+systems:
+MLEL00TDI a
+moutp i-t c 1
+inv c 1
+fom c 1
+# Description: Industry Distribution
+*
+MLEL00TDU a
+moutp u-t c 1
+inv c 1
+fom c 1
+# Description: Urban Distribution
+*
+MLEL00TDC a
+moutp c-t c 1
+inv c 1
+fom c 1
+# Description: Commerce Distribution
+*
+MLEL00TDR a
+moutp r-t c 1
+inv c 1
+fom c 1
+# Description: Rural Distribution
+*
+MLEL00T00 a
+moutp e-t c 1
+inv c 1
+fom c 1
+# Description: Transmission
+*
+MLEL00TUI a
+# Description: Industry Demand
+*
+MLEL00TUU a
+# Description: Urban Demand
+*
+MLEL00TUC a
+# Description: Commerce Demand
+*
+MLEL00TUR a
+# Description: Rural Demand
+*
+MLEL00TUS a
+# Description: SentOut Demand
+*
+MLEL00e00 a
+# Description: Export of Electricity
+*
+MLEL00i00 I
+# Description: Import of Electricity
+*
+MLELBS00 z
+# Description: Backstop
+*
+MLDSRC00 g
+# Description: Generic Diesel Centralized
+*
+MLDSRC_Serakolo_3 U
+# Description: Serakolo_3
+*
+MLDSRC_Serakolo_2 T
+# Description: Serakolo_2
+*
+MLDSRC_Serakolo S
+# Description: Serakolo
+*
+MLDSRC_SES_Koutiala R
+# Description: SES_Koutiala
+*
+MLDSRC_SES_Lafia Q
+# Description: SES_Lafia
+*
+MLDSRC_Aggreko_Balingue P
+# Description: Aggreko_Balingue_Darsalam_kati_dakar
+*
+MLDSRC_Balingue_BID_Ext O
+# Description: Balingue_BID_Ext
+*
+MLDSRC_WAPP_CC_ N
+# Description: WAPP_CC_
+*
+MLDSRC_TOMINIAN_(CI)_ M
+# Description: TOMINIAN_(CI)_
+*
+MLDSRC_SIKASSO_(CO) L
+# Description: SIKASSO_(CO)
+*
+MLDSRC_SAN_(CI)_ K
+# Description: SAN_(CI)_
+*
+MLDSRC_OUELESSEBOUGOU_(CI)_ J
+# Description: OUELESSEBOUGOU_(CI)_
+*
+MLDSRC_MOPTI_(CI)_ I
+# Description: MOPTI_(CI)_
+*
+MLDSRC_KOUTIALA_(CI)_ H
+# Description: KOUTIALA_(CI)_
+*
+MLDSRC_KANGABA_(CI)_ G
+# Description: KANGABA_(CI)_
+*
+MLDSRC_Gas_Turbine_ODS F
+# Description: Gas_Turbine_ODS_Darsalam
+*
+MLDSRC_DJENNE_(CI)_ E
+# Description: DJENNE_(CI)_
+*
+MLDSRC_Diesel_Generators_ODS D
+# Description: Diesel_Generators_ODS
+*
+MLDSRC_BOUGOUNI_(CI)_ C
+# Description: BOUGOUNI_(CI)_
+*
+MLDSRC_Balingue_BID B
+# Description: Balingue_BID1/2/3/4
+*
+MLDSRC_Albatros_BOOT_ A
+# Description: Albatros_BOOT_
+*
+MLDSRI00 g
+# Description: Generic Diesel 100 kW system (Industry)
+*
+MLDSRU00 g
+# Description: Generic Diesel/Gasoline 1kW system (urban)
+*
+MLDSRB00 g
+# Description: Generic Diesel/Gasoline 1kW system (commercial buildings)
+*
+MLDSRR00 g
+# Description: Generic Diesel/Gasoline 1kW system (rural)
+*
+MLHFRC00 g
+# Description: Generic HFO
+*
+MLHFRC_Diesel_Generators_OHF A
+# Description: Diesel_Generators_OHF
+*
+MLNGSC00 g
+# Description: Generic Gas Open Cycle
+*
+MLNGCC00 h
+# Description: Generic Gas Combined Cycle
+*
+MLCOCS00 g
+# Description: Generic Coal w CCS
+*
+MLCOSC00 g
+# Description: Generic Coal
+*
+MLHYRO00 h
+# Description: Generic Hydro ROR
+*
+MLHYRO_Sotuba_II P
+# Description: Sotuba2
+*
+MLHYRO_Sotuba_I O
+# Description: Sotuba_T1 and Sotuba T2
+*
+MLHYRO_Moussala N
+# Description: Moussala
+*
+MLHYRO_Markala M
+# Description: Markala
+*
+MLHYRO_Labbezanga L
+# Description: Labbezanga
+*
+MLHYRO_Kenie K
+# Description: Kenie
+*
+MLHYRO_Grand_Kenie J
+# Description: Grand_Kenie
+*
+MLHYRO_Gourbassi I
+# Description: Gourbassi
+*
+MLHYRO_Gouina(OMVS)partMali45 H
+# Description: Gouina(OMVS)partMali45
+*
+MLHYRO_Gouina G
+# Description: Gouina
+*
+MLHYRO_Gaoulgo F
+# Description: Gaoulgo
+*
+MLHYRO_Felou E
+# Description: Felou
+*
+MLHYRO_Bindougou D
+# Description: Bindougou
+*
+MLHYRO_Baoule_III-IV C
+# Description: Baoule_3/4
+*
+MLHYRO_Bagoue_II B
+# Description: Bagoue_2
+*
+MLHYRO_Badoumbe A
+# Description: Badoumbe
+*
+MLHYDM00 g
+# Description: Generic Hydro With Dam
+*
+MLHYDM_Taoussa V
+# Description: Taoussa
+*
+MLHYDM_Selingue T
+# Description: Selingue T1/T2/T3/T4
+*
+MLHYDM_Manantali R
+# Description: Manantali 1/2 OMVS 3/4/5
+*
+MLHYRO_Felou(OMVS)partMali45 Q
+# Description: Felou(OMVS)partMali45
+*
+MLHYMI00 g
+# Description: Generic Hydro Small
+*
+MLBMST00 g
+# Description: Generic Bagasse
+*
+MLBWST00 a
+# Description: Generic Wood
+*
+MLGOCV00 g
+moutp o-s c 1
+fyear 2050
+plf c 0.775
+optm c 0.775
+minutil c 0
+# Description: Generic Geothermal
+*
+MLWDLC00 h
+# Description: Generic Wind
+*
+MLWDOC00 F
+# Description: Generic OffShore Wind
+*
+MLWDLCZ005 E
+# Description: Wind Zone 005
+*
+MLWDLCZ004 D
+# Description: Wind Zone 004
+*
+MLWDLCZ003 C
+# Description: Wind Zone 003
+*
+MLWDLCZ002 B
+# Description: Wind Zone 002
+*
+MLWDLCZ001 A
+# Description: Wind Zone 001
+*
+MLSOPC00 i
+# Description: Generic PV System (utility)
+*
+MLSOPC_SOLAR_FARM M
+# Description: REGIONAL_SOLAR_FARM
+*
+MLSOPC_Koutiala L
+# Description: Koutiala
+*
+MLSOPC_Sikasso K
+# Description: Sikasso
+*
+MLSOPC_Koulikoro J
+# Description: Koulikoro
+*
+MLSOPC_Kati I
+# Description: Kati
+*
+MLSOPC_Kita H
+# Description: Kita
+*
+MLSOPCZ005 G
+# Description: Solar PV Zone 005
+*
+MLSOPCZ004 F
+# Description: Solar PV Zone 004
+*
+MLSOPCZ003 E
+# Description: Solar PV Zone 003
+*
+MLSOPCZ002 D
+# Description: Solar PV Zone 002
+*
+MLSOPCZ001 C
+# Description: Solar PV Zone 001
+*
+MLSOPC_WAPP_SOLAR_ B
+# Description: WAPP_SOLAR_
+*
+MLSOPC_Mopti_SOLAR_ A
+# Description: Mopti_SOLAR_
+*
+MLSOPU00 g
+# Description: Generic PV system (roof top - urban)
+*
+MLSOPB00 g
+# Description: Generic PV system (roof top - commercial buildings)
+*
+MLSOPR00 g
+# Description: Generic PV system (roof top - rural)
+*
+MLSOPS00 h
+# Description: Generic PV with 2h Battery (roof top - rural)
+*
+MLSOTN00 j
+# Description: Generic Solar thermal no storage
+*
+MLSOTNZ002 C
+# Description: Solar CSP 6hrStor Zone 002
+*
+MLSOTNZ001 B
+# Description: Solar CSP 6hrStor Zone 001
+*
+MLSOTS00 k
+# Description: Generic Solar thermal with Storage
+*
+MLSOTSZ002 E
+fyear 2050
+# Description: Solar CSP 12hrStor Zone 002
+*
+MLSOTSZ001 D
+fyear 2050
+# Description: Solar CSP 12hrStor Zone 001
+*
+MLSOTG00 i
+# Description: Generic Solar thermal with Gas co-firing
+*
+MLBM00X00 a
+# Description: Extraction of Bagasse
+*
+MLBW00X00 a
+# Description: Extraction of Wood
+*
+MLHY00X00 a
+# Description: Supply of Hydro
+*
+MLSO00X00 a
+# Description: Supply of Solar
+*
+MLWD00X00 a
+# Description: Supply of Wind
+*
+MLHF00I00 a
+# Description: Import of HFO
+*
+MLDS00I00 a
+# Description: Import of Diesel
+*
+MLNG00X00 a
+# Description: Extraction of Natural Gas
+*
+MLCO00I00 a
+# Description: Import of Coal
+*
+MLRIDM_Taoussa A
+*
+MLRIDM_Selingue B
+*
+MLRIDM_Manantali C
+*
+MLELST04 A
+# Description: Battery Storage 4 hrs
+2. activity B
+*
+MLELPT04 D
+*
+MLELDT04_01 E
+2. activity F
+*
+MLELDT04_02 G
+2. activity H
+*
+MLELDT04_03 I
+2. activity J
+*
+MLEXDT00 K
+*
+resources: 
+endata
+

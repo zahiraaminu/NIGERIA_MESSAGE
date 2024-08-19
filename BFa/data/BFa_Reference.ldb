@@ -1,0 +1,646 @@
+TDB: empty
+ADB: BFa
+problem: BFa
+description:
+# BurkinaFaso
+drate: 10
+timesteps: 2018 2019 2020 2021 2022 2023 2024 2025 2026 2027 2028 2029 2030 2031 2032 2033 2034 2035 2036 2037 2038 2039 2040 2041 2042
+loadregions:
+ltype ordered seasonal 1 0
+year 2019 1 10
+name aaa aab aac \
+baa bab bac bad \
+caa cab cac 
+length 0.096689 0.165753 0.069064 \
+0.101484 0.173974 0.028995 0.043493 \
+0.093493 0.160274 0.066781 
+energyforms:
+Final f
+# Final Energy
+Industry e l
+# Industry Electricity Final
+Commerce c l
+# Commerce Electricity Final
+Urban u l
+# Urban Electricity Final
+Rural r l
+# Rural Electricity Final
+SentOut s l f
+# Sentout Electricity Final
+Export E 
+# Export Elc
+*
+Tertiary t
+# Tertiary Energy
+Industry i l
+# Industry Electricity Tertiary
+Commerce c l
+# Commerce Electricity Tertiary
+Urban u l
+# Urban Electricity Tertiary
+Rural r l
+# Rural Electricity Tertiary
+Electricity e l f
+# Tertiary Electricity
+*
+Secondary s
+# Secondary Energy
+Electricity U l f
+# Secondary Electricity
+ElcDummy d l
+# Dummy elc for PS
+*
+Primary p
+# Primary Energy
+Bagasse b 
+# Bagasse
+Wood B 
+# Wood
+Hydro H 
+# Hydro
+Solar s l
+# Solar
+Wind w 
+# Wind
+Coal c 
+# Coal
+CoalCCS C 
+# Coal CCS
+Gas g 
+# Gas
+Nuclear n 
+# Nuclear
+Oil o 
+# Oil
+HFO h 
+# diesel
+Diesel d 
+# HFO
+Crude p 
+# Crude
+*
+Resources r
+# Resources
+Biomass b 
+# Biomass resource
+Coal c 
+# Coal resource
+*
+DummyLevelStorage d
+# DummyLevelStorage
+DummyCom_BFELST04 A l
+# DummyCom_BFELST04
+*
+demand:
+e-f  ts 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+c-f  ts 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+u-f  ts 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+r-f  ts 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+s-f  ts 217.01 235.05 263.99 283.43 303.71 324.84 346.85 370.4 395.51 422.17 450.4 480.21 512.05 545.92 581.82 619.76 659.73 702.5 748.07 796.41 847.5 901.33 901.33
+loadcurve:
+year 2019
+e-f 0.096689 0.165753 0.069064 0.101484 0.173974 \
+0.028995 0.043493 0.093493 0.160274 0.066781
+c-f 0.091518 0.175245 0.068275 0.096056 0.178391 \
+0.030494 0.041167 0.088493 0.164343 0.066018
+u-f 0.060015 0.175921 0.11559 0.058822 0.182783 \
+0.032932 0.062985 0.058128 0.169964 0.08286
+r-f 0.060015 0.175921 0.11559 0.058822 0.182783 \
+0.032932 0.062985 0.058128 0.169964 0.08286
+s-f 0.083732 0.145348 0.067381 0.089482 0.270932 \
+0.026158 0.043736 0.07534 0.135261 0.06263
+systems.BFHYRO_Tourni.S.capfac 0.030089 0.030054 0.030054 0.1094 0.110424 \
+0.110424 0.110424 0.162678 0.161603 0.161603
+systems.BFHYRO_Niofila.Q.capfac 0.084095 0.083997 0.083997 0.293614 0.29574 \
+0.29574 0.29574 0.383964 0.381758 0.381758
+systems.BFHYRO_Diebuugo.O.capfac 0.072582 0.072476 0.072476 0.164541 0.16516 \
+0.16516 0.16516 0.189717 0.189155 0.189155
+systems.BFWDLC00.h.capfac 0.418786 0.246561 0.323487 0.177017 0.07029 \
+0.100815 0.236129 0.191011 0.094861 0.167537
+systems.BFWDOC00.F.capfac 0.418786 0.246561 0.323487 0.177017 0.07029 \
+0.100815 0.236129 0.191011 0.094861 0.167537
+systems.BFWDLCZ005.E.capfac 0.655687 0.434753 0.433814 0.537588 0.373069 \
+0.173757 0.364643 0.530851 0.292973 0.342901
+systems.BFWDLCZ004.D.capfac 0.623213 0.48828 0.433044 0.542403 0.367595 \
+0.17557 0.327872 0.503736 0.332453 0.355768
+systems.BFWDLCZ003.C.capfac 0.643462 0.389306 0.407337 0.477517 0.348662 \
+0.170709 0.341769 0.451045 0.250053 0.320016
+systems.BFWDLCZ002.B.capfac 0.656764 0.462629 0.442893 0.513487 0.366532 \
+0.171256 0.32866 0.497029 0.30932 0.307673
+systems.BFWDLCZ001.A.capfac 0.646606 0.461146 0.436389 0.538594 0.365657 \
+0.173066 0.329965 0.513483 0.314792 0.338067
+systems.BFSOPC00.i.capfac 0 0.380451 0 0 0.361761 \
+0.0384 0 0 0.361141 0
+systems.BFSOPC_SOLAR_FARM.W.capfac 0 0.399677 0.065666 0 0.36414 \
+0.169007 0 0 0.389377 0.042112
+systems.BFSOPC_WAPP_PARK.V.capfac 0 0.409288 0.055686 0 0.357757 \
+0.141749 0 0 0.395981 0.033025
+systems.BFSOPC_Zagtouli2.U.capfac 0 0.380451 0 0 0.361761 \
+0.0384 0 0 0.361141 0
+systems.BFSOPC_foot_PIE2.T.capfac 0 0.380451 0 0 0.361761 \
+0.0384 0 0 0.361141 0
+systems.BFSOPC_Foot_PIE1.S.capfac 0 0.380451 0 0 0.361761 \
+0.0384 0 0 0.361141 0
+systems.BFSOPC_Koudougou.R.capfac 0 0.403557 0.063242 0 0.365169 \
+0.157309 0 0 0.39252 0.038726
+systems.BFSOPC_Kaya.Q.capfac 0 0.406943 0.060249 0 0.372358 \
+0.151459 0 0 0.394443 0.034713
+systems.BFSOPCZ005.P.capfac 0 0.409288 0.055687 0 0.357757 \
+0.141749 0 0 0.395981 0.033026
+systems.BFSOPCZ004.O.capfac 0 0.399677 0.065666 0 0.36414 \
+0.169007 0 0 0.389377 0.042112
+systems.BFSOPCZ003.N.capfac 0 0.403557 0.063241 0 0.365169 \
+0.157308 0 0 0.392521 0.038726
+systems.BFSOPCZ002.M.capfac 0 0.400565 0.070325 0 0.356954 \
+0.179695 0 0 0.385575 0.04665
+systems.BFSOPCZ001.L.capfac 0 0.406943 0.06025 0 0.372358 \
+0.151459 0 0 0.394443 0.034713
+systems.BFSOPC_PPP/PIE_Solaire_Zig.K.capfac 0 0.380451 0 0 0.361761 \
+0.0384 0 0 0.361141 0
+systems.BFSOPC_PPP/PIE_Solaire_Zano.J.capfac 0 0.380451 0 0 0.361761 \
+0.0384 0 0 0.361141 0
+systems.BFSOPC_PPP/PIE_Solaire_Zagtouli.I.capfac 0 0.380451 0 0 0.361761 \
+0.0384 0 0 0.361141 0
+systems.BFSOPC_PPP/PIE_Solaire_Patte_dOie.H.capfac 0 0.380451 0 0 0.361761 \
+0.0384 0 0 0.361141 0
+systems.BFSOPC_PPP/PIE_Solaire_Pa.G.capfac 0 0.380451 0 0 0.361761 \
+0.0384 0 0 0.361141 0
+systems.BFSOPC_PPP/PIE_Solaire_Kodeni.F.capfac 0 0.380451 0 0 0.361761 \
+0.0384 0 0 0.361141 0
+systems.BFSOPC_PPP/PIE_Solaire_EMOA.E.capfac 0 0.380451 0 0 0.361761 \
+0.0384 0 0 0.361141 0
+systems.BFSOPC_PPP/PIE_Solaire_BID.D.capfac 0 0.380451 0 0 0.361761 \
+0.0384 0 0 0.361141 0
+systems.BFSOPC_PPP/PIE_Solaire_AfD.C.capfac 0 0.380451 0 0 0.361761 \
+0.0384 0 0 0.361141 0
+systems.BFSOPC_Ouaga_Solaire_.B.capfac 0 0.380451 0 0 0.361761 \
+0.0384 0 0 0.361141 0
+systems.BFSOPC_Mana_(SEMAFO)_.A.capfac 0 0.380451 0 0 0.361761 \
+0.0384 0 0 0.361141 0
+systems.BFSOPU00.g.capfac 0 0.380451 0 0 0.361761 \
+0.0384 0 0 0.361141 0
+systems.BFSOPB00.g.capfac 0 0.380451 0 0 0.361761 \
+0.0384 0 0 0.361141 0
+systems.BFSOPR00.g.capfac 0 0.380451 0 0 0.361761 \
+0.0384 0 0 0.361141 0
+systems.BFSOPS00.h.capfac 0 0.380451 0 0 0.361761 \
+0.0384 0 0 0.361141 0
+systems.BFSOTN00.j.capfac 0 0.470999 0.367085 0 0.470999 \
+0.526419 0.260862 0 0.471387 0.366153
+systems.BFSOTNZ002.C.capfac 0 0.68551 0.699822 0 0.577315 \
+0.525937 0.0591 0 0.67071 0.585999
+systems.BFSOTNZ001.B.capfac 0 0.675856 0.709092 0 0.573932 \
+0.547659 0.07563 0 0.667098 0.591246
+systems.BFSOTS00.k.capfac 0 0.470999 0.367085 0 0.470999 \
+0.526419 0.260862 0 0.471387 0.366153
+systems.BFSOTSZ002.E.capfac 0.379142 0.716609 0.919897 0.054318 0.636203 \
+0.835332 0.498971 0.293868 0.708356 0.849776
+systems.BFSOTSZ001.D.capfac 0.385667 0.705537 0.926153 0.064594 0.63583 \
+0.847777 0.513094 0.299778 0.705972 0.855224
+systems.BFRIDM_Samandeni.A.capfac 0.123247 0.123005 0.123005 0.347682 0.349739 \
+0.349739 0.349739 0.442397 0.440415 0.440415
+systems.BFRIDM_Noumbiel.B.capfac 0.022509 0.022506 0.022506 0.311492 0.312083 \
+0.312083 0.312083 0.10483 0.104191 0.104191
+systems.BFRIDM_Kompienga.C.capfac 0 0 0 0.292704 0.294954 \
+0.294954 0.294954 0.397294 0.394852 0.394852
+systems.BFRIDM_Bagre.D.capfac 0.05846 0.05838 0.05838 0.323661 0.323934 \
+0.323934 0.323934 0.110479 0.110265 0.110265
+systems.BFELPT04.E.capfac 0.055251 0.055251 0 0.057991 0.057991 \
+0.057991 0 0.053425 0.053425 0
+systems.BFELDT04_01.F.capfac 1 0 0 0 0 \
+0 0 0 0 0
+systems.BFELDT04_01.G.capfac 0 0 1 0 0 \
+0 0 0 0 0
+systems.BFELDT04_02.H.capfac 0 0 0 1 0 \
+0 0 0 0 0
+systems.BFELDT04_02.I.capfac 0 0 0 0 0 \
+0 1 0 0 0
+systems.BFELDT04_03.J.capfac 0 0 0 0 0 \
+0 0 1 0 0
+systems.BFELDT04_03.K.capfac 0 0 0 0 0 \
+0 0 0 0 1
+relationsc:
+relationsp:
+relationss:
+D_BFHYDM_Samandeni D001 o 0
+*
+D_BFHYDM_Noumbiel D002 o 0
+*
+D_BFHYDM_Kompienga D003 o 0
+*
+D_BFHYDM_Bagre D004 o 0
+*
+SS_BFELST04 SS01 o 0
+*
+relations1:
+ReserveMargin RM o 
+*
+CO2emissionskt CO2 o 
+*
+LocalRE RE o 
+*
+WDBR WDBR o 
+*
+PVBR PVBR o 
+*
+BMTC BMTC o 
+*
+Domestic DOM o 
+*
+InstantaneousWindPV IPW o 0
+*
+PC_BFELST04 PC01 o 
+*
+PS_BFELST04 PS01 o 0
+*
+DC_BFELST04_01 DC01 o 
+*
+DC_BFELST04_02 DC02 o 
+*
+DC_BFELST04_03 DC03 o 
+*
+RC_BFHYDM_Samandeni_01 RC01 o 
+*
+RC_BFHYDM_Noumbiel_02 RC02 o 
+*
+RC_BFHYDM_Kompienga_03 RC03 o 
+*
+RC_BFHYDM_Bagre_04 RC04 o 
+*
+relations2:
+variables:
+systems:
+BFEL00TDI a
+moutp i-t c 1
+inv c 1
+fom c 1
+# Description: Industry Distribution
+*
+BFEL00TDU a
+moutp u-t c 1
+inv c 1
+fom c 1
+# Description: Urban Distribution
+*
+BFEL00TDC a
+moutp c-t c 1
+inv c 1
+fom c 1
+# Description: Commerce Distribution
+*
+BFEL00TDR a
+moutp r-t c 1
+inv c 1
+fom c 1
+# Description: Rural Distribution
+*
+BFEL00T00 a
+moutp e-t c 1
+inv c 1
+fom c 1
+# Description: Transmission
+*
+BFEL00TUI a
+# Description: Industry Demand
+*
+BFEL00TUU a
+# Description: Urban Demand
+*
+BFEL00TUC a
+# Description: Commerce Demand
+*
+BFEL00TUR a
+# Description: Rural Demand
+*
+BFEL00TUS a
+# Description: SentOut Demand
+*
+BFEL00e00 a
+# Description: Export of Electricity
+*
+BFEL00i00 I
+# Description: Import of Electricity
+*
+BFELBS00 z
+# Description: Backstop
+*
+BFDSRC00 g
+# Description: Generic Diesel Centralized
+*
+BFDSRC_Dedougou J
+# Description: Dedougou
+*
+BFDSRC_Ouaga_I I
+# Description: Ouaga_I
+*
+BFDSRC_PIE_Thermique H
+# Description: PIE_Thermique
+*
+BFDSRC_Ouahigouya_ G
+# Description: Ouahigouya_
+*
+BFDSRC_Ouaga_Est F
+# Description: Ouaga_Est
+*
+BFDSRC_Gorom_Gorom_ E
+# Description: Gorom_Gorom_
+*
+BFDSRC_Fada D
+# Description: Fada
+*
+BFDSRC_Donsin C
+# Description: Donsin
+*
+BFDSRC_Diapaga_ A
+# Description: Diapaga_
+*
+BFDSRI00 g
+# Description: Generic Diesel 100 kW system (Industry)
+*
+BFDSRU00 g
+# Description: Generic Diesel/Gasoline 1kW system (urban)
+*
+BFDSRB00 g
+# Description: Generic Diesel/Gasoline 1kW system (commercial buildings)
+*
+BFDSRR00 g
+# Description: Generic Diesel/Gasoline 1kW system (rural)
+*
+BFHFRC00 g
+# Description: Generic HFO
+*
+BFHFRC_Komsilga_ D
+# Description: Komsilga_
+*
+BFHFRC_Gaoua_ C
+# Description: Gaoua_
+*
+BFHFRC_Dori_ B
+# Description: Dori_
+*
+BFNGSC00 g
+# Description: Generic Gas Open Cycle
+*
+BFNGCC00 h
+# Description: Generic Gas Combined Cycle
+*
+BFCOCS00 g
+# Description: Generic Coal w CCS
+*
+BFCOSC00 g
+# Description: Generic Coal
+*
+BFHFSC00 h
+# Description: Generic HFO Turbine
+*
+BFHFSC_Kossodo G
+# Description: Kossodo
+*
+BFHFSC_Ouaga_II F
+# Description: Ouaga_II
+*
+BFHFSC_Bobo_2_ E
+# Description: Bobo_2_
+*
+BFHYRO00 h
+# Description: Generic Hydro ROR
+*
+BFHYRO_Tourni S
+# Description: Tourni_
+*
+BFHYRO_Ouessa R
+# Description: Ouessa
+*
+BFHYRO_Niofila Q
+# Description: Niofila_
+*
+BFHYRO_Folonzo P
+# Description: Folonzo
+*
+BFHYRO_Diebuugo O
+# Description: Diebuugo
+*
+BFHYDM00 g
+# Description: Generic Hydro With Dam
+*
+BFHYDM_Samandeni M
+# Description: Samandeni
+*
+BFHYDM_Noumbiel K
+# Description: Noumbiel
+*
+BFHYDM_Kompienga I
+# Description: Kompienga
+*
+BFHYRO_Gongourou H
+# Description: Gongourou
+*
+BFHYRO_Bougouriba F
+# Description: Bougouriba_
+*
+BFHYRO_Bontioli E
+# Description: Bontioli
+*
+BFHYRO_Bagre_Aval D
+# Description: Bagre_Aval
+*
+BFHYDM_Bagre B
+# Description: Bagre
+*
+BFHYMI00 g
+# Description: Generic Hydro Small
+*
+BFBMST00 g
+# Description: Generic Bagasse
+*
+BFBWST00 a
+# Description: Generic Wood
+*
+BFGOCV00 g
+# Description: Generic Geothermal
+*
+BFWDLC00 h
+# Description: Generic Wind
+*
+BFWDOC00 F
+# Description: Generic OffShore Wind
+*
+BFWDLCZ005 E
+# Description: Wind Zone 005
+*
+BFWDLCZ004 D
+# Description: Wind Zone 004
+*
+BFWDLCZ003 C
+# Description: Wind Zone 003
+*
+BFWDLCZ002 B
+# Description: Wind Zone 002
+*
+BFWDLCZ001 A
+# Description: Wind Zone 001
+*
+BFSOPC00 i
+# Description: Generic PV System (utility)
+*
+BFSOPC_SOLAR_FARM W
+# Description: SOLAR_FARM
+*
+BFSOPC_WAPP_PARK V
+# Description: WAPP_PARK
+*
+BFSOPC_Zagtouli2 U
+# Description: Zagtouli2
+*
+BFSOPC_foot_PIE2 T
+# Description: foot_PIE2
+*
+BFSOPC_Foot_PIE1 S
+# Description: Foot_PIE1
+*
+BFSOPC_Koudougou R
+# Description: Koudougou
+*
+BFSOPC_Kaya Q
+# Description: Kaya
+*
+BFSOPCZ005 P
+# Description: Solar PV Zone 005
+*
+BFSOPCZ004 O
+# Description: Solar PV Zone 004
+*
+BFSOPCZ003 N
+# Description: Solar PV Zone 003
+*
+BFSOPCZ002 M
+# Description: Solar PV Zone 002
+*
+BFSOPCZ001 L
+# Description: Solar PV Zone 001
+*
+BFSOPC_PPP/PIE_Solaire_Zig K
+# Description: PPP/PIE_Solaire_Zig
+*
+BFSOPC_PPP/PIE_Solaire_Zano J
+# Description: PPP/PIE_Solaire_Zano
+*
+BFSOPC_PPP/PIE_Solaire_Zagtouli I
+# Description: PPP/PIE_Solaire_Zagtouli
+*
+BFSOPC_PPP/PIE_Solaire_Patte_dOie H
+# Description: PPP/PIE_Solaire_Patte_d'Oie
+*
+BFSOPC_PPP/PIE_Solaire_Pa G
+# Description: PPP/PIE_Solaire_Pa
+*
+BFSOPC_PPP/PIE_Solaire_Kodeni F
+# Description: PPP/PIE_Solaire_Kodeno
+*
+BFSOPC_PPP/PIE_Solaire_EMOA E
+# Description: PPP/PIE_Solaire_EMOA
+*
+BFSOPC_PPP/PIE_Solaire_BID D
+# Description: PPP/PIE_Solaire_BID
+*
+BFSOPC_PPP/PIE_Solaire_AfD C
+# Description: PPP/PIE_Solaire_AfD
+*
+BFSOPC_Ouaga_Solaire_ B
+# Description: Ouaga_Solaire_Nagreongo
+*
+BFSOPC_Mana_(SEMAFO)_ A
+# Description: Mana_(SEMAFO)_
+*
+BFSOPU00 g
+# Description: Generic PV system (roof top - urban)
+*
+BFSOPB00 g
+# Description: Generic PV system (roof top - commercial buildings)
+*
+BFSOPR00 g
+# Description: Generic PV system (roof top - rural)
+*
+BFSOPS00 h
+# Description: Generic PV with 2h Battery (roof top - rural)
+*
+BFSOTN00 j
+# Description: Generic Solar thermal no storage
+*
+BFSOTNZ002 C
+fyear 2026
+# Description: Solar CSP 6hrStor Zone 002
+*
+BFSOTNZ001 B
+fyear 2026
+# Description: Solar CSP 6hrStor Zone 001
+*
+BFSOTS00 k
+# Description: Generic Solar thermal with Storage
+*
+BFSOTSZ002 E
+fyear 2050
+# Description: Solar CSP 12hrStor Zone 002
+*
+BFSOTSZ001 D
+fyear 2050
+# Description: Solar CSP 12hrStor Zone 001
+*
+BFSOTG00 i
+# Description: Generic Solar thermal with Gas co-firing
+*
+BFBM00X00 a
+# Description: Extraction of Bagasse
+*
+BFBW00X00 a
+# Description: Extraction of Wood
+*
+BFHY00X00 a
+# Description: Supply of Hydro
+*
+BFSO00X00 a
+# Description: Supply of Solar
+*
+BFWD00X00 a
+# Description: Supply of Wind
+*
+BFHF00I00 a
+# Description: Import of HFO
+*
+BFDS00I00 a
+# Description: Import of Diesel
+*
+BFNG00X00 a
+# Description: Extraction of Natural Gas
+*
+BFCO00I00 a
+# Description: Import of Coal
+*
+BFRIDM_Samandeni A
+*
+BFRIDM_Noumbiel B
+*
+BFRIDM_Kompienga C
+*
+BFRIDM_Bagre D
+*
+BFELST04 A
+# Description: Battery Storage 4 hrs
+2. activity B
+*
+BFELPT04 E
+*
+BFELDT04_01 F
+2. activity G
+*
+BFELDT04_02 H
+2. activity I
+*
+BFELDT04_03 J
+2. activity K
+*
+BFEXDT00 L
+*
+resources: 
+endata
+

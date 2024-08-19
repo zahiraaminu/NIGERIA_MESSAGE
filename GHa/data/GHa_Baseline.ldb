@@ -1,0 +1,653 @@
+TDB: empty
+ADB: GHa
+problem: GHa
+description:
+# Ghana
+drate: 10
+timesteps: 2018 2019 2020 2021 2022 2023 2024 2025 2026 2027 2028 2029 2030 2031 2032 2033 2034 2035 2036 2037 2038 2039 2040 2041 2042
+loadregions:
+ltype ordered seasonal 1 0
+year 2019 1 10
+name aaa aab aac \
+baa bab bac bad \
+caa cab cac 
+length 0.096689 0.165753 0.069064 \
+0.101484 0.173974 0.028995 0.043493 \
+0.093493 0.160274 0.066781 
+energyforms:
+Final f
+# Final Energy
+Industry e l
+# Industry Electricity Final
+Commerce c l
+# Commerce Electricity Final
+Urban u l
+# Urban Electricity Final
+Rural r l
+# Rural Electricity Final
+SentOut s l f
+# Sentout Electricity Final
+Export E 
+# Export Elc
+*
+Tertiary t
+# Tertiary Energy
+Industry i l
+# Industry Electricity Tertiary
+Commerce c l
+# Commerce Electricity Tertiary
+Urban u l
+# Urban Electricity Tertiary
+Rural r l
+# Rural Electricity Tertiary
+Electricity e l f
+# Tertiary Electricity
+*
+Secondary s
+# Secondary Energy
+Electricity b l f
+# Secondary Electricity
+ElcDummy d l
+# Dummy elc for PS
+*
+Primary p
+# Primary Energy
+Bagasse b 
+# Bagasse
+Wood B 
+# Wood
+Hydro H 
+# Hydro
+Solar s l
+# Solar
+Wind w 
+# Wind
+Coal c 
+# Coal
+CoalCCS C 
+# Coal CCS
+Gas g 
+# Gas
+Nuclear n 
+# Nuclear
+Oil o 
+# Oil
+HFO h 
+# diesel
+Diesel d 
+# HFO
+Crude p 
+# Crude
+*
+Resources r
+# Resources
+Biomass b 
+# Biomass resource
+Coal c 
+# Coal resource
+*
+DummyLevelStorage d
+# DummyLevelStorage
+DummyCom_GHELST04 A l
+# DummyCom_GHELST04
+*
+demand:
+c-f  ts 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+e-f  ts 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+r-f  ts 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+s-f  ts 2041.89 2250.8 2450.46 2686.76 2894.07 3077.16 3241.13 3396.8 3546.34 3691.4 3833.22 3972.72 4119.79 4272.27 4428.63 4587.74 4748.83 4923.22 5107.02 5297.48 5492.66 5691.18 5691.18
+u-f  ts 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+loadcurve:
+year 2019
+c-f 0.091518 0.175245 0.068275 0.096056 0.178391 \
+0.030494 0.041167 0.088493 0.164343 0.066018
+e-f 0.096689 0.165753 0.069064 0.101484 0.173974 \
+0.028995 0.043493 0.093493 0.160274 0.066781
+r-f 0.060015 0.175921 0.11559 0.058822 0.182783 \
+0.032932 0.062985 0.058128 0.169964 0.08286
+s-f 0.093862 0.146721 0.072271 0.163927 0.147781 \
+0.02754 0.046107 0.088786 0.141126 0.071879
+u-f 0.060015 0.175921 0.11559 0.058822 0.182783 \
+0.032932 0.062985 0.058128 0.169964 0.08286
+systems.GHHYRO_Tanoso.p.capfac 0.148406 0.149488 0.149488 0.495129 0.494492 \
+0.494492 0.494492 0.436422 0.435993 0.435993
+systems.GHHYRO_Sedukrom.o.capfac 0.196731 0.198166 0.198166 0.579436 0.578592 \
+0.578592 0.578592 0.528559 0.527991 0.527991
+systems.GHHYRO_Kpong.l.capfac 0.5 0.5 0.5 0.5 0.5 \
+0.5 0.5 0.5 0.5 0.5
+systems.GHHYRO_Kojokrom.k.capfac 0.148406 0.149488 0.149488 0.495129 0.494492 \
+0.494492 0.494492 0.436422 0.435993 0.435993
+systems.GHHYRO_Joromo.j.capfac 0.148406 0.149488 0.149488 0.495129 0.494492 \
+0.494492 0.494492 0.436422 0.435993 0.435993
+systems.GHHYRO_Jambito.i.capfac 0.5 0.5 0.5 0.5 0.5 \
+0.5 0.5 0.5 0.5 0.5
+systems.GHHYRO_Hemang.f.capfac 0.223326 0.224432 0.224432 0.518383 0.51817 \
+0.51817 0.51817 0.413206 0.412293 0.412293
+systems.GHHYRO_Asuaso.d.capfac 0.235522 0.23634 0.23634 0.447891 0.447359 \
+0.447359 0.447359 0.339698 0.339429 0.339429
+systems.GHHYRO_Abatumesu.S.capfac 0.22261 0.223712 0.223712 0.517477 0.517265 \
+0.517265 0.517265 0.411879 0.41097 0.41097
+systems.GHHYRO_Ntereso.Q.capfac 0.13761 0.137671 0.137671 0.425541 0.426399 \
+0.426399 0.426399 0.257873 0.256878 0.256878
+systems.GHWDLC00.h.capfac 0.340411 0.239365 0.271267 0.139396 0.070198 \
+0.08272 0.168704 0.120912 0.078857 0.209117
+systems.GHWDLC_ASSOGLI.I.capfac 0.68346 0.450781 0.570993 0.689984 0.545776 \
+0.491489 0.624737 0.442312 0.247866 0.457818
+systems.GHWDLC_ADA.H.capfac 0.68346 0.450781 0.570993 0.689984 0.545776 \
+0.491489 0.624737 0.442312 0.247866 0.457818
+systems.GHWDOC00.G.capfac 0.340411 0.239365 0.271267 0.139396 0.070198 \
+0.08272 0.168704 0.120912 0.078857 0.209117
+systems.GHWDLCZ005.F.capfac 0.62774 0.405907 0.306011 0.411596 0.391597 \
+0.239451 0.344861 0.3406 0.254214 0.186047
+systems.GHWDLCZ004.E.capfac 0.571178 0.36567 0.402013 0.578831 0.441722 \
+0.346277 0.487325 0.373093 0.190284 0.314337
+systems.GHWDLCZ003.D.capfac 0.487503 0.349134 0.575954 0.513267 0.424002 \
+0.448296 0.523151 0.259478 0.171244 0.391616
+systems.GHWDLCZ002.C.capfac 0.365477 0.379544 0.598726 0.398849 0.394275 \
+0.573323 0.511211 0.200799 0.178725 0.32932
+systems.GHWDLCZ001.B.capfac 0.68346 0.450781 0.570993 0.689984 0.545776 \
+0.491489 0.624737 0.442312 0.247866 0.457818
+systems.GHWDLC_Ayitepa_Wind_Farm.A.capfac 0.340411 0.239365 0.271267 0.139396 0.070198 \
+0.08272 0.168704 0.120912 0.078857 0.209117
+systems.GHSOPC00.i.capfac 0 0.364064 0 0 0.337077 \
+0.035724 0 0 0.352386 0
+systems.GHSOPC_Bui_floating.L.capfac 0 0.394652 0.059632 0 0.330527 \
+0.143327 0 0 0.37396 0.039141
+systems.GHSOPC_Bongo.K.capfac 0 0.402231 0.055591 0 0.336751 \
+0.135143 0 0 0.380818 0.035039
+systems.GHSOPC_Bui_II.J.capfac 0 0.394652 0.059632 0 0.330527 \
+0.143327 0 0 0.37396 0.039141
+systems.GHSOPC_Bio_therm.I.capfac 0 0.406716 0.052812 0 0.33739 \
+0.129772 0 0 0.388855 0.033103
+systems.GHSOPC_Nzema.H.capfac 0 0.396154 0.060097 0 0.340816 \
+0.147755 0 0 0.380035 0.039851
+systems.GHSOPC_Meinergy.G.capfac 0 0.399889 0.056096 0 0.324593 \
+0.126117 0 0 0.374928 0.034049
+systems.GHSOPC_Kaleo+Lawra.F.capfac 0 0.396154 0.060097 0 0.340816 \
+0.147754 0 0 0.380035 0.039851
+systems.GHSOPCZ005.E.capfac 0 0.396154 0.060097 0 0.340816 \
+0.147755 0 0 0.380035 0.039851
+systems.GHSOPCZ004.D.capfac 0 0.399889 0.056096 0 0.324592 \
+0.126117 0 0 0.374928 0.034048
+systems.GHSOPCZ003.C.capfac 0 0.406716 0.052812 0 0.33739 \
+0.129772 0 0 0.388855 0.033103
+systems.GHSOPCZ002.B.capfac 0 0.394652 0.059632 0 0.330527 \
+0.143327 0 0 0.37396 0.039141
+systems.GHSOPCZ001.A.capfac 0 0.402231 0.055591 0 0.336751 \
+0.135143 0 0 0.380818 0.035039
+systems.GHSOPC_VRA+BXC(2016).c.capfac 0 0.364064 0 0 0.337077 \
+0.035724 0 0 0.352386 0
+systems.GHSOPU00.g.capfac 0 0.364064 0 0 0.337077 \
+0.035724 0 0 0.352386 0
+systems.GHSOPB00.g.capfac 0 0.364064 0 0 0.337077 \
+0.035724 0 0 0.352386 0
+systems.GHSOPR00.g.capfac 0 0.364064 0 0 0.337077 \
+0.035724 0 0 0.352386 0
+systems.GHSOPS00.h.capfac 0 0.364064 0 0 0.337077 \
+0.035724 0 0 0.352386 0
+systems.GHSOTS00.k.capfac 0 0.470999 0.367085 0 0.470999 \
+0.526419 0.260862 0 0.471387 0.366153
+systems.GHRIDM_Pwalugu.A.capfac 0.050614 0.050683 0.050683 0.416265 0.417474 \
+0.417474 0.417474 0.247333 0.245949 0.245949
+systems.GHRIDM_Kulpawn.B.capfac 0.021266 0.02126 0.02126 0.291866 0.292988 \
+0.292988 0.292988 0.170401 0.169189 0.169189
+systems.GHRIDM_Juale.C.capfac 0.023397 0.0234 0.0234 0.190763 0.19294 \
+0.19294 0.19294 0.291848 0.289482 0.289482
+systems.GHRIDM_Daboya.D.capfac 0.020227 0.020216 0.020216 0.293959 0.295087 \
+0.295087 0.295087 0.170401 0.169189 0.169189
+systems.GHRIDM_Bui.E.capfac 0.035818 0.035874 0.035874 0.345687 0.346475 \
+0.346475 0.346475 0.146504 0.145591 0.145591
+systems.GHRIDM_Akosombo.F.capfac 0.079149 0.079645 0.079645 0.420972 0.422607 \
+0.422607 0.422607 0.435355 0.433067 0.433067
+systems.GHELPT04.G.capfac 0.055251 0.055251 0 0.057991 0.057991 \
+0.057991 0 0.053425 0.053425 0
+systems.GHELDT04_01.H.capfac 1 0 0 0 0 \
+0 0 0 0 0
+systems.GHELDT04_01.I.capfac 0 0 1 0 0 \
+0 0 0 0 0
+systems.GHELDT04_02.J.capfac 0 0 0 1 0 \
+0 0 0 0 0
+systems.GHELDT04_02.K.capfac 0 0 0 0 0 \
+0 1 0 0 0
+systems.GHELDT04_03.L.capfac 0 0 0 0 0 \
+0 0 1 0 0
+systems.GHELDT04_03.M.capfac 0 0 0 0 0 \
+0 0 0 0 1
+relationsc:
+relationsp:
+relationss:
+D_GHHYDM_Pwalugu D001 o 0
+*
+D_GHHYDM_Kulpawn D002 o 0
+*
+D_GHHYDM_Juale D003 o 0
+*
+D_GHHYDM_Daboya D004 o 0
+*
+D_GHHYDM_Bui D005 o 0
+*
+D_GHHYDM_Akosombo D006 o 0
+*
+SS_GHELST04 SS01 o 0
+*
+relations1:
+ReserveMargin RM o 
+*
+CO2emissionskt CO2 o 
+*
+LocalRE RE o 
+upper c 0
+*
+WDBR WDBR o 
+*
+PVBR PVBR o 
+*
+BMTC BMTC o 
+*
+Domestic DOM o 
+*
+InstantaneousWindPV IPW o 0
+*
+PC_GHELST04 PC01 o 
+*
+PS_GHELST04 PS01 o 0
+*
+DC_GHELST04_01 DC01 o 
+*
+DC_GHELST04_02 DC02 o 
+*
+DC_GHELST04_03 DC03 o 
+*
+RC_GHHYDM_Pwalugu_01 RC01 o 
+*
+RC_GHHYDM_Kulpawn_02 RC02 o 
+*
+RC_GHHYDM_Juale_03 RC03 o 
+*
+RC_GHHYDM_Daboya_04 RC04 o 
+*
+RC_GHHYDM_Bui_05 RC05 o 
+*
+RC_GHHYDM_Akosombo_06 RC06 o 
+*
+DX_GHEXDT00 DX01 o 
+*
+relations2:
+variables:
+systems:
+GHEL00TDI a
+moutp i-t c 1
+inv c 1
+fom c 1
+# Description: Industry Distribution
+*
+GHEL00TDU a
+moutp u-t c 1
+inv c 1
+fom c 1
+# Description: Urban Distribution
+*
+GHEL00TDC a
+moutp c-t c 1
+inv c 1
+fom c 1
+# Description: Commerce Distribution
+*
+GHEL00TDR a
+moutp r-t c 1
+inv c 1
+fom c 1
+# Description: Rural Distribution
+*
+GHEL00T00 a
+moutp e-t c 1
+inv c 1
+fom c 1
+# Description: Transmission
+*
+GHEL00TUI a
+# Description: Industry Demand
+*
+GHEL00TUU a
+# Description: Urban Demand
+*
+GHEL00TUC a
+# Description: Commerce Demand
+*
+GHEL00TUR a
+# Description: Rural Demand
+*
+GHEL00TUS a
+# Description: SentOut Demand
+*
+GHEL00e00 a
+# Description: Export of Electricity
+*
+GHEL00i00 I
+# Description: Import of Electricity
+*
+GHELBS00 z
+# Description: Backstop
+*
+GHDSRC00 g
+# Description: Generic Diesel Centralized
+*
+GHDSRC_Tico C
+# Description: Tico
+*
+GHDSRC_TAPCO B
+# Description: TAPCO
+*
+GHDSRC_TT1PP_TT2PP A
+# Description: TT1PP_TT2PP
+*
+GHDSRC_KTPP I
+# Description: KTPP1 GT1 + KTPP1 GT2
+*
+GHDSRC_Karpower H
+# Description: Karpower_III
+*
+GHDSRC_Gas_Turbine_OLC G
+# Description: Gas_Turbine_OLC (Tico GT1 and 2, Tico ST) 
+*
+GHDSRC_Gas_Turbine_ODS F
+# Description: Gas_Turbine_ODS
+*
+GHDSRC_Combined_Cycle_OLC E
+# Description: Combined_Cycle_OLC (Tapco GT1, GT2 and ST)
+*
+GHDSRC_CENIT_Energy D
+# Description: CENIT_Energy
+*
+GHDSRI00 g
+# Description: Generic Diesel 100 kW system (Industry)
+*
+GHDSRU00 g
+# Description: Generic Diesel/Gasoline 1kW system (urban)
+*
+GHDSRB00 g
+# Description: Generic Diesel/Gasoline 1kW system (commercial buildings)
+*
+GHDSRR00 g
+# Description: Generic Diesel/Gasoline 1kW system (rural)
+*
+GHHFRC00 g
+# Description: Generic HFO
+*
+GHHFRC_AKSA A
+# Description: AKSA
+*
+GHNGSC00 g
+# Description: Generic Gas Open Cycle
+*
+GHNGSC_Amandi+GPGC H
+# Description: Amandi+GPGC
+*
+GHNGSC_EarlyPower G
+# Description: EarlyPower 2018 + 2019
+*
+GHNGSC_Trojan_Gen A
+# Description: Trojan3 +GenPower
+*
+GHNGSC_Sunon_Asogli_phase_2_ F
+# Description: Sunon_Asogli_phase_2_
+*
+GHNGSC_AMERI E
+# Description: AMERI
+*
+GHNGSC_Aboadze_T3_phase_1_TEMA122X D
+# Description: Aboadze_T3_PhaseII
+*
+GHNGCC00 h
+# Description: Generic Gas Combined Cycle
+*
+GHNGCC_CENIT J
+# Description: CENIT
+*
+GHNGCC_KTPP I
+# Description: KTPP
+*
+GHNGCC_Combined_Cycle_GAS C
+# Description: Combined_Cycle_GAS_Sunson Asogli CC1
+*
+GHNGCC_Aboadze_T3_phase_1_TEMA122X B
+# Description: Aboadze_T3_phase_1_(TEMA122X)_ROTAN
+*
+GHCOCS00 g
+# Description: Generic Coal w CCS
+*
+GHCOSC00 g
+# Description: Generic Coal
+*
+GHHYRO00 h
+# Description: Generic Hydro ROR
+*
+GHHYRO_Tanoso p
+# Description: Tanoso
+*
+GHHYRO_Sedukrom o
+# Description: Sedukrom
+*
+GHHYRO_Lanka n
+# Description: Lanka
+*
+GHHYRO_Kpong l
+# Description: Kpong
+*
+GHHYRO_Kojokrom k
+# Description: Kojokrom
+*
+GHHYRO_Joromo j
+# Description: Joromo
+*
+GHHYRO_Jambito i
+# Description: Jambito
+*
+GHHYRO_Hemang f
+# Description: Hemang
+*
+GHHYRO_Awiasam e
+# Description: Awiasam
+*
+GHHYRO_Asuaso d
+# Description: Asuaso
+*
+GHHYRO_Ankobra c
+# Description: Ankobra
+*
+GHHYRO_Abatumesu S
+# Description: Abatumesu
+*
+GHHYDM00 g
+# Description: Generic Hydro With Dam
+*
+GHHYDM_Pwalugu R
+# Description: Pwalugu
+*
+GHHYRO_Ntereso Q
+# Description: Ntereso
+*
+GHHYDM_Kulpawn P
+# Description: Kulpawn
+*
+GHHYDM_Juale O
+# Description: Juale
+*
+GHHYDM_Daboya N
+# Description: Daboya
+*
+GHHYDM_Bui M
+# Description: Bui
+*
+GHHYDM_Akosombo H
+# Description: Akosombo
+*
+GHHYMI00 g
+# Description: Generic Hydro Small
+*
+GHBMST00 g
+# Description: Generic Bagasse
+*
+GHBWST00 a
+# Description: Generic Wood
+*
+GHGOCV00 g
+moutp b-s c 1
+fyear 2050
+plf c 0.775
+optm c 0.775
+minutil c 0
+# Description: Generic Geothermal
+*
+GHWDLC00 h
+# Description: Generic Wind
+*
+GHWDLC_ASSOGLI I
+# Description: ASSOGLI
+*
+GHWDLC_ADA H
+# Description: ADA
+*
+GHWDOC00 G
+# Description: Generic OffShore Wind
+*
+GHWDLCZ005 F
+# Description: Wind Zone 005
+*
+GHWDLCZ004 E
+# Description: Wind Zone 004
+*
+GHWDLCZ003 D
+# Description: Wind Zone 003
+*
+GHWDLCZ002 C
+# Description: Wind Zone 002
+*
+GHWDLCZ001 B
+# Description: Wind Zone 001
+*
+GHWDLC_Ayitepa_Wind_Farm A
+# Description: Ayitepa_Wind_Farm
+*
+GHSOPC00 i
+# Description: Generic PV System (utility)
+*
+GHSOPC_Bui_floating L
+# Description: Bui_floating+50 MW
+*
+GHSOPC_Bongo K
+# Description: Bongo
+*
+GHSOPC_Bui_II J
+# Description: Bui_II
+*
+GHSOPC_Bio_therm I
+# Description: Bio_therm
+*
+GHSOPC_Nzema H
+# Description: Nzema
+*
+GHSOPC_Meinergy G
+# Description: Meinergy
+*
+GHSOPC_Kaleo+Lawra F
+# Description: Kaleo+Lawra Solar Plant VRA
+*
+GHSOPCZ005 E
+# Description: Solar PV Zone 005
+*
+GHSOPCZ004 D
+# Description: Solar PV Zone 004
+*
+GHSOPCZ003 C
+# Description: Solar PV Zone 003
+*
+GHSOPCZ002 B
+# Description: Solar PV Zone 002
+*
+GHSOPCZ001 A
+# Description: Solar PV Zone 001
+*
+GHSOPC_VRA+BXC(2016) c
+# Description: VRA+BXC(2016)
+*
+GHSOPU00 g
+# Description: Generic PV system (roof top - urban)
+*
+GHSOPB00 g
+# Description: Generic PV system (roof top - commercial buildings)
+*
+GHSOPR00 g
+# Description: Generic PV system (roof top - rural)
+*
+GHSOPS00 h
+# Description: Generic PV with 2h Battery (roof top - rural)
+*
+GHSOTN00 j
+# Description: Generic Solar thermal no storage
+*
+GHSOTS00 k
+# Description: Generic Solar thermal with Storage
+*
+GHSOTG00 i
+# Description: Generic Solar thermal with Gas co-firing
+*
+GHBM00X00 a
+# Description: Extraction of Bagasse
+*
+GHBW00X00 a
+# Description: Extraction of Wood
+*
+GHHY00X00 a
+# Description: Supply of Hydro
+*
+GHSO00X00 a
+# Description: Supply of Solar
+*
+GHWD00X00 a
+# Description: Supply of Wind
+*
+GHHF00I00 a
+# Description: Import of HFO
+*
+GHDS00I00 a
+# Description: Import of Diesel
+*
+GHNG00X00 a
+# Description: Extraction of Natural Gas
+*
+GHCO00I00 a
+# Description: Import of Coal
+*
+GHRIDM_Pwalugu A
+*
+GHRIDM_Kulpawn B
+*
+GHRIDM_Juale C
+*
+GHRIDM_Daboya D
+*
+GHRIDM_Bui E
+*
+GHRIDM_Akosombo F
+*
+GHELST04 A
+# Description: Battery Storage 4 hrs
+2. activity B
+*
+GHELPT04 G
+*
+GHELDT04_01 H
+2. activity I
+*
+GHELDT04_02 J
+2. activity K
+*
+GHELDT04_03 L
+2. activity M
+*
+GHEXDT00 N
+*
+resources: 
+endata
+

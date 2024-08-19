@@ -1,0 +1,520 @@
+TDB: empty
+ADB: MWa
+problem: MWa
+description:
+# MAINa
+# high investment cost scenario
+drate: 10
+timesteps: 2018 2019 2020 2021 2022 2023 2024 2025 2026 2027 2028 2029 2030 2031 2032 2033 2034 2035 2036 2037 2038 2039 2040 2041 2042
+loadregions:
+ltype ordered seasonal 1 0
+year 2019 1 10
+name aaa aab aac \
+baa bab bac bad \
+caa cab cac 
+length 0.096689 0.165753 0.069064 \
+0.101484 0.173974 0.028995 0.043493 \
+0.093493 0.160274 0.066781 
+energyforms:
+Final f
+# Final Energy
+Industry e l
+# Industry Electricity Final
+Commerce c l
+# Commerce Electricity Final
+Urban u l
+# Urban Electricity Final
+Rural r l
+# Rural Electricity Final
+SentOut s l f
+# Sentout Electricity Final
+Export E 
+# Export Elc
+*
+Tertiary t
+# Tertiary Energy
+Industry i l
+# Industry Electricity Tertiary
+Commerce c l
+# Commerce Electricity Tertiary
+Urban u l
+# Urban Electricity Tertiary
+Rural r l
+# Rural Electricity Tertiary
+Electricity e l f
+# Tertiary Electricity
+*
+Secondary s
+# Secondary Energy
+Electricity B l f
+# Secondary Electricity
+ElcDummy d l
+# Dummy elc for PS
+*
+Primary p
+# Primary Energy
+Bagasse b 
+# Bagasse
+Wood B 
+# Wood
+Hydro H 
+# Hydro
+Solar s 
+# Solar
+Wind w 
+# Wind
+Coal c 
+# Coal
+CoalCCS C 
+# Coal CCS
+Gas g 
+# Gas
+Nuclear n 
+# Nuclear
+Oil o 
+# Oil
+HFO h 
+# HFO
+Crude p 
+# Crude
+*
+Resources r
+# Resources
+Biomass b 
+# Biomass resource
+Coal c 
+# Coal resource
+*
+DummyLevelStorage d
+# DummyLevelStorage
+DummyCom_MWELST04 A l
+# DummyCom_MWELST04
+*
+demand:
+e-f  ts 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+c-f  ts 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+u-f  ts 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+r-f  ts 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+s-f  ts 394.86 455.93 507.51 562.36 623.14 690.49 765.11 847.8 939.43 1040.96 1153.46 1278.13 1399.09 1531.51 1676.46 1835.12 2008.8 2188.39 2384.04 2597.18 2829.37 3082.32 3082.32
+loadcurve:
+year 2019
+e-f 0.096689 0.165753 0.069064 0.101484 0.173974 \
+0.028995 0.043493 0.093493 0.160274 0.066781
+c-f 0.091841 0.175245 0.065601 0.096395 0.182081 \
+0.027541 0.041313 0.088806 0.167744 0.063433
+u-f 0.057109 0.183975 0.11559 0.055774 0.192544 \
+0.042864 0.04366 0.056128 0.177094 0.075262
+r-f 0.057109 0.183975 0.11559 0.055774 0.192544 \
+0.042864 0.04366 0.056128 0.177094 0.075262
+s-f 0.0801 0.160814 0.079285 0.079974 0.16838 \
+0.037503 0.04216 0.08121 0.165317 0.105257
+systems.MWHYRO_Wovwe.d.capfac 0.825835 0.825835 0.825835 0.123071 0.123071 \
+0.123071 0.123071 0.03593 0.03593 0.03593
+systems.MWHYRO_Kapichira_III.Y.capfac 0.984701 0.984701 0.984701 0.0932 0.0932 \
+0.0932 0.0932 0.126301 0.126301 0.126301
+systems.MWHYRO_Songwe.W.capfac 0.793995 0.793995 0.793995 0.149645 0.149645 \
+0.149645 0.149645 0.033285 0.033285 0.033285
+systems.MWHYRO_Kholombizo.V.capfac 0.99522 0.99522 0.99522 0.133399 0.133399 \
+0.133399 0.133399 0.180777 0.180777 0.180777
+systems.MWHYRO_Mpatamanga.U.capfac 0.994684 0.994684 0.994684 0.110964 0.110964 \
+0.110964 0.110964 0.224573 0.224573 0.224573
+systems.MWHYRO_Fufu.T.capfac 0.994684 0.994684 0.994684 0.110964 0.110964 \
+0.110964 0.110964 0.224573 0.224573 0.224573
+systems.MWHYRO_Tedzani_Falls_IV.J.capfac 0.982836 0.982836 0.982836 0.092464 0.092464 \
+0.092464 0.092464 0.123957 0.123957 0.123957
+systems.MWHYRO_Tedzani_Falls_I-III.C.capfac 0.994295 0.994295 0.994295 0.097989 0.097989 \
+0.097989 0.097989 0.132791 0.132791 0.132791
+systems.MWHYRO_Kapichira_Falls_I-II.B.capfac 1 1 1 0.568489 0.568489 \
+0.568489 0.568489 0.75489 0.75489 0.75489
+systems.MWHYRO_Nkula_Falls_A-B.A.capfac 0.994295 0.994295 0.994295 0.097989 0.097989 \
+0.097989 0.097989 0.132791 0.132791 0.132791
+systems.MWHYRO_Chasombo_Hamilton_Falls_Chizuma.X.capfac 0.825835 0.825835 0.825835 0.123071 0.123071 \
+0.123071 0.123071 0.03593 0.03593 0.03593
+systems.MWWDLC00.i.capfac 0.26315 0.205581 0.186108 0.50302 0.333422 \
+0.284086 0.365993 0.474953 0.443595 0.383653
+systems.MWWDOC00.F.capfac 0.26315 0.205581 0.186108 0.50302 0.333422 \
+0.284086 0.365993 0.474953 0.443595 0.383653
+systems.MWWDLCZ005.E.capfac 0.371767 0.402763 0.459018 0.477433 0.470168 \
+0.586382 0.559268 0.516517 0.516854 0.552522
+systems.MWWDLCZ004.D.capfac 0.267578 0.296499 0.277791 0.659055 0.644176 \
+0.518661 0.606847 0.621555 0.607639 0.567865
+systems.MWWDLCZ003.C.capfac 0.25224 0.222872 0.296528 0.770722 0.627453 \
+0.719729 0.756756 0.641006 0.542729 0.651217
+systems.MWWDLCZ002.B.capfac 0.350571 0.225357 0.342919 0.799987 0.546601 \
+0.669165 0.737582 0.706956 0.513407 0.650756
+systems.MWWDLCZ001.A.capfac 0.271737 0.259542 0.267317 0.670847 0.55912 \
+0.477727 0.550177 0.622034 0.586348 0.541961
+systems.MWSOPC00.j.capfac 0 0.463349 0 0 0.473543 \
+0 0 0.022175 0.506747 0
+systems.MWSOPC_Bwengu.H.capfac 0 0.42439 0 0 0.383786 \
+0 0 0 0.453666 0
+systems.MWSOPC_Kanzi_Nkhota.G.capfac 0 0.41684 0 0 0.400292 \
+0 0 0 0.457351 0
+systems.MWSOPC_Golo.F.capfac 0 0.394455 0 0 0.422675 \
+0 0 0 0.464922 0
+systems.MWSOPCZ005.E.capfac 0 0.42439 0 0 0.383786 \
+0 0 0 0.453666 0
+systems.MWSOPCZ004.D.capfac 0 0.399156 0 0 0.414546 \
+0 0 0 0.462124 0
+systems.MWSOPCZ003.C.capfac 0 0.396097 0 0 0.434044 \
+0 0 0 0.481953 0
+systems.MWSOPCZ002.B.capfac 0 0.416617 0 0 0.399507 \
+0 0 0 0.45645 0
+systems.MWSOPCZ001.A.capfac 0 0.384751 0 0 0.429989 \
+0 0 0 0.466516 0
+systems.MWSOPU00.g.capfac 0 0.407547 0 0 0.414306 \
+0 0 0.020543 0.444016 0
+systems.MWSOPB00.g.capfac 0 0.407547 0 0 0.414306 \
+0 0 0.020543 0.444016 0
+systems.MWSOPR00.g.capfac 0.198013 0.372323 0.378825 0.184498 0.371263 \
+0.495567 0.336657 0.20139 0.37066 0.378055
+systems.MWSOPS00.h.capfac 0 0.407547 0 0 0.414306 \
+0 0 0.020543 0.444016 0
+systems.MWSOTN00.k.capfac 0 0.47408 0 0 0.481941 \
+0 0 0.023898 0.516501 0
+systems.MWSOTNZ002.C.capfac 0 0.514331 0.110306 0 0.779842 \
+0.70761 0.29502 0 0.696635 0.335229
+systems.MWSOTNZ001.B.capfac 0 0.578672 0.125958 0 0.769458 \
+0.669176 0.287032 0.025906 0.685138 0.358561
+systems.MWSOTS00.l.capfac 0 0.516433 0.144667 0 0.516433 \
+0.268245 0.062281 0 0.516526 0.144154
+systems.MWSOTSZ002.E.capfac 0.09595 0.72641 0.544271 0.313813 0.863486 \
+0.933201 0.791993 0.303998 0.779703 0.716051
+systems.MWSOTSZ001.D.capfac 0.075298 0.680091 0.459548 0.334483 0.868781 \
+0.942037 0.849858 0.285549 0.809394 0.736464
+systems.MWELPT04.A.capfac 0.055251 0.055251 0 0.057991 0.057991 \
+0.057991 0 0.053425 0.053425 0
+systems.MWELDT04_01.B.capfac 1 0 0 0 0 \
+0 0 0 0 0
+systems.MWELDT04_01.C.capfac 0 0 1 0 0 \
+0 0 0 0 0
+systems.MWELDT04_02.D.capfac 0 0 0 1 0 \
+0 0 0 0 0
+systems.MWELDT04_02.E.capfac 0 0 0 0 0 \
+0 1 0 0 0
+systems.MWELDT04_03.F.capfac 0 0 0 0 0 \
+0 0 1 0 0
+systems.MWELDT04_03.G.capfac 0 0 0 0 0 \
+0 0 0 0 1
+relationsc:
+relationsp:
+relationss:
+SS_MWELST04 SS01 o 0
+*
+relations1:
+ReserveMargin RM o 
+*
+CO2emissionskt CO2 o 
+*
+LocalRE RE o 
+*
+WDBR WDBR o 
+*
+PVBR PVBR o 
+*
+BMTC BMTC o 
+*
+Domestic DOM o 
+*
+InstantaneousWindPV IPW o 0
+*
+PC_MWELST04 PC01 o 
+*
+PS_MWELST04 PS01 o 0
+*
+DC_MWELST04_01 DC01 o 
+*
+DC_MWELST04_02 DC02 o 
+*
+DC_MWELST04_03 DC03 o 
+*
+DX_MWEXDT00 DX01 o 
+*
+relations2:
+variables:
+systems:
+MWEL00TDI a
+moutp i-t c 1
+inv c 1
+fom c 1
+# Description: Industry Distribution
+*
+MWEL00TDU a
+moutp u-t c 1
+inv c 1
+fom c 1
+# Description: Urban Distribution
+*
+MWEL00TDC a
+moutp c-t c 1
+inv c 1
+fom c 1
+# Description: Commerce Distribution
+*
+MWEL00TDR a
+moutp r-t c 1
+inv c 1
+fom c 1
+# Description: Rural Distribution
+*
+MWEL00T00 a
+moutp e-t c 1
+inv c 1
+fom c 1
+# Description: Transmission
+*
+MWEL00TUI a
+# Description: Industry Demand
+*
+MWEL00TUU g
+# Description: Urban Demand
+*
+MWEL00TUC g
+# Description: Commerce Demand
+*
+MWEL00TUR g
+# Description: Rural Demand
+*
+MWEL00TUS a
+# Description: SentOut Demand
+*
+MWEL00e00 g
+# Description: Export of Electricity
+*
+MWEL00i00 g
+# Description: Import of Electricity
+*
+MWELBS00 z
+# Description: Backstop
+*
+MWDSRC00 g
+# Description: Generic Diesel Centralized
+*
+MWDSRC30 d
+# Description: Candidate P_Malawi_Engines Diesel (medium)
+*
+MWDSRC01 A
+# Description: Existing E_Dieselplants_ Mzuzu _Mapanga_Luwinga_Kanenga_Lilongwe
+*
+MWDSRI00 g
+# Description: Generic Diesel 100 kW system (Industry)
+*
+MWDSRU00 g
+# Description: Generic Diesel/Gasoline 1kW system (urban)
+*
+MWDSRB00 g
+# Description: Generic Diesel/Gasoline 1kW system (commercial buildings)
+*
+MWDSRR00 g
+# Description: Generic Diesel/Gasoline 1kW system (rural)
+*
+MWHFRC00 g
+# Description: Generic HFO
+*
+MWHFRC30 d
+# Description: Candidate P_Malawi_HFO
+*
+MWNGSC00 g
+# Description: Generic Gas Open Cycle
+*
+MWNGCC00 h
+# Description: Generic Gas Combined Cycle
+*
+MWCOSC00 g
+# Description: Generic Coal
+*
+MWCOSC30 d
+# Description: Candidate P_Malawi_Coal 300
+*
+MWCOSC20 T
+# Description: Candidate P_Malawi_Pomodzi (Coal)
+*
+MWCOSC10 J
+# Description: Candidate P_Malawi_Kammawamba (Coal)
+*
+MWHYDM00 g
+# Description: Generic Hydro With Dam
+*
+MWHYRO_Wovwe d
+# Description: Existing E_Wovwe Mini Hydro (H)
+*
+MWHYRO_Kapichira_III Y
+# Description: Candidate P_Malawi_Kapichira III (H)
+*
+MWHYRO_Songwe W
+# Description: Candidate P_Malawi_Songwe (H)
+*
+MWHYRO_Kholombizo V
+# Description: Candidate P_Malawi_Kholombizo (H)
+*
+MWHYRO_Mpatamanga U
+# Description: Candidate P_Malawi_Mpatamanga (H)
+*
+MWHYRO_Fufu T
+# Description: Candidate P_Malawi_Fufu (H)
+*
+MWHYRO_Tedzani_Falls_IV J
+# Description: Committed P_Malawi_Tedzani Falls IV (H)
+*
+MWHYRO_Tedzani_Falls_I-III C
+# Description: Existing E_Tedzani Falls III (H)/E_Tedzani Falls I (H)/E_Tedzani Falls II (H)
+*
+MWHYRO_Kapichira_Falls_I-II B
+# Description: Existing E_Kapichira Falls Phase I (H)/E_Kapichira Falls Phase II (H)
+*
+MWHYRO_Nkula_Falls_A-B A
+# Description: Existing E_Nkula Falls B (H)/E_Nkula Falls A (H)
+*
+MWHYRO00 h
+# Description: Generic Hydro ROR
+*
+MWHYRO_Chasombo_Hamilton_Falls_Chizuma X
+# Description: Candidate P_Malawi_Chasombo (H)/P_Malawi_Hamilton Falls (H)/P_Malawi_Chizuma (H)
+*
+MWHYMI00 g
+# Description: Generic Hydro Small
+*
+MWBMST00 g
+# Description: Generic Bagasse
+*
+MWBWST00 a
+# Description: Generic Wood
+*
+MWBMST30 d
+# Description: Candidate P_Malawi_Biomass
+*
+MWGOCV00 h
+# Description: Generic Geothermal
+*
+MWWDLC00 i
+# Description: Generic Wind
+*
+MWWDOC00 F
+# Description: Generic OffShore Wind
+*
+MWWDLCZ005 E
+# Description: Wind Zone 005
+*
+MWWDLCZ004 D
+# Description: Wind Zone 004
+*
+MWWDLCZ003 C
+# Description: Wind Zone 003
+*
+MWWDLCZ002 B
+# Description: Wind Zone 002
+*
+MWWDLCZ001 A
+# Description: Wind Zone 001
+*
+MWSOPC00 j
+# Description: Generic PV System (utility)
+*
+MWSOPC_Bwengu H
+# Description: Committed_Bwengu Solar PV plant in Zone 001
+*
+MWSOPC_Kanzi_Nkhota G
+# Description: Existing E_Kanzimbe (Salima)_Nkhotakota Solar PV Plants in Zone 002
+*
+MWSOPC_Golo F
+# Description: Existing E_Golomoti Solar PV plant in Zone 005
+*
+MWSOPCZ005 E
+# Description: Solar PV Zone 005
+*
+MWSOPCZ004 D
+# Description: Solar PV Zone 004
+*
+MWSOPCZ003 C
+# Description: Solar PV Zone 003
+*
+MWSOPCZ002 B
+# Description: Solar PV Zone 002
+*
+MWSOPCZ001 A
+# Description: Solar PV Zone 001
+*
+MWSOPU00 g
+# Description: Generic PV system (roof top - urban)
+*
+MWSOPB00 g
+# Description: Generic PV system (roof top - commercial buildings)
+*
+MWSOPR00 g
+# Description: Generic PV system (roof top - rural)
+*
+MWSOPS00 h
+# Description: Generic PV with 2h Battery (roof top - rural)
+*
+MWSOTN00 k
+# Description: Generic Solar thermal no storage
+*
+MWSOTNZ002 C
+fyear 2026
+# Description: Solar CSP 6hrStor Zone 002
+*
+MWSOTNZ001 B
+fyear 2026
+# Description: Solar CSP 6hrStor Zone 001
+*
+MWSOTS00 l
+# Description: Generic Solar thermal with Storage
+*
+MWSOTSZ002 E
+fyear 2050
+# Description: Solar CSP 12hrStor Zone 002
+*
+MWSOTSZ001 D
+fyear 2050
+# Description: Solar CSP 12hrStor Zone 001
+*
+MWSOTG00 i
+# Description: Generic Solar thermal with Gas co-firing
+*
+MWBM00X00 g
+# Description: Extraction of Bagasse
+*
+MWBW00X00 a
+# Description: Extraction of Wood
+*
+MWHY00X00 g
+# Description: Supply of Hydro
+*
+MWSO00X00 g
+# Description: Supply of Solar
+*
+MWWD00X00 a
+# Description: Supply of Wind
+*
+MWHF00I00 a
+# Description: Import of HFO
+*
+MWDS00I00 a
+# Description: Import of Diesel
+*
+MWNG00I00 a
+# Description: Import of Natural Gas
+*
+MWCO00I00 a
+# Description: Import of Coal
+*
+MWELST04 A
+# Description: Battery Storage 4 hrs
+2. activity B
+*
+MWELPT04 A
+*
+MWELDT04_01 B
+2. activity C
+*
+MWELDT04_02 D
+2. activity E
+*
+MWELDT04_03 F
+2. activity G
+*
+MWEXDT00 H
+*
+resources: 
+endata
+

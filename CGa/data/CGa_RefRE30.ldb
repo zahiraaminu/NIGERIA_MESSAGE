@@ -1,0 +1,475 @@
+TDB: empty
+ADB: CGa
+problem: CGa
+description:
+# MAINa
+# Referance Scenario for RE 3030
+drate: 0
+timesteps: 2018 2019 2020 2021 2022 2023 2024 2025 2026 2027 2028 2029 2030 2031 2032 2033 2034 2035 2036 2037 2038 2039 2040 2041 2042
+loadregions:
+ltype ordered seasonal 1 0
+year 2019 1 10
+name aaa aab aac \
+baa bab bac bad \
+caa cab cac 
+length 0.096689 0.165753 0.069064 \
+0.101484 0.173974 0.028995 0.043493 \
+0.093493 0.160274 0.066781 
+energyforms:
+Final f
+# Final Energy
+Industry e l
+# Industry Electricity Final
+Commerce c l
+# Commerce Electricity Final
+Urban u l
+# Urban Electricity Final
+Rural r l
+# Rural Electricity Final
+SentOut s l f
+# Sentout Electricity Final
+Export E 
+# Export Elc
+*
+Tertiary t
+# Tertiary Energy
+Industry i l
+# Industry Electricity Tertiary
+Commerce c l
+# Commerce Electricity Tertiary
+Urban u l
+# Urban Electricity Tertiary
+Rural r l
+# Rural Electricity Tertiary
+Electricity e l f
+# Tertiary Electricity
+*
+Secondary s
+# Secondary Energy
+Electricity V l f
+# Secondary Electricity
+ElcDummy d l
+# Dummy elc for PS
+*
+Primary p
+# Primary Energy
+Bagasse b 
+# Bagasse
+Wood B 
+# Wood
+Hydro H 
+# Hydro
+Solar s l
+# Solar
+Wind w 
+# Wind
+Coal c 
+# Coal
+CoalCCS C 
+# Coal CCS
+Gas g 
+# Gas
+Nuclear n 
+# Nuclear
+Oil o 
+# Oil
+HFO h 
+# diesel
+Diesel d 
+# HFO
+Crude p 
+# Crude
+*
+Resources r
+# Resources
+Biomass b 
+# Biomass resource
+Coal c 
+# Coal resource
+*
+demand:
+e-f  ts 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+c-f  ts 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+u-f  ts 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+r-f  ts 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+s-f  ts 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+loadcurve:
+year 2019
+e-f 0.096689 0.165753 0.069064 0.101484 0.173974 \
+0.028995 0.043493 0.093493 0.160274 0.066781
+c-f 0.091679 0.175245 0.066941 0.096225 0.180233 \
+0.02902 0.04124 0.088649 0.16604 0.064728
+u-f 0.054299 0.175013 0.122885 0.053561 0.183278 \
+0.040826 0.059509 0.053878 0.168132 0.088619
+r-f 0.054299 0.175013 0.122885 0.053561 0.183278 \
+0.040826 0.059509 0.053878 0.168132 0.088619
+s-f 0.076525 0.164757 0.08221 0.081444 0.176688 \
+0.037834 0.049597 0.076158 0.156613 0.098174
+systems.CGHYRO_Sounda_Gorge.J.capfac 0.74958 0.749005 0.749005 0.07725 0.076927 \
+0.076927 0.076927 0.357845 0.358791 0.358791
+systems.CGHYRO_Djoue.H.capfac 0.408622 0.40785 0.40785 0.066745 0.066544 \
+0.066544 0.066544 0.552012 0.553029 0.553029
+systems.CGHYRO_Chollet.G.capfac 0.223935 0.22445 0.22445 0.165121 0.164827 \
+0.164827 0.164827 0.566501 0.566288 0.566288
+systems.CGHYRO_Mourala.F.capfac 0.944184 0.943761 0.943761 0.159671 0.15895 \
+0.15895 0.15895 0.515898 0.517118 0.517118
+systems.CGHYRO_Liouessa.D.capfac 0.278697 0.278691 0.278691 0.224816 0.225322 \
+0.225322 0.225322 0.844892 0.844349 0.844349
+systems.CGHYRO_Kouembali.C.capfac 0.597021 0.596636 0.596636 0.144696 0.14435 \
+0.14435 0.14435 0.703428 0.704203 0.704203
+systems.CGHYRO_Imboulou.B.capfac 0.59939 0.599065 0.599065 0.157609 0.157274 \
+0.157274 0.157274 0.679993 0.680692 0.680692
+systems.CGWDLC00.h.capfac 0.227626 0.057262 0.137774 0.296728 0.068227 \
+0.152556 0.216637 0.229781 0.050158 0.097556
+systems.CGWDOC00.B.capfac 0.227626 0.057262 0.137774 0.296728 0.068227 \
+0.152556 0.216637 0.229781 0.050158 0.097556
+systems.CGWDLCZ001.A.capfac 0.481937 0.192351 0.437904 0.659157 0.307137 \
+0.581197 0.685249 0.475396 0.183855 0.424581
+systems.CGSOPC00.i.capfac 0.000001 0.370557 0 0.000034 0.309721 \
+0 0 0.000179 0.351927 0
+systems.CGSOPC_Ngo.F.capfac 0.000001 0.370557 0 0.000034 0.309721 \
+0 0 0.000179 0.351927 0
+systems.CGSOPCZ005.E.capfac 0 0.387814 0.006849 0 0.352647 \
+0.012699 0 0 0.356263 0.001739
+systems.CGSOPCZ004.D.capfac 0 0.382277 0.008327 0 0.357894 \
+0.011387 0 0 0.36 0.002577
+systems.CGSOPCZ003.C.capfac 0 0.374046 0.010783 0 0.346152 \
+0.014987 0 0 0.362242 0.004923
+systems.CGSOPCZ002.B.capfac 0 0.382823 0.006843 0 0.35169 \
+0.011995 0 0 0.354329 0.0017
+systems.CGSOPCZ001.A.capfac 0 0.379554 0.007243 0 0.357604 \
+0.008354 0 0 0.35769 0.002129
+systems.CGSOPU00.g.capfac 0.000001 0.3335 0 0.000031 0.278748 \
+0 0 0.00016 0.316735 0
+systems.CGSOPB00.g.capfac 0.000001 0.3335 0 0.000031 0.278748 \
+0 0 0.00016 0.316735 0
+systems.CGSOPR00.g.capfac 0.194184 0.372165 0.399779 0.177722 0.371527 \
+0.462064 0.399127 0.195406 0.37161 0.399374
+systems.CGSOPS00.h.capfac 0.000001 0.3335 0 0.000031 0.278748 \
+0 0 0.00016 0.316735 0
+systems.CGSOTN00.j.capfac 0.000001 0.370557 0 0.000034 0.309721 \
+0 0 0.000179 0.351927 0
+systems.CGSOTS00.k.capfac 0 0.589066 0.294408 0 0.589066 \
+0.474722 0.174199 0 0.589479 0.293418
+systems.CGRIDM_Moukoukoulou.C.capfac 0.639021 0.638329 0.638329 0.080779 0.080475 \
+0.080475 0.080475 0.415137 0.416181 0.416181
+systems.CGELPT04.A.capfac 0.055251 0.055251 0 0.057991 0.057991 \
+0.057991 0 0.053425 0.053425 0
+systems.CGELDT04_01.B.capfac 1 0 0 0 0 \
+0 0 0 0 0
+systems.CGELDT04_01.D.capfac 0 0 1 0 0 \
+0 0 0 0 0
+systems.CGELDT04_02.E.capfac 0 0 0 1 0 \
+0 0 0 0 0
+systems.CGELDT04_02.F.capfac 0 0 0 0 0 \
+0 1 0 0 0
+systems.CGELDT04_03.G.capfac 0 0 0 0 0 \
+0 0 1 0 0
+systems.CGELDT04_03.H.capfac 0 0 0 0 0 \
+0 0 0 0 1
+relationsc:
+relationsp:
+relationss:
+D_CGHYDM_Moukoukoulou D001 o 0
+*
+SS_CGELST04 SS01 o 0
+*
+relations1:
+ReserveMargin RM o 
+*
+CO2emissionskt CO2 o 
+*
+LocalRE RE o 
+*
+WDBR WDBR o 
+*
+PVBR PVBR o 
+*
+BMTC BMTC o 
+*
+Domestic DOM o 
+*
+InstantaneousWindPV IPW o 0
+*
+PC_CGELST04 PC01 o 
+*
+PS_CGELST04 PS01 o 0
+*
+DC_CGELST04_01 DC01 o 
+*
+DC_CGELST04_02 DC02 o 
+*
+DC_CGELST04_03 DC03 o 
+*
+relations2:
+variables:
+systems:
+CGEL00TDI a
+# Description: Industry Distribution
+*
+CGEL00TDU a
+# Description: Urban Distribution
+*
+CGEL00TDC a
+# Description: Commerce Distribution
+*
+CGEL00TDR a
+# Description: Rural Distribution
+*
+CGEL00T00 a
+# Description: Transmission
+*
+CGEL00TUI a
+# Description: Industry Demand
+*
+CGEL00TUU a
+# Description: Urban Demand
+*
+CGEL00TUC a
+# Description: Commerce Demand
+*
+CGEL00TUR a
+# Description: Rural Demand
+*
+CGEL00TUS a
+# Description: SentOut Demand
+*
+CGEL00e00 a
+# Description: Export of Electricity
+*
+CGEL00i00 I
+# Description: Import of Electricity
+*
+CGELBS00 z
+# Description: Backstop
+*
+CGDSRC00 g
+# Description: Generic Diesel Centralized
+*
+CGDSRC_OUESSO H
+# Description: OUESSO
+*
+CGDSRC_Sibiti G
+# Description: Sibiti
+*
+CGDSRC_Oyo F
+# Description: Oyo
+*
+CGDSRC_Madingou E
+# Description: Madingou
+*
+CGDSRC_Dolisie D
+# Description: Dolisie
+*
+CGDSRC_POINTE-NOIRE.SNE C
+# Description: POINTE-NOIRE.SNE
+*
+CGDSRC_POINTE-NOIRE B
+# Description: POINTE-NOIRE
+*
+CGDSRC_MPILA A
+# Description: MPILA
+*
+CGDSRI00 g
+# Description: Generic Diesel 100 kW system (Industry)
+*
+CGDSRU00 g
+# Description: Generic Diesel/Gasoline 1kW system (urban)
+*
+CGDSRB00 g
+# Description: Generic Diesel/Gasoline 1kW system (commercial buildings)
+*
+CGDSRR00 g
+# Description: Generic Diesel/Gasoline 1kW system (rural)
+*
+CGHFRC00 g
+# Description: Generic HFO
+*
+CGHFRC_POINTE-NOIRE A
+# Description: POINTE-NOIRE
+*
+CGNGSC00 g
+# Description: Generic Gas Open Cycle
+*
+CGNGSC_DJENO.TOTAL C
+# Description: DJENO.TOTAL
+*
+CGNGSC_DJENO.ENI B
+# Description: DJENO.ENI
+*
+CGNGSC_COTE.MATEVE A
+# Description: COTE.MATEVE
+*
+CGNGRC00 a
+# Description: Generic Gas Engine
+*
+CGNGCC00 h
+# Description: Generic Gas Combined Cycle
+*
+CGCOCS00 g
+# Description: Generic Coal w CCS
+*
+CGCOSC00 g
+# Description: Generic Coal
+*
+CGHYDM00 g
+# Description: Generic Hydro With Dam
+*
+CGHYRO_N_Komo I
+# Description: N_KOMO_DAM
+*
+CGHYDM_Moukoukoulou K
+# Description: MOUKOUKOULOU
+*
+CGHYRO00 a
+# Description: Generic Hydro Run of River
+*
+CGHYRO_Mpoukou M
+# Description: MPOUKOU
+*
+CGHYRO_Nyanga L
+# Description: NYANGA
+*
+CGHYRO_Sounda_Gorge J
+# Description: SOUNDA_GORGE
+*
+CGHYRO_Djoue H
+# Description: DJOUE_Rebuild
+*
+CGHYRO_Chollet G
+# Description: CHOLLET_(DJA_RIVER)
+*
+CGHYRO_Mourala F
+# Description: MOURALA
+*
+CGHYRO_Mbamba E
+# Description: MBAMBA
+*
+CGHYRO_Liouessa D
+# Description: LIOUESSA
+*
+CGHYRO_Kouembali C
+# Description: KOUEMBALI
+*
+CGHYRO_Imboulou B
+# Description: IMBOULOU
+*
+CGHYRO_Gamboma A
+# Description: GAMBOMA
+*
+CGHYMI00 g
+# Description: Generic Hydro Small
+*
+CGBMST00 g
+# Description: Generic Bagasse
+*
+CGBMST_OUESSO B
+# Description: OUESSO
+*
+CGBMST_N-KAYI.MILL A
+# Description: N'KAYI.MILL
+*
+CGBWST00 a
+# Description: Generic Wood
+*
+CGGOCV00 g
+# Description: Generic Geothermal
+*
+CGWDLC00 h
+# Description: Generic Wind
+*
+CGWDOC00 B
+# Description: Generic OffShore Wind
+*
+CGWDLCZ001 A
+# Description: Wind Zone 001
+*
+CGSOPC00 i
+# Description: Generic PV System (utility)
+*
+CGSOPC_Ngo F
+# Description: Ngo
+*
+CGSOPCZ005 E
+# Description: Solar PV Zone 005
+*
+CGSOPCZ004 D
+# Description: Solar PV Zone 004
+*
+CGSOPCZ003 C
+# Description: Solar PV Zone 003
+*
+CGSOPCZ002 B
+# Description: Solar PV Zone 002
+*
+CGSOPCZ001 A
+# Description: Solar PV Zone 001
+*
+CGSOPU00 g
+# Description: Generic PV system (roof top - urban)
+*
+CGSOPB00 g
+# Description: Generic PV system (roof top - commercial buildings)
+*
+CGSOPR00 g
+# Description: Generic PV system (roof top - rural)
+*
+CGSOPS00 h
+# Description: Generic PV with 2h Battery (roof top - rural)
+*
+CGSOTN00 j
+# Description: Generic Solar thermal no storage
+*
+CGSOTS00 k
+# Description: Generic Solar thermal with Storage
+*
+CGSOTG00 i
+# Description: Generic Solar thermal with Gas co-firing
+*
+CGBM00X00 a
+# Description: Extraction of Bagasse
+*
+CGBW00X00 a
+# Description: Extraction of Wood
+*
+CGHY00X00 a
+# Description: Supply of Hydro
+*
+CGSO00X00 a
+# Description: Supply of Solar
+*
+CGWD00X00 a
+# Description: Supply of Wind
+*
+CGHF00I00 a
+# Description: Import of HFO
+*
+CGDS00I00 a
+# Description: Import of Diesel
+*
+CGNG00X00 a
+# Description: Extraction of Natural Gas
+*
+CGCO00I00 a
+# Description: Import of Coal
+*
+CGRIDM_Moukoukoulou C
+*
+CGELST04 A
+# Description: Battery Storage 4 hrs
+2. activity B
+*
+CGELPT04 A
+*
+CGELDT04_01 B
+2. activity D
+*
+CGELDT04_02 E
+2. activity F
+*
+CGELDT04_03 G
+2. activity H
+*
+resources: 
+endata
+

@@ -1,0 +1,1427 @@
+title: CIaCIEL00TDI_01
+unit: , 1.
+maxtabwidth: 2000
+@
+CIEL00TDIaaa = teai......aaa:out
+CIEL00TDIaab = teai......aab:out
+CIEL00TDIaac = teai......aac:out
+CIEL00TDIbaa = teai......baa:out
+CIEL00TDIbab = teai......bab:out
+CIEL00TDIbac = teai......bac:out
+CIEL00TDIbad = teai......bad:out
+CIEL00TDIcaa = teai......caa:out
+CIEL00TDIcab = teai......cab:out
+CIEL00TDIcac = teai......cac:out
+@
+title: CIaCIEL00TDU_01
+unit: , 1.
+maxtabwidth: 2000
+@
+CIEL00TDUaaa = teau......aaa:out
+CIEL00TDUaab = teau......aab:out
+CIEL00TDUaac = teau......aac:out
+CIEL00TDUbaa = teau......baa:out
+CIEL00TDUbab = teau......bab:out
+CIEL00TDUbac = teau......bac:out
+CIEL00TDUbad = teau......bad:out
+CIEL00TDUcaa = teau......caa:out
+CIEL00TDUcab = teau......cab:out
+CIEL00TDUcac = teau......cac:out
+@
+title: CIaCIEL00TDC_01
+unit: , 1.
+maxtabwidth: 2000
+@
+CIEL00TDCaaa = teac......aaa:out
+CIEL00TDCaab = teac......aab:out
+CIEL00TDCaac = teac......aac:out
+CIEL00TDCbaa = teac......baa:out
+CIEL00TDCbab = teac......bab:out
+CIEL00TDCbac = teac......bac:out
+CIEL00TDCbad = teac......bad:out
+CIEL00TDCcaa = teac......caa:out
+CIEL00TDCcab = teac......cab:out
+CIEL00TDCcac = teac......cac:out
+@
+title: CIaCIEL00TDR_01
+unit: , 1.
+maxtabwidth: 2000
+@
+CIEL00TDRaaa = tear......aaa:out
+CIEL00TDRaab = tear......aab:out
+CIEL00TDRaac = tear......aac:out
+CIEL00TDRbaa = tear......baa:out
+CIEL00TDRbab = tear......bab:out
+CIEL00TDRbac = tear......bac:out
+CIEL00TDRbad = tear......bad:out
+CIEL00TDRcaa = tear......caa:out
+CIEL00TDRcab = tear......cab:out
+CIEL00TDRcac = tear......cac:out
+@
+title: CIaCIEL00T00_01
+unit: , 1.
+maxtabwidth: 2000
+@
+CIEL00T00aaa = tWae......aaa:out
+CIEL00T00aab = tWae......aab:out
+CIEL00T00aac = tWae......aac:out
+CIEL00T00baa = tWae......baa:out
+CIEL00T00bab = tWae......bab:out
+CIEL00T00bac = tWae......bac:out
+CIEL00T00bad = tWae......bad:out
+CIEL00T00caa = tWae......caa:out
+CIEL00T00cab = tWae......cab:out
+CIEL00T00cac = tWae......cac:out
+@
+title: CIaCIEL00i00_01
+unit: , 1.
+maxtabwidth: 2000
+@
+CIEL00i00aaa = s.IW......aaa:out
+CIEL00i00aab = s.IW......aab:out
+CIEL00i00aac = s.IW......aac:out
+CIEL00i00baa = s.IW......baa:out
+CIEL00i00bab = s.IW......bab:out
+CIEL00i00bac = s.IW......bac:out
+CIEL00i00bad = s.IW......bad:out
+CIEL00i00caa = s.IW......caa:out
+CIEL00i00cab = s.IW......cab:out
+CIEL00i00cac = s.IW......cac:out
+@
+title: CIaCIELBS00_01
+unit: , 1.
+maxtabwidth: 2000
+@
+CIELBS00aaa = s.zW......aaa:out
+CIELBS00aab = s.zW......aab:out
+CIELBS00aac = s.zW......aac:out
+CIELBS00baa = s.zW......baa:out
+CIELBS00bab = s.zW......bab:out
+CIELBS00bac = s.zW......bac:out
+CIELBS00bad = s.zW......bad:out
+CIELBS00caa = s.zW......caa:out
+CIELBS00cab = s.zW......cab:out
+CIELBS00cac = s.zW......cac:out
+@
+title: CIaCIDSRC00_01
+unit: , 1.
+maxtabwidth: 2000
+@
+CIDSRC00aaa = sogW......aaa:out
+CIDSRC00aab = sogW......aab:out
+CIDSRC00aac = sogW......aac:out
+CIDSRC00baa = sogW......baa:out
+CIDSRC00bab = sogW......bab:out
+CIDSRC00bac = sogW......bac:out
+CIDSRC00bad = sogW......bad:out
+CIDSRC00caa = sogW......caa:out
+CIDSRC00cab = sogW......cab:out
+CIDSRC00cac = sogW......cac:out
+@
+title: CIaCIDSRI00_01
+unit: , 1.
+maxtabwidth: 2000
+@
+CIDSRI00aaa = togi......aaa:out
+CIDSRI00aab = togi......aab:out
+CIDSRI00aac = togi......aac:out
+CIDSRI00baa = togi......baa:out
+CIDSRI00bab = togi......bab:out
+CIDSRI00bac = togi......bac:out
+CIDSRI00bad = togi......bad:out
+CIDSRI00caa = togi......caa:out
+CIDSRI00cab = togi......cab:out
+CIDSRI00cac = togi......cac:out
+@
+title: CIaCIDSRU00_01
+unit: , 1.
+maxtabwidth: 2000
+@
+CIDSRU00aaa = togu......aaa:out
+CIDSRU00aab = togu......aab:out
+CIDSRU00aac = togu......aac:out
+CIDSRU00baa = togu......baa:out
+CIDSRU00bab = togu......bab:out
+CIDSRU00bac = togu......bac:out
+CIDSRU00bad = togu......bad:out
+CIDSRU00caa = togu......caa:out
+CIDSRU00cab = togu......cab:out
+CIDSRU00cac = togu......cac:out
+@
+title: CIaCIDSRB00_01
+unit: , 1.
+maxtabwidth: 2000
+@
+CIDSRB00aaa = togc......aaa:out
+CIDSRB00aab = togc......aab:out
+CIDSRB00aac = togc......aac:out
+CIDSRB00baa = togc......baa:out
+CIDSRB00bab = togc......bab:out
+CIDSRB00bac = togc......bac:out
+CIDSRB00bad = togc......bad:out
+CIDSRB00caa = togc......caa:out
+CIDSRB00cab = togc......cab:out
+CIDSRB00cac = togc......cac:out
+@
+title: CIaCIDSRR00_01
+unit: , 1.
+maxtabwidth: 2000
+@
+CIDSRR00aaa = togr......aaa:out
+CIDSRR00aab = togr......aab:out
+CIDSRR00aac = togr......aac:out
+CIDSRR00baa = togr......baa:out
+CIDSRR00bab = togr......bab:out
+CIDSRR00bac = togr......bac:out
+CIDSRR00bad = togr......bad:out
+CIDSRR00caa = togr......caa:out
+CIDSRR00cab = togr......cab:out
+CIDSRR00cac = togr......cac:out
+@
+title: CIaCIHFRC00_01
+unit: , 1.
+maxtabwidth: 2000
+@
+CIHFRC00aaa = shgW......aaa:out
+CIHFRC00aab = shgW......aab:out
+CIHFRC00aac = shgW......aac:out
+CIHFRC00baa = shgW......baa:out
+CIHFRC00bab = shgW......bab:out
+CIHFRC00bac = shgW......bac:out
+CIHFRC00bad = shgW......bad:out
+CIHFRC00caa = shgW......caa:out
+CIHFRC00cab = shgW......cab:out
+CIHFRC00cac = shgW......cac:out
+@
+title: CIaCINGSC00_01
+unit: , 1.
+maxtabwidth: 2000
+@
+CINGSC00aaa = sggW......aaa:out
+CINGSC00aab = sggW......aab:out
+CINGSC00aac = sggW......aac:out
+CINGSC00baa = sggW......baa:out
+CINGSC00bab = sggW......bab:out
+CINGSC00bac = sggW......bac:out
+CINGSC00bad = sggW......bad:out
+CINGSC00caa = sggW......caa:out
+CINGSC00cab = sggW......cab:out
+CINGSC00cac = sggW......cac:out
+@
+title: CIaCINGSC_Vridi_(CIPREL)__01
+unit: , 1.
+maxtabwidth: 2000
+@
+CINGSC_Vridi_(CIPREL)_aaa = sgIW......aaa:out
+CINGSC_Vridi_(CIPREL)_aab = sgIW......aab:out
+CINGSC_Vridi_(CIPREL)_aac = sgIW......aac:out
+CINGSC_Vridi_(CIPREL)_baa = sgIW......baa:out
+CINGSC_Vridi_(CIPREL)_bab = sgIW......bab:out
+CINGSC_Vridi_(CIPREL)_bac = sgIW......bac:out
+CINGSC_Vridi_(CIPREL)_bad = sgIW......bad:out
+CINGSC_Vridi_(CIPREL)_caa = sgIW......caa:out
+CINGSC_Vridi_(CIPREL)_cab = sgIW......cab:out
+CINGSC_Vridi_(CIPREL)_cac = sgIW......cac:out
+@
+title: CIaCINGSC_GTVridi_01
+unit: , 1.
+maxtabwidth: 2000
+@
+CINGSC_GTVridiaaa = sgGW......aaa:out
+CINGSC_GTVridiaab = sgGW......aab:out
+CINGSC_GTVridiaac = sgGW......aac:out
+CINGSC_GTVridibaa = sgGW......baa:out
+CINGSC_GTVridibab = sgGW......bab:out
+CINGSC_GTVridibac = sgGW......bac:out
+CINGSC_GTVridibad = sgGW......bad:out
+CINGSC_GTVridicaa = sgGW......caa:out
+CINGSC_GTVridicab = sgGW......cab:out
+CINGSC_GTVridicac = sgGW......cac:out
+@
+title: CIaCINGSC_GTC1prel_01
+unit: , 1.
+maxtabwidth: 2000
+@
+CINGSC_GTC1prelaaa = sgEW......aaa:out
+CINGSC_GTC1prelaab = sgEW......aab:out
+CINGSC_GTC1prelaac = sgEW......aac:out
+CINGSC_GTC1prelbaa = sgEW......baa:out
+CINGSC_GTC1prelbab = sgEW......bab:out
+CINGSC_GTC1prelbac = sgEW......bac:out
+CINGSC_GTC1prelbad = sgEW......bad:out
+CINGSC_GTC1prelcaa = sgEW......caa:out
+CINGSC_GTC1prelcab = sgEW......cab:out
+CINGSC_GTC1prelcac = sgEW......cac:out
+@
+title: CIaCINGSC_Aggreko_01
+unit: , 1.
+maxtabwidth: 2000
+@
+CINGSC_Aggrekoaaa = sgCW......aaa:out
+CINGSC_Aggrekoaab = sgCW......aab:out
+CINGSC_Aggrekoaac = sgCW......aac:out
+CINGSC_Aggrekobaa = sgCW......baa:out
+CINGSC_Aggrekobab = sgCW......bab:out
+CINGSC_Aggrekobac = sgCW......bac:out
+CINGSC_Aggrekobad = sgCW......bad:out
+CINGSC_Aggrekocaa = sgCW......caa:out
+CINGSC_Aggrekocab = sgCW......cab:out
+CINGSC_Aggrekocac = sgCW......cac:out
+@
+title: CIaCINGSC_5e_centrale_IPP_(Bassam)__01
+unit: , 1.
+maxtabwidth: 2000
+@
+CINGSC_5e_centrale_IPP_(Bassam)_aaa = sgBW......aaa:out
+CINGSC_5e_centrale_IPP_(Bassam)_aab = sgBW......aab:out
+CINGSC_5e_centrale_IPP_(Bassam)_aac = sgBW......aac:out
+CINGSC_5e_centrale_IPP_(Bassam)_baa = sgBW......baa:out
+CINGSC_5e_centrale_IPP_(Bassam)_bab = sgBW......bab:out
+CINGSC_5e_centrale_IPP_(Bassam)_bac = sgBW......bac:out
+CINGSC_5e_centrale_IPP_(Bassam)_bad = sgBW......bad:out
+CINGSC_5e_centrale_IPP_(Bassam)_caa = sgBW......caa:out
+CINGSC_5e_centrale_IPP_(Bassam)_cab = sgBW......cab:out
+CINGSC_5e_centrale_IPP_(Bassam)_cac = sgBW......cac:out
+@
+title: CIaCINGSC_4e_centrale_IPP_(Abbata)__01
+unit: , 1.
+maxtabwidth: 2000
+@
+CINGSC_4e_centrale_IPP_(Abbata)_aaa = sgAW......aaa:out
+CINGSC_4e_centrale_IPP_(Abbata)_aab = sgAW......aab:out
+CINGSC_4e_centrale_IPP_(Abbata)_aac = sgAW......aac:out
+CINGSC_4e_centrale_IPP_(Abbata)_baa = sgAW......baa:out
+CINGSC_4e_centrale_IPP_(Abbata)_bab = sgAW......bab:out
+CINGSC_4e_centrale_IPP_(Abbata)_bac = sgAW......bac:out
+CINGSC_4e_centrale_IPP_(Abbata)_bad = sgAW......bad:out
+CINGSC_4e_centrale_IPP_(Abbata)_caa = sgAW......caa:out
+CINGSC_4e_centrale_IPP_(Abbata)_cab = sgAW......cab:out
+CINGSC_4e_centrale_IPP_(Abbata)_cac = sgAW......cac:out
+@
+title: CIaCINGCC00_01
+unit: , 1.
+maxtabwidth: 2000
+@
+CINGCC00aaa = sghW......aaa:out
+CINGCC00aab = sghW......aab:out
+CINGCC00aac = sghW......aac:out
+CINGCC00baa = sghW......baa:out
+CINGCC00bab = sghW......bab:out
+CINGCC00bac = sghW......bac:out
+CINGCC00bad = sghW......bad:out
+CINGCC00caa = sghW......caa:out
+CINGCC00cab = sghW......cab:out
+CINGCC00cac = sghW......cac:out
+@
+title: CIaCINGCC_Songon_III_01
+unit: , 1.
+maxtabwidth: 2000
+@
+CINGCC_Songon_IIIaaa = sgPW......aaa:out
+CINGCC_Songon_IIIaab = sgPW......aab:out
+CINGCC_Songon_IIIaac = sgPW......aac:out
+CINGCC_Songon_IIIbaa = sgPW......baa:out
+CINGCC_Songon_IIIbab = sgPW......bab:out
+CINGCC_Songon_IIIbac = sgPW......bac:out
+CINGCC_Songon_IIIbad = sgPW......bad:out
+CINGCC_Songon_IIIcaa = sgPW......caa:out
+CINGCC_Songon_IIIcab = sgPW......cab:out
+CINGCC_Songon_IIIcac = sgPW......cac:out
+@
+title: CIaCINGCC_Songon_II_01
+unit: , 1.
+maxtabwidth: 2000
+@
+CINGCC_Songon_IIaaa = sgOW......aaa:out
+CINGCC_Songon_IIaab = sgOW......aab:out
+CINGCC_Songon_IIaac = sgOW......aac:out
+CINGCC_Songon_IIbaa = sgOW......baa:out
+CINGCC_Songon_IIbab = sgOW......bab:out
+CINGCC_Songon_IIbac = sgOW......bac:out
+CINGCC_Songon_IIbad = sgOW......bad:out
+CINGCC_Songon_IIcaa = sgOW......caa:out
+CINGCC_Songon_IIcab = sgOW......cab:out
+CINGCC_Songon_IIcac = sgOW......cac:out
+@
+title: CIaCINGCC_Songon_I_01
+unit: , 1.
+maxtabwidth: 2000
+@
+CINGCC_Songon_Iaaa = sgNW......aaa:out
+CINGCC_Songon_Iaab = sgNW......aab:out
+CINGCC_Songon_Iaac = sgNW......aac:out
+CINGCC_Songon_Ibaa = sgNW......baa:out
+CINGCC_Songon_Ibab = sgNW......bab:out
+CINGCC_Songon_Ibac = sgNW......bac:out
+CINGCC_Songon_Ibad = sgNW......bad:out
+CINGCC_Songon_Icaa = sgNW......caa:out
+CINGCC_Songon_Icab = sgNW......cab:out
+CINGCC_Songon_Icac = sgNW......cac:out
+@
+title: CIaCINGCC_Ciprel_V_II_01
+unit: , 1.
+maxtabwidth: 2000
+@
+CINGCC_Ciprel_V_IIaaa = sgMW......aaa:out
+CINGCC_Ciprel_V_IIaab = sgMW......aab:out
+CINGCC_Ciprel_V_IIaac = sgMW......aac:out
+CINGCC_Ciprel_V_IIbaa = sgMW......baa:out
+CINGCC_Ciprel_V_IIbab = sgMW......bab:out
+CINGCC_Ciprel_V_IIbac = sgMW......bac:out
+CINGCC_Ciprel_V_IIbad = sgMW......bad:out
+CINGCC_Ciprel_V_IIcaa = sgMW......caa:out
+CINGCC_Ciprel_V_IIcab = sgMW......cab:out
+CINGCC_Ciprel_V_IIcac = sgMW......cac:out
+@
+title: CIaCINGCC_Ciprel_V_I_01
+unit: , 1.
+maxtabwidth: 2000
+@
+CINGCC_Ciprel_V_Iaaa = sgLW......aaa:out
+CINGCC_Ciprel_V_Iaab = sgLW......aab:out
+CINGCC_Ciprel_V_Iaac = sgLW......aac:out
+CINGCC_Ciprel_V_Ibaa = sgLW......baa:out
+CINGCC_Ciprel_V_Ibab = sgLW......bab:out
+CINGCC_Ciprel_V_Ibac = sgLW......bac:out
+CINGCC_Ciprel_V_Ibad = sgLW......bad:out
+CINGCC_Ciprel_V_Icaa = sgLW......caa:out
+CINGCC_Ciprel_V_Icab = sgLW......cab:out
+CINGCC_Ciprel_V_Icac = sgLW......cac:out
+@
+title: CIaCINGCC_Azito_TAV_01
+unit: , 1.
+maxtabwidth: 2000
+@
+CINGCC_Azito_TAVaaa = sgKW......aaa:out
+CINGCC_Azito_TAVaab = sgKW......aab:out
+CINGCC_Azito_TAVaac = sgKW......aac:out
+CINGCC_Azito_TAVbaa = sgKW......baa:out
+CINGCC_Azito_TAVbab = sgKW......bab:out
+CINGCC_Azito_TAVbac = sgKW......bac:out
+CINGCC_Azito_TAVbad = sgKW......bad:out
+CINGCC_Azito_TAVcaa = sgKW......caa:out
+CINGCC_Azito_TAVcab = sgKW......cab:out
+CINGCC_Azito_TAVcac = sgKW......cac:out
+@
+title: CIaCINGCC_Azito_TAG_01
+unit: , 1.
+maxtabwidth: 2000
+@
+CINGCC_Azito_TAGaaa = sgJW......aaa:out
+CINGCC_Azito_TAGaab = sgJW......aab:out
+CINGCC_Azito_TAGaac = sgJW......aac:out
+CINGCC_Azito_TAGbaa = sgJW......baa:out
+CINGCC_Azito_TAGbab = sgJW......bab:out
+CINGCC_Azito_TAGbac = sgJW......bac:out
+CINGCC_Azito_TAGbad = sgJW......bad:out
+CINGCC_Azito_TAGcaa = sgJW......caa:out
+CINGCC_Azito_TAGcab = sgJW......cab:out
+CINGCC_Azito_TAGcac = sgJW......cac:out
+@
+title: CIaCICOCS00_01
+unit: , 1.
+maxtabwidth: 2000
+@
+CICOCS00aaa = sCgW......aaa:out
+CICOCS00aab = sCgW......aab:out
+CICOCS00aac = sCgW......aac:out
+CICOCS00baa = sCgW......baa:out
+CICOCS00bab = sCgW......bab:out
+CICOCS00bac = sCgW......bac:out
+CICOCS00bad = sCgW......bad:out
+CICOCS00caa = sCgW......caa:out
+CICOCS00cab = sCgW......cab:out
+CICOCS00cac = sCgW......cac:out
+@
+title: CIaCICOSC00_01
+unit: , 1.
+maxtabwidth: 2000
+@
+CICOSC00aaa = scgW......aaa:out
+CICOSC00aab = scgW......aab:out
+CICOSC00aac = scgW......aac:out
+CICOSC00baa = scgW......baa:out
+CICOSC00bab = scgW......bab:out
+CICOSC00bac = scgW......bac:out
+CICOSC00bad = scgW......bad:out
+CICOSC00caa = scgW......caa:out
+CICOSC00cab = scgW......cab:out
+CICOSC00cac = scgW......cac:out
+@
+title: CIaCICOSC_S_Energies_II_01
+unit: , 1.
+maxtabwidth: 2000
+@
+CICOSC_S_Energies_IIaaa = scBW......aaa:out
+CICOSC_S_Energies_IIaab = scBW......aab:out
+CICOSC_S_Energies_IIaac = scBW......aac:out
+CICOSC_S_Energies_IIbaa = scBW......baa:out
+CICOSC_S_Energies_IIbab = scBW......bab:out
+CICOSC_S_Energies_IIbac = scBW......bac:out
+CICOSC_S_Energies_IIbad = scBW......bad:out
+CICOSC_S_Energies_IIcaa = scBW......caa:out
+CICOSC_S_Energies_IIcab = scBW......cab:out
+CICOSC_S_Energies_IIcac = scBW......cac:out
+@
+title: CIaCICOSC_S_Energies_I_01
+unit: , 1.
+maxtabwidth: 2000
+@
+CICOSC_S_Energies_Iaaa = scAW......aaa:out
+CICOSC_S_Energies_Iaab = scAW......aab:out
+CICOSC_S_Energies_Iaac = scAW......aac:out
+CICOSC_S_Energies_Ibaa = scAW......baa:out
+CICOSC_S_Energies_Ibab = scAW......bab:out
+CICOSC_S_Energies_Ibac = scAW......bac:out
+CICOSC_S_Energies_Ibad = scAW......bad:out
+CICOSC_S_Energies_Icaa = scAW......caa:out
+CICOSC_S_Energies_Icab = scAW......cab:out
+CICOSC_S_Energies_Icac = scAW......cac:out
+@
+title: CIaCIHYRO_Tiboto_01
+unit: , 1.
+maxtabwidth: 2000
+@
+CIHYRO_Tibotoaaa = sHiW......aaa:out
+CIHYRO_Tibotoaab = sHiW......aab:out
+CIHYRO_Tibotoaac = sHiW......aac:out
+CIHYRO_Tibotobaa = sHiW......baa:out
+CIHYRO_Tibotobab = sHiW......bab:out
+CIHYRO_Tibotobac = sHiW......bac:out
+CIHYRO_Tibotobad = sHiW......bad:out
+CIHYRO_Tibotocaa = sHiW......caa:out
+CIHYRO_Tibotocab = sHiW......cab:out
+CIHYRO_Tibotocac = sHiW......cac:out
+@
+title: CIaCIHYRO_Tiassale_01
+unit: , 1.
+maxtabwidth: 2000
+@
+CIHYRO_Tiassaleaaa = sHfW......aaa:out
+CIHYRO_Tiassaleaab = sHfW......aab:out
+CIHYRO_Tiassaleaac = sHfW......aac:out
+CIHYRO_Tiassalebaa = sHfW......baa:out
+CIHYRO_Tiassalebab = sHfW......bab:out
+CIHYRO_Tiassalebac = sHfW......bac:out
+CIHYRO_Tiassalebad = sHfW......bad:out
+CIHYRO_Tiassalecaa = sHfW......caa:out
+CIHYRO_Tiassalecab = sHfW......cab:out
+CIHYRO_Tiassalecac = sHfW......cac:out
+@
+title: CIaCIHYRO_Tahibli_01
+unit: , 1.
+maxtabwidth: 2000
+@
+CIHYRO_Tahibliaaa = sHeW......aaa:out
+CIHYRO_Tahibliaab = sHeW......aab:out
+CIHYRO_Tahibliaac = sHeW......aac:out
+CIHYRO_Tahiblibaa = sHeW......baa:out
+CIHYRO_Tahiblibab = sHeW......bab:out
+CIHYRO_Tahiblibac = sHeW......bac:out
+CIHYRO_Tahiblibad = sHeW......bad:out
+CIHYRO_Tahiblicaa = sHeW......caa:out
+CIHYRO_Tahiblicab = sHeW......cab:out
+CIHYRO_Tahiblicac = sHeW......cac:out
+@
+title: CIaCIHYRO_NDieliesso_01
+unit: , 1.
+maxtabwidth: 2000
+@
+CIHYRO_NDieliessoaaa = sHdW......aaa:out
+CIHYRO_NDieliessoaab = sHdW......aab:out
+CIHYRO_NDieliessoaac = sHdW......aac:out
+CIHYRO_NDieliessobaa = sHdW......baa:out
+CIHYRO_NDieliessobab = sHdW......bab:out
+CIHYRO_NDieliessobac = sHdW......bac:out
+CIHYRO_NDieliessobad = sHdW......bad:out
+CIHYRO_NDieliessocaa = sHdW......caa:out
+CIHYRO_NDieliessocab = sHdW......cab:out
+CIHYRO_NDieliessocac = sHdW......cac:out
+@
+title: CIaCIHYRO_Malasso_01
+unit: , 1.
+maxtabwidth: 2000
+@
+CIHYRO_Malassoaaa = sHcW......aaa:out
+CIHYRO_Malassoaab = sHcW......aab:out
+CIHYRO_Malassoaac = sHcW......aac:out
+CIHYRO_Malassobaa = sHcW......baa:out
+CIHYRO_Malassobab = sHcW......bab:out
+CIHYRO_Malassobac = sHcW......bac:out
+CIHYRO_Malassobad = sHcW......bad:out
+CIHYRO_Malassocaa = sHcW......caa:out
+CIHYRO_Malassocab = sHcW......cab:out
+CIHYRO_Malassocac = sHcW......cac:out
+@
+title: CIaCIHYRO_Louga_01
+unit: , 1.
+maxtabwidth: 2000
+@
+CIHYRO_Lougaaaa = sHbW......aaa:out
+CIHYRO_Lougaaab = sHbW......aab:out
+CIHYRO_Lougaaac = sHbW......aac:out
+CIHYRO_Lougabaa = sHbW......baa:out
+CIHYRO_Lougabab = sHbW......bab:out
+CIHYRO_Lougabac = sHbW......bac:out
+CIHYRO_Lougabad = sHbW......bad:out
+CIHYRO_Lougacaa = sHbW......caa:out
+CIHYRO_Lougacab = sHbW......cab:out
+CIHYRO_Lougacac = sHbW......cac:out
+@
+title: CIaCIHYRO_Kokumbo_01
+unit: , 1.
+maxtabwidth: 2000
+@
+CIHYRO_Kokumboaaa = sHZW......aaa:out
+CIHYRO_Kokumboaab = sHZW......aab:out
+CIHYRO_Kokumboaac = sHZW......aac:out
+CIHYRO_Kokumbobaa = sHZW......baa:out
+CIHYRO_Kokumbobab = sHZW......bab:out
+CIHYRO_Kokumbobac = sHZW......bac:out
+CIHYRO_Kokumbobad = sHZW......bad:out
+CIHYRO_Kokumbocaa = sHZW......caa:out
+CIHYRO_Kokumbocab = sHZW......cab:out
+CIHYRO_Kokumbocac = sHZW......cac:out
+@
+title: CIaCIHYRO_Gribo_Popoli_01
+unit: , 1.
+maxtabwidth: 2000
+@
+CIHYRO_Gribo_Popoliaaa = sHYW......aaa:out
+CIHYRO_Gribo_Popoliaab = sHYW......aab:out
+CIHYRO_Gribo_Popoliaac = sHYW......aac:out
+CIHYRO_Gribo_Popolibaa = sHYW......baa:out
+CIHYRO_Gribo_Popolibab = sHYW......bab:out
+CIHYRO_Gribo_Popolibac = sHYW......bac:out
+CIHYRO_Gribo_Popolibad = sHYW......bad:out
+CIHYRO_Gribo_Popolicaa = sHYW......caa:out
+CIHYRO_Gribo_Popolicab = sHYW......cab:out
+CIHYRO_Gribo_Popolicac = sHYW......cac:out
+@
+title: CIaCIHYRO_Faye_01
+unit: , 1.
+maxtabwidth: 2000
+@
+CIHYRO_Fayeaaa = sHXW......aaa:out
+CIHYRO_Fayeaab = sHXW......aab:out
+CIHYRO_Fayeaac = sHXW......aac:out
+CIHYRO_Fayebaa = sHXW......baa:out
+CIHYRO_Fayebab = sHXW......bab:out
+CIHYRO_Fayebac = sHXW......bac:out
+CIHYRO_Fayebad = sHXW......bad:out
+CIHYRO_Fayecaa = sHXW......caa:out
+CIHYRO_Fayecab = sHXW......cab:out
+CIHYRO_Fayecac = sHXW......cac:out
+@
+title: CIaCIHYRO_Daboitier_01
+unit: , 1.
+maxtabwidth: 2000
+@
+CIHYRO_Daboitieraaa = sHWW......aaa:out
+CIHYRO_Daboitieraab = sHWW......aab:out
+CIHYRO_Daboitieraac = sHWW......aac:out
+CIHYRO_Daboitierbaa = sHWW......baa:out
+CIHYRO_Daboitierbab = sHWW......bab:out
+CIHYRO_Daboitierbac = sHWW......bac:out
+CIHYRO_Daboitierbad = sHWW......bad:out
+CIHYRO_Daboitiercaa = sHWW......caa:out
+CIHYRO_Daboitiercab = sHWW......cab:out
+CIHYRO_Daboitiercac = sHWW......cac:out
+@
+title: CIaCIHYRO_Brou_Atakro_01
+unit: , 1.
+maxtabwidth: 2000
+@
+CIHYRO_Brou_Atakroaaa = sHVW......aaa:out
+CIHYRO_Brou_Atakroaab = sHVW......aab:out
+CIHYRO_Brou_Atakroaac = sHVW......aac:out
+CIHYRO_Brou_Atakrobaa = sHVW......baa:out
+CIHYRO_Brou_Atakrobab = sHVW......bab:out
+CIHYRO_Brou_Atakrobac = sHVW......bac:out
+CIHYRO_Brou_Atakrobad = sHVW......bad:out
+CIHYRO_Brou_Atakrocaa = sHVW......caa:out
+CIHYRO_Brou_Atakrocab = sHVW......cab:out
+CIHYRO_Brou_Atakrocac = sHVW......cac:out
+@
+title: CIaCIHYRO_Boutoubre_01
+unit: , 1.
+maxtabwidth: 2000
+@
+CIHYRO_Boutoubreaaa = sHUW......aaa:out
+CIHYRO_Boutoubreaab = sHUW......aab:out
+CIHYRO_Boutoubreaac = sHUW......aac:out
+CIHYRO_Boutoubrebaa = sHUW......baa:out
+CIHYRO_Boutoubrebab = sHUW......bab:out
+CIHYRO_Boutoubrebac = sHUW......bac:out
+CIHYRO_Boutoubrebad = sHUW......bad:out
+CIHYRO_Boutoubrecaa = sHUW......caa:out
+CIHYRO_Boutoubrecab = sHUW......cab:out
+CIHYRO_Boutoubrecac = sHUW......cac:out
+@
+title: CIaCIHYRO_Ayame_II_01
+unit: , 1.
+maxtabwidth: 2000
+@
+CIHYRO_Ayame_IIaaa = sHSW......aaa:out
+CIHYRO_Ayame_IIaab = sHSW......aab:out
+CIHYRO_Ayame_IIaac = sHSW......aac:out
+CIHYRO_Ayame_IIbaa = sHSW......baa:out
+CIHYRO_Ayame_IIbab = sHSW......bab:out
+CIHYRO_Ayame_IIbac = sHSW......bac:out
+CIHYRO_Ayame_IIbad = sHSW......bad:out
+CIHYRO_Ayame_IIcaa = sHSW......caa:out
+CIHYRO_Ayame_IIcab = sHSW......cab:out
+CIHYRO_Ayame_IIcac = sHSW......cac:out
+@
+title: CIaCIHYDM00_01
+unit: , 1.
+maxtabwidth: 2000
+@
+CIHYDM00aaa = sHgW......aaa:out
+CIHYDM00aab = sHgW......aab:out
+CIHYDM00aac = sHgW......aac:out
+CIHYDM00baa = sHgW......baa:out
+CIHYDM00bab = sHgW......bab:out
+CIHYDM00bac = sHgW......bac:out
+CIHYDM00bad = sHgW......bad:out
+CIHYDM00caa = sHgW......caa:out
+CIHYDM00cab = sHgW......cab:out
+CIHYDM00cac = sHgW......cac:out
+@
+title: CIaCIHYRO_Tiboto/Cavally(Intl.)partCI50_01
+unit: , 1.
+maxtabwidth: 2000
+@
+CIHYRO_Tiboto/Cavally(Intl.)partCI50aaa = sHQW......aaa:out
+CIHYRO_Tiboto/Cavally(Intl.)partCI50aab = sHQW......aab:out
+CIHYRO_Tiboto/Cavally(Intl.)partCI50aac = sHQW......aac:out
+CIHYRO_Tiboto/Cavally(Intl.)partCI50baa = sHQW......baa:out
+CIHYRO_Tiboto/Cavally(Intl.)partCI50bab = sHQW......bab:out
+CIHYRO_Tiboto/Cavally(Intl.)partCI50bac = sHQW......bac:out
+CIHYRO_Tiboto/Cavally(Intl.)partCI50bad = sHQW......bad:out
+CIHYRO_Tiboto/Cavally(Intl.)partCI50caa = sHQW......caa:out
+CIHYRO_Tiboto/Cavally(Intl.)partCI50cab = sHQW......cab:out
+CIHYRO_Tiboto/Cavally(Intl.)partCI50cac = sHQW......cac:out
+@
+title: CIaCIHYDM_Tayaboui_01
+unit: , 1.
+maxtabwidth: 2000
+@
+CIHYDM_Tayabouiaaa = sHPW......aaa:out
+CIHYDM_Tayabouiaab = sHPW......aab:out
+CIHYDM_Tayabouiaac = sHPW......aac:out
+CIHYDM_Tayabouibaa = sHPW......baa:out
+CIHYDM_Tayabouibab = sHPW......bab:out
+CIHYDM_Tayabouibac = sHPW......bac:out
+CIHYDM_Tayabouibad = sHPW......bad:out
+CIHYDM_Tayabouicaa = sHPW......caa:out
+CIHYDM_Tayabouicab = sHPW......cab:out
+CIHYDM_Tayabouicac = sHPW......cac:out
+@
+title: CIaCIHYDM_Taabo_01
+unit: , 1.
+maxtabwidth: 2000
+@
+CIHYDM_Taaboaaa = sHNW......aaa:out
+CIHYDM_Taaboaab = sHNW......aab:out
+CIHYDM_Taaboaac = sHNW......aac:out
+CIHYDM_Taabobaa = sHNW......baa:out
+CIHYDM_Taabobab = sHNW......bab:out
+CIHYDM_Taabobac = sHNW......bac:out
+CIHYDM_Taabobad = sHNW......bad:out
+CIHYDM_Taabocaa = sHNW......caa:out
+CIHYDM_Taabocab = sHNW......cab:out
+CIHYDM_Taabocac = sHNW......cac:out
+@
+title: CIaCIHYDM_Soubre_01
+unit: , 1.
+maxtabwidth: 2000
+@
+CIHYDM_Soubreaaa = sHMW......aaa:out
+CIHYDM_Soubreaab = sHMW......aab:out
+CIHYDM_Soubreaac = sHMW......aac:out
+CIHYDM_Soubrebaa = sHMW......baa:out
+CIHYDM_Soubrebab = sHMW......bab:out
+CIHYDM_Soubrebac = sHMW......bac:out
+CIHYDM_Soubrebad = sHMW......bad:out
+CIHYDM_Soubrecaa = sHMW......caa:out
+CIHYDM_Soubrecab = sHMW......cab:out
+CIHYDM_Soubrecac = sHMW......cac:out
+@
+title: CIaCIHYDM_Singrobo_Ahouaty_01
+unit: , 1.
+maxtabwidth: 2000
+@
+CIHYDM_Singrobo_Ahouatyaaa = sHLW......aaa:out
+CIHYDM_Singrobo_Ahouatyaab = sHLW......aab:out
+CIHYDM_Singrobo_Ahouatyaac = sHLW......aac:out
+CIHYDM_Singrobo_Ahouatybaa = sHLW......baa:out
+CIHYDM_Singrobo_Ahouatybab = sHLW......bab:out
+CIHYDM_Singrobo_Ahouatybac = sHLW......bac:out
+CIHYDM_Singrobo_Ahouatybad = sHLW......bad:out
+CIHYDM_Singrobo_Ahouatycaa = sHLW......caa:out
+CIHYDM_Singrobo_Ahouatycab = sHLW......cab:out
+CIHYDM_Singrobo_Ahouatycac = sHLW......cac:out
+@
+title: CIaCIHYDM_Kossou_01
+unit: , 1.
+maxtabwidth: 2000
+@
+CIHYDM_Kossouaaa = sHJW......aaa:out
+CIHYDM_Kossouaab = sHJW......aab:out
+CIHYDM_Kossouaac = sHJW......aac:out
+CIHYDM_Kossoubaa = sHJW......baa:out
+CIHYDM_Kossoubab = sHJW......bab:out
+CIHYDM_Kossoubac = sHJW......bac:out
+CIHYDM_Kossoubad = sHJW......bad:out
+CIHYDM_Kossoucaa = sHJW......caa:out
+CIHYDM_Kossoucab = sHJW......cab:out
+CIHYDM_Kossoucac = sHJW......cac:out
+@
+title: CIaCIHYDM_Buyo_01
+unit: , 1.
+maxtabwidth: 2000
+@
+CIHYDM_Buyoaaa = sHFW......aaa:out
+CIHYDM_Buyoaab = sHFW......aab:out
+CIHYDM_Buyoaac = sHFW......aac:out
+CIHYDM_Buyobaa = sHFW......baa:out
+CIHYDM_Buyobab = sHFW......bab:out
+CIHYDM_Buyobac = sHFW......bac:out
+CIHYDM_Buyobad = sHFW......bad:out
+CIHYDM_Buyocaa = sHFW......caa:out
+CIHYDM_Buyocab = sHFW......cab:out
+CIHYDM_Buyocac = sHFW......cac:out
+@
+title: CIaCIHYDM_Ayame_I_01
+unit: , 1.
+maxtabwidth: 2000
+@
+CIHYDM_Ayame_Iaaa = sHDW......aaa:out
+CIHYDM_Ayame_Iaab = sHDW......aab:out
+CIHYDM_Ayame_Iaac = sHDW......aac:out
+CIHYDM_Ayame_Ibaa = sHDW......baa:out
+CIHYDM_Ayame_Ibab = sHDW......bab:out
+CIHYDM_Ayame_Ibac = sHDW......bac:out
+CIHYDM_Ayame_Ibad = sHDW......bad:out
+CIHYDM_Ayame_Icaa = sHDW......caa:out
+CIHYDM_Ayame_Icab = sHDW......cab:out
+CIHYDM_Ayame_Icac = sHDW......cac:out
+@
+title: CIaCIHYMI00_01
+unit: , 1.
+maxtabwidth: 2000
+@
+CIHYMI00aaa = tHgr......aaa:out
+CIHYMI00aab = tHgr......aab:out
+CIHYMI00aac = tHgr......aac:out
+CIHYMI00baa = tHgr......baa:out
+CIHYMI00bab = tHgr......bab:out
+CIHYMI00bac = tHgr......bac:out
+CIHYMI00bad = tHgr......bad:out
+CIHYMI00caa = tHgr......caa:out
+CIHYMI00cab = tHgr......cab:out
+CIHYMI00cac = tHgr......cac:out
+@
+title: CIaCIHYRO_Faye_San_Pedro_Grah_01
+unit: , 1.
+maxtabwidth: 2000
+@
+CIHYRO_Faye_San_Pedro_Grahaaa = tHDr......aaa:out
+CIHYRO_Faye_San_Pedro_Grahaab = tHDr......aab:out
+CIHYRO_Faye_San_Pedro_Grahaac = tHDr......aac:out
+CIHYRO_Faye_San_Pedro_Grahbaa = tHDr......baa:out
+CIHYRO_Faye_San_Pedro_Grahbab = tHDr......bab:out
+CIHYRO_Faye_San_Pedro_Grahbac = tHDr......bac:out
+CIHYRO_Faye_San_Pedro_Grahbad = tHDr......bad:out
+CIHYRO_Faye_San_Pedro_Grahcaa = tHDr......caa:out
+CIHYRO_Faye_San_Pedro_Grahcab = tHDr......cab:out
+CIHYRO_Faye_San_Pedro_Grahcac = tHDr......cac:out
+@
+title: CIaCIBMST00_01
+unit: , 1.
+maxtabwidth: 2000
+@
+CIBMST00aaa = sbgW......aaa:out
+CIBMST00aab = sbgW......aab:out
+CIBMST00aac = sbgW......aac:out
+CIBMST00baa = sbgW......baa:out
+CIBMST00bab = sbgW......bab:out
+CIBMST00bac = sbgW......bac:out
+CIBMST00bad = sbgW......bad:out
+CIBMST00caa = sbgW......caa:out
+CIBMST00cab = sbgW......cab:out
+CIBMST00cac = sbgW......cac:out
+@
+title: CIaCIBMST_BIOKALA_01
+unit: , 1.
+maxtabwidth: 2000
+@
+CIBMST_BIOKALAaaa = sbAW......aaa:out
+CIBMST_BIOKALAaab = sbAW......aab:out
+CIBMST_BIOKALAaac = sbAW......aac:out
+CIBMST_BIOKALAbaa = sbAW......baa:out
+CIBMST_BIOKALAbab = sbAW......bab:out
+CIBMST_BIOKALAbac = sbAW......bac:out
+CIBMST_BIOKALAbad = sbAW......bad:out
+CIBMST_BIOKALAcaa = sbAW......caa:out
+CIBMST_BIOKALAcab = sbAW......cab:out
+CIBMST_BIOKALAcac = sbAW......cac:out
+@
+title: CIaCIBWST00_01
+unit: , 1.
+maxtabwidth: 2000
+@
+CIBWST00aaa = sBaW......aaa:out
+CIBWST00aab = sBaW......aab:out
+CIBWST00aac = sBaW......aac:out
+CIBWST00baa = sBaW......baa:out
+CIBWST00bab = sBaW......bab:out
+CIBWST00bac = sBaW......bac:out
+CIBWST00bad = sBaW......bad:out
+CIBWST00caa = sBaW......caa:out
+CIBWST00cab = sBaW......cab:out
+CIBWST00cac = sBaW......cac:out
+@
+title: CIaCIGOCV00_01
+unit: , 1.
+maxtabwidth: 2000
+@
+CIGOCV00aaa = s.gW......aaa:out
+CIGOCV00aab = s.gW......aab:out
+CIGOCV00aac = s.gW......aac:out
+CIGOCV00baa = s.gW......baa:out
+CIGOCV00bab = s.gW......bab:out
+CIGOCV00bac = s.gW......bac:out
+CIGOCV00bad = s.gW......bad:out
+CIGOCV00caa = s.gW......caa:out
+CIGOCV00cab = s.gW......cab:out
+CIGOCV00cac = s.gW......cac:out
+@
+title: CIaCIWDLCZ001_01
+unit: , 1.
+maxtabwidth: 2000
+@
+CIWDLCZ001aaa = swAW......aaa:out
+CIWDLCZ001aab = swAW......aab:out
+CIWDLCZ001aac = swAW......aac:out
+CIWDLCZ001baa = swAW......baa:out
+CIWDLCZ001bab = swAW......bab:out
+CIWDLCZ001bac = swAW......bac:out
+CIWDLCZ001bad = swAW......bad:out
+CIWDLCZ001caa = swAW......caa:out
+CIWDLCZ001cab = swAW......cab:out
+CIWDLCZ001cac = swAW......cac:out
+@
+title: CIaCISOPC_Laboa_01
+unit: , 1.
+maxtabwidth: 2000
+@
+CISOPC_Laboaaaa = ssLW......aaa:out
+CISOPC_Laboaaab = ssLW......aab:out
+CISOPC_Laboaaac = ssLW......aac:out
+CISOPC_Laboabaa = ssLW......baa:out
+CISOPC_Laboabab = ssLW......bab:out
+CISOPC_Laboabac = ssLW......bac:out
+CISOPC_Laboabad = ssLW......bad:out
+CISOPC_Laboacaa = ssLW......caa:out
+CISOPC_Laboacab = ssLW......cab:out
+CISOPC_Laboacac = ssLW......cac:out
+@
+title: CIaCISOPC_Louba_01
+unit: , 1.
+maxtabwidth: 2000
+@
+CISOPC_Loubaaaa = ssKW......aaa:out
+CISOPC_Loubaaab = ssKW......aab:out
+CISOPC_Loubaaac = ssKW......aac:out
+CISOPC_Loubabaa = ssKW......baa:out
+CISOPC_Loubabab = ssKW......bab:out
+CISOPC_Loubabac = ssKW......bac:out
+CISOPC_Loubabad = ssKW......bad:out
+CISOPC_Loubacaa = ssKW......caa:out
+CISOPC_Loubacab = ssKW......cab:out
+CISOPC_Loubacac = ssKW......cac:out
+@
+title: CIaCISOPC_Ferke_01
+unit: , 1.
+maxtabwidth: 2000
+@
+CISOPC_Ferkeaaa = ssJW......aaa:out
+CISOPC_Ferkeaab = ssJW......aab:out
+CISOPC_Ferkeaac = ssJW......aac:out
+CISOPC_Ferkebaa = ssJW......baa:out
+CISOPC_Ferkebab = ssJW......bab:out
+CISOPC_Ferkebac = ssJW......bac:out
+CISOPC_Ferkebad = ssJW......bad:out
+CISOPC_Ferkecaa = ssJW......caa:out
+CISOPC_Ferkecab = ssJW......cab:out
+CISOPC_Ferkecac = ssJW......cac:out
+@
+title: CIaCISOPC_Boundiali_01
+unit: , 1.
+maxtabwidth: 2000
+@
+CISOPC_Boundialiaaa = ssHW......aaa:out
+CISOPC_Boundialiaab = ssHW......aab:out
+CISOPC_Boundialiaac = ssHW......aac:out
+CISOPC_Boundialibaa = ssHW......baa:out
+CISOPC_Boundialibab = ssHW......bab:out
+CISOPC_Boundialibac = ssHW......bac:out
+CISOPC_Boundialibad = ssHW......bad:out
+CISOPC_Boundialicaa = ssHW......caa:out
+CISOPC_Boundialicab = ssHW......cab:out
+CISOPC_Boundialicac = ssHW......cac:out
+@
+title: CIaCISOPC_Korhogo_Solar_01
+unit: , 1.
+maxtabwidth: 2000
+@
+CISOPC_Korhogo_Solaraaa = ssFW......aaa:out
+CISOPC_Korhogo_Solaraab = ssFW......aab:out
+CISOPC_Korhogo_Solaraac = ssFW......aac:out
+CISOPC_Korhogo_Solarbaa = ssFW......baa:out
+CISOPC_Korhogo_Solarbab = ssFW......bab:out
+CISOPC_Korhogo_Solarbac = ssFW......bac:out
+CISOPC_Korhogo_Solarbad = ssFW......bad:out
+CISOPC_Korhogo_Solarcaa = ssFW......caa:out
+CISOPC_Korhogo_Solarcab = ssFW......cab:out
+CISOPC_Korhogo_Solarcac = ssFW......cac:out
+@
+title: CIaCISOPCZ005_01
+unit: , 1.
+maxtabwidth: 2000
+@
+CISOPCZ005aaa = ssEW......aaa:out
+CISOPCZ005aab = ssEW......aab:out
+CISOPCZ005aac = ssEW......aac:out
+CISOPCZ005baa = ssEW......baa:out
+CISOPCZ005bab = ssEW......bab:out
+CISOPCZ005bac = ssEW......bac:out
+CISOPCZ005bad = ssEW......bad:out
+CISOPCZ005caa = ssEW......caa:out
+CISOPCZ005cab = ssEW......cab:out
+CISOPCZ005cac = ssEW......cac:out
+@
+title: CIaCISOPCZ004_01
+unit: , 1.
+maxtabwidth: 2000
+@
+CISOPCZ004aaa = ssDW......aaa:out
+CISOPCZ004aab = ssDW......aab:out
+CISOPCZ004aac = ssDW......aac:out
+CISOPCZ004baa = ssDW......baa:out
+CISOPCZ004bab = ssDW......bab:out
+CISOPCZ004bac = ssDW......bac:out
+CISOPCZ004bad = ssDW......bad:out
+CISOPCZ004caa = ssDW......caa:out
+CISOPCZ004cab = ssDW......cab:out
+CISOPCZ004cac = ssDW......cac:out
+@
+title: CIaCISOPCZ003_01
+unit: , 1.
+maxtabwidth: 2000
+@
+CISOPCZ003aaa = ssCW......aaa:out
+CISOPCZ003aab = ssCW......aab:out
+CISOPCZ003aac = ssCW......aac:out
+CISOPCZ003baa = ssCW......baa:out
+CISOPCZ003bab = ssCW......bab:out
+CISOPCZ003bac = ssCW......bac:out
+CISOPCZ003bad = ssCW......bad:out
+CISOPCZ003caa = ssCW......caa:out
+CISOPCZ003cab = ssCW......cab:out
+CISOPCZ003cac = ssCW......cac:out
+@
+title: CIaCISOPCZ002_01
+unit: , 1.
+maxtabwidth: 2000
+@
+CISOPCZ002aaa = ssBW......aaa:out
+CISOPCZ002aab = ssBW......aab:out
+CISOPCZ002aac = ssBW......aac:out
+CISOPCZ002baa = ssBW......baa:out
+CISOPCZ002bab = ssBW......bab:out
+CISOPCZ002bac = ssBW......bac:out
+CISOPCZ002bad = ssBW......bad:out
+CISOPCZ002caa = ssBW......caa:out
+CISOPCZ002cab = ssBW......cab:out
+CISOPCZ002cac = ssBW......cac:out
+@
+title: CIaCISOPCZ001_01
+unit: , 1.
+maxtabwidth: 2000
+@
+CISOPCZ001aaa = ssAW......aaa:out
+CISOPCZ001aab = ssAW......aab:out
+CISOPCZ001aac = ssAW......aac:out
+CISOPCZ001baa = ssAW......baa:out
+CISOPCZ001bab = ssAW......bab:out
+CISOPCZ001bac = ssAW......bac:out
+CISOPCZ001bad = ssAW......bad:out
+CISOPCZ001caa = ssAW......caa:out
+CISOPCZ001cab = ssAW......cab:out
+CISOPCZ001cac = ssAW......cac:out
+@
+title: CIaCISOPU00_01
+unit: , 1.
+maxtabwidth: 2000
+@
+CISOPU00aaa = t.gu......aaa:out
+CISOPU00aab = t.gu......aab:out
+CISOPU00aac = t.gu......aac:out
+CISOPU00baa = t.gu......baa:out
+CISOPU00bab = t.gu......bab:out
+CISOPU00bac = t.gu......bac:out
+CISOPU00bad = t.gu......bad:out
+CISOPU00caa = t.gu......caa:out
+CISOPU00cab = t.gu......cab:out
+CISOPU00cac = t.gu......cac:out
+@
+title: CIaCISOPB00_01
+unit: , 1.
+maxtabwidth: 2000
+@
+CISOPB00aaa = t.gc......aaa:out
+CISOPB00aab = t.gc......aab:out
+CISOPB00aac = t.gc......aac:out
+CISOPB00baa = t.gc......baa:out
+CISOPB00bab = t.gc......bab:out
+CISOPB00bac = t.gc......bac:out
+CISOPB00bad = t.gc......bad:out
+CISOPB00caa = t.gc......caa:out
+CISOPB00cab = t.gc......cab:out
+CISOPB00cac = t.gc......cac:out
+@
+title: CIaCISOPR00_01
+unit: , 1.
+maxtabwidth: 2000
+@
+CISOPR00aaa = t.gr......aaa:out
+CISOPR00aab = t.gr......aab:out
+CISOPR00aac = t.gr......aac:out
+CISOPR00baa = t.gr......baa:out
+CISOPR00bab = t.gr......bab:out
+CISOPR00bac = t.gr......bac:out
+CISOPR00bad = t.gr......bad:out
+CISOPR00caa = t.gr......caa:out
+CISOPR00cab = t.gr......cab:out
+CISOPR00cac = t.gr......cac:out
+@
+title: CIaCISOPS00_01
+unit: , 1.
+maxtabwidth: 2000
+@
+CISOPS00aaa = t.hr......aaa:out
+CISOPS00aab = t.hr......aab:out
+CISOPS00aac = t.hr......aac:out
+CISOPS00baa = t.hr......baa:out
+CISOPS00bab = t.hr......bab:out
+CISOPS00bac = t.hr......bac:out
+CISOPS00bad = t.hr......bad:out
+CISOPS00caa = t.hr......caa:out
+CISOPS00cab = t.hr......cab:out
+CISOPS00cac = t.hr......cac:out
+@
+title: CIaCISOTNZ002_01
+unit: , 1.
+maxtabwidth: 2000
+@
+CISOTNZ002aaa = s.CW......aaa:out
+CISOTNZ002aab = s.CW......aab:out
+CISOTNZ002aac = s.CW......aac:out
+CISOTNZ002baa = s.CW......baa:out
+CISOTNZ002bab = s.CW......bab:out
+CISOTNZ002bac = s.CW......bac:out
+CISOTNZ002bad = s.CW......bad:out
+CISOTNZ002caa = s.CW......caa:out
+CISOTNZ002cab = s.CW......cab:out
+CISOTNZ002cac = s.CW......cac:out
+@
+title: CIaCISOTNZ001_01
+unit: , 1.
+maxtabwidth: 2000
+@
+CISOTNZ001aaa = s.BW......aaa:out
+CISOTNZ001aab = s.BW......aab:out
+CISOTNZ001aac = s.BW......aac:out
+CISOTNZ001baa = s.BW......baa:out
+CISOTNZ001bab = s.BW......bab:out
+CISOTNZ001bac = s.BW......bac:out
+CISOTNZ001bad = s.BW......bad:out
+CISOTNZ001caa = s.BW......caa:out
+CISOTNZ001cab = s.BW......cab:out
+CISOTNZ001cac = s.BW......cac:out
+@
+title: CIaCISO00X00_01
+unit: , 1.
+maxtabwidth: 2000
+@
+CISO00X00aaa = p.as......aaa:out
+CISO00X00aab = p.as......aab:out
+CISO00X00aac = p.as......aac:out
+CISO00X00baa = p.as......baa:out
+CISO00X00bab = p.as......bab:out
+CISO00X00bac = p.as......bac:out
+CISO00X00bad = p.as......bad:out
+CISO00X00caa = p.as......caa:out
+CISO00X00cab = p.as......cab:out
+CISO00X00cac = p.as......cac:out
+@
+title: CIaCIRIDM_Tayaboui_01
+unit: , 1.
+maxtabwidth: 2000
+@
+CIRIDM_Tayabouiaaa = s.Ad......aaa:out
+CIRIDM_Tayabouiaab = s.Ad......aab:out
+CIRIDM_Tayabouiaac = s.Ad......aac:out
+CIRIDM_Tayabouibaa = s.Ad......baa:out
+CIRIDM_Tayabouibab = s.Ad......bab:out
+CIRIDM_Tayabouibac = s.Ad......bac:out
+CIRIDM_Tayabouibad = s.Ad......bad:out
+CIRIDM_Tayabouicaa = s.Ad......caa:out
+CIRIDM_Tayabouicab = s.Ad......cab:out
+CIRIDM_Tayabouicac = s.Ad......cac:out
+@
+title: CIaCIRIDM_Taabo_01
+unit: , 1.
+maxtabwidth: 2000
+@
+CIRIDM_Taaboaaa = s.Bd......aaa:out
+CIRIDM_Taaboaab = s.Bd......aab:out
+CIRIDM_Taaboaac = s.Bd......aac:out
+CIRIDM_Taabobaa = s.Bd......baa:out
+CIRIDM_Taabobab = s.Bd......bab:out
+CIRIDM_Taabobac = s.Bd......bac:out
+CIRIDM_Taabobad = s.Bd......bad:out
+CIRIDM_Taabocaa = s.Bd......caa:out
+CIRIDM_Taabocab = s.Bd......cab:out
+CIRIDM_Taabocac = s.Bd......cac:out
+@
+title: CIaCIRIDM_Soubre_01
+unit: , 1.
+maxtabwidth: 2000
+@
+CIRIDM_Soubreaaa = s.Cd......aaa:out
+CIRIDM_Soubreaab = s.Cd......aab:out
+CIRIDM_Soubreaac = s.Cd......aac:out
+CIRIDM_Soubrebaa = s.Cd......baa:out
+CIRIDM_Soubrebab = s.Cd......bab:out
+CIRIDM_Soubrebac = s.Cd......bac:out
+CIRIDM_Soubrebad = s.Cd......bad:out
+CIRIDM_Soubrecaa = s.Cd......caa:out
+CIRIDM_Soubrecab = s.Cd......cab:out
+CIRIDM_Soubrecac = s.Cd......cac:out
+@
+title: CIaCIRIDM_Singrobo_Ahouaty_01
+unit: , 1.
+maxtabwidth: 2000
+@
+CIRIDM_Singrobo_Ahouatyaaa = s.Dd......aaa:out
+CIRIDM_Singrobo_Ahouatyaab = s.Dd......aab:out
+CIRIDM_Singrobo_Ahouatyaac = s.Dd......aac:out
+CIRIDM_Singrobo_Ahouatybaa = s.Dd......baa:out
+CIRIDM_Singrobo_Ahouatybab = s.Dd......bab:out
+CIRIDM_Singrobo_Ahouatybac = s.Dd......bac:out
+CIRIDM_Singrobo_Ahouatybad = s.Dd......bad:out
+CIRIDM_Singrobo_Ahouatycaa = s.Dd......caa:out
+CIRIDM_Singrobo_Ahouatycab = s.Dd......cab:out
+CIRIDM_Singrobo_Ahouatycac = s.Dd......cac:out
+@
+title: CIaCIRIDM_Kossou_01
+unit: , 1.
+maxtabwidth: 2000
+@
+CIRIDM_Kossouaaa = s.Ed......aaa:out
+CIRIDM_Kossouaab = s.Ed......aab:out
+CIRIDM_Kossouaac = s.Ed......aac:out
+CIRIDM_Kossoubaa = s.Ed......baa:out
+CIRIDM_Kossoubab = s.Ed......bab:out
+CIRIDM_Kossoubac = s.Ed......bac:out
+CIRIDM_Kossoubad = s.Ed......bad:out
+CIRIDM_Kossoucaa = s.Ed......caa:out
+CIRIDM_Kossoucab = s.Ed......cab:out
+CIRIDM_Kossoucac = s.Ed......cac:out
+@
+title: CIaCIRIDM_Gao_01
+unit: , 1.
+maxtabwidth: 2000
+@
+CIRIDM_Gaoaaa = s.Fd......aaa:out
+CIRIDM_Gaoaab = s.Fd......aab:out
+CIRIDM_Gaoaac = s.Fd......aac:out
+CIRIDM_Gaobaa = s.Fd......baa:out
+CIRIDM_Gaobab = s.Fd......bab:out
+CIRIDM_Gaobac = s.Fd......bac:out
+CIRIDM_Gaobad = s.Fd......bad:out
+CIRIDM_Gaocaa = s.Fd......caa:out
+CIRIDM_Gaocab = s.Fd......cab:out
+CIRIDM_Gaocac = s.Fd......cac:out
+@
+title: CIaCIRIDM_Buyo_01
+unit: , 1.
+maxtabwidth: 2000
+@
+CIRIDM_Buyoaaa = s.Gd......aaa:out
+CIRIDM_Buyoaab = s.Gd......aab:out
+CIRIDM_Buyoaac = s.Gd......aac:out
+CIRIDM_Buyobaa = s.Gd......baa:out
+CIRIDM_Buyobab = s.Gd......bab:out
+CIRIDM_Buyobac = s.Gd......bac:out
+CIRIDM_Buyobad = s.Gd......bad:out
+CIRIDM_Buyocaa = s.Gd......caa:out
+CIRIDM_Buyocab = s.Gd......cab:out
+CIRIDM_Buyocac = s.Gd......cac:out
+@
+title: CIaCIRIDM_Ayame_I_01
+unit: , 1.
+maxtabwidth: 2000
+@
+CIRIDM_Ayame_Iaaa = s.Hd......aaa:out
+CIRIDM_Ayame_Iaab = s.Hd......aab:out
+CIRIDM_Ayame_Iaac = s.Hd......aac:out
+CIRIDM_Ayame_Ibaa = s.Hd......baa:out
+CIRIDM_Ayame_Ibab = s.Hd......bab:out
+CIRIDM_Ayame_Ibac = s.Hd......bac:out
+CIRIDM_Ayame_Ibad = s.Hd......bad:out
+CIRIDM_Ayame_Icaa = s.Hd......caa:out
+CIRIDM_Ayame_Icab = s.Hd......cab:out
+CIRIDM_Ayame_Icac = s.Hd......cac:out
+@
+title: CIaCIELST04_01
+unit: , 1.
+maxtabwidth: 2000
+@
+CIELST04aaa = s.AW......aaa:out
+CIELST04aab = s.AW......aab:out
+CIELST04aac = s.AW......aac:out
+CIELST04baa = s.AW......baa:out
+CIELST04bab = s.AW......bab:out
+CIELST04bac = s.AW......bac:out
+CIELST04bad = s.AW......bad:out
+CIELST04caa = s.AW......caa:out
+CIELST04cab = s.AW......cab:out
+CIELST04cac = s.AW......cac:out
+@
+title: CIaCIELST04_02
+unit: , 1.
+maxtabwidth: 2000
+@
+CIELST04aaa = sWBd......aaa:out
+CIELST04aab = sWBd......aab:out
+CIELST04aac = sWBd......aac:out
+CIELST04baa = sWBd......baa:out
+CIELST04bab = sWBd......bab:out
+CIELST04bac = sWBd......bac:out
+CIELST04bad = sWBd......bad:out
+CIELST04caa = sWBd......caa:out
+CIELST04cab = sWBd......cab:out
+CIELST04cac = sWBd......cac:out
+@
+title: CIaCIELPT04_01
+unit: , 1.
+maxtabwidth: 2000
+@
+CIELPT04aaa = s.Id......aaa:out
+CIELPT04aab = s.Id......aab:out
+CIELPT04aac = s.Id......aac:out
+CIELPT04baa = s.Id......baa:out
+CIELPT04bab = s.Id......bab:out
+CIELPT04bac = s.Id......bac:out
+CIELPT04bad = s.Id......bad:out
+CIELPT04caa = s.Id......caa:out
+CIELPT04cab = s.Id......cab:out
+CIELPT04cac = s.Id......cac:out
+@
+title: CIaCIELDT04_01_01
+unit: , 1.
+maxtabwidth: 2000
+@
+CIELDT04_01aaa = s.Jd......aaa:out
+CIELDT04_01aab = s.Jd......aab:out
+CIELDT04_01aac = s.Jd......aac:out
+CIELDT04_01baa = s.Jd......baa:out
+CIELDT04_01bab = s.Jd......bab:out
+CIELDT04_01bac = s.Jd......bac:out
+CIELDT04_01bad = s.Jd......bad:out
+CIELDT04_01caa = s.Jd......caa:out
+CIELDT04_01cab = s.Jd......cab:out
+CIELDT04_01cac = s.Jd......cac:out
+@
+title: CIaCIELDT04_01_02
+unit: , 1.
+maxtabwidth: 2000
+@
+CIELDT04_01aaa = s.Kd......aaa:out
+CIELDT04_01aab = s.Kd......aab:out
+CIELDT04_01aac = s.Kd......aac:out
+CIELDT04_01baa = s.Kd......baa:out
+CIELDT04_01bab = s.Kd......bab:out
+CIELDT04_01bac = s.Kd......bac:out
+CIELDT04_01bad = s.Kd......bad:out
+CIELDT04_01caa = s.Kd......caa:out
+CIELDT04_01cab = s.Kd......cab:out
+CIELDT04_01cac = s.Kd......cac:out
+@
+title: CIaCIELDT04_02_01
+unit: , 1.
+maxtabwidth: 2000
+@
+CIELDT04_02aaa = s.Ld......aaa:out
+CIELDT04_02aab = s.Ld......aab:out
+CIELDT04_02aac = s.Ld......aac:out
+CIELDT04_02baa = s.Ld......baa:out
+CIELDT04_02bab = s.Ld......bab:out
+CIELDT04_02bac = s.Ld......bac:out
+CIELDT04_02bad = s.Ld......bad:out
+CIELDT04_02caa = s.Ld......caa:out
+CIELDT04_02cab = s.Ld......cab:out
+CIELDT04_02cac = s.Ld......cac:out
+@
+title: CIaCIELDT04_02_02
+unit: , 1.
+maxtabwidth: 2000
+@
+CIELDT04_02aaa = s.Md......aaa:out
+CIELDT04_02aab = s.Md......aab:out
+CIELDT04_02aac = s.Md......aac:out
+CIELDT04_02baa = s.Md......baa:out
+CIELDT04_02bab = s.Md......bab:out
+CIELDT04_02bac = s.Md......bac:out
+CIELDT04_02bad = s.Md......bad:out
+CIELDT04_02caa = s.Md......caa:out
+CIELDT04_02cab = s.Md......cab:out
+CIELDT04_02cac = s.Md......cac:out
+@
+title: CIaCIELDT04_03_01
+unit: , 1.
+maxtabwidth: 2000
+@
+CIELDT04_03aaa = s.Nd......aaa:out
+CIELDT04_03aab = s.Nd......aab:out
+CIELDT04_03aac = s.Nd......aac:out
+CIELDT04_03baa = s.Nd......baa:out
+CIELDT04_03bab = s.Nd......bab:out
+CIELDT04_03bac = s.Nd......bac:out
+CIELDT04_03bad = s.Nd......bad:out
+CIELDT04_03caa = s.Nd......caa:out
+CIELDT04_03cab = s.Nd......cab:out
+CIELDT04_03cac = s.Nd......cac:out
+@
+title: CIaCIELDT04_03_02
+unit: , 1.
+maxtabwidth: 2000
+@
+CIELDT04_03aaa = s.Od......aaa:out
+CIELDT04_03aab = s.Od......aab:out
+CIELDT04_03aac = s.Od......aac:out
+CIELDT04_03baa = s.Od......baa:out
+CIELDT04_03bab = s.Od......bab:out
+CIELDT04_03bac = s.Od......bac:out
+CIELDT04_03bad = s.Od......bad:out
+CIELDT04_03caa = s.Od......caa:out
+CIELDT04_03cab = s.Od......cab:out
+CIELDT04_03cac = s.Od......cac:out
+@
+@
+@

@@ -1,0 +1,583 @@
+TDB: empty
+ADB: GAa
+problem: GAa
+description:
+# MAINa
+# Referance Scenario for RE 3030
+drate: 10
+timesteps: 2018 2019 2020 2021 2022 2023 2024 2025 2026 2027 2028 2029 2030 2031 2032 2033 2034 2035 2036 2037 2038 2039 2040 2041 2042
+loadregions:
+ltype ordered seasonal 1 0
+year 2019 1 10
+name aaa aab aac \
+baa bab bac bad \
+caa cab cac 
+length 0.096689 0.165753 0.069064 \
+0.101484 0.173974 0.028995 0.043493 \
+0.093493 0.160274 0.066781 
+energyforms:
+Final f
+# Final Energy
+Industry e l
+# Industry Electricity Final
+Commerce c l
+# Commerce Electricity Final
+Urban u l
+# Urban Electricity Final
+Rural r l
+# Rural Electricity Final
+SentOut s l f
+# Sentout Electricity Final
+Export E 
+# Export Elc
+*
+Tertiary t
+# Tertiary Energy
+Industry i l
+# Industry Electricity Tertiary
+Commerce c l
+# Commerce Electricity Tertiary
+Urban u l
+# Urban Electricity Tertiary
+Rural r l
+# Rural Electricity Tertiary
+Electricity e l f
+# Tertiary Electricity
+*
+Secondary s
+# Secondary Energy
+Electricity Y l f
+# Secondary Electricity
+ElcDummy d l
+# Dummy elc for PS
+*
+Primary p
+# Primary Energy
+Bagasse b 
+# Bagasse
+Wood B 
+# Wood
+Hydro H 
+# Hydro
+Solar s l
+# Solar
+Wind w 
+# Wind
+Coal c 
+# Coal
+CoalCCS C 
+# Coal CCS
+Gas g 
+# Gas
+Nuclear n 
+# Nuclear
+Oil o 
+# Oil
+HFO h 
+# diesel
+Diesel d 
+# HFO
+Crude p 
+# Crude
+*
+Resources r
+# Resources
+Biomass b 
+# Biomass resource
+Coal c 
+# Coal resource
+*
+demand:
+e-f  ts 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+c-f  ts 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+u-f  ts 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+r-f  ts 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+s-f  ts 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+loadcurve:
+year 2019
+e-f 0.096689 0.165753 0.069064 0.101484 0.173974 \
+0.028995 0.043493 0.093493 0.160274 0.066781
+c-f 0.091679 0.175245 0.066941 0.096225 0.180233 \
+0.02902 0.04124 0.088649 0.16604 0.064728
+u-f 0.054299 0.175013 0.122885 0.053561 0.183278 \
+0.040826 0.059509 0.053878 0.168132 0.088619
+r-f 0.054299 0.175013 0.122885 0.053561 0.183278 \
+0.040826 0.059509 0.053878 0.168132 0.088619
+s-f 0.076525 0.164757 0.08221 0.081444 0.176688 \
+0.037834 0.049597 0.076158 0.156613 0.098174
+systems.GAHYRO_Ngoulmendjim.I.capfac 0.509529 0.509099 0.509099 0.1454 0.144909 \
+0.144909 0.144909 0.692558 0.693536 0.693536
+systems.GAHYRO_Dibwangui.G.capfac 0.896587 0.89583 0.89583 0.092243 0.091844 \
+0.091844 0.091844 0.534561 0.535778 0.535778
+systems.GAHYRO_Imperatrice_(Mouila).F.capfac 0.896464 0.895894 0.895894 0.132454 0.131878 \
+0.131878 0.131878 0.701368 0.702583 0.702583
+systems.GAHYRO_FE-2_(Kinguele_Aval).E.capfac 0.552569 0.552151 0.552151 0.198955 0.198478 \
+0.198478 0.198478 0.722908 0.723858 0.723858
+systems.GAHYRO_Poubara.D.capfac 1 1 1 0.325195 0.324112 \
+0.324112 0.324112 0.777757 0.778933 0.778933
+systems.GAHYRO_Mbigou.C.capfac 0.861507 0.860657 0.860657 0.072002 0.071691 \
+0.071691 0.071691 0.531398 0.532616 0.532616
+systems.GAHYRO_Kinguele.B.capfac 0.790214 0.790155 0.790155 0.369635 0.368748 \
+0.368748 0.368748 0.820044 0.821066 0.821066
+systems.GAHYRO_Bongolo.A.capfac 0.701284 0.700314 0.700314 0.045999 0.0458 \
+0.0458 0.0458 0.4705 0.471719 0.471719
+systems.GAWDLC00.h.capfac 0.137147 0.065616 0.13441 0.181483 0.070405 \
+0.098473 0.119834 0.134182 0.063104 0.132594
+systems.GAWDOC00.A.capfac 0.137147 0.065616 0.13441 0.181483 0.070405 \
+0.098473 0.119834 0.134182 0.063104 0.132594
+systems.GASOPC00.i.capfac 0 0.348887 0.000025 0 0.278179 \
+0 0 0 0.32061 0
+systems.GASOPC_doubou.I.capfac 0 0.348887 0.000025 0 0.278179 \
+0 0 0 0.32061 0
+systems.GASOPC_Oyem.H.capfac 0 0.348887 0.000025 0 0.278179 \
+0 0 0 0.32061 0
+systems.GASOPC_Ayeme_II.G.capfac 0 0.348887 0.000025 0 0.278179 \
+0 0 0 0.32061 0
+systems.GASOPC_Ayeme_I.F.capfac 0 0.348887 0.000025 0 0.278179 \
+0 0 0 0.32061 0
+systems.GASOPCZ005.E.capfac 0 0.366294 0.01225 0 0.33439 \
+0.018702 0 0 0.347556 0.005201
+systems.GASOPCZ004.D.capfac 0 0.351078 0.019815 0 0.30932 \
+0.042616 0 0 0.321511 0.010803
+systems.GASOPCZ003.C.capfac 0 0.349969 0.022343 0 0.279234 \
+0.04707 0 0 0.313653 0.014941
+systems.GASOPCZ002.B.capfac 0 0.35712 0.01891 0 0.325394 \
+0.040994 0 0 0.326271 0.010003
+systems.GASOPCZ001.A.capfac 0 0.368004 0.012196 0 0.333678 \
+0.018488 0 0 0.354319 0.005604
+systems.GASOPU00.g.capfac 0.000367 0.422909 0.004943 0 0.282663 \
+0.000004 0 0.000703 0.469064 0.008308
+systems.GASOPB00.g.capfac 0 0.348887 0.000025 0 0.278179 \
+0 0 0 0.32061 0
+systems.GASOPR00.g.capfac 0.194184 0.372165 0.399779 0.177722 0.371527 \
+0.462064 0.399127 0.195406 0.37161 0.399374
+systems.GASOPS00.h.capfac 0.000408 0.469899 0.005492 0 0.314071 \
+0.000005 0 0.000781 0.521181 0.009231
+systems.GASOTN00.j.capfac 0 0.348887 0.000025 0 0.278179 \
+0 0 0 0.32061 0
+systems.GASOTS00.k.capfac 0 0.589066 0.294408 0 0.589066 \
+0.474722 0.174199 0 0.589479 0.293418
+systems.GARIDM_Tchimbele.C.capfac 0.254764 0.254549 0.254549 0.0727 0.072455 \
+0.072455 0.072455 0.474484 0.474973 0.474973
+systems.GARIDM_Grand_Poubara.E.capfac 0.643537 0.643068 0.643068 0.118419 0.11795 \
+0.11795 0.11795 0.440875 0.441868 0.441868
+systems.GAELPT04.A.capfac 0.055251 0.055251 0 0.057991 0.057991 \
+0.057991 0 0.053425 0.053425 0
+systems.GAELDT04_01.B.capfac 1 0 0 0 0 \
+0 0 0 0 0
+systems.GAELDT04_01.D.capfac 0 0 1 0 0 \
+0 0 0 0 0
+systems.GAELDT04_02.F.capfac 0 0 0 1 0 \
+0 0 0 0 0
+systems.GAELDT04_02.G.capfac 0 0 0 0 0 \
+0 1 0 0 0
+systems.GAELDT04_03.H.capfac 0 0 0 0 0 \
+0 0 1 0 0
+systems.GAELDT04_03.I.capfac 0 0 0 0 0 \
+0 0 0 0 1
+relationsc:
+relationsp:
+relationss:
+D_GAHYDM_GRAND_POUBARA D002 o 0
+*
+D_GAHYDM_Tchimbele D001 o 0
+*
+SS_GAELST04 SS01 o 0
+*
+relations1:
+ReserveMargin RM o 
+*
+CO2emissionskt CO2 o 
+*
+LocalRE RE o 
+*
+WDBR WDBR o 
+*
+PVBR PVBR o 
+*
+BMTC BMTC o 
+*
+Domestic DOM o 
+*
+InstantaneousWindPV IPW o 0
+*
+PC_GAELST04 PC01 o 
+*
+PS_GAELST04 PS01 o 0
+*
+DC_GAELST04_01 DC01 o 
+*
+DC_GAELST04_02 DC02 o 
+*
+DC_GAELST04_03 DC03 o 
+*
+relations2:
+variables:
+systems:
+GAEL00TDI a
+# Description: Industry Distribution
+*
+GAEL00TDU a
+# Description: Urban Distribution
+*
+GAEL00TDC a
+# Description: Commerce Distribution
+*
+GAEL00TDR a
+# Description: Rural Distribution
+*
+GAEL00T00 a
+# Description: Transmission
+*
+GAEL00TUI a
+# Description: Industry Demand
+*
+GAEL00TUU a
+# Description: Urban Demand
+*
+GAEL00TUC a
+# Description: Commerce Demand
+*
+GAEL00TUR a
+# Description: Rural Demand
+*
+GAEL00TUS a
+# Description: SentOut Demand
+*
+GAEL00e00 a
+# Description: Export of Electricity
+*
+GAEL00i00 I
+# Description: Import of Electricity
+*
+GAELBS00 z
+# Description: Backstop
+*
+GADSRC00 g
+# Description: Generic Diesel Centralized
+*
+GADSRC_TCHIBANGA a
+# Description: TCHIBANGA
+*
+GADSRC_PORT-GENTIL Z
+# Description: PORT-GENTIL
+*
+GADSRC_OYEM Y
+# Description: OYEM
+*
+GADSRC_OWENDO X
+# Description: OWENDO
+*
+GADSRC_OMBOUE W
+# Description: OMBOUE
+*
+GADSRC_NDJOLE V
+# Description: NDJOLE
+*
+GADSRC_NDINDI U
+# Description: NDINDI
+*
+GADSRC_MOYABI T
+# Description: MOYABI
+*
+GADSRC_MOUILA S
+# Description: MOUILA
+*
+GADSRC_MOANDA.COMILOG R
+# Description: MOANDA.COMILOG
+*
+GADSRC_MOABI Q
+# Description: MOABI
+*
+GADSRC_MITZIC P
+# Description: MITZIC
+*
+GADSRC_MINVOUL O
+# Description: MINVOUL
+*
+GADSRC_MIMONGO N
+# Description: MIMONGO
+*
+GADSRC_MEKAMBO M
+# Description: MEKAMBO
+*
+GADSRC_MAYUMBA L
+# Description: MAYUMBA
+*
+GADSRC_MANDJI K
+# Description: MANDJI
+*
+GADSRC_MAKOKOU J
+# Description: MAKOKOU
+*
+GADSRC_LECONI I
+# Description: LECONI
+*
+GADSRC_LASTOURVILLE H
+# Description: LASTOURVILLE
+*
+GADSRC_LAMBARENE G
+# Description: LAMBARENE
+*
+GADSRC_KOULA-MOUTOU F
+# Description: KOULA-MOUTOU
+*
+GADSRC_FOUGAMOU E
+# Description: FOUGAMOU
+*
+GADSRC_COCO.BEACH D
+# Description: COCO.BEACH
+*
+GADSRC_BITAM C
+# Description: BITAM
+*
+GADSRC_BIFOUN B
+# Description: BIFOUN
+*
+GADSRC_AKOK A
+# Description: AKOK
+*
+GADSRI00 g
+# Description: Generic Diesel 100 kW system (Industry)
+*
+GADSRU00 g
+# Description: Generic Diesel/Gasoline 1kW system (urban)
+*
+GADSRB00 g
+# Description: Generic Diesel/Gasoline 1kW system (commercial buildings)
+*
+GADSRR00 g
+# Description: Generic Diesel/Gasoline 1kW system (rural)
+*
+GAHFRC00 g
+# Description: Generic HFO
+*
+GAHFRC_OWENDOIC A
+# Description: OWENDOIC
+*
+GANGSC00 g
+# Description: Generic Gas Open Cycle
+*
+GANGSC_Wartsila K
+# Description: Wartsila
+*
+GANGSC_LIBREVILLE J
+# Description: LIBREVILLE
+*
+GANGSC_NC.PORT-GENTIL I
+# Description: NC.PORT-GENTIL
+*
+GANGSC_NC.OWENDO H
+# Description: NC.OWENDO
+*
+GANGSC_OWENDO G
+# Description: OWENDO
+*
+GANGSC_PORT-GENTIL F
+# Description: PORT.GENTIL.PERENCO
+*
+GANGSC_RABI.KOUNGA.FIELD E
+# Description: RABI.KOUNGA.FIELD
+*
+GANGSC_PORT.GENTIL.PERENCO D
+# Description: PORT.GENTIL.PERENCO
+*
+GANGSC_GAMBA C
+# Description: GAMBA
+*
+GANGSC_CAP.LOPEZ B
+# Description: CAP.LOPEZ
+*
+GANGSC_ALENAKIRI A
+# Description: ALENAKIRI
+*
+GANGRC00 a
+# Description: Generic Gas Engine
+*
+GANGCC00 h
+# Description: Generic Gas Combined Cycle
+*
+GACOCS00 g
+# Description: Generic Coal w CCS
+*
+GACOSC00 g
+# Description: Generic Coal
+*
+GAHYDM00 g
+# Description: Generic Hydro With Dam
+*
+GAHYDM_Tchimbele J
+# Description: TCHIMBELE
+*
+GAHYRO_Ngoulmendjim I
+# Description: NGOULMENDJIM
+*
+GAHYDM_Grand_Poubara H
+# Description: GRAND_POUBARA
+*
+GAHYRO_Dibwangui G
+# Description: DIBWANGUI
+*
+GAHYRO00 a
+# Description: Generic Hydro Run of River
+*
+GAHYRO_Tsamba R
+# Description: Centrale_hydroélectrique_des_Chutes_de_Tsamba
+*
+GAHYRO_Tsengue_Leledi Q
+# Description: Tsengué_Lélédi
+*
+GAHYRO_Mitoungou P
+# Description: Centrale_hydroélectrique_du_Défilé_de_Mitoungou
+*
+GAHYRO_Booue O
+# Description: Booué
+*
+GAHYRO_Kouta_Mango N
+# Description: Centrale_hydroélectrique_de_Kouata_Mango
+*
+GAHYRO_Kongue M
+# Description: Centrale_hydroélectrique_de_Kongué 
+*
+GAHYRO_Lifouta L
+# Description: Centrale hydroélectrique de Lifouta
+*
+GAHYRO_MEDOUNEU K
+# Description: MEDOUNEU
+*
+GAHYRO_Imperatrice_(Mouila) F
+# Description: IMPERATRICE_(MOUILA)
+*
+GAHYRO_FE-2_(Kinguele_Aval) E
+# Description: FE-2_(KINGUELE_AVAL)
+*
+GAHYRO_Poubara D
+# Description: POUBARA
+*
+GAHYRO_Mbigou C
+# Description: MBIGOU
+*
+GAHYRO_Kinguele B
+# Description: KINGUELE
+*
+GAHYRO_Bongolo A
+# Description: BONGOLO
+*
+GAHYMI00 g
+# Description: Generic Hydro Small
+*
+GABMST00 g
+# Description: Generic Bagasse
+*
+GABWST00 a
+# Description: Generic Wood
+*
+GAGOCV00 g
+# Description: Generic Geothermal
+*
+GAWDLC00 h
+# Description: Generic Wind
+*
+GAWDOC00 A
+# Description: Generic OffShore Wind
+*
+GASOPC00 i
+# Description: Generic PV System (utility)
+*
+GASOPC_doubou I
+# Description: doubou
+*
+GASOPC_Oyem H
+# Description: Oyem
+*
+GASOPC_Ayeme_II G
+# Description: Ayeme_II
+*
+GASOPC_Ayeme_I F
+# Description: Ayeme_I
+*
+GASOPCZ005 E
+# Description: Solar PV Zone 005
+*
+GASOPCZ004 D
+# Description: Solar PV Zone 004
+*
+GASOPCZ003 C
+# Description: Solar PV Zone 003
+*
+GASOPCZ002 B
+# Description: Solar PV Zone 002
+*
+GASOPCZ001 A
+# Description: Solar PV Zone 001
+*
+GASOPU00 g
+# Description: Generic PV system (roof top - urban)
+*
+GASOPB00 g
+# Description: Generic PV system (roof top - commercial buildings)
+*
+GASOPR00 g
+# Description: Generic PV system (roof top - rural)
+*
+GASOPS00 h
+# Description: Generic PV with 2h Battery (roof top - rural)
+*
+GASOTN00 j
+# Description: Generic Solar thermal no storage
+*
+GASOTS00 k
+# Description: Generic Solar thermal with Storage
+*
+GASOTG00 i
+# Description: Generic Solar thermal with Gas co-firing
+*
+GABM00X00 a
+# Description: Extraction of Bagasse
+*
+GABW00X00 a
+# Description: Extraction of Wood
+*
+GAHY00X00 a
+# Description: Supply of Hydro
+*
+GASO00X00 a
+# Description: Supply of Solar
+*
+GAWD00X00 a
+# Description: Supply of Wind
+*
+GAHF00I00 a
+# Description: Import of HFO
+*
+GADS00I00 a
+# Description: Import of Diesel
+*
+GANG00X00 a
+# Description: Extraction of Natural Gas
+*
+GACO00I00 a
+# Description: Import of Coal
+*
+GARIDM_Tchimbele C
+*
+GARIDM_Grand_Poubara E
+*
+GAELST04 A
+# Description: Battery Storage 4 hrs
+2. activity B
+*
+GAELPT04 A
+*
+GAELDT04_01 B
+2. activity D
+*
+GAELDT04_02 F
+2. activity G
+*
+GAELDT04_03 H
+2. activity I
+*
+resources: 
+endata
+

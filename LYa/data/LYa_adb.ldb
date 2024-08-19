@@ -1,0 +1,535 @@
+TDB: empty
+ADB: LYa
+problem: LYa
+description:
+# Libya
+drate: 10
+timesteps: 2018 2019 2020 2021 2022 2023 2024 2025 2026 2027 2028 2029 2030 2031 2032 2033 2034 2035 2036 2037 2038 2039 2040 2041 2042
+loadregions:
+ltype ordered seasonal 1 0
+year 2019 1 10
+name aaa aab aac \
+baa bab bac bad \
+caa cab cac 
+length 0.096689 0.165753 0.069064 \
+0.101484 0.173974 0.028995 0.043493 \
+0.093493 0.160274 0.066781 
+energyforms:
+Final f
+# Final Energy
+Industry e l
+# Industry Electricity Final
+Commerce c l
+# Commerce Electricity Final
+Urban u l
+# Urban Electricity Final
+Rural r l
+# Rural Electricity Final
+SentOut s l f
+# Sentout Electricity Final
+Export E 
+# Export Elc
+*
+Tertiary t
+# Tertiary Energy
+Industry i l
+# Industry Electricity Tertiary
+Commerce c l
+# Commerce Electricity Tertiary
+Urban u l
+# Urban Electricity Tertiary
+Rural r l
+# Rural Electricity Tertiary
+Electricity e l f
+# Tertiary Electricity
+*
+Secondary s
+# Secondary Energy
+Electricity J l f
+# Secondary Electricity
+ElcDummy d l
+# Dummy elc for PS
+*
+Primary p
+# Primary Energy
+Bagasse b 
+# Bagasse
+Wood B 
+# Wood
+Hydro H 
+# Hydro
+Solar s l
+# Solar
+Wind w 
+# Wind
+Coal c 
+# Coal
+CoalCCS C 
+# Coal CCS
+Gas g 
+# Gas
+Nuclear n 
+# Nuclear
+Oil o 
+# Oil
+HFO h 
+# diesel
+Diesel d 
+# HFO
+Crude p 
+# Crude
+*
+Resources r
+# Resources
+Biomass b 
+# Biomass resource
+Coal c 
+# Coal resource
+*
+demand:
+e-f  ts 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+c-f  ts 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+u-f  ts 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+r-f  ts 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+s-f  ts 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+loadcurve:
+year 2019
+e-f 0.096689 0.165753 0.069064 0.101484 0.173974 \
+0.028995 0.043493 0.093493 0.160274 0.066781
+c-f 0.091841 0.175245 0.065601 0.096395 0.182081 \
+0.027541 0.041313 0.088806 0.167744 0.063433
+u-f 0.05877 0.277416 0.06189 0.059423 0.188244 \
+0.036716 0.028913 0.058066 0.171193 0.059369
+r-f 0.05877 0.277416 0.06189 0.059423 0.188244 \
+0.036716 0.028913 0.058066 0.171193 0.059369
+s-f 0.064394 0.144499 0.05578 0.106226 0.266075 \
+0.038837 0.047285 0.067805 0.151293 0.057806
+systems.LYWDLC00.h.capfac 0.164093 0.158635 0.136557 0.275809 0.279695 \
+0.157109 0.205042 0.181605 0.249379 0.183491
+systems.LYWDOC00.F.capfac 0.164093 0.158635 0.136557 0.275809 0.279695 \
+0.157109 0.205042 0.181605 0.249379 0.183491
+systems.LYWDLCZ005.E.capfac 0.670129 0.572694 0.66942 0.667511 0.526373 \
+0.582323 0.680621 0.576041 0.482715 0.627009
+systems.LYWDLCZ004.D.capfac 0.705099 0.617554 0.655699 0.767623 0.471645 \
+0.512273 0.712061 0.579217 0.424774 0.534521
+systems.LYWDLCZ003.C.capfac 0.690308 0.565234 0.62837 0.752229 0.475817 \
+0.635025 0.754635 0.605205 0.442823 0.577134
+systems.LYWDLCZ002.B.capfac 0.707279 0.677017 0.698974 0.591922 0.398322 \
+0.635427 0.750359 0.534282 0.44675 0.561962
+systems.LYWDLCZ001.A.capfac 0.684155 0.574791 0.629806 0.75891 0.568593 \
+0.566383 0.691969 0.671647 0.516821 0.61535
+systems.LYSOPC00.i.capfac 0.042717 0.448875 0 0.035425 0.504672 \
+0 0 0.058437 0.521743 0
+systems.LYSOPCZ005.E.capfac 0 0.426756 0.011869 0 0.494784 \
+0.081387 0 0 0.373505 0.002546
+systems.LYSOPCZ004.D.capfac 0 0.42851 0.018588 0 0.48652 \
+0.100513 0 0 0.377821 0.004359
+systems.LYSOPCZ003.C.capfac 0 0.451542 0.001065 0 0.518451 \
+0.02307 0 0 0.397277 0.000033
+systems.LYSOPCZ002.B.capfac 0 0.433848 0.00947 0 0.501682 \
+0.071048 0 0 0.375993 0.001814
+systems.LYSOPCZ001.A.capfac 0 0.434287 0.001484 0 0.516828 \
+0.029983 0 0 0.374379 0.000079
+systems.LYSOTN00.j.capfac 0.026008 0.570601 0.091628 0.026008 0.570601 \
+0.22907 0 0.026614 0.57043 0.09119
+systems.LYSOTNZ002.C.capfac 0.018476 0.775985 0.757164 0.001056 0.815576 \
+0.842341 0.377055 0.000004 0.742906 0.547111
+systems.LYSOTNZ001.B.capfac 0.002966 0.829073 0.823398 0.000008 0.873348 \
+0.902571 0.312093 0.000004 0.80255 0.671749
+systems.LYSOTS00.k.capfac 0.026008 0.570601 0.091628 0.026008 0.570601 \
+0.22907 0 0.026614 0.57043 0.09119
+systems.LYSOTSZ002.E.capfac 0.509626 0.863574 0.963818 0.298464 0.917933 \
+0.988398 0.924818 0.359327 0.843994 0.970118
+systems.LYSOTSZ001.D.capfac 0.540017 0.813951 0.930309 0.404257 0.867729 \
+0.970445 0.890917 0.364198 0.803102 0.902102
+systems.LYELPT04.A.capfac 0.055251 0.055251 0 0.057991 0.057991 \
+0.057991 0 0.053425 0.053425 0
+systems.LYELDT04_01.B.capfac 1 0 0 0 0 \
+0 0 0 0 0
+systems.LYELDT04_01.C.capfac 0 0 1 0 0 \
+0 0 0 0 0
+systems.LYELDT04_02.D.capfac 0 0 0 1 0 \
+0 0 0 0 0
+systems.LYELDT04_02.E.capfac 0 0 0 0 0 \
+0 1 0 0 0
+systems.LYELDT04_03.F.capfac 0 0 0 0 0 \
+0 0 1 0 0
+systems.LYELDT04_03.G.capfac 0 0 0 0 0 \
+0 0 0 0 1
+relationsc:
+relationsp:
+relationss:
+SS_LYELST04 SS01 o 0
+*
+relations1:
+ReserveMargin RM o 
+*
+CO2emissionskt CO2 o 
+*
+LocalRE RE o 
+*
+WDBR WDBR o 
+*
+PVBR PVBR o 
+*
+BMTC BMTC o 
+*
+Domestic DOM o 
+*
+InstantaneousWindPV IPW o 0
+*
+PC_LYELST04 PC01 o 
+*
+PS_LYELST04 PS01 o 0
+*
+DC_LYELST04_01 DC01 o 
+*
+DC_LYELST04_02 DC02 o 
+*
+DC_LYELST04_03 DC03 o 
+*
+relations2:
+variables:
+systems:
+LYEL00TDI a
+# Description: Industry Distribution
+*
+LYEL00TDU a
+# Description: Urban Distribution
+*
+LYEL00TDC a
+# Description: Commerce Distribution
+*
+LYEL00TDR a
+# Description: Rural Distribution
+*
+LYEL00T00 a
+# Description: Transmission
+*
+LYEL00TUI a
+# Description: Industry Demand
+*
+LYEL00TUU a
+# Description: Urban Demand
+*
+LYEL00TUC a
+# Description: Commerce Demand
+*
+LYEL00TUR a
+# Description: Rural Demand
+*
+LYEL00TUS a
+# Description: SentOut Demand
+*
+LYEL00e00 a
+# Description: Export of Electricity
+*
+LYEL00i00 I
+# Description: Import of Electricity
+*
+LYELBS00 z
+# Description: Backstop
+*
+LYDSRC00 g
+# Description: Generic Diesel Centralized
+*
+LYDSRI00 g
+# Description: Generic Diesel 100 kW system (Industry)
+*
+LYDSRU00 g
+# Description: Generic Diesel/Gasoline 1kW system (urban)
+*
+LYDSRB00 g
+# Description: Generic Diesel/Gasoline 1kW system (commercial buildings)
+*
+LYDSRR00 g
+# Description: Generic Diesel/Gasoline 1kW system (rural)
+*
+LYHFRC00 g
+# Description: Generic HFO
+*
+LYNGSC00 g
+# Description: Generic Gas Open Cycle
+*
+LYNGSC_TripoliEast(ST) j
+# Description: LYNGSC_TripoliEast(ST)
+*
+LYNGSC_Tobruk_2_(ST) m
+# Description: LYNGSC_Tobruk_2_(ST)
+*
+LYNGSC_Derna_2_(ST) l
+# Description: LYNGSC_Derna_2_(ST)
+*
+LYNGSC_Tripoli_West_PP(GT) d
+# Description: Tripoli_West_PP(GT)
+*
+LYNGSC_Tripoli_West_2_PP_(ST) c
+# Description: Tripoli_West_2_PP_(ST)
+*
+LYNGSC_Tripoli_East_PP(GT) b
+# Description: Tripoli_East_PP(GT)
+*
+LYNGSC_Tobruk_PP_(GT) a
+# Description: Tobruk_PP_(GT)
+*
+LYNGSC_Susa(GT) Z
+# Description: Susa(GT)
+*
+LYNGSC_Sirte_Gulf_Stream(ST) Y
+# Description: Sirte_Gulf_Stream(ST)
+*
+LYNGSC_Ubari P
+# Description: Ubari PP Southern Region (GT)
+*
+LYNGSC_Misurata_PP_(GT) X
+# Description: Misurata_PP_(GT)
+*
+LYNGSC_Lamluda(GT) W
+# Description: Lamluda(GT)
+*
+LYNGSC_Gulf_PP_Central_Region(ST) V
+# Description: Gulf_PP_Central_Region(ST)
+*
+LYNGSC_Azahra U
+# Description: Azahra
+*
+LYNGSC_Zawia_Gas_Turbines Q
+# Description: Zawia_Gas_Turbines
+*
+LYNGSC_Sarir_Gas_Turbines I
+# Description: Sarir_Gas_Turbines
+*
+LYNGCC00 h
+# Description: Generic Gas Combined Cycle
+*
+LYNGCC_Zweitina_2_CC_(GT) f
+# Description: LYNGCC_Zweitina_2_CC_(GT)
+*
+LYNGCC_Tripoli_South_2_(GT) e
+# Description: LYNGCC_Tripoli_South_2_(GT)
+*
+LYNGCC_Tobruk_CC_(GT) S
+# Description: LYNGCC_Tobruk_CC_(GT)
+*
+LYNGCC_Misurata_CC_(GT) R
+# Description: LYNGCC_Misurata_CC_(GT)
+*
+LYNGCC_Benghzi_West_(CC) H
+# Description: LYNGCC_Benghzi_West_(CC)
+*
+LYNGCC_Abukamash_CC D
+# Description: LYNGCC_Abukamash_CC
+*
+LYNGCC_Misrata_Steel T
+# Description: Misrata_Steel
+*
+LYNGCC_Misurata_Combined_Cycle A
+# Description: Misuruta_Combined_Cycle
+*
+LYNGCC_Zweitina_Gas_Turbines_1 N
+# Description: Zweitina_Gas_Turbines_1
+*
+LYNGCC_Western_Mountain_Gas_Turbines_1 L
+# Description: Western_Mountain_Gas_Turbines_1
+*
+LYNGCC_Tripoli_South_Gas_Turbines_1 J
+# Description: Tripoli_South_Gas_Turbines_1
+*
+LYNGCC_Khoms_2_Gas_Turbines F
+# Description: Khoms_2_Gas_Turbines
+*
+LYNGCC_Khoms_1_Gas_Turbines E
+# Description: Khoms_1_Gas_Turbines
+*
+LYNGCC_Benghazi_North_2_Combined_Cycle C
+# Description: Benghazi_North_2_Combined_Cycle
+*
+LYNGCC_Benghazi_North_1_Combined_Cycle B
+# Description: Benghazi_North_1_Combined_Cycle
+*
+LYCOCS00 g
+# Description: Generic Coal w CCS
+*
+LYCOSC00 g
+# Description: Generic Coal
+*
+LYHYDM00 g
+# Description: Generic Hydro With Dam
+*
+LYHYRO00 h
+# Description: Generic Hydro ROR
+*
+LYDSSC00 h
+# Description: Generic Diesel Open Cycle
+*
+LYDSSC_Lamluda_Gas_Turbines I
+# Description: Lamluda_Gas_Turbines
+*
+LYDSSC_Zahra_Gas_Turbines H
+# Description: Zahra_Gas_Turbines
+*
+LYDSSC_Furnaj_Gas_Turbines G
+# Description: Furnaj_Gas_Turbines
+*
+LYDSSC_Abu_Kamesh_Gas_Turbines F
+# Description: Abu_Kamesh_Gas_Turbines
+*
+LYDSSC_Zliten_Gas_Turbines D
+# Description: Zliten_Gas_Turbines
+*
+LYDSSC_Kufra_Gas_Turbines C
+# Description: Kufra_Gas_Turbines
+*
+LYHFSC00 h
+# Description: Generic HFO Turbine
+*
+LYHFSC_Tripoli_West_2_Steam_Turbines F
+# Description: Tripoli_West_2_Steam_Turbines
+*
+LYHFSC_Tripoli_West_1_Steam_Turbines E
+# Description: Tripoli_West_1_Steam_Turbines
+*
+LYHFSC_Benghazi_North_Steam_Turbines D
+# Description: Benghazi_North_Steam_Turbines
+*
+LYHFSC_Tobruk_Steam_Turbines C
+# Description: Tobruk_Steam_Turbines
+*
+LYHFSC_Derna_Steam_Turbines B
+# Description: Derna_Steam_Turbines
+*
+LYHFSC_Khoms_Steam_Turbines A
+# Description: Khoms_Steam_Turbines
+*
+LYHYMI00 g
+# Description: Generic Hydro Small
+*
+LYBMST00 g
+# Description: Generic Bagasse
+*
+LYBWST00 a
+# Description: Generic Wood
+*
+LYGOCV00 g
+# Description: Generic Geothermal
+*
+LYWDLC00 h
+# Description: Generic Wind
+*
+LYWDOC00 F
+# Description: Generic OffShore Wind
+*
+LYWDLCZ005 E
+# Description: Wind Zone 005
+*
+LYWDLCZ004 D
+# Description: Wind Zone 004
+*
+LYWDLCZ003 C
+# Description: Wind Zone 003
+*
+LYWDLCZ002 B
+# Description: Wind Zone 002
+*
+LYWDLCZ001 A
+# Description: Wind Zone 001
+*
+LYSOPC00 i
+# Description: Generic PV System (utility)
+*
+LYSOPCZ005 E
+# Description: Solar PV Zone 005
+*
+LYSOPCZ004 D
+# Description: Solar PV Zone 004
+*
+LYSOPCZ003 C
+# Description: Solar PV Zone 003
+*
+LYSOPCZ002 B
+# Description: Solar PV Zone 002
+*
+LYSOPCZ001 A
+# Description: Solar PV Zone 001
+*
+LYSOPU00 g
+# Description: Generic PV system (roof top - urban)
+*
+LYSOPB00 g
+# Description: Generic PV system (roof top - commercial buildings)
+*
+LYSOPR00 g
+# Description: Generic PV system (roof top - rural)
+*
+LYSOPS00 h
+# Description: Generic PV with 2h Battery (roof top - rural)
+*
+LYSOTN00 j
+# Description: Generic Solar thermal no storage
+*
+LYSOTNZ002 C
+# Description: Solar CSP 6hrStor Zone 002
+*
+LYSOTNZ001 B
+# Description: Solar CSP 6hrStor Zone 001
+*
+LYSOTS00 k
+# Description: Generic Solar thermal with Storage
+*
+LYSOTSZ002 E
+# Description: Solar CSP 12hrStor Zone 002
+*
+LYSOTSZ001 D
+# Description: Solar CSP 12hrStor Zone 001
+*
+LYSOTG00 i
+# Description: Generic Solar thermal with Gas co-firing
+*
+LYBM00X00 a
+# Description: Extraction of Bagasse
+*
+LYBW00X00 a
+# Description: Extraction of Wood
+*
+LYHY00X00 a
+# Description: Supply of Hydro
+*
+LYSO00X00 a
+# Description: Supply of Solar
+*
+LYWD00X00 a
+# Description: Supply of Wind
+*
+LYHF00I00 a
+# Description: Import of HFO
+*
+LYDS00I00 a
+# Description: Import of Diesel
+*
+LYNG00X00 a
+# Description: Extraction of Natural Gas
+*
+LYNU00I00 a
+# Description: Import of Nuclear
+*
+LYCO00I00 a
+# Description: Import of Coal
+*
+LYELST04 A
+# Description: Battery Storage 4 hrs
+2. activity B
+*
+LYELPT04 A
+*
+LYELDT04_01 B
+2. activity C
+*
+LYELDT04_02 D
+2. activity E
+*
+LYELDT04_03 F
+2. activity G
+*
+resources: 
+endata
+

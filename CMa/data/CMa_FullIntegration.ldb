@@ -1,0 +1,827 @@
+TDB: empty
+ADB: CMa
+problem: CMa
+description:
+# Cameroon
+drate: 10
+timesteps: 2018 2019 2020 2021 2022 2023 2024 2025 2026 2027 2028 2029 2030 2031 2032 2033 2034 2035 2036 2037 2038 2039 2040 2041 2042
+loadregions:
+ltype ordered seasonal 1 0
+year 2019 1 10
+name aaa aab aac \
+baa bab bac bad \
+caa cab cac 
+length 0.096689 0.165753 0.069064 \
+0.101484 0.173974 0.028995 0.043493 \
+0.093493 0.160274 0.066781 
+energyforms:
+Final f
+# Final Energy
+Industry e l
+# Industry Electricity Final
+Commerce c l
+# Commerce Electricity Final
+Urban u l
+# Urban Electricity Final
+Rural r l
+# Rural Electricity Final
+SentOut s l f
+# Sentout Electricity Final
+Export E 
+# Export Elc
+*
+Tertiary t
+# Tertiary Energy
+Industry i l
+# Industry Electricity Tertiary
+Commerce c l
+# Commerce Electricity Tertiary
+Urban u l
+# Urban Electricity Tertiary
+Rural r l
+# Rural Electricity Tertiary
+Electricity e l f
+# Tertiary Electricity
+*
+Secondary s
+# Secondary Energy
+Electricity I l f
+# Secondary Electricity
+ElcDummy d l
+# Dummy elc for PS
+*
+Primary p
+# Primary Energy
+Bagasse b 
+# Bagasse
+Wood B 
+# Wood
+Hydro H 
+# Hydro
+Solar s l
+# Solar
+Wind w 
+# Wind
+Coal c 
+# Coal
+CoalCCS C 
+# Coal CCS
+Gas g 
+# Gas
+Nuclear n 
+# Nuclear
+Oil o 
+# Oil
+HFO h 
+# diesel
+Diesel d 
+# HFO
+Crude p 
+# Crude
+*
+Resources r
+# Resources
+Biomass b 
+# Biomass resource
+Coal c 
+# Coal resource
+*
+DummyLevelStorage d
+# DummyLevelStorage
+DummyCom_CMELST04 A l
+# DummyCom_CMELST04
+*
+demand:
+c-f  ts 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+e-f  ts 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+r-f  ts 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+s-f  ts 799.81 794.88 799.5 838.3 878.78 920.44 962.81 1009.46 1059.51 1112.22 1166.93 1223.07 1284.2 1349.38 1417.79 1488.69 1561.45 1639.37 1721.5 1806.99 1895.09 1985.15 1985.15
+u-f  ts 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+loadcurve:
+year 2019
+c-f 0.091679 0.175245 0.066941 0.096225 0.180233 \
+0.02902 0.04124 0.088649 0.16604 0.064728
+e-f 0.096689 0.165753 0.069064 0.101484 0.173974 \
+0.028995 0.043493 0.093493 0.160274 0.066781
+r-f 0.054299 0.175013 0.122885 0.053561 0.183278 \
+0.040826 0.059509 0.053878 0.168132 0.088619
+s-f 0.076525 0.164757 0.08221 0.081444 0.176688 \
+0.037834 0.049597 0.076158 0.156613 0.098174
+u-f 0.054299 0.175013 0.122885 0.053561 0.183278 \
+0.040826 0.059509 0.053878 0.168132 0.088619
+systems.CMHYRO_Chollet.B.capfac 0.371564 0.372613 0.372613 0.335458 0.33522 \
+0.33522 0.33522 0.720423 0.719596 0.719596
+systems.CMHYRO_Colomines.R.capfac 0.028909 0.029085 0.029085 0.494993 0.495888 \
+0.495888 0.495888 0.466289 0.465136 0.465136
+systems.CMHYRO_Kastina_Ala.Q.capfac 0.028909 0.029085 0.029085 0.494993 0.495888 \
+0.495888 0.495888 0.466289 0.465136 0.465136
+systems.CMHYRO_Ndjock.K.capfac 0.234608 0.235715 0.235715 0.765722 0.765722 \
+0.765722 0.765722 0.752737 0.751593 0.751593
+systems.CMHYRO_Zoulabot.f.capfac 0.080229 0.080782 0.080782 0.25311 0.253233 \
+0.253233 0.253233 0.602266 0.60156 0.60156
+systems.CMHYRO_Yenga.e.capfac 0 0 0 0.07372 0.074779 \
+0.074779 0.074779 0.637402 0.636211 0.636211
+systems.CMHYRO_Zoukomanbale.c.capfac 0.028909 0.029085 0.029085 0.494993 0.495888 \
+0.495888 0.495888 0.466289 0.465136 0.465136
+systems.CMHYRO_Mbam_Amont.b.capfac 0 0 0 0.444551 0.445582 \
+0.445582 0.445582 0.52219 0.521001 0.521001
+systems.CMHYRO_Mandourou.Z.capfac 0.028909 0.029085 0.029085 0.494993 0.495888 \
+0.495888 0.495888 0.466289 0.465136 0.465136
+systems.CMHYRO_Mbinjal.Y.capfac 0.028909 0.029085 0.029085 0.494993 0.495888 \
+0.495888 0.495888 0.466289 0.465136 0.465136
+systems.CMHYRO_Edea_Amont.X.capfac 0.069838 0.070389 0.070389 0.798768 0.799249 \
+0.799249 0.799249 0.711849 0.710755 0.710755
+systems.CMHYRO_Mouila_Mogue.W.capfac 0.071124 0.071545 0.071545 0.266244 0.266692 \
+0.266692 0.266692 0.535547 0.534625 0.534625
+systems.CMHYRO_Nyazom.V.capfac 0 0 0 0.444551 0.445582 \
+0.445582 0.445582 0.52219 0.521001 0.521001
+systems.CMHYRO_Kikot_Aval.U.capfac 0 0 0 0.413949 0.414918 \
+0.414918 0.414918 0.536036 0.534845 0.534845
+systems.CMHYRO_Bayomen.T.capfac 0 0 0 0.444551 0.445582 \
+0.445582 0.445582 0.52219 0.521001 0.521001
+systems.CMHYRO_Song_Ndong.S.capfac 0.071124 0.071545 0.071545 0.266244 0.266692 \
+0.266692 0.266692 0.535547 0.534625 0.534625
+systems.CMHYRO_Song_Mbengue.O.capfac 0.021916 0.022089 0.022089 0.480729 0.481653 \
+0.481653 0.481653 0.552656 0.551475 0.551475
+systems.CMHYRO_Ngoila.P.capfac 0.062868 0.063302 0.063302 0.19834 0.198437 \
+0.198437 0.198437 0.529277 0.528723 0.528723
+systems.CMHYRO_Kikot.M.capfac 0 0 0 0.413949 0.414918 \
+0.414918 0.414918 0.536036 0.534845 0.534845
+systems.CMHYRO_Nachtigal_Aval.L.capfac 0.334209 0.333811 0.333811 0.567951 0.568723 \
+0.568723 0.568723 0.735772 0.735346 0.735346
+systems.CMHYRO_Menchum_Bamenda.J.capfac 0.028909 0.029085 0.029085 0.494993 0.495888 \
+0.495888 0.495888 0.466289 0.465136 0.465136
+systems.CMHYRO_Mbakaou_Mini.H.capfac 0 0 0 0.47394 0.474929 \
+0.474929 0.474929 0.443616 0.442414 0.442414
+systems.CMHYMI00.g.capfac 0.069838 0.070389 0.070389 0.798768 0.799249 \
+0.799249 0.799249 0.711849 0.710755 0.710755
+systems.CMWDLC00.h.capfac 0.464065 0.118323 0.306587 0.373351 0.212109 \
+0.258916 0.383476 0.295617 0.08157 0.212773
+systems.CMWDOC00.F.capfac 0.464065 0.118323 0.306587 0.373351 0.212109 \
+0.258916 0.383476 0.295617 0.08157 0.212773
+systems.CMWDLCZ005.E.capfac 0.773691 0.393535 0.567579 0.372731 0.338174 \
+0.200008 0.260122 0.491094 0.300858 0.418036
+systems.CMWDLCZ004.D.capfac 0.803747 0.374909 0.603298 0.413518 0.28988 \
+0.145715 0.269933 0.509014 0.270527 0.423604
+systems.CMWDLCZ003.C.capfac 0.722054 0.368994 0.571526 0.419345 0.446486 \
+0.245514 0.285145 0.413734 0.237783 0.38402
+systems.CMWDLCZ002.B.capfac 0.668735 0.27372 0.778103 0.49221 0.303612 \
+0.657733 0.685899 0.461948 0.117896 0.537694
+systems.CMWDLCZ001.A.capfac 0.791021 0.439008 0.646709 0.383732 0.286858 \
+0.143959 0.211215 0.548685 0.299701 0.456251
+systems.CMSOPC00.i.capfac 0 0.432316 0 0 0.310761 \
+0 0 0 0.419445 0
+systems.CMSOPC_Mbalmayo_JCM_Solar_Grid.T.capfac 0 0.432316 0 0 0.310761 \
+0 0 0 0.419445 0
+systems.CMSOPC_GUIDER_MAROUA_RENT.S.capfac 0 0.432316 0 0 0.310761 \
+0 0 0 0.419445 0
+systems.CMSOPC_P166.R.capfac 0 0.432316 0 0 0.310761 \
+0 0 0 0.419445 0
+systems.CMSOPC_Ngaoundere_GDS_Orion.Q.capfac 0 0.432316 0 0 0.310761 \
+0 0 0 0.419445 0
+systems.CMSOPC_Garoua_Kunson.P.capfac 0 0.432316 0 0 0.310761 \
+0 0 0 0.419445 0
+systems.CMSOPC_Maroua_MAECI_PV.O.capfac 0 0.432316 0 0 0.310761 \
+0 0 0 0.419445 0
+systems.CMSOPC_Ngaoundere_Rubis_Solar_PV.N.capfac 0 0.432316 0 0 0.310761 \
+0 0 0 0.419445 0
+systems.CMSOPC_SYNOHYDRO_Lagdo_PV.M.capfac 0 0.432316 0 0 0.310761 \
+0 0 0 0.419445 0
+systems.CMSOPC_Garoua_GSC_ENERGY.L.capfac 0 0.432316 0 0 0.310761 \
+0 0 0 0.419445 0
+systems.CMSOPCZ005.K.capfac 0 0.455566 0 0 0.361251 \
+0.029799 0 0 0.422507 0
+systems.CMSOPCZ004.J.capfac 0 0.444693 0 0 0.377688 \
+0.028012 0 0 0.409256 0
+systems.CMSOPCZ003.I.capfac 0 0.455007 0 0 0.361714 \
+0.03815 0 0 0.41817 0
+systems.CMSOPCZ002.H.capfac 0 0.447825 0 0 0.388332 \
+0.023063 0 0 0.415901 0
+systems.CMSOPCZ001.G.capfac 0 0.440142 0 0 0.36923 \
+0.02438 0 0 0.41176 0
+systems.CMSOPC_SOUTH_GRID_SOLAR.F.capfac 0 0.432316 0 0 0.310761 \
+0 0 0 0.419445 0
+systems.CMSOPC_NGAOUNDERE_SOLAR.E.capfac 0 0.432316 0 0 0.310761 \
+0 0 0 0.419445 0
+systems.CMSOPC_MAROUA_SOLAR.D.capfac 0 0.445006 0 0 0.388409 \
+0.021354 0 0 0.414717 0
+systems.CMSOPC_GUIDER_SOLAR.C.capfac 0 0.44514 0 0 0.384719 \
+0.024181 0 0 0.411588 0
+systems.CMSOPC_GAROUA_SOLAR.B.capfac 0 0.44514 0 0 0.384719 \
+0.024181 0 0 0.411588 0
+systems.CMSOPC_FOYER_DU_MARIN.A.capfac 0 0.432316 0 0 0.310761 \
+0 0 0 0.419445 0
+systems.CMSOPU00.g.capfac 0 0.389084 0 0 0.279685 \
+0 0 0 0.377501 0
+systems.CMSOPB00.g.capfac 0 0.389084 0 0 0.279685 \
+0 0 0 0.377501 0
+systems.CMSOPR00.g.capfac 0.194184 0.372165 0.399779 0.177722 0.371527 \
+0.462064 0.399127 0.195406 0.37161 0.399374
+systems.CMSOPS00.h.capfac 0 0.389084 0 0 0.279685 \
+0 0 0 0.377501 0
+systems.CMSOTN00.j.capfac 0 0.432316 0 0 0.310761 \
+0 0 0 0.419445 0
+systems.CMSOTNZ002.C.capfac 0.024373 0.7232 0.573921 0 0.425352 \
+0.176216 0 0 0.67588 0.407584
+systems.CMSOTNZ001.B.capfac 0 0.775834 0.657992 0 0.473882 \
+0.196577 0 0 0.723944 0.447579
+systems.CMSOTS00.k.capfac 0 0.589066 0.294408 0 0.589066 \
+0.474722 0.174199 0 0.589479 0.293418
+systems.CMSOTSZ002.E.capfac 0.415331 0.785078 0.852221 0 0.545914 \
+0.622831 0.207641 0.259145 0.761726 0.764083
+systems.CMSOTSZ001.D.capfac 0.444911 0.817212 0.922931 0 0.568536 \
+0.641393 0.235233 0.259233 0.784167 0.816003
+systems.CMRIDM_Memve_Ele.F.capfac 0.586753 0.587181 0.587181 0.700716 0.700716 \
+0.700716 0.700716 0.904448 0.904006 0.904006
+systems.CMRIDM_Lom-Pangar.G.capfac 0.424983 0.424611 0.424611 0.126902 0.126823 \
+0.126823 0.126823 0.592326 0.592796 0.592796
+systems.CMRIDM_Lagdo.H.capfac 0.485612 0.485701 0.485701 0.616465 0.616598 \
+0.616598 0.616598 0.544444 0.544208 0.544208
+systems.CMRIDM_Mekin.I.capfac 0.031692 0.031595 0.031595 0.187992 0.189113 \
+0.189113 0.189113 0.30936 0.308244 0.308244
+systems.CMRIDM_Bini_A_Warak.K.capfac 0.040114 0.040391 0.040391 0.126555 0.126616 \
+0.126616 0.126616 0.433611 0.433259 0.433259
+systems.CMELPT04.A.capfac 0.055251 0.055251 0 0.057991 0.057991 \
+0.057991 0 0.053425 0.053425 0
+systems.CMELDT04_01.B.capfac 1 0 0 0 0 \
+0 0 0 0 0
+systems.CMELDT04_01.C.capfac 0 0 1 0 0 \
+0 0 0 0 0
+systems.CMELDT04_02.D.capfac 0 0 0 1 0 \
+0 0 0 0 0
+systems.CMELDT04_02.E.capfac 0 0 0 0 0 \
+0 1 0 0 0
+systems.CMELDT04_03.J.capfac 0 0 0 0 0 \
+0 0 1 0 0
+systems.CMELDT04_03.L.capfac 0 0 0 0 0 \
+0 0 0 0 1
+systems.CMRIDM_Edea.M.capfac 0.713199 0.713022 0.713022 0.794255 0.794255 \
+0.794255 0.794255 0.833612 0.833794 0.833794
+systems.CMRIDM_Makay.N.capfac 0.234608 0.235715 0.235715 0.765722 0.765722 \
+0.765722 0.765722 0.752737 0.751593 0.751593
+systems.CMRIDM_Nachtigal_Amont.O.capfac 0.334209 0.333811 0.333811 0.567951 0.568723 \
+0.568723 0.568723 0.735772 0.735346 0.735346
+systems.CMRIDM_Song_Loulou.P.capfac 0.738289 0.738049 0.738049 0.819945 0.819945 \
+0.819945 0.819945 0.873368 0.873615 0.873615
+systems.CMRIDM_Song_Mbong.Q.capfac 0.033493 0.033691 0.033691 0.125377 0.125588 \
+0.125588 0.125588 0.392381 0.391946 0.391946
+systems.CMRIDM_Grand_Eweng_Ngodi.R.capfac 0.021916 0.022089 0.022089 0.480729 0.481653 \
+0.481653 0.481653 0.552656 0.551475 0.551475
+systems.CMRIDM_Chutes_de_Nki.S.capfac 0.080229 0.080782 0.080782 0.25311 0.253233 \
+0.253233 0.253233 0.602266 0.60156 0.60156
+relationsc:
+relationsp:
+relationss:
+D_CMHYDM_Memve_Ele D001 o 0
+*
+D_CMHYDM_Lom-Pangar D002 o 0
+*
+D_CMHYDM_Lagdo D003 o 0
+*
+D_CMHYDM_Mekin D004 o 0
+*
+D_CMHYDM_Bini_A_Warak D005 o 0
+*
+SS_CMELST04 SS01 o 0
+*
+D_CMHYDM_Edea D006 o 0
+*
+D_CMHYDM_Makay D007 o 0
+*
+D_CMHYDM_Nachtigal_Amont D008 o 0
+*
+D_CMHYDM_Song_Loulou D009 o 0
+*
+D_CMHYDM_Song_Mbong D010 o 0
+*
+D_CMHYDM_Grand_Eweng_Ngodi D011 o 0
+*
+D_CMHYDM_Chutes_de_Nki D012 o 0
+*
+relations1:
+ReserveMargin RM o 
+*
+CO2emissionskt CO2 o 
+*
+LocalRE RE o 
+*
+WDBR WDBR o 
+*
+PVBR PVBR o 
+*
+BMTC BMTC o 
+*
+Domestic DOM o 
+*
+InstantaneousWindPV IPW o 0
+*
+PC_CMELST04 PC01 o 
+*
+PS_CMELST04 PS01 o 0
+*
+DC_CMELST04_01 DC01 o 
+*
+DC_CMELST04_02 DC02 o 
+*
+DC_CMELST04_03 DC03 o 
+*
+RC_CMHYDM_Grand_Eweng_Ngodi_01 RC01 o 
+*
+RC_CMHYDM_Chutes_de_Nki_02 RC02 o 
+*
+RC_CMHYDM_Edea_03 RC03 o 
+*
+RC_CMHYDM_Makay_04 RC04 o 
+*
+RC_CMHYDM_Nachtigal_Amont_05 RC05 o 
+*
+RC_CMHYDM_Song_Loulou_06 RC06 o 
+*
+RC_CMHYDM_Song_Mbong_07 RC07 o 
+*
+RC_CMHYDM_Memve_Ele_08 RC08 o 
+*
+RC_CMHYDM_Lom-Pangar_09 RC09 o 
+*
+RC_CMHYDM_Lagdo_10 RC10 o 
+*
+RC_CMHYDM_Mekin_11 RC11 o 
+*
+RC_CMHYDM_Bini_A_Warak_12 RC12 o 
+*
+DX_CMEXDT00 DX01 o 
+*
+relations2:
+variables:
+systems:
+CMEL00TDI a
+moutp i-t c 1
+inv c 1
+fom c 1
+# Description: Industry Distribution
+*
+CMEL00TDU a
+moutp u-t c 1
+inv c 1
+fom c 1
+# Description: Urban Distribution
+*
+CMEL00TDC a
+moutp c-t c 1
+inv c 1
+fom c 1
+# Description: Commerce Distribution
+*
+CMEL00TDR a
+moutp r-t c 1
+inv c 1
+fom c 1
+# Description: Rural Distribution
+*
+CMEL00T00 a
+moutp e-t c 1
+inv c 1
+fom c 1
+# Description: Transmission
+*
+CMEL00TUI a
+# Description: Industry Demand
+*
+CMEL00TUU a
+# Description: Urban Demand
+*
+CMEL00TUC a
+# Description: Commerce Demand
+*
+CMEL00TUR a
+# Description: Rural Demand
+*
+CMEL00TUS a
+# Description: SentOut Demand
+*
+CMEL00e00 a
+# Description: Export of Electricity
+*
+CMEL00i00 I
+# Description: Import of Electricity
+*
+CMELBS00 z
+# Description: Backstop
+*
+CMDSRC00 g
+# Description: Generic Diesel Centralized
+*
+CMDSRC_Kousseri M
+# Description: Kousseri
+*
+CMDSRC_Djamboutou L
+# Description: Djamboutou
+*
+CMDSRC_Maroua K
+# Description: Maroua
+*
+CMDSRC_MamfeNguti J
+# Description: MamfeNguti
+*
+CMDSRC_NewRIN I
+# Description: NewRIN
+*
+CMDSRC_Ngaoundere H
+# Description: Ngaoundere
+*
+CMDSRC_OYOMABANG-II G
+# Description: OYOMABANG-II
+*
+CMDSRC_MBALMAYO.EDC F
+# Description: MBALMAYO.EDC
+*
+CMDSRC_LIMBE E
+# Description: LIMBE
+*
+CMDSRC_EBOLOWA.EDC D
+# Description: EBOLOWA.EDC
+*
+CMDSRC_DOUALA.BASSA C
+# Description: DOUALA.BASSA
+*
+CMDSRC_BAMENDA B
+# Description: BAMENDA
+*
+CMDSRC_AHALA A
+# Description: AHALA
+*
+CMDSRI00 g
+# Description: Generic Diesel 100 kW system (Industry)
+*
+CMDSRU00 g
+# Description: Generic Diesel/Gasoline 1kW system (urban)
+*
+CMDSRB00 g
+# Description: Generic Diesel/Gasoline 1kW system (commercial buildings)
+*
+CMDSRR00 g
+# Description: Generic Diesel/Gasoline 1kW system (rural)
+*
+CMHFRC00 g
+# Description: Generic HFO
+*
+CMHFRC_YASSA-DIBAMBA C
+# Description: YASSA-DIBAMBA
+*
+CMHFRC_OYOMABANG-I B
+# Description: OYOMABANG-I
+*
+CMHFRC_CAPE.LIMBOH A
+# Description: CAPE.LIMBOH
+*
+CMNGSC00 g
+# Description: Generic Gas Open Cycle
+*
+CMNGSC_LITTORAL.POWER F
+# Description: LITTORAL.POWER
+*
+CMNGSC_LIMBE.ERANOVE E
+# Description: LIMBE.ERANOVE
+*
+CMNGSC_KRIBI.Candidate D
+# Description: KRIBI.Candidate
+*
+CMNGSC_KRIBI C
+# Description: KRIBI
+*
+CMNGSC_ALTAAQA.LOGBABA B
+# Description: ALTAAQA.LOGBABA
+*
+CMNGSC_ALTAAQA.BASSA A
+# Description: ALTAAQA.BASSA
+*
+CMNGRC00 a
+# Description: Generic Gas Engine
+*
+CMNGCC00 h
+# Description: Generic Gas Combined Cycle
+*
+CMCOCS00 g
+# Description: Generic Coal w CCS
+*
+CMCOSC00 g
+# Description: Generic Coal
+*
+CMHYDM00 g
+# Description: Generic Hydro With Dam
+*
+CMHYDM_Grand_Eweng_Ngodi G
+# Description: Grand_Eweng_Ngodi
+*
+CMHYDM_Chutes_de_Nki C
+# Description: Chutes_de_Nki
+*
+CMHYDM_Edea l
+# Description: Edea
+*
+CMHYDM_Makay k
+# Description: Makay
+*
+CMHYDM_Nachtigal_Amont j
+# Description: Nachtigal_Amont
+*
+CMHYDM_Song_Loulou i
+# Description: Song_Loulou
+*
+CMHYDM_Song_Mbong h
+# Description: Song_Mbong
+*
+CMHYDM_Memve_Ele I
+# Description: MEMVE_ELE
+*
+CMHYDM_Lom-Pangar F
+# Description: LOM-PANGAR
+*
+CMHYDM_Lagdo E
+# Description: LAGDO
+*
+CMHYDM_Mekin D
+# Description: HYDRO-MEKIN
+*
+CMHYRO_Chollet B
+# Description: CHOLLET_(DJA_RIVER)
+*
+CMHYDM_Bini_A_Warak A
+# Description: BINI_A_WARAK
+*
+CMHYRO00 a
+# Description: Generic Hydro Run of River
+*
+CMHYRO_Colomines R
+# Description: Colomines
+*
+CMHYRO_Kastina_Ala Q
+# Description: Kastina_Ala
+*
+CMHYRO_Ndjock K
+# Description: Ndjock 
+*
+CMHYRO_Zoulabot f
+# Description: Zoulabot
+*
+CMHYRO_Yenga e
+# Description: Yenga
+*
+CMHYRO_Zoukomanbale c
+# Description: Zoukomanbale
+*
+CMHYRO_Mbam_Amont b
+# Description: Mbam_Amont
+*
+CMHYRO_Mandourou Z
+# Description: Mandourou
+*
+CMHYRO_Mbinjal Y
+# Description: Mbinjal
+*
+CMHYRO_Edea_Amont X
+# Description: Edea_Amont
+*
+CMHYRO_Mouila_Mogue W
+# Description: Mouila_Mogue
+*
+CMHYRO_Nyazom V
+# Description: Nyazom
+*
+CMHYRO_Kikot_Aval U
+# Description: Kikot_Aval
+*
+CMHYRO_Bayomen T
+# Description: Bayomen
+*
+CMHYRO_Song_Ndong S
+# Description: Song_Ndong
+*
+CMHYRO_Song_Mbengue O
+# Description: SONG_MBENGUE
+*
+CMHYRO_Ngoila P
+# Description: NGOILA
+*
+CMHYRO_Kikot M
+# Description: KIKOT
+*
+CMHYRO_Nachtigal_Aval L
+# Description: NACHTIGAL_AVAL
+*
+CMHYRO_Menchum_Bamenda J
+# Description: MENCHUM_BAMENDA
+*
+CMHYRO_Mbakaou_Mini H
+# Description: MBAKAOU_MINI
+*
+CMHYMI00 g
+# Description: Generic Hydro Small
+*
+CMBMST00 g
+# Description: Generic Bagasse
+*
+CMBMST_Waste B
+# Description: Generic Energy from Waste
+*
+CMBMST_FORZI.AKWAYA A
+# Description: FORZI.AKWAYA
+*
+CMBWST00 a
+# Description: Generic Wood
+*
+CMGOCV00 g
+# Description: Generic Geothermal
+*
+CMWDLC00 h
+# Description: Generic Wind
+*
+CMWDOC00 F
+# Description: Generic OffShore Wind
+*
+CMWDLCZ005 E
+# Description: Wind Zone 005
+*
+CMWDLCZ004 D
+# Description: Wind Zone 004
+*
+CMWDLCZ003 C
+# Description: Wind Zone 003
+*
+CMWDLCZ002 B
+# Description: Wind Zone 002
+*
+CMWDLCZ001 A
+# Description: Wind Zone 001
+*
+CMSOPC00 i
+# Description: Generic PV System (utility)
+*
+CMSOPC_Mbalmayo_JCM_Solar_Grid T
+# Description: Mbalmayo_JCM_Solar_Grid
+*
+CMSOPC_GUIDER_MAROUA_RENT S
+# Description: GUIDER_MAROUA_RENT
+*
+CMSOPC_P166 R
+# Description: P166
+*
+CMSOPC_Ngaoundere_GDS_Orion Q
+# Description: Ngaoundere_GDS_Orion
+*
+CMSOPC_Garoua_Kunson P
+# Description: Garoua_Kunson
+*
+CMSOPC_Maroua_MAECI_PV O
+# Description: Maroua_MAECI_PV
+*
+CMSOPC_Ngaoundere_Rubis_Solar_PV N
+# Description: Ngaoundere_Rubis_Solar_PV
+*
+CMSOPC_SYNOHYDRO_Lagdo_PV M
+# Description: SYNOHYDRO Lagdo PV 
+*
+CMSOPC_Garoua_GSC_ENERGY L
+# Description: Garoua_GSC_ENERGY
+*
+CMSOPCZ005 K
+# Description: Solar PV Zone 005
+*
+CMSOPCZ004 J
+# Description: Solar PV Zone 004
+*
+CMSOPCZ003 I
+# Description: Solar PV Zone 003
+*
+CMSOPCZ002 H
+# Description: Solar PV Zone 002
+*
+CMSOPCZ001 G
+# Description: Solar PV Zone 001
+*
+CMSOPC_SOUTH_GRID_SOLAR F
+# Description: SOUTH.GRID.SOLAR
+*
+CMSOPC_NGAOUNDERE_SOLAR E
+# Description: NGAOUNDERE.SOLAR
+*
+CMSOPC_MAROUA_SOLAR D
+# Description: MAROUA.SOLAR
+*
+CMSOPC_GUIDER_SOLAR C
+# Description: GUIDER.SOLAR
+*
+CMSOPC_GAROUA_SOLAR B
+# Description: GAROUA.SOLAR
+*
+CMSOPC_FOYER_DU_MARIN A
+# Description: FOYER.DU.MARIN
+*
+CMSOPU00 g
+# Description: Generic PV system (roof top - urban)
+*
+CMSOPB00 g
+# Description: Generic PV system (roof top - commercial buildings)
+*
+CMSOPR00 g
+# Description: Generic PV system (roof top - rural)
+*
+CMSOPS00 h
+# Description: Generic PV with 2h Battery (roof top - rural)
+*
+CMSOTN00 j
+# Description: Generic Solar thermal no storage
+*
+CMSOTNZ002 C
+fyear 2026
+# Description: Solar CSP 6hrStor Zone 002
+*
+CMSOTNZ001 B
+fyear 2026
+# Description: Solar CSP 6hrStor Zone 001
+*
+CMSOTS00 k
+# Description: Generic Solar thermal with Storage
+*
+CMSOTSZ002 E
+fyear 2050
+# Description: Solar CSP 12hrStor Zone 002
+*
+CMSOTSZ001 D
+fyear 2050
+# Description: Solar CSP 12hrStor Zone 001
+*
+CMSOTG00 i
+# Description: Generic Solar thermal with Gas co-firing
+*
+CMBM00X00 a
+# Description: Extraction of Bagasse
+*
+CMBW00X00 a
+# Description: Extraction of Wood
+*
+CMHY00X00 a
+# Description: Supply of Hydro
+*
+CMSO00X00 a
+# Description: Supply of Solar
+*
+CMWD00X00 a
+# Description: Supply of Wind
+*
+CMHF00I00 a
+# Description: Import of HFO
+*
+CMDS00I00 a
+# Description: Import of Diesel
+*
+CMNG00X00 a
+# Description: Extraction of Natural Gas
+*
+CMCO00I00 a
+# Description: Import of Coal
+*
+CMRIDM_Memve_Ele F
+*
+CMRIDM_Lom-Pangar G
+*
+CMRIDM_Lagdo H
+*
+CMRIDM_Mekin I
+*
+CMRIDM_Bini_A_Warak K
+*
+CMELST04 A
+# Description: Battery Storage 4 hrs
+2. activity B
+*
+CMELPT04 A
+*
+CMELDT04_01 B
+2. activity C
+*
+CMELDT04_02 D
+2. activity E
+*
+CMELDT04_03 J
+2. activity L
+*
+CMRIDM_Edea M
+*
+CMRIDM_Makay N
+*
+CMRIDM_Nachtigal_Amont O
+*
+CMRIDM_Song_Loulou P
+*
+CMRIDM_Song_Mbong Q
+*
+CMRIDM_Grand_Eweng_Ngodi R
+*
+CMRIDM_Chutes_de_Nki S
+*
+CMEXDT00 T
+*
+resources: 
+endata
+

@@ -1,0 +1,1086 @@
+TDB: empty
+ADB: TNa
+problem: TNa
+description:
+# Tunisia
+drate: 10
+timesteps: 2018 2019 2020 2021 2022 2023 2024 2025 2026 2027 2028 2029 2030 2031 2032 2033 2034 2035 2036 2037 2038 2039 2040 2041 2042
+loadregions:
+ltype ordered seasonal 1 0
+year 2019 1 10
+name aaa aab aac \
+baa bab bac bad \
+caa cab cac 
+length 0.096689 0.165753 0.069064 \
+0.101484 0.173974 0.028995 0.043493 \
+0.093493 0.160274 0.066781 
+energyforms:
+Final f
+# Final Energy
+Industry e l
+# Industry Electricity Final
+Commerce c l
+# Commerce Electricity Final
+Urban u l
+# Urban Electricity Final
+Rural r l
+# Rural Electricity Final
+SentOut s l f
+# Sentout Electricity Final
+Export E 
+# Export Elc
+*
+Tertiary t
+# Tertiary Energy
+Industry i l
+# Industry Electricity Tertiary
+Commerce c l
+# Commerce Electricity Tertiary
+Urban u l
+# Urban Electricity Tertiary
+Rural r l
+# Rural Electricity Tertiary
+Electricity e l f
+# Tertiary Electricity
+ElcHydrogen a l
+# Tertiary Electricity for Hydrogen production
+Hydrogen h l
+# Tertiary Hydrogen
+HgnDummy j 
+# Tertiary Hydrogen dummy for export
+*
+Secondary s
+# Secondary Energy
+Electricity E l f
+# Secondary Electricity
+ElcDummy d l
+# Dummy elc for PS
+*
+Primary p
+# Primary Energy
+Bagasse b 
+# Bagasse
+Wood B 
+# Wood
+Hydro H 
+# Hydro
+Solar s l
+# Solar
+Wind w 
+# Wind
+Coal c 
+# Coal
+CoalCCS C 
+# Coal CCS
+Gas g 
+# Gas
+Nuclear n 
+# Nuclear
+Oil o 
+# Oil
+HFO h 
+# diesel
+Diesel d 
+# HFO
+Crude p 
+# Crude
+*
+Resources r
+# Resources
+Biomass b 
+# Biomass resource
+Coal c 
+# Coal resource
+*
+DummyLevelStorage d
+# DummyLevelStorage
+DummyCom_TNELST04 A l
+# DummyCom_TNELST04
+DummyCom_TNELSTPSPSHTabarka B l
+# DummyCom_TNELSTPSPSHTabarka
+*
+demand:
+e-f  ts 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+c-f  ts 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+u-f  ts 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+r-f  ts 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+s-f  ts 2290.05 2180.02 2407.65 2469.86 2532.38 2595.47 2659.32 2726.13 2795.53 2867.26 2941.11 3016.94 3097.95 3183.24 3272.16 3364.23 3459.07 3560.56 3667.47 3778.86 3894.08 4012.65 4012.65
+loadcurve:
+year 2019
+e-f 0.096689 0.165753 0.069064 0.101484 0.173974 \
+0.028995 0.043493 0.093493 0.160274 0.066781
+c-f 0.091679 0.175245 0.066941 0.096225 0.180233 \
+0.02902 0.04124 0.088649 0.16604 0.064728
+u-f 0.055689 0.182832 0.11559 0.05341 0.191565 \
+0.039736 0.051465 0.054146 0.176521 0.079046
+r-f 0.055689 0.182832 0.11559 0.05341 0.191565 \
+0.039736 0.051465 0.054146 0.176521 0.079046
+s-f 0.06049 0.129658 0.06165 0.093303 0.326892 \
+0.029513 0.046079 0.060854 0.130955 0.060606
+systems.TNEL00i00_Italy.y.vom 0.780591 0.924341 1.633057 0.861726 1.006571 \
+1.615707 1.440994 0.664384 0.894487 1.212325
+systems.TNEL00i00_Italy.d.vom 0.780591 0.924341 1.633057 0.861726 1.006571 \
+1.615707 1.440994 0.664384 0.894487 1.212325
+systems.TNHYRO_Sejnene.4.capfac 0.994402 0.994919 0.994919 0.423207 0.422287 \
+0.422287 0.422287 0.301308 0.301771 0.301771
+systems.TNHYRO_Bouhertma.1.capfac 0.994402 0.994919 0.994919 0.423207 0.422287 \
+0.422287 0.422287 0.301308 0.301771 0.301771
+systems.TNHYRO_Aroussia.0.capfac 0.796992 0.797458 0.797458 0.225762 0.225261 \
+0.225261 0.225261 0.090006 0.090066 0.090066
+systems.TNWDLC00.h.capfac 0.151711 0.150783 0.171666 0.252271 0.296194 \
+0.198611 0.165996 0.1756 0.224278 0.253444
+systems.TNWDLC_Wind_STEG_1.R.capfac 0.627527 0.60436 0.651122 0.592194 0.451807 \
+0.593235 0.694298 0.460027 0.397907 0.487553
+systems.TNWDLC_Metline_Wind_2.Q.capfac 0.151711 0.150783 0.171666 0.252271 0.296194 \
+0.198611 0.165996 0.1756 0.224278 0.253444
+systems.TNWDLC_Kchabta_Wind_2.P.capfac 0.151711 0.150783 0.171666 0.252271 0.296194 \
+0.198611 0.165996 0.1756 0.224278 0.253444
+systems.TNWDOC00.M.capfac 0.151711 0.150783 0.171666 0.252271 0.296194 \
+0.198611 0.165996 0.1756 0.224278 0.253444
+systems.TNWDOCZ002.O.capfac 0.504218 0.418794 0.50704 0.281938 0.282184 \
+0.479756 0.456949 0.344556 0.29853 0.369385
+systems.TNWDOCZ001.N.capfac 0.513981 0.52669 0.552319 0.26904 0.285711 \
+0.30928 0.283657 0.411622 0.393755 0.419667
+systems.TNWDLC_Sidi_Daoued_Wind_3.L.capfac 0.627527 0.60436 0.651122 0.592194 0.451807 \
+0.593235 0.694298 0.460027 0.397907 0.487553
+systems.TNWDLCZ005.K.capfac 0.627527 0.60436 0.651122 0.592194 0.451807 \
+0.593235 0.694298 0.460027 0.397907 0.487553
+systems.TNWDLCZ004.J.capfac 0.667152 0.678295 0.719786 0.325615 0.383871 \
+0.648045 0.549645 0.511192 0.51957 0.534883
+systems.TNWDLCZ003.I.capfac 0.612578 0.564002 0.586864 0.7155 0.4684 \
+0.485815 0.693348 0.447604 0.343302 0.418295
+systems.TNWDLCZ002.H.capfac 0.570918 0.582756 0.70568 0.53496 0.425182 \
+0.64715 0.662304 0.488297 0.494293 0.574555
+systems.TNWDLCZ001.G.capfac 0.638177 0.580463 0.612975 0.735398 0.465105 \
+0.559693 0.758637 0.468001 0.347735 0.470421
+systems.TNWDLC_Sidi_Daoued_Wind_2.D.capfac 0.151711 0.150783 0.171666 0.252271 0.296194 \
+0.198611 0.165996 0.1756 0.224278 0.253444
+systems.TNWDLC_Sidi_Daoued_Wind_1.C.capfac 0.151711 0.150783 0.171666 0.252271 0.296194 \
+0.198611 0.165996 0.1756 0.224278 0.253444
+systems.TNWDLC_Metline_Wind.B.capfac 0.151711 0.150783 0.171666 0.252271 0.296194 \
+0.198611 0.165996 0.1756 0.224278 0.253444
+systems.TNWDLC_Kchabta_Wind.A.capfac 0.151711 0.150783 0.171666 0.252271 0.296194 \
+0.198611 0.165996 0.1756 0.224278 0.253444
+systems.TNSOPC00.i.capfac 0 0.467662 0 0 0.521951 \
+0.020308 0 0 0.547312 0.020448
+systems.TNSOPC_PV_IPP_typeB_2.Q.capfac 0 0.368379 0 0 0.488425 \
+0.134375 0 0 0.298799 0
+systems.TNSOPC_PV_IPP_typeB_1.P.capfac 0 0.368379 0 0 0.488425 \
+0.134375 0 0 0.298799 0
+systems.TNSOPC_PV_IPP_typeA_1.O.capfac 0 0.368379 0 0 0.488425 \
+0.134375 0 0 0.298799 0
+systems.TNSOPC_PV-STEG_5.N.capfac 0 0.368379 0 0 0.488425 \
+0.134375 0 0 0.298799 0
+systems.TNSOPC_PV-STEG_4.M.capfac 0 0.377498 0 0 0.490252 \
+0.131827 0 0 0.307502 0
+systems.TNSOPC_PV-STEG_3.L.capfac 0 0.368379 0 0 0.488425 \
+0.134375 0 0 0.298799 0
+systems.TNSOPC_PV-STEG_2.K.capfac 0 0.368379 0 0 0.488425 \
+0.134375 0 0 0.298799 0
+systems.TNSOPC_PV-STEG_1.J.capfac 0 0.377498 0 0 0.490252 \
+0.131827 0 0 0.307502 0
+systems.TNSOPC_Enfidha_PV_IPP_type.A.capfac 0 0.368378 0 0 0.488425 \
+0.13437 0 0 0.298798 0
+systems.TNSOPCZ005.I.capfac 0 0.372205 0 0 0.491826 \
+0.121403 0 0 0.290428 0
+systems.TNSOPCZ004.H.capfac 0 0.368379 0 0 0.488425 \
+0.134375 0 0 0.298799 0
+systems.TNSOPCZ003.G.capfac 0 0.369877 0 0 0.490928 \
+0.126972 0 0 0.292546 0
+systems.TNSOPCZ002.F.capfac 0 0.377498 0 0 0.490252 \
+0.131827 0 0 0.307502 0
+systems.TNSOPCZ001.E.capfac 0 0.385628 0 0 0.493565 \
+0.122279 0 0 0.313546 0
+systems.TNSOPC_Tozeur_2_Solar_PV.B.capfac 0 0.467662 0 0 0.521951 \
+0.020308 0 0 0.547312 0.020448
+systems.TNSOPC_Tozeur_Solar_PV.C.capfac 0 0.467662 0 0 0.521951 \
+0.020308 0 0 0.547312 0.020448
+systems.TNSOTN00.j.capfac 0 0.516411 0.258096 0 0.516411 \
+0.41617 0.152713 0 0.516772 0.257228
+systems.TNSOTNZ002.C.capfac 0.038854 0.724922 0.771729 0 0.818479 \
+0.935211 0.521684 0 0.689115 0.534513
+systems.TNSOTNZ001.B.capfac 0.032054 0.715613 0.744064 0 0.816064 \
+0.914404 0.49175 0 0.688456 0.499744
+systems.TNSOTS00.k.capfac 0 0.516411 0.258096 0 0.516411 \
+0.41617 0.152713 0 0.516772 0.257228
+systems.TNSOTSZ002.E.capfac 0.520807 0.753855 0.892619 0.468575 0.8601 \
+0.984412 0.929663 0.280053 0.742598 0.886473
+systems.TNSOTSZ001.D.capfac 0.529576 0.7562 0.904905 0.4491 0.854944 \
+0.982963 0.944294 0.289316 0.738258 0.863906
+systems.TNRIDM_Sidi_Salem.D.capfac 0.526595 0.526828 0.526828 0.112881 0.112631 \
+0.112631 0.112631 0.045003 0.045033 0.045033
+systems.TNRIDM_Nebeur.F.capfac 0.627432 0.628308 0.628308 0.438088 0.437178 \
+0.437178 0.437178 0.137876 0.137959 0.137959
+systems.TNRIDM_Kasseb.G.capfac 0.790796 0.791065 0.791065 0.222961 0.222432 \
+0.222432 0.222432 0.145115 0.145411 0.145411
+systems.TNELPT04.A.capfac 0.055251 0.055251 0 0.057991 0.057991 \
+0.057991 0 0.053425 0.053425 0
+systems.TNELDT04_01.B.capfac 1 0 0 0 0 \
+0 0 0 0 0
+systems.TNELDT04_01.C.capfac 0 0 1 0 0 \
+0 0 0 0 0
+systems.TNELDT04_02.E.capfac 0 0 0 1 0 \
+0 0 0 0 0
+systems.TNELDT04_02.H.capfac 0 0 0 0 0 \
+0 1 0 0 0
+systems.TNELDT04_03.I.capfac 0 0 0 0 0 \
+0 0 1 0 0
+systems.TNELDT04_03.J.capfac 0 0 0 0 0 \
+0 0 0 0 1
+systems.TNELPTPSPSHTabarka.K.capfac 0.096689 0.096689 0 0.101484 0.101484 \
+0.101484 0 0.093493 0.093493 0
+systems.TNELDTPSPSHTabarka_01.L.capfac 1 0 0 0 0 \
+0 0 0 0 0
+systems.TNELDTPSPSHTabarka_01.M.capfac 0 0 1 0 0 \
+0 0 0 0 0
+systems.TNELDTPSPSHTabarka_02.N.capfac 0 0 0 1 0 \
+0 0 0 0 0
+systems.TNELDTPSPSHTabarka_02.O.capfac 0 0 0 0 0 \
+0 1 0 0 0
+systems.TNELDTPSPSHTabarka_03.P.capfac 0 0 0 0 0 \
+0 0 1 0 0
+systems.TNELDTPSPSHTabarka_03.Q.capfac 0 0 0 0 0 \
+0 0 0 0 1
+relationsc:
+relationsp:
+relationss:
+D_TNHYDM_Sidi_Salem D001 o 0
+*
+D_TNHYDM_Nebeur D002 o 0
+*
+D_TNHYDM_Kasseb D003 o 0
+*
+SS_TNELST04 SS01 o 0
+*
+SS_TNELSTPSPSHTabarka SS02 o 0
+*
+relations1:
+ReserveMargin RM o 
+*
+CO2emissionskt CO2 o 
+*
+LocalRE RE o 
+*
+WDBR WDBR o 
+upper ts 645.4404 614.429 678.5855 696.1191 713.7401 731.5217 749.5175 768.3476 787.9077 808.1245 828.9388 850.3112 875.2336 900.1561 925.0786 950.0011 974.9235 979.9388 984.9541 989.9694 994.9847 1000 1000
+*
+PVBR PVBR o 
+upper ts 1075.7341 1024.0483 1130.9758 1160.1985 1189.5668 1219.2028 1249.1959 1280.5794 1313.1795 1346.8742 1381.5647 566.8741 583.4891 600.1041 616.7191 633.334 649.949 670.7522 691.5554 712.3586 733.1619 753.9651 753.9651
+*
+BMTC BMTC o 
+*
+Domestic DOM o 
+*
+InstantaneousWindPV IPW o 0
+*
+PC_TNELST04 PC01 o 
+*
+PS_TNELST04 PS01 o 0
+*
+DC_TNELST04_01 DC01 o 
+*
+DC_TNELST04_02 DC02 o 
+*
+DC_TNELST04_03 DC03 o 
+*
+PC_TNELSTPSPSHTabarka PC02 o 
+*
+PS_TNELSTPSPSHTabarka PS02 o 0
+*
+DC_TNELSTPSPSHTabarka_01 DC04 o 
+*
+DC_TNELSTPSPSHTabarka_02 DC05 o 
+*
+DC_TNELSTPSPSHTabarka_03 DC06 o 
+*
+relations2:
+variables:
+systems:
+TNEL00TDI a
+moutp i-t c 1
+inv c 1
+fom c 1
+# Description: Industry Distribution
+*
+TNEL00TDU a
+moutp u-t c 1
+inv c 1
+fom c 1
+# Description: Urban Distribution
+*
+TNEL00TDC a
+moutp c-t c 1
+inv c 1
+fom c 1
+# Description: Commerce Distribution
+*
+TNEL00TDR a
+moutp r-t c 1
+inv c 1
+fom c 1
+# Description: Rural Distribution
+*
+TNEL00T00 a
+moutp e-t c 1
+inv c 1
+fom c 1
+# Description: Transmission
+*
+TNEL00TUI a
+# Description: Industry Demand
+*
+TNEL00TUU a
+# Description: Urban Demand
+*
+TNEL00TUC a
+# Description: Commerce Demand
+*
+TNEL00TUR a
+# Description: Rural Demand
+*
+TNEL00TUS a
+# Description: SentOut Demand
+*
+TNEL00e00 a
+# Description: Export of Electricity
+*
+TNEL00i00 I
+# Description: Import of Electricity
+*
+TNEL00i00_Italy y
+# Description: Import/Export of Electricity (Italy)
+2. activity d
+*
+TNHG00i00_HydrogenExport y
+# Description: Hydrogen Exports
+*
+TNELBS00 z
+# Description: Backstop
+*
+TNDSRC00 g
+moutp E-s c 0.35
+fyear 2021
+plf c 0.894
+optm c 0.894
+minutil c 0.05
+# Description: Generic Diesel Centralized
+*
+TNDSRI00 g
+moutp i-t c 0.35
+fyear 2020
+plf c 0.894
+optm c 0.894
+minutil c 0
+# Description: Generic Diesel 100 kW system (Industry)
+*
+TNDSRU00 g
+moutp u-t c 0.16
+fyear 2020
+plf c 0.548
+optm c 0.548
+minutil c 0
+# Description: Generic Diesel/Gasoline 1kW system (urban)
+*
+TNDSRB00 g
+moutp c-t c 0.16
+fyear 2020
+plf c 0.548
+optm c 0.548
+minutil c 0
+# Description: Generic Diesel/Gasoline 1kW system (commercial buildings)
+*
+TNDSRR00 g
+moutp r-t c 0.16
+fyear 2020
+plf c 0.548
+optm c 0.548
+minutil c 0
+# Description: Generic Diesel/Gasoline 1kW system (rural)
+*
+TNHFRC00 g
+moutp E-s c 0.35
+fyear 2024
+plf c 0.894
+optm c 0.894
+minutil c 0.05
+# Description: Generic HFO
+*
+TNNGSC00 g
+moutp E-s c 0.35
+fyear 2023
+plf c 0.922
+optm c 0.922
+minutil c 0.05
+# Description: Generic Gas Open Cycle
+*
+TNNGSC_New_Gas_Turbine_2 O
+# Description: New_Gas_Turbine_2
+*
+TNNGSC_New_Gas_Turbine K
+# Description: New_Gas_Turbine
+*
+TNNGSC_Rades_B_Steam_Turbines_2 n
+moutp E-s c 0.58
+plf c 0.73
+optm c 0.922
+bdi up c 90
+# Description: Rades_B_Steam_Turbines_2
+*
+TNNGSC_Rades_A_Steam_Turbines_2 m
+moutp E-s c 0.58
+plf c 0.73
+optm c 0.922
+bdi up c 90
+# Description: Rades_A_Steam_Turbines_2
+*
+TNNGSC_Bouchemma_Gas_Turbines_5 l
+moutp E-s c 0.35
+plf c 0.922
+optm c 0.922
+bdi up c 120
+# Description: Bouchemma_Gas_Turbines_5
+*
+TNNGSC_Bouchemma_Gas_Turbines_4 j
+moutp E-s c 0.35
+plf c 0.922
+optm c 0.922
+bdi up c 120
+# Description: Bouchemma_Gas_Turbines_4
+*
+TNNGSC_Bir_MCherga_Gas_Turbines_4 f
+moutp E-s c 0.35
+plf c 0.922
+optm c 0.922
+bdi up c 120
+# Description: Bir_MCherga_Gas_Turbines_4
+*
+TNNGSC_Bir_MCherga_Gas_Turbines_3 e
+moutp E-s c 0.35
+plf c 0.922
+optm c 0.922
+bdi up c 120
+# Description: Bir_MCherga_Gas_Turbines_3
+*
+TNNGSC_Bir_MCherga_Gas_Turbines_2 c
+moutp E-s c 0.35
+plf c 0.922
+optm c 0.922
+bdi up c 120
+# Description: Bir_M'Cherga_Gas_Turbines_2
+*
+TNNGSC_Bir_MCherga_Gas_Turbines_1 b
+moutp E-s c 0.35
+plf c 0.922
+optm c 0.922
+bdi up c 120
+# Description: Bir_M'Cherga_Gas_Turbines_1
+*
+TNNGSC_Bouchemma_Gas_Turbines_3 a
+moutp E-s c 0.35
+plf c 0.922
+optm c 0.922
+bdi up c 120
+# Description: Bouchemma_Gas_Turbines_3
+*
+TNNGSC_Bouchemma_Gas_Turbines_2 Z
+moutp E-s c 0.35
+plf c 0.922
+optm c 0.922
+bdi up c 30
+# Description: Bouchemma_Gas_Turbines_2
+*
+TNNGSC_Bouchemma_Gas_Turbines_1 Y
+moutp E-s c 0.35
+plf c 0.922
+optm c 0.922
+bdi up c 30
+# Description: Bouchemma_Gas_Turbines_1
+*
+TNNGSC_Mornaguia_Gas_Turbines W
+moutp E-s c 0.35
+fyear 2019
+plf c 0.922
+optm c 0.922
+bdi up c 625
+# Description: Mornaguia_Gas_Turbines
+*
+TNNGSC_Goulette_Gas_Turbines V
+moutp E-s c 0.35
+plf c 0.922
+optm c 0.922
+bdi up c 120
+# Description: Goulette_Gas_Turbines
+*
+TNNGSC_Feriana_Gas_Turbines U
+moutp E-s c 0.35
+plf c 0.922
+optm c 0.922
+bdi up c 240
+# Description: Feriana_Gas_Turbines
+*
+TNNGSC_Thyna_Gas_Turbines T
+moutp E-s c 0.35
+plf c 0.922
+optm c 0.922
+bdi up c 360
+# Description: Thyna_Gas_Turbines
+*
+TNNGSC_Zarzis_Gas_Turbines S
+moutp E-s c 0.35
+plf c 0.922
+optm c 0.922
+bdi up c 30
+# Description: Zarzis_Gas_Turbines
+*
+TNNGSC_Robbana_Gas_Turbines R
+moutp E-s c 0.35
+plf c 0.922
+optm c 0.922
+bdi up c 30
+# Description: Robbana_Gas_Turbines
+*
+TNNGSC_Kasserine_Gas_Turbines Q
+moutp E-s c 0.35
+plf c 0.922
+optm c 0.922
+bdi up c 60
+# Description: Kasserine_Gas_Turbines
+*
+TNNGSC_Korba_Gas_Turbines P
+moutp E-s c 0.35
+plf c 0.922
+optm c 0.922
+bdi up c 50
+# Description: Korba_Gas_Turbines
+*
+TNNGSC_Menzel_Bourguiba_Gas_Turbines N
+moutp E-s c 0.35
+plf c 0.922
+optm c 0.922
+bdi up c 40
+# Description: Menzel_Bourguiba_Gas_Turbines
+*
+TNNGSC_Sfax_Gas_Turbines M
+moutp E-s c 0.35
+plf c 0.922
+optm c 0.922
+bdi up c 40
+# Description: Sfax_Gas_Turbines
+*
+TNNGSC_Tunis_Sud_Gas_Turbines L
+moutp E-s c 0.35
+plf c 0.922
+optm c 0.922
+bdi up c 60
+# Description: Tunis_Sud_Gas_Turbines
+*
+TNNGSC_Rades_1_B_Steam_Turbines H
+moutp E-s c 0.58
+plf c 0.73
+optm c 0.922
+bdi up c 90
+# Description: Rades_1_B_Steam_Turbines
+*
+TNNGSC_Rades_1_A_Steam_Turbines G
+moutp E-s c 0.58
+plf c 0.73
+optm c 0.922
+bdi up c 90
+# Description: Rades_1_A_Steam_Turbines
+*
+TNNGSC_Ghannouch_Combined_Cycle F
+moutp E-s c 0.58
+plf c 0.73
+optm c 0.922
+bdi up c 420
+# Description: Ghannouch_Combined_Cycle
+*
+TNNGCC00 h
+moutp E-s c 0.58
+fyear 2023
+plf c 0.922
+optm c 0.922
+minutil c 0.15
+# Description: Generic Gas Combined Cycle
+*
+TNNGCC_Skhira_II_Combined_Cycle J
+# Description: Skhira_II_Combined_Cycle
+*
+TNNGCC_Skhira_I_Combined_Cycle B
+# Description: Skhira_I_Combined_Cycle
+*
+TNNGCC_New_Combined_Cycle A
+# Description: New_Combined_Cycle
+*
+TNNGCC_Rades_D_Combined_Cycle d
+moutp E-s c 0.58
+plf c 0.73
+optm c 0.922
+bdi up c 471
+# Description: Rades_D_Combined_Cycle
+*
+TNNGCC_Rades_1_C_Combined_Cycle I
+moutp E-s c 0.58
+fyear 2022
+plf c 0.73
+optm c 0.922
+bdi up c 481
+# Description: Rades_1_C_Combined_Cycle (EXISTING)
+*
+TNNGCC_Sousse_D_Combined_Cycle E
+moutp E-s c 0.58
+plf c 0.73
+optm c 0.922
+bdi up c 424
+# Description: Sousse_D_Combined_Cycle
+*
+TNNGCC_Sousse_C_Combined_Cycle D
+moutp E-s c 0.58
+plf c 0.73
+optm c 0.922
+bdi up c 424
+# Description: Sousse_C_Combined_Cycle
+*
+TNNGCC_Sousse_B_Combined_Cycle C
+moutp E-s c 0.58
+plf c 0.73
+optm c 0.922
+bdi up c 358
+# Description: Sousse_B_Combined_Cycle
+*
+TNCOCS00 g
+moutp E-s c 0.28
+fyear 2030
+plf c 0.922
+optm c 0.922
+minutil c 0
+# Description: Generic Coal w CCS
+*
+TNCOSC00 g
+moutp E-s c 0.39
+fyear 2050
+plf c 0.922
+optm c 0.922
+minutil c 0.2
+# Description: Generic Coal
+*
+TNHYDM00 g
+moutp E-s c 1
+fyear 2050
+plf c 1
+optm c 0.5
+minutil c 0
+# Description: Generic Hydro With Dam
+*
+TNHYDM_Sidi_Salem 5
+moutp E-s c 1
+plf c 1
+optm c 1
+bdi up c 33
+# Description: Sidi_Salem_Hydro
+*
+TNHYRO_Sejnene 4
+# Description: Sejnene_Hydro
+*
+TNHYDM_Nebeur 3
+moutp E-s c 1
+plf c 1
+optm c 1
+bdi up c 13
+# Description: Nebeur_Hydro
+*
+TNHYDM_Kasseb 2
+moutp E-s c 1
+plf c 1
+optm c 1
+bdi up c 1
+# Description: Kasseb_Hydro
+*
+TNHYRO_Bouhertma 1
+# Description: Bouhertma_Hydro
+*
+TNHYRO_Aroussia 0
+# Description: Aroussia_Hydro
+*
+TNHYMI00 g
+moutp r-t c 1
+fyear 2050
+plf c 0.5
+optm c 1
+minutil c 0
+# Description: Generic Hydro Small
+*
+TNHYRO00 h
+moutp E-s c 1
+fyear 2050
+plf c 0.5
+optm c 1
+minutil c 0
+# Description: Generic Hydro ROR
+*
+TNHYRO_Fernana 6
+moutp E-s c 1
+plf c 0.5
+optm c 1
+bdi up c 10
+# Description: Fernana_Hydro
+*
+TNDSSC00 h
+moutp E-s c 0.35
+fyear 2050
+plf c 0.922
+optm c 0.922
+minutil c 0
+# Description: Generic Diesel Open Cycle
+*
+TNHFSC00 h
+moutp E-s c 0.35
+fyear 2025
+plf c 0.894
+optm c 0.894
+minutil c 0.05
+# Description: Generic HFO Turbine
+*
+TNBMST00 g
+moutp E-s c 0.26
+fyear 2024
+plf c 0.818
+optm c 0.818
+minutil c 0.2
+# Description: Generic Bagasse
+*
+TNBWST00 a
+moutp E-s c 0.26
+fyear 2024
+plf c 0.818
+optm c 0.818
+minutil c 0.2
+# Description: Generic Wood
+*
+TNGOCV00 g
+moutp E-s c 1
+fyear 2025
+plf c 0.775
+optm c 0.775
+minutil c 0.2
+# Description: Generic Geothermal
+*
+TNWDLC00 h
+moutp E-s c 1
+fyear 2050
+plf c 0.75
+optm c 1
+minutil c 0
+# Description: Generic Wind
+*
+TNWDLC_Wind_STEG_1 R
+# Description: Wind_STEG_1
+*
+TNWDLC_Metline_Wind_2 Q
+# Description: Metline_Wind_2
+*
+TNWDLC_Kchabta_Wind_2 P
+# Description: Kchabta_Wind_2
+*
+TNWDOC00 M
+moutp E-s c 1
+fyear 2050
+plf c 0.75
+optm c 1
+minutil c 0
+# Description: Generic OffShore Wind
+*
+TNWDOCZ002 O
+# Description: Offshore Wind Zone 002
+*
+TNWDOCZ001 N
+# Description: Offshore Wind Zone 001
+*
+TNWDLC_Sidi_Daoued_Wind_3 L
+# Description: Sidi_Daoued_Wind_3
+*
+TNWDLCZ005 K
+moutp E-s c 1
+fyear 2024
+plf c 0.83
+optm c 1
+bdi up c 6590.85
+# Description: Wind Zone 005
+*
+TNWDLCZ004 J
+moutp E-s c 1
+fyear 2024
+plf c 0.83
+optm c 1
+bdi up c 217.85
+# Description: Wind Zone 004
+*
+TNWDLCZ003 I
+moutp E-s c 1
+fyear 2024
+plf c 0.83
+optm c 1
+bdi up c 8343.94
+# Description: Wind Zone 003
+*
+TNWDLCZ002 H
+moutp E-s c 1
+fyear 2024
+plf c 0.83
+optm c 1
+bdi up c 172.72
+# Description: Wind Zone 002
+*
+TNWDLCZ001 G
+moutp E-s c 1
+fyear 2024
+plf c 0.83
+optm c 1
+bdi up c 6899.26
+# Description: Wind Zone 001
+*
+TNWDLC_Sidi_Daoued_Wind_2 D
+# Description: Sidi_Daoued_Wind_2
+*
+TNWDLC_Sidi_Daoued_Wind_1 C
+# Description: Sidi_Daoued_Wind_1
+*
+TNWDLC_Metline_Wind B
+# Description: Metline_Wind
+*
+TNWDLC_Kchabta_Wind A
+# Description: Kchabta_Wind
+*
+TNSOPC00 i
+moutp E-s c 1
+fyear 2050
+plf c 0.8
+optm c 1
+minutil c 0
+# Description: Generic PV System (utility)
+*
+TNSOPC_PV_IPP_typeB_2 Q
+# Description: PV_IPP_typeB_2
+*
+TNSOPC_PV_IPP_typeB_1 P
+# Description: PV_IPP_typeB_1
+*
+TNSOPC_PV_IPP_typeA_1 O
+# Description: PV_IPP_typeA_1
+*
+TNSOPC_PV-STEG_5 N
+# Description: PV-STEG_5
+*
+TNSOPC_PV-STEG_4 M
+# Description: PV-STEG_4
+*
+TNSOPC_PV-STEG_3 L
+# Description: PV-STEG_3
+*
+TNSOPC_PV-STEG_2 K
+# Description: PV-STEG_2
+*
+TNSOPC_PV-STEG_1 J
+# Description: PV-STEG_1
+*
+TNSOPC_Enfidha_PV_IPP_type A
+# Description: Enfidha_PV_IPP_type A
+*
+TNSOPCZ005 I
+moutp E-s c 1
+fyear 2022
+plf c 0.92
+optm c 1
+bdi up c 693.46
+# Description: Solar PV Zone 005
+*
+TNSOPCZ004 H
+moutp E-s c 1
+fyear 2022
+plf c 0.92
+optm c 1
+bdi up c 5416.04
+# Description: Solar PV Zone 004
+*
+TNSOPCZ003 G
+moutp E-s c 1
+fyear 2022
+plf c 0.92
+optm c 1
+bdi up c 1306.71
+# Description: Solar PV Zone 003
+*
+TNSOPCZ002 F
+moutp E-s c 1
+fyear 2022
+plf c 0.92
+optm c 1
+bdi up c 11509.74
+# Description: Solar PV Zone 002
+*
+TNSOPCZ001 E
+moutp E-s c 1
+fyear 2022
+plf c 0.92
+optm c 1
+bdi up c 5044.82
+# Description: Solar PV Zone 001
+*
+TNSOPC_Tozeur_2_Solar_PV B
+# Description: Tozeur2_Solar_PV
+*
+TNSOPC_Tozeur_Solar_PV C
+# Description: Tozeur_Solar_PV
+*
+TNSOPU00 g
+moutp u-t c 1
+plf c 1
+optm c 1
+minutil c 0
+# Description: Generic PV system (roof top - urban)
+*
+TNSOPB00 g
+moutp c-t c 1
+plf c 1
+optm c 1
+minutil c 0
+# Description: Generic PV system (roof top - commercial buildings)
+*
+TNSOPR00 g
+moutp r-t c 1
+plf c 1
+optm c 1
+minutil c 0
+# Description: Generic PV system (roof top - rural)
+*
+TNSOPS00 h
+moutp r-t c 1
+fyear 2020
+plf c 1
+optm c 1
+minutil c 0
+# Description: Generic PV with 2h Battery (roof top - rural)
+*
+TNSOTN00 j
+moutp E-s c 1
+fyear 2050
+plf c 1
+optm c 1
+minutil c 0
+# Description: Generic Solar thermal no storage
+*
+TNSOTNZ002 C
+fyear 2026
+# Description: Solar CSP 6hrStor Zone 002
+*
+TNSOTNZ001 B
+fyear 2026
+# Description: Solar CSP 6hrStor Zone 001
+*
+TNSOTS00 k
+moutp E-s c 1
+fyear 2050
+plf c 1
+optm c 1
+minutil c 0
+# Description: Generic Solar thermal with Storage
+*
+TNSOTSZ002 E
+fyear 2050
+# Description: Solar CSP 12hrStor Zone 002
+*
+TNSOTSZ001 D
+fyear 2050
+# Description: Solar CSP 12hrStor Zone 001
+*
+TNSOTG00 i
+moutp E-s c 0.53
+fyear 2050
+plf c 0.922
+optm c 0.922
+minutil c 0
+# Description: Generic Solar thermal with Gas co-firing
+*
+TNELHGT00 a
+# Description: Transmission to Hydrogen Production
+*
+TNHGNEL25_HydrogenProduction a
+# Description: Hydrogen Production Plant 2025 Vintage
+*
+TNHGNEL30_HydrogenProduction b
+# Description: Hydrogen Production Plant 2030 Vintage
+*
+TNHGNEL35_HydrogenProduction c
+# Description: Hydrogen Production Plant 2035 Vintage
+*
+TNBM00X00 a
+# Description: Extraction of Bagasse
+*
+TNBW00X00 a
+# Description: Extraction of Wood
+*
+TNHY00X00 a
+# Description: Supply of Hydro
+*
+TNSO00X00 a
+# Description: Supply of Solar
+*
+TNWD00X00 a
+# Description: Supply of Wind
+*
+TNHF00I00 a
+# Description: Import of HFO
+*
+TNDS00I00 a
+# Description: Import of Diesel
+*
+TNNG00X00 a
+# Description: Extraction of Natural Gas
+*
+TNNU00I00 a
+# Description: Import of Nuclear
+*
+TNCO00I00 a
+# Description: Import of Coal
+*
+TNRIDM_Sidi_Salem D
+*
+TNRIDM_Nebeur F
+*
+TNRIDM_Kasseb G
+*
+TNELST04 A
+# Description: Battery Storage 4 hrs
+2. activity B
+*
+TNELPT04 A
+*
+TNELDT04_01 B
+2. activity C
+*
+TNELDT04_02 E
+2. activity H
+*
+TNELDT04_03 I
+2. activity J
+*
+TNELSTPSPSHTabarka F
+# Description: PSH Tabarka Pump Storage
+2. activity A
+*
+TNELPTPSPSHTabarka K
+*
+TNELDTPSPSHTabarka_01 L
+2. activity M
+*
+TNELDTPSPSHTabarka_02 N
+2. activity O
+*
+TNELDTPSPSHTabarka_03 P
+2. activity Q
+*
+TNEXDT00 R
+*
+resources: 
+endata
+

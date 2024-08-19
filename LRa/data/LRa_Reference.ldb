@@ -1,0 +1,445 @@
+TDB: empty
+ADB: LRa
+problem: LRa
+description:
+# Liberia
+drate: 10
+timesteps: 2018 2019 2020 2021 2022 2023 2024 2025 2026 2027 2028 2029 2030 2031 2032 2033 2034 2035 2036 2037 2038 2039 2040 2041 2042
+loadregions:
+ltype ordered seasonal 1 0
+year 2019 1 10
+name aaa aab aac \
+baa bab bac bad \
+caa cab cac 
+length 0.096689 0.165753 0.069064 \
+0.101484 0.173974 0.028995 0.043493 \
+0.093493 0.160274 0.066781 
+energyforms:
+Final f
+# Final Energy
+Industry e l
+# Industry Electricity Final
+Commerce c l
+# Commerce Electricity Final
+Urban u l
+# Urban Electricity Final
+Rural r l
+# Rural Electricity Final
+SentOut s l f
+# Sentout Electricity Final
+Export E 
+# Export Elc
+*
+Tertiary t
+# Tertiary Energy
+Industry i l
+# Industry Electricity Tertiary
+Commerce c l
+# Commerce Electricity Tertiary
+Urban u l
+# Urban Electricity Tertiary
+Rural r l
+# Rural Electricity Tertiary
+Electricity e l f
+# Tertiary Electricity
+*
+Secondary s
+# Secondary Energy
+Electricity k l f
+# Secondary Electricity
+ElcDummy d l
+# Dummy elc for PS
+*
+Primary p
+# Primary Energy
+Bagasse b 
+# Bagasse
+Wood B 
+# Wood
+Hydro H 
+# Hydro
+Solar s l
+# Solar
+Wind w 
+# Wind
+Coal c 
+# Coal
+CoalCCS C 
+# Coal CCS
+Gas g 
+# Gas
+Nuclear n 
+# Nuclear
+Oil o 
+# Oil
+HFO h 
+# diesel
+Diesel d 
+# HFO
+Crude p 
+# Crude
+*
+Resources r
+# Resources
+Biomass b 
+# Biomass resource
+Coal c 
+# Coal resource
+*
+DummyLevelStorage d
+# DummyLevelStorage
+DummyCom_LRELST04 A l
+# DummyCom_LRELST04
+*
+demand:
+c-f  ts 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+e-f  ts 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+r-f  ts 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+s-f  ts 17.52 31.08 31.08 40.57 50.57 61.23 72.67 84.94 98.13 112.28 127.48 143.79 161.29 180.06 200.2 221.78 244.91 269.71 296.26 324.71 355.17 387.79 387.79
+u-f  ts 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+loadcurve:
+year 2019
+c-f 0.091518 0.175245 0.068275 0.096056 0.178391 \
+0.030494 0.041167 0.088493 0.164343 0.066018
+e-f 0.096689 0.165753 0.069064 0.101484 0.173974 \
+0.028995 0.043493 0.093493 0.160274 0.066781
+r-f 0.060015 0.175921 0.11559 0.058822 0.182783 \
+0.032932 0.062985 0.058128 0.169964 0.08286
+s-f 0.10074 0.153228 0.080319 0.098173 0.149731 \
+0.028615 0.051325 0.097103 0.147437 0.093329
+u-f 0.060015 0.175921 0.11559 0.058822 0.182783 \
+0.032932 0.062985 0.058128 0.169964 0.08286
+systems.LRHYRO_Via.O.capfac 0 0 0 0.432791 0.434915 \
+0.434915 0.434915 0.46678 0.464386 0.464386
+systems.LRHYRO_Saint_Paul_II.N.capfac 0 0 0 0.446717 0.448828 \
+0.448828 0.448828 0.489808 0.487419 0.487419
+systems.LRHYRO_Saint_Paul_IB.M.capfac 0 0 0 0.446717 0.448828 \
+0.448828 0.448828 0.489808 0.487419 0.487419
+systems.LRHYRO_Saint_John.L.capfac 0 0 0 0.637247 0.639052 \
+0.639052 0.639052 0.487058 0.484674 0.484674
+systems.LRHYRO_Mount_Coffee.K.capfac 0 0 0 0.592615 0.594677 \
+0.594677 0.594677 0.459714 0.457334 0.457334
+systems.LRHYRO_Mano_2.J.capfac 0 0 0 0.592615 0.594677 \
+0.594677 0.594677 0.459714 0.457334 0.457334
+systems.LRHYRO_Mano.I.capfac 0 0 0 0.664484 0.666499 \
+0.666499 0.666499 0.524639 0.522294 0.522294
+systems.LRHYRO_Firestone_(Harbel).A.capfac 0 0 0 0.655502 0.657599 \
+0.657599 0.657599 0.417907 0.415485 0.415485
+systems.LRWDLC00.h.capfac 0.051519 0.027193 0.098797 0.07453 0.052092 \
+0.097229 0.155063 0.04419 0 0.072116
+systems.LRWDOC00.F.capfac 0.051519 0.027193 0.098797 0.07453 0.052092 \
+0.097229 0.155063 0.04419 0 0.072116
+systems.LRSOPC00.i.capfac 0 0.291575 0 0 0.32345 \
+0.065043 0 0 0.318937 0
+systems.LRSOPC_StPaul.F.capfac 0 0.344089 0.106321 0 0.296285 \
+0.207713 0 0 0.327314 0.084637
+systems.LRSOPCZ005.E.capfac 0 0.353188 0.108949 0 0.27825 \
+0.220044 0 0 0.350792 0.078202
+systems.LRSOPCZ004.D.capfac 0 0.336598 0.110514 0 0.292581 \
+0.219709 0 0 0.333165 0.088988
+systems.LRSOPCZ003.C.capfac 0 0.344969 0.115564 0 0.28492 \
+0.225387 0 0 0.343386 0.087244
+systems.LRSOPCZ002.B.capfac 0 0.338334 0.112392 0 0.287631 \
+0.221832 0 0 0.33695 0.087593
+systems.LRSOPCZ001.A.capfac 0 0.344089 0.106321 0 0.296285 \
+0.207713 0 0 0.327314 0.084637
+systems.LRSOPU00.g.capfac 0 0.291575 0 0 0.32345 \
+0.065043 0 0 0.318937 0
+systems.LRSOPB00.g.capfac 0 0.291575 0 0 0.32345 \
+0.065043 0 0 0.318937 0
+systems.LRSOPR00.g.capfac 0 0.291575 0 0 0.32345 \
+0.065043 0 0 0.318937 0
+systems.LRSOPS00.h.capfac 0 0.291575 0 0 0.32345 \
+0.065043 0 0 0.318937 0
+systems.LRSOTS00.k.capfac 0 0.470999 0.367085 0 0.470999 \
+0.526419 0.260862 0 0.471387 0.366153
+systems.LRELPT04.A.capfac 0.055251 0.055251 0 0.057991 0.057991 \
+0.057991 0 0.053425 0.053425 0
+systems.LRELDT04_01.B.capfac 1 0 0 0 0 \
+0 0 0 0 0
+systems.LRELDT04_01.C.capfac 0 0 1 0 0 \
+0 0 0 0 0
+systems.LRELDT04_02.D.capfac 0 0 0 1 0 \
+0 0 0 0 0
+systems.LRELDT04_02.E.capfac 0 0 0 0 0 \
+0 1 0 0 0
+systems.LRELDT04_03.F.capfac 0 0 0 0 0 \
+0 0 1 0 0
+systems.LRELDT04_03.G.capfac 0 0 0 0 0 \
+0 0 0 0 1
+relationsc:
+relationsp:
+relationss:
+SS_LRELST04 SS01 o 0
+*
+relations1:
+ReserveMargin RM o 
+*
+CO2emissionskt CO2 o 
+*
+LocalRE RE o 
+lower c 0
+*
+WDBR WDBR o 
+*
+PVBR PVBR o 
+upper ts 100 50 70 90 110 60 150 140 130 120 110 100 110 120 130 140 150 160 170 180 190 200 200
+*
+BMTC BMTC o 
+*
+Domestic DOM o 
+*
+InstantaneousWindPV IPW o 0
+*
+PC_LRELST04 PC01 o 
+*
+PS_LRELST04 PS01 o 0
+*
+DC_LRELST04_01 DC01 o 
+*
+DC_LRELST04_02 DC02 o 
+*
+DC_LRELST04_03 DC03 o 
+*
+relations2:
+variables:
+systems:
+LREL00TDI a
+moutp i-t c 1
+inv c 1
+fom c 1
+# Description: Industry Distribution
+*
+LREL00TDU a
+moutp u-t c 1
+inv c 1
+fom c 1
+# Description: Urban Distribution
+*
+LREL00TDC a
+moutp c-t c 1
+inv c 1
+fom c 1
+# Description: Commerce Distribution
+*
+LREL00TDR a
+moutp r-t c 1
+inv c 1
+fom c 1
+# Description: Rural Distribution
+*
+LREL00T00 a
+moutp e-t c 1
+inv c 1
+fom c 1
+# Description: Transmission
+*
+LREL00TUI a
+# Description: Industry Demand
+*
+LREL00TUU a
+# Description: Urban Demand
+*
+LREL00TUC a
+# Description: Commerce Demand
+*
+LREL00TUR a
+# Description: Rural Demand
+*
+LREL00TUS a
+# Description: SentOut Demand
+*
+LREL00e00 a
+# Description: Export of Electricity
+*
+LREL00i00 I
+# Description: Import of Electricity
+*
+LRELBS00 z
+# Description: Backstop
+*
+LRDSRC00 g
+# Description: Generic Diesel Centralized
+*
+LRDSRC_Diesel_Generators_ODS C
+# Description: Diesel_Generators_ODS
+*
+LRDSRC_Bushrod_2_ B
+# Description: Bushrod_2_
+*
+LRDSRC_Bushrod A
+# Description: Bushrod
+*
+LRDSRI00 g
+# Description: Generic Diesel 100 kW system (Industry)
+*
+LRDSRU00 g
+# Description: Generic Diesel/Gasoline 1kW system (urban)
+*
+LRDSRB00 g
+# Description: Generic Diesel/Gasoline 1kW system (commercial buildings)
+*
+LRDSRR00 g
+# Description: Generic Diesel/Gasoline 1kW system (rural)
+*
+LRHFRC00 g
+# Description: Generic HFO
+*
+LRNGSC00 g
+# Description: Generic Gas Open Cycle
+*
+LRNGCC00 h
+# Description: Generic Gas Combined Cycle
+*
+LRCOCS00 g
+# Description: Generic Coal w CCS
+*
+LRCOSC00 g
+# Description: Generic Coal
+*
+LRHYRO00 h
+# Description: Generic Hydro ROR
+*
+LRHYRO_Via O
+# Description: Via
+*
+LRHYRO_Saint_Paul_II N
+# Description: Saint_Paul_2
+*
+LRHYRO_Saint_Paul_IB M
+# Description: Saint_Paul_1B
+*
+LRHYRO_Saint_John L
+# Description: Saint_John
+*
+LRHYRO_Mount_Coffee K
+# Description: Mount_Coffee
+*
+LRHYRO_Mano_2 J
+# Description: Mano_2
+*
+LRHYRO_Mano I
+# Description: Mano
+*
+LRHYRO_Lofa H
+# Description: Lofa
+*
+LRHYRO_Cestos G
+# Description: Cestos
+*
+LRHYDM00 g
+# Description: Generic Hydro With Dam
+*
+LRHYRO_Existing_Yand C
+# Description: Existing_Yand
+*
+LRHYMI00 g
+# Description: Generic Hydro Small
+*
+LRHYRO_Firestone_(Harbel) A
+# Description: Firestone_(Harbel)
+*
+LRBMST00 g
+# Description: Generic Bagasse
+*
+LRBWST00 a
+# Description: Generic Wood
+*
+LRGOCV00 g
+# Description: Generic Geothermal
+*
+LRWDLC00 h
+# Description: Generic Wind
+*
+LRWDOC00 F
+# Description: Generic OffShore Wind
+*
+LRSOPC00 i
+# Description: Generic PV System (utility)
+*
+LRSOPC_StPaul F
+# Description: StPaul
+*
+LRSOPCZ005 E
+# Description: Solar PV Zone 005
+*
+LRSOPCZ004 D
+# Description: Solar PV Zone 004
+*
+LRSOPCZ003 C
+# Description: Solar PV Zone 003
+*
+LRSOPCZ002 B
+# Description: Solar PV Zone 002
+*
+LRSOPCZ001 A
+# Description: Solar PV Zone 001
+*
+LRSOPU00 g
+# Description: Generic PV system (roof top - urban)
+*
+LRSOPB00 g
+# Description: Generic PV system (roof top - commercial buildings)
+*
+LRSOPR00 g
+# Description: Generic PV system (roof top - rural)
+*
+LRSOPS00 h
+# Description: Generic PV with 2h Battery (roof top - rural)
+*
+LRSOTN00 j
+# Description: Generic Solar thermal no storage
+*
+LRSOTS00 k
+# Description: Generic Solar thermal with Storage
+*
+LRSOTG00 i
+# Description: Generic Solar thermal with Gas co-firing
+*
+LRBM00X00 a
+# Description: Extraction of Bagasse
+*
+LRBW00X00 a
+# Description: Extraction of Wood
+*
+LRHY00X00 a
+# Description: Supply of Hydro
+*
+LRSO00X00 a
+# Description: Supply of Solar
+*
+LRWD00X00 a
+# Description: Supply of Wind
+*
+LRHF00I00 a
+# Description: Import of HFO
+*
+LRDS00I00 a
+# Description: Import of Diesel
+*
+LRNG00X00 a
+# Description: Extraction of Natural Gas
+*
+LRCO00I00 a
+# Description: Import of Coal
+*
+LRELST04 A
+# Description: Battery Storage 4 hrs
+2. activity B
+*
+LRELPT04 A
+*
+LRELDT04_01 B
+2. activity C
+*
+LRELDT04_02 D
+2. activity E
+*
+LRELDT04_03 F
+2. activity G
+*
+LREXDT00 H
+*
+resources: 
+endata
+

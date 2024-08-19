@@ -1,0 +1,510 @@
+TDB: empty
+ADB: ZWa
+problem: ZWa
+description:
+# Zimbabwe
+drate: 10
+timesteps: 2018 2019 2020 2021 2022 2023 2024 2025 2026 2027 2028 2029 2030 2031 2032 2033 2034 2035 2036 2037 2038 2039 2040 2041 2042
+loadregions:
+ltype ordered seasonal 1 0
+year 2019 1 10
+name aaa aab aac \
+baa bab bac bad \
+caa cab cac 
+length 0.096689 0.165753 0.069064 \
+0.101484 0.173974 0.028995 0.043493 \
+0.093493 0.160274 0.066781 
+energyforms:
+Final f
+# Final Energy
+Industry e l
+# Industry Electricity Final
+Commerce c l
+# Commerce Electricity Final
+Urban u l
+# Urban Electricity Final
+Rural r l
+# Rural Electricity Final
+SentOut s l f
+# Sentout Electricity Final
+Export E 
+# Export Elc
+*
+Tertiary t
+# Tertiary Energy
+Industry i l
+# Industry Electricity Tertiary
+Commerce c l
+# Commerce Electricity Tertiary
+Urban u l
+# Urban Electricity Tertiary
+Rural r l
+# Rural Electricity Tertiary
+Electricity e l f
+# Tertiary Electricity
+*
+Secondary s
+# Secondary Energy
+Electricity T l f
+# Secondary Electricity
+ElcDummy d l
+# Dummy elc for PS
+*
+Primary p
+# Primary Energy
+Bagasse b 
+# Bagasse
+Wood B 
+# Wood
+Hydro H 
+# Hydro
+Solar s 
+# Solar
+Wind w 
+# Wind
+Coal c 
+# Coal
+CoalCCS C 
+# Coal CCS
+Gas g 
+# Gas
+Nuclear n 
+# Nuclear
+Oil o 
+# Oil
+HFO h 
+# HFO
+Crude p 
+# Crude
+*
+Resources r
+# Resources
+Biomass b 
+# Biomass resource
+Coal c 
+# Coal resource
+*
+DummyLevelStorage d
+# DummyLevelStorage
+DummyCom_ZWELST04 A l
+# DummyCom_ZWELST04
+*
+demand:
+e-f  ts 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+c-f  ts 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+u-f  ts 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+r-f  ts 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+s-f  ts 1025.68 1045.66 1065.53 1132.11 1200.16 1269.56 1340.26 1412.29 1485.61 1560.17 1635.93 1712.84 1790.93 1870.17 1950.51 2031.9 2114.29 2197.74 2282.18 2367.57 2453.86 2540.99 2540.99
+loadcurve:
+year 2019
+e-f 0.096689 0.165753 0.069064 0.101484 0.173974 \
+0.028995 0.043493 0.093493 0.160274 0.066781
+c-f 0.091841 0.175245 0.065601 0.096395 0.182081 \
+0.027541 0.041313 0.088806 0.167744 0.063433
+u-f 0.057109 0.183975 0.11559 0.055774 0.192544 \
+0.042864 0.04366 0.056128 0.177094 0.075262
+r-f 0.057109 0.183975 0.11559 0.055774 0.192544 \
+0.042864 0.04366 0.056128 0.177094 0.075262
+s-f 0.071169 0.155715 0.060027 0.083812 0.252482 \
+0.031796 0.036984 0.078788 0.164919 0.064308
+systems.ZWHYRO00.A.capfac 0.2 0.2 0.2 0.2 0.2 \
+0.2 0.2 0.2 0.2 0.2
+systems.ZWHYRO_Mupata_Gorge_S.U.capfac 0.74331 0.74331 0.74331 0.074645 0.074645 \
+0.074645 0.074645 0 0 0
+systems.ZWHYRO_Devils_Gorge_S.T.capfac 0.71292 0.71292 0.71292 0.054244 0.054244 \
+0.054244 0.054244 0 0 0
+systems.ZWHYRO_Gairezi.L.capfac 0.789772 0.789772 0.789772 0.032395 0.032395 \
+0.032395 0.032395 0.168154 0.168154 0.168154
+systems.ZWHYRO_Batoka_Gorge_South.J.capfac 0.71173 0.71173 0.71173 0.0538 0.0538 \
+0.0538 0.0538 0 0 0
+systems.ZWWDLC00.h.capfac 0.258658 0.234386 0.363033 0.320236 0.233444 \
+0.431875 0.4058 0.352608 0.279173 0.454136
+systems.ZWWDOC00.F.capfac 0.258658 0.234386 0.363033 0.320236 0.233444 \
+0.431875 0.4058 0.352608 0.279173 0.454136
+systems.ZWWDLCZ005.E.capfac 0.440902 0.32518 0.580524 0.556944 0.328039 \
+0.638572 0.648864 0.608182 0.38169 0.710248
+systems.ZWWDLCZ004.D.capfac 0.423083 0.260101 0.387848 0.62796 0.370227 \
+0.481 0.561634 0.686618 0.427654 0.679989
+systems.ZWWDLCZ003.C.capfac 0.45256 0.277483 0.417286 0.608146 0.391184 \
+0.496349 0.596979 0.663159 0.468385 0.668719
+systems.ZWWDLCZ002.B.capfac 0.4637 0.353659 0.545263 0.471243 0.306327 \
+0.542891 0.554057 0.651352 0.419397 0.687603
+systems.ZWWDLCZ001.A.capfac 0.51769 0.335423 0.569646 0.570639 0.297346 \
+0.517431 0.610334 0.659988 0.377045 0.641114
+systems.ZWSOPC00.i.capfac 0 0.517565 0 0 0.423217 \
+0 0 0 0.520175 0
+systems.ZWSOPCZ005.E.capfac 0 0.41741 0 0 0.382908 \
+0 0 0 0.499484 0
+systems.ZWSOPCZ004.D.capfac 0 0.42126 0 0 0.372467 \
+0 0 0 0.513595 0
+systems.ZWSOPCZ003.C.capfac 0 0.410753 0 0 0.375898 \
+0 0 0 0.516678 0
+systems.ZWSOPCZ002.B.capfac 0 0.418457 0 0 0.374883 \
+0 0 0 0.503249 0
+systems.ZWSOPCZ001.A.capfac 0 0.42541 0 0 0.368313 \
+0 0 0 0.517485 0
+systems.ZWSOPU00.g.capfac 0 0.466476 0 0 0.394913 \
+0 0 0 0.467558 0
+systems.ZWSOPB00.g.capfac 0 0.466476 0 0 0.394913 \
+0 0 0 0.467558 0
+systems.ZWSOPR00.g.capfac 0.206401 0.388095 0.394872 0.192314 0.38699 \
+0.51656 0.350918 0.20992 0.386361 0.39407
+systems.ZWSOPS00.h.capfac 0 0.466476 0 0 0.394913 \
+0 0 0 0.467558 0
+systems.ZWSOTN00.j.capfac 0 0.577019 0 0 0.488498 \
+0 0 0.021975 0.578359 0
+systems.ZWSOTNZ002.C.capfac 0 0.616994 0.354371 0 0.733138 \
+0.798097 0.455342 0 0.83041 0.614684
+systems.ZWSOTNZ001.B.capfac 0 0.623497 0.298088 0 0.732825 \
+0.757665 0.4162 0 0.849097 0.610211
+systems.ZWSOTS00.k.capfac 0 0.562142 0.157471 0 0.562142 \
+0.291988 0.067794 0 0.562244 0.156913
+systems.ZWSOTSZ002.E.capfac 0.223803 0.725289 0.621419 0.402881 0.789662 \
+0.91321 0.83152 0.408058 0.906686 0.883393
+systems.ZWSOTSZ001.D.capfac 0.171907 0.747621 0.617298 0.356758 0.796694 \
+0.908467 0.803823 0.407841 0.921361 0.886709
+systems.ZWELPT04.A.capfac 0.055251 0.055251 0 0.057991 0.057991 \
+0.057991 0 0.053425 0.053425 0
+systems.ZWELDT04_01.B.capfac 1 0 0 0 0 \
+0 0 0 0 0
+systems.ZWELDT04_01.C.capfac 0 0 1 0 0 \
+0 0 0 0 0
+systems.ZWELDT04_02.D.capfac 0 0 0 1 0 \
+0 0 0 0 0
+systems.ZWELDT04_02.E.capfac 0 0 0 0 0 \
+0 1 0 0 0
+systems.ZWELDT04_03.F.capfac 0 0 0 0 0 \
+0 0 1 0 0
+systems.ZWELDT04_03.G.capfac 0 0 0 0 0 \
+0 0 0 0 1
+systems.ZWRIDM_Kariba_South.H.capfac 0.50116 0.50116 0.50116 0.026964 0.026964 \
+0.026964 0.026964 0 0 0
+relationsc:
+relationsp:
+relationss:
+SS_ZWELST04 SS01 o 0
+*
+D_ZWHYDM_Kariba_South D001 o 0
+*
+relations1:
+ReserveMargin RM o 
+*
+CO2emissionskt CO2 o 
+*
+LocalRE RE o 
+*
+WDBR WDBR o 
+*
+PVBR PVBR o 
+*
+BMTC BMTC o 
+*
+Domestic DOM o 
+*
+InstantaneousWindPV IPW o 0
+*
+PC_ZWELST04 PC01 o 
+*
+PS_ZWELST04 PS01 o 0
+*
+DC_ZWELST04_01 DC01 o 
+*
+DC_ZWELST04_02 DC02 o 
+*
+DC_ZWELST04_03 DC03 o 
+*
+DX_ZWEXDT00 DX01 o 
+*
+relations2:
+variables:
+systems:
+ZWEL00TDI a
+moutp i-t c 1
+inv c 1
+fom c 1
+# Description: Industry Distribution
+*
+ZWEL00TDU a
+moutp u-t c 1
+inv c 1
+fom c 1
+# Description: Urban Distribution
+*
+ZWEL00TDC a
+moutp c-t c 1
+inv c 1
+fom c 1
+# Description: Commerce Distribution
+*
+ZWEL00TDR a
+moutp r-t c 1
+inv c 1
+fom c 1
+# Description: Rural Distribution
+*
+ZWEL00T00 a
+moutp e-t c 1
+inv c 1
+fom c 1
+# Description: Transmission
+*
+ZWEL00TUI a
+# Description: Industry Demand
+*
+ZWEL00TUU a
+# Description: Urban Demand
+*
+ZWEL00TUC a
+# Description: Commerce Demand
+*
+ZWEL00TUR a
+# Description: Rural Demand
+*
+ZWEL00TUS a
+# Description: SentOut Demand
+*
+ZWEL00e00 a
+# Description: Export of Electricity
+*
+ZWEL00i00 I
+# Description: Import of Electricity
+*
+ZWELBS00 z
+# Description: Backstop
+*
+ZWDSRC00 g
+# Description: Generic Diesel Centralized
+*
+ZWDSRC01 A
+# Description: Existing E_Dema Emergency
+*
+ZWDSRI00 g
+# Description: Generic Diesel 100 kW system (Industry)
+*
+ZWDSRU00 g
+# Description: Generic Diesel/Gasoline 1kW system (urban)
+*
+ZWDSRB00 g
+# Description: Generic Diesel/Gasoline 1kW system (commercial buildings)
+*
+ZWDSRR00 g
+# Description: Generic Diesel/Gasoline 1kW system (rural)
+*
+ZWHFRC00 g
+# Description: Generic HFO
+*
+ZWNGSC00 g
+# Description: Generic Gas Open Cycle
+*
+ZWNGCC00 h
+# Description: Generic Gas Combined Cycle
+*
+ZWNGCC20 T
+# Description: Candidate P_Zimbabwe_Lupane CCGT (NG)
+*
+ZWCOCS00 g
+# Description: Generic Coal w CCS
+*
+ZWCOSC00 g
+# Description: Generic Coal
+*
+ZWCOSC25 E
+# Description: Existing_ZhongXin(ZZEE)-Coal
+*
+ZWCOSC30 d
+# Description: Candidate P_Zimbabwe_Coal
+*
+ZWCOSC24 X
+# Description: Candidate P_Zimbabwe_Western Area (Coal)
+*
+ZWCOSC23 W
+# Description: Candidate P_Zimbabwe_Lusulu
+*
+ZWCOSC22 V
+# Description: Candidate P_Zimbabwe_SouthernEnergy (Coal)
+*
+ZWCOSC21 U
+# Description: Candidate P_Zimbabwe_Gokwe North (Coal)
+*
+ZWCOSC20 T
+# Description: Candidate P_Zimbabwe_CASECO Coal
+*
+ZWCOSC10 J
+# Description: Committed P_Zimbabwe_Hwange Ext (Coal)
+*
+ZWCOSC04 D
+# Description: Existing E_Harare 3 (St)/E_Harare 2 (St)
+*
+ZWCOSC03 C
+# Description: Existing E_Bulawayo (St)
+*
+ZWCOSC02 B
+# Description: Existing E_Munyati (St)
+*
+ZWCOSC01 A
+# Description: Existing E_Hwange I (St)/E_Hwange II (St)
+*
+ZWHYDM00 g
+# Description: Generic Hydro With Dam
+*
+ZWHYRO00 A
+# Description: Generic Hydro ROR
+*
+ZWHYDM_Kariba_South B
+# Description: Existing E_Kariba South Bank (SB)/ E_South Bank Extension (SBE)
+*
+ZWHYRO_Mupata_Gorge_S U
+# Description: Candidate P_Zimbabwe_Mupata Gorge S (H)
+*
+ZWHYRO_Devils_Gorge_S T
+# Description: Candidate P_Zimbabwe_Devil's Gorge S (H)
+*
+ZWHYRO_Gairezi L
+# Description: Candidate P_Zimbabwe_Gairezi (H)
+*
+ZWHYRO_Batoka_Gorge_South J
+# Description: Candidate P_Zimbabwe_Batoka Gorge South (H)
+*
+ZWHYMI00 g
+# Description: Generic Hydro Small
+*
+ZWBMST00 g
+# Description: Generic Bagasse
+*
+ZWBWST00 a
+# Description: Generic Wood
+*
+ZWBMST20 T
+# Description: Candidate P_Zimbabwe_Chisumbanje biomass
+*
+ZWGOCV00 g
+# Description: Generic Geothermal
+*
+ZWWDLC00 h
+# Description: Generic Wind
+*
+ZWWDOC00 F
+# Description: Generic OffShore Wind
+*
+ZWWDLCZ005 E
+# Description: Wind Zone 005
+*
+ZWWDLCZ004 D
+# Description: Wind Zone 004
+*
+ZWWDLCZ003 C
+# Description: Wind Zone 003
+*
+ZWWDLCZ002 B
+# Description: Wind Zone 002
+*
+ZWWDLCZ001 A
+# Description: Wind Zone 001
+*
+ZWSOPC00 i
+# Description: Generic PV System (utility)
+*
+ZWSOPCZ005 E
+# Description: Solar PV Zone 005
+*
+ZWSOPCZ004 D
+# Description: Solar PV Zone 004
+*
+ZWSOPCZ003 C
+# Description: Solar PV Zone 003
+*
+ZWSOPCZ002 B
+# Description: Solar PV Zone 002
+*
+ZWSOPCZ001 A
+# Description: Solar PV Zone 001
+*
+ZWSOPU00 g
+# Description: Generic PV system (roof top - urban)
+*
+ZWSOPB00 g
+# Description: Generic PV system (roof top - commercial buildings)
+*
+ZWSOPR00 g
+# Description: Generic PV system (roof top - rural)
+*
+ZWSOPS00 h
+# Description: Generic PV with 2h Battery (roof top - rural)
+*
+ZWSOTN00 j
+# Description: Generic Solar thermal no storage
+*
+ZWSOTNZ002 C
+fyear 2026
+# Description: Solar CSP 6hrStor Zone 002
+*
+ZWSOTNZ001 B
+fyear 2026
+# Description: Solar CSP 6hrStor Zone 001
+*
+ZWSOTS00 k
+# Description: Generic Solar thermal with Storage
+*
+ZWSOTSZ002 E
+fyear 2050
+# Description: Solar CSP 12hrStor Zone 002
+*
+ZWSOTSZ001 D
+fyear 2050
+# Description: Solar CSP 12hrStor Zone 001
+*
+ZWSOTS30 d
+# Description: Candidate P_Zimbabwe_ZPC (Solar CSP)
+*
+ZWSOTG00 i
+# Description: Generic Solar thermal with Gas co-firing
+*
+ZWBM00X00 a
+# Description: Extraction of Bagasse
+*
+ZWBW00X00 a
+# Description: Extraction of Wood
+*
+ZWHY00X00 a
+# Description: Supply of Hydro
+*
+ZWSO00X00 a
+# Description: Supply of Solar
+*
+ZWWD00X00 a
+# Description: Supply of Wind
+*
+ZWHF00I00 a
+# Description: Import of HFO
+*
+ZWDS00I00 a
+# Description: Import of Diesel
+*
+ZWNG00I00 a
+# Description: Import of Natural Gas
+*
+ZWCO00X00 a
+# Description: Extraction of Coal
+*
+ZWELST04 A
+# Description: Battery Storage 4 hrs
+2. activity B
+*
+ZWELPT04 A
+*
+ZWELDT04_01 B
+2. activity C
+*
+ZWELDT04_02 D
+2. activity E
+*
+ZWELDT04_03 F
+2. activity G
+*
+ZWRIDM_Kariba_South H
+*
+ZWEXDT00 I
+*
+resources: 
+endata
+

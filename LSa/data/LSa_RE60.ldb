@@ -1,0 +1,430 @@
+TDB: empty
+ADB: LSa
+problem: LSa
+description:
+# MAINa
+# NDC  Target RE 6030
+drate: 0
+timesteps: 2018 2019 2020 2021 2022 2023 2024 2025 2026 2027 2028 2029 2030 2031 2032 2033 2034 2035 2036 2037 2038 2039 2040 2041 2042
+loadregions:
+ltype ordered seasonal 1 0
+year 2019 1 10
+name aaa aab aac \
+baa bab bac bad \
+caa cab cac 
+length 0.096689 0.165753 0.069064 \
+0.101484 0.173974 0.028995 0.043493 \
+0.093493 0.160274 0.066781 
+energyforms:
+Final f
+# Final Energy
+Industry e l
+# Industry Electricity Final
+Commerce c l
+# Commerce Electricity Final
+Urban u l
+# Urban Electricity Final
+Rural r l
+# Rural Electricity Final
+SentOut s l f
+# Sentout Electricity Final
+Export E 
+# Export Elc
+*
+Tertiary t
+# Tertiary Energy
+Industry i l
+# Industry Electricity Tertiary
+Commerce c l
+# Commerce Electricity Tertiary
+Urban u l
+# Urban Electricity Tertiary
+Rural r l
+# Rural Electricity Tertiary
+Electricity e l f
+# Tertiary Electricity
+*
+Secondary s
+# Secondary Energy
+Electricity w l f
+# Secondary Electricity
+ElcDummy d l
+# Dummy elc for PS
+*
+Primary p
+# Primary Energy
+Bagasse b 
+# Bagasse
+Wood B 
+# Wood
+Hydro H 
+# Hydro
+Solar s 
+# Solar
+Wind w 
+# Wind
+Coal c 
+# Coal
+CoalCCS C 
+# Coal CCS
+Gas g 
+# Gas
+Nuclear n 
+# Nuclear
+Oil o 
+# Oil
+HFO h 
+# HFO
+Crude p 
+# Crude
+*
+Resources r
+# Resources
+Biomass b 
+# Biomass resource
+Coal c 
+# Coal resource
+*
+demand:
+c-f  ts 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+e-f  ts 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+r-f  ts 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+s-f  ts 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+u-f  ts 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+loadcurve:
+year 2019
+c-f 0.091841 0.175245 0.065601 0.096395 0.182081 \
+0.027541 0.041313 0.088806 0.167744 0.063433
+e-f 0.096689 0.165753 0.069064 0.101484 0.173974 \
+0.028995 0.043493 0.093493 0.160274 0.066781
+r-f 0.053055 0.17701 0.122885 0.05303 0.185526 \
+0.047676 0.050549 0.053232 0.169925 0.087112
+s-f 0.072478 0.160587 0.061123 0.07061 0.292136 \
+0.028575 0.030766 0.069325 0.156481 0.057919
+u-f 0.053055 0.17701 0.122885 0.05303 0.185526 \
+0.047676 0.050549 0.053232 0.169925 0.087112
+systems.LSHYRO00.B.capfac 0 0 0 0 0 \
+0 0 0 0 0
+systems.LSHYRO_Oxbow.U.capfac 0.671049 0.671049 0.671049 0.057062 0.057062 \
+0.057062 0.057062 0.35661 0.35661 0.35661
+systems.LSHYRO_Muela_II.T.capfac 0.937592 0.937592 0.937592 0.176603 0.176603 \
+0.176603 0.176603 0.634711 0.634711 0.634711
+systems.LSHYRO_Muela_I.A.capfac 0.937592 0.937592 0.937592 0.176603 0.176603 \
+0.176603 0.176603 0.634711 0.634711 0.634711
+systems.LSWDLC00.g.capfac 0.156189 0.157505 0.162546 0.275123 0.341089 \
+0.270906 0.269197 0.275244 0.464327 0.337988
+systems.LSWDOC00.C.capfac 0.156189 0.157505 0.162546 0.275123 0.341089 \
+0.270906 0.269197 0.275244 0.464327 0.337988
+systems.LSWDLCZ002.B.capfac 0.411338 0.472378 0.435987 0.398742 0.454209 \
+0.413849 0.393827 0.469412 0.582906 0.513426
+systems.LSWDLCZ001.A.capfac 0.327499 0.515229 0.285073 0.554007 0.610382 \
+0.485875 0.462648 0.393342 0.717838 0.427407
+systems.LSSOPC00.h.capfac 0.014339 0.512171 0.000005 0.000297 0.339717 \
+0 0 0.019795 0.563791 0.000023
+systems.LSSOPCZ002.B.capfac 0.00007 0.426922 0.002448 0 0.316161 \
+0 0 0.001435 0.535818 0.001498
+systems.LSSOPCZ001.A.capfac 0.000107 0.430335 0.001838 0 0.327968 \
+0 0 0.001768 0.53902 0.0012
+systems.LSSOPU00.g.capfac 0.012905 0.460954 0.000005 0.000268 0.305745 \
+0 0 0.017816 0.507412 0.000021
+systems.LSSOPB00.g.capfac 0.012905 0.460954 0.000005 0.000268 0.305745 \
+0 0 0.017816 0.507412 0.000021
+systems.LSSOPR00.g.capfac 0.196928 0.370284 0.37675 0.183488 0.369229 \
+0.492853 0.334813 0.200286 0.36863 0.375985
+systems.LSSOPS00.h.capfac 0.012905 0.460954 0.000005 0.000268 0.305745 \
+0 0 0.017816 0.507412 0.000021
+systems.LSSOTN00.i.capfac 0.01728 0.607459 0.000006 0.000358 0.409295 \
+0 0 0.023857 0.662993 0.000027
+systems.LSSOTNZ002.C.capfac 0.005298 0.65043 0.339474 0.000017 0.746404 \
+0.866711 0.433523 0.044763 0.844345 0.653601
+systems.LSSOTNZ001.B.capfac 0.009806 0.669104 0.372556 0 0.73094 \
+0.837316 0.40383 0.046803 0.877991 0.723287
+systems.LSSOTS00.j.capfac 0 0.57874 0.162121 0 0.57874 \
+0.300609 0.069795 0.00023 0.578845 0.161546
+systems.LSSOTSZ002.E.capfac 0.250507 0.759483 0.728249 0.421368 0.780165 \
+0.941777 0.878385 0.553098 0.925685 0.937321
+systems.LSSOTSZ001.D.capfac 0.226486 0.748701 0.725843 0.454999 0.791574 \
+0.95089 0.905644 0.536388 0.901044 0.925188
+systems.LSELPT04.A.capfac 0.055251 0.055251 0 0.057991 0.057991 \
+0.057991 0 0.053425 0.053425 0
+systems.LSELDT04_01.B.capfac 1 0 0 0 0 \
+0 0 0 0 0
+systems.LSELDT04_01.C.capfac 0 0 1 0 0 \
+0 0 0 0 0
+systems.LSELDT04_02.D.capfac 0 0 0 1 0 \
+0 0 0 0 0
+systems.LSELDT04_02.E.capfac 0 0 0 0 0 \
+0 1 0 0 0
+systems.LSELDT04_03.F.capfac 0 0 0 0 0 \
+0 0 1 0 0
+systems.LSELDT04_03.G.capfac 0 0 0 0 0 \
+0 0 0 0 1
+systems.LSELPTPSKobong.H.capfac 0.24863 0.24863 0 0.260959 0.260959 \
+0.260959 0 0.240411 0.240411 0
+systems.LSELDTPSKobong_01.I.capfac 1 0 0 0 0 \
+0 0 0 0 0
+systems.LSELDTPSKobong_01.J.capfac 0 0 1 0 0 \
+0 0 0 0 0
+systems.LSELDTPSKobong_02.K.capfac 0 0 0 1 0 \
+0 0 0 0 0
+systems.LSELDTPSKobong_02.L.capfac 0 0 0 0 0 \
+0 1 0 0 0
+systems.LSELDTPSKobong_03.M.capfac 0 0 0 0 0 \
+0 0 1 0 0
+systems.LSELDTPSKobong_03.N.capfac 0 0 0 0 0 \
+0 0 0 0 1
+relationsc:
+relationsp:
+relationss:
+PSd1 PSd1 o 0
+*
+SS_LSELST04 SS02 o 0
+*
+SS_LSELSTPSKobong SS03 o 0
+*
+relations1:
+ReserveMargin RM o 
+*
+CO2emissionskt CO2 o 
+*
+LocalRE RE o 
+*
+WDBR WDBR o 
+*
+PVBR PVBR o 
+*
+BMTC BMTC o 
+*
+Domestic DOM o 
+*
+InstantaneousWindPV IPW o 0
+*
+PSo1 PSo1 o 
+*
+PC_LSELST04 PC01 o 
+*
+PS_LSELST04 PS02 o 0
+*
+DC_LSELST04_01 DC01 o 
+*
+DC_LSELST04_02 DC02 o 
+*
+DC_LSELST04_03 DC03 o 
+*
+PC_LSELSTPSKobong PC02 o 
+*
+PS_LSELSTPSKobong PS03 o 0
+*
+DC_LSELSTPSKobong_01 DC04 o 
+*
+DC_LSELSTPSKobong_02 DC05 o 
+*
+DC_LSELSTPSKobong_03 DC06 o 
+*
+relations2:
+variables:
+systems:
+LSEL00TDI a
+# Description: Industry Distribution
+*
+LSEL00TDU a
+# Description: Urban Distribution
+*
+LSEL00TDC a
+# Description: Commerce Distribution
+*
+LSEL00TDR g
+# Description: Rural Distribution
+*
+LSEL00T00 g
+# Description: Transmission
+*
+LSEL00TUI g
+# Description: Industry Demand
+*
+LSEL00TUU g
+# Description: Urban Demand
+*
+LSEL00TUC g
+# Description: Commerce Demand
+*
+LSEL00TUR g
+# Description: Rural Demand
+*
+LSEL00TUS a
+# Description: SentOut Demand
+*
+LSEL00e00 g
+# Description: Export of Electricity
+*
+LSEL00i00 I
+# Description: Import of Electricity
+*
+LSELBS00 z
+# Description: Backstop
+*
+LSDSRC00 g
+# Description: Generic Diesel Centralized
+*
+LSDSRI00 g
+# Description: Generic Diesel 100 kW system (Industry)
+*
+LSDSRU00 g
+# Description: Generic Diesel/Gasoline 1kW system (urban)
+*
+LSDSRB00 g
+# Description: Generic Diesel/Gasoline 1kW system (commercial buildings)
+*
+LSDSRR00 g
+# Description: Generic Diesel/Gasoline 1kW system (rural)
+*
+LSHFRC00 g
+# Description: Generic HFO
+*
+LSNGSC00 g
+# Description: Generic Gas Open Cycle
+*
+LSNGCC00 h
+# Description: Generic Gas Combined Cycle
+*
+LSCOSC00 g
+# Description: Generic Coal
+*
+LSHYDM00 g
+# Description: Generic Hydro With Dam
+*
+LSHYRO00 B
+# Description: Generic Hydro ROR
+*
+LSHYRO_Oxbow U
+# Description: Candidate P_Lesotho_Oxbow (H)
+*
+LSHYRO_Muela_II T
+# Description: Candidate P_Lesotho_Muela 2 (H)
+*
+LSHYRO_Muela_I A
+# Description: Existing E_Muela (H)
+*
+LSEPPP01 a
+# Description: Committed Pump Storage (Pump)
+*
+LSHYMI00 g
+# Description: Generic Hydro Small
+*
+LSBMST00 g
+# Description: Generic Bagasse
+*
+LSBWST00 a
+# Description: Generic Wood
+*
+LSWDLC00 g
+# Description: Generic Wind
+*
+LSWDOC00 C
+# Description: Generic OffShore Wind
+*
+LSWDLCZ002 B
+# Description: Wind Zone 002
+*
+LSWDLCZ001 A
+# Description: Wind Zone 001
+*
+LSSOPC00 h
+# Description: Generic PV System (utility)
+*
+LSSOPCZ002 B
+# Description: Solar PV Zone 002
+*
+LSSOPCZ001 A
+# Description: Solar PV Zone 001
+*
+LSSOPU00 g
+# Description: Generic PV system (roof top - urban)
+*
+LSSOPB00 g
+# Description: Generic PV system (roof top - commercial buildings)
+*
+LSSOPR00 g
+# Description: Generic PV system (roof top - rural)
+*
+LSSOPS00 h
+# Description: Generic PV with 2h Battery (roof top - rural)
+*
+LSSOTN00 i
+# Description: Generic Solar thermal no storage
+*
+LSSOTNZ002 C
+# Description: Solar CSP 6hrStor Zone 002
+*
+LSSOTNZ001 B
+# Description: Solar CSP 6hrStor Zone 001
+*
+LSSOTS00 j
+# Description: Generic Solar thermal with Storage
+*
+LSSOTSZ002 E
+# Description: Solar CSP 12hrStor Zone 002
+*
+LSSOTSZ001 D
+# Description: Solar CSP 12hrStor Zone 001
+*
+LSSOTG00 i
+# Description: Generic Solar thermal with Gas co-firing
+*
+LSBM00X00 g
+# Description: Extraction of Bagasse
+*
+LSBW00X00 a
+# Description: Extraction of Wood
+*
+LSHY00X00 g
+# Description: Supply of Hydro
+*
+LSSO00X00 g
+# Description: Supply of Solar
+*
+LSWD00X00 g
+# Description: Supply of Wind
+*
+LSHF00I00 a
+# Description: Import of HFO
+*
+LSDS00I00 a
+# Description: Import of Diesel
+*
+LSCO00X00 a
+# Description: Extraction of Coal
+*
+LSELST04 A
+# Description: Battery Storage 4 hrs
+2. activity B
+*
+LSELPT04 A
+*
+LSELDT04_01 B
+2. activity C
+*
+LSELDT04_02 D
+2. activity E
+*
+LSELDT04_03 F
+2. activity G
+*
+LSELSTPSKobong F
+# Description: Candidate P_Kobong Pump storage
+2. activity A
+*
+LSELPTPSKobong H
+*
+LSELDTPSKobong_01 I
+2. activity J
+*
+LSELDTPSKobong_02 K
+2. activity L
+*
+LSELDTPSKobong_03 M
+2. activity N
+*
+resources: 
+endata
+

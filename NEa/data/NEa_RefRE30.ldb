@@ -1,0 +1,561 @@
+TDB: empty
+ADB: NEa
+problem: NEa
+description:
+# MAINa
+# Referance Scenario for RE 3030
+drate: 0
+timesteps: 2018 2019 2020 2021 2022 2023 2024 2025 2026 2027 2028 2029 2030 2031 2032 2033 2034 2035 2036 2037 2038 2039 2040 2041 2042
+loadregions:
+ltype ordered seasonal 1 0
+year 2019 1 10
+name aaa aab aac \
+baa bab bac bad \
+caa cab cac 
+length 0.096689 0.165753 0.069064 \
+0.101484 0.173974 0.028995 0.043493 \
+0.093493 0.160274 0.066781 
+energyforms:
+Final f
+# Final Energy
+Industry e l
+# Industry Electricity Final
+Commerce c l
+# Commerce Electricity Final
+Urban u l
+# Urban Electricity Final
+Rural r l
+# Rural Electricity Final
+SentOut s l f
+# Sentout Electricity Final
+Export E 
+# Export Elc
+*
+Tertiary t
+# Tertiary Energy
+Industry i l
+# Industry Electricity Tertiary
+Commerce c l
+# Commerce Electricity Tertiary
+Urban u l
+# Urban Electricity Tertiary
+Rural r l
+# Rural Electricity Tertiary
+Electricity e l f
+# Tertiary Electricity
+*
+Secondary s
+# Secondary Energy
+Electricity p l f
+# Secondary Electricity
+ElcDummy d l
+# Dummy elc for PS
+*
+Primary p
+# Primary Energy
+Bagasse b 
+# Bagasse
+Wood B 
+# Wood
+Hydro H 
+# Hydro
+Solar s l
+# Solar
+Wind w 
+# Wind
+Coal c 
+# Coal
+CoalCCS C 
+# Coal CCS
+Gas g 
+# Gas
+Nuclear n 
+# Nuclear
+Oil o 
+# Oil
+HFO h 
+# diesel
+Diesel d 
+# HFO
+Crude p 
+# Crude
+*
+Resources r
+# Resources
+Biomass b 
+# Biomass resource
+Coal c 
+# Coal resource
+*
+demand:
+c-f  ts 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+e-f  ts 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+r-f  ts 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+s-f  ts 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+u-f  ts 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+loadcurve:
+year 2019
+c-f 0.091679 0.175245 0.066941 0.096225 0.180233 \
+0.02902 0.04124 0.088649 0.16604 0.064728
+e-f 0.096689 0.165753 0.069064 0.101484 0.173974 \
+0.028995 0.043493 0.093493 0.160274 0.066781
+r-f 0.055689 0.182832 0.11559 0.05341 0.191565 \
+0.039736 0.051465 0.054146 0.176521 0.079046
+s-f 0.068422 0.120742 0.059874 0.098554 0.299125 \
+0.027931 0.048117 0.076545 0.135283 0.065407
+u-f 0.055689 0.182832 0.11559 0.05341 0.191565 \
+0.039736 0.051465 0.054146 0.176521 0.079046
+systems.NEHYRO_Namari_Goungo.G.capfac 0.351763 0.35086 0.35086 0.208555 0.209141 \
+0.209141 0.209141 0.900833 0.90113 0.90113
+systems.NEWDLC00.h.capfac 0.669601 0.45607 0.647738 0.270407 0.133983 \
+0.124191 0.239726 0.543694 0.300074 0.494202
+systems.NEWDLC_Tarka.H.capfac 0.669601 0.45607 0.647738 0.270407 0.133983 \
+0.124191 0.239726 0.543694 0.300074 0.494202
+systems.NEWDOC00.G.capfac 0.669601 0.45607 0.647738 0.270407 0.133983 \
+0.124191 0.239726 0.543694 0.300074 0.494202
+systems.NEWDLCZ005.F.capfac 0.779969 0.614209 0.661002 0.495014 0.321483 \
+0.245944 0.378613 0.721276 0.582534 0.696715
+systems.NEWDLCZ004.E.capfac 0.650703 0.517151 0.61367 0.555582 0.471531 \
+0.440859 0.498695 0.655947 0.583698 0.639295
+systems.NEWDLCZ003.D.capfac 0.710554 0.569566 0.721791 0.404428 0.394008 \
+0.460407 0.515647 0.695435 0.572185 0.696082
+systems.NEWDLCZ002.C.capfac 0.603798 0.556335 0.580876 0.688186 0.590801 \
+0.554592 0.639277 0.712787 0.590138 0.605065
+systems.NEWDLCZ001.B.capfac 0.742484 0.62715 0.628389 0.56402 0.394249 \
+0.180209 0.32089 0.654115 0.57068 0.626072
+systems.NEWDLC_Wind.A.capfac 0.669601 0.45607 0.647738 0.270407 0.133983 \
+0.124191 0.239726 0.543694 0.300074 0.494202
+systems.NESOPC00.i.capfac 0.001626 0.407368 0 0.005054 0.401183 \
+0 0 0.000867 0.378054 0
+systems.NESOPC_Agadez.H.capfac 0.001626 0.407368 0 0.005054 0.401183 \
+0 0 0.000867 0.378054 0
+systems.NESOPC_Gorou_Banda.G.capfac 0.001626 0.407368 0 0.005054 0.401183 \
+0 0 0.000867 0.378054 0
+systems.NESOPCZ005.F.capfac 0 0.445113 0.020494 0 0.423616 \
+0.057916 0 0 0.407537 0.004452
+systems.NESOPCZ004.E.capfac 0 0.415621 0.039096 0 0.394399 \
+0.108083 0 0 0.394795 0.019002
+systems.NESOPCZ003.D.capfac 0 0.439192 0.025146 0 0.412408 \
+0.067915 0 0 0.404616 0.008167
+systems.NESOPCZ002.C.capfac 0 0.442702 0.026122 0 0.447676 \
+0.087033 0 0 0.39159 0.007321
+systems.NESOPCZ001.B.capfac 0 0.443127 0.022598 0 0.416584 \
+0.062065 0 0 0.40789 0.00613
+systems.NESOPC_Solar_Mal.A.capfac 0.001626 0.407368 0 0.005054 0.401183 \
+0 0 0.000867 0.378054 0
+systems.NESOPU00.g.capfac 0.001626 0.407368 0 0.005054 0.401183 \
+0 0 0.000867 0.378054 0
+systems.NESOPB00.g.capfac 0.001626 0.407368 0 0.005054 0.401183 \
+0 0 0.000867 0.378054 0
+systems.NESOPR00.g.capfac 0.001626 0.407368 0 0.005054 0.401183 \
+0 0 0.000867 0.378054 0
+systems.NESOPS00.h.capfac 0.001626 0.407368 0 0.005054 0.401183 \
+0 0 0.000867 0.378054 0
+systems.NESOTN00.j.capfac 0 0 0 0 0 \
+0 0 0 0 0
+systems.NESOTN_Agadez.F.capfac 0 0 0 0 0 \
+0 0 0 0 0
+systems.NESOTNZ002.C.capfac 0.038229 0.781684 0.841781 0.000877 0.798817 \
+0.86029 0.432557 0.000412 0.758781 0.631972
+systems.NESOTNZ001.B.capfac 0.03153 0.798243 0.848977 0.000372 0.79826 \
+0.841332 0.387485 0.00043 0.77858 0.645381
+systems.NESOTS00.k.capfac 0 0.516411 0.258096 0 0.516411 \
+0.41617 0.152713 0 0.516772 0.257228
+systems.NESOTSZ002.E.capfac 0.568881 0.818219 0.966584 0.31375 0.824439 \
+0.966845 0.839866 0.361325 0.79837 0.915734
+systems.NESOTSZ001.D.capfac 0.569855 0.815918 0.959818 0.363133 0.849479 \
+0.987587 0.888774 0.366851 0.810564 0.924301
+systems.NERIDM_Dyodyonga.D.capfac 0.01485 0.014836 0.014836 0.105674 0.106786 \
+0.106786 0.106786 0.273197 0.272006 0.272006
+systems.NERIDM_Kandadji.A.capfac 0.259032 0.258214 0.258214 0.534086 0.534921 \
+0.534921 0.534921 0.899128 0.899067 0.899067
+systems.NERIDM_Gambou.B.capfac 0.001394 0.001389 0.001389 0.170588 0.171712 \
+0.171712 0.171712 0.234787 0.233572 0.233572
+systems.NEELPT04.C.capfac 0.055251 0.055251 0 0.057991 0.057991 \
+0.057991 0 0.053425 0.053425 0
+systems.NEELDT04_01.E.capfac 1 0 0 0 0 \
+0 0 0 0 0
+systems.NEELDT04_01.F.capfac 0 0 1 0 0 \
+0 0 0 0 0
+systems.NEELDT04_02.G.capfac 0 0 0 1 0 \
+0 0 0 0 0
+systems.NEELDT04_02.H.capfac 0 0 0 0 0 \
+0 1 0 0 0
+systems.NEELDT04_03.I.capfac 0 0 0 0 0 \
+0 0 1 0 0
+systems.NEELDT04_03.J.capfac 0 0 0 0 0 \
+0 0 0 0 1
+relationsc:
+relationsp:
+relationss:
+D_NEHYDM_Kandadji D001 o 0
+*
+D_NEHYDM_Gambou D002 o 0
+*
+D_NEHYDM_Dyodyonga D003 o 0
+*
+SS_NEELST04 SS01 o 0
+*
+relations1:
+ReserveMargin RM o 
+*
+CO2emissionskt CO2 o 
+*
+LocalRE RE o 
+*
+WDBR WDBR o 
+*
+PVBR PVBR o 
+*
+BMTC BMTC o 
+*
+Domestic DOM o 
+*
+InstantaneousWindPV IPW o 0
+*
+PC_NEELST04 PC01 o 
+*
+PS_NEELST04 PS01 o 0
+*
+DC_NEELST04_01 DC01 o 
+*
+DC_NEELST04_02 DC02 o 
+*
+DC_NEELST04_03 DC03 o 
+*
+relations2:
+variables:
+systems:
+NEEL00TDI a
+# Description: Industry Distribution
+*
+NEEL00TDU a
+# Description: Urban Distribution
+*
+NEEL00TDC a
+# Description: Commerce Distribution
+*
+NEEL00TDR a
+# Description: Rural Distribution
+*
+NEEL00T00 a
+# Description: Transmission
+*
+NEEL00TUI a
+# Description: Industry Demand
+*
+NEEL00TUU a
+# Description: Urban Demand
+*
+NEEL00TUC a
+# Description: Commerce Demand
+*
+NEEL00TUR a
+# Description: Rural Demand
+*
+NEEL00TUS a
+# Description: SentOut Demand
+*
+NEEL00e00 a
+# Description: Export of Electricity
+*
+NEEL00i00 I
+# Description: Import of Electricity
+*
+NEELBS00 z
+# Description: Backstop
+*
+NEDSRC00 g
+# Description: Generic Diesel Centralized
+*
+NEDSRC_Zinder1 R
+# Description: Zinder1
+*
+NEDSRC_Malbaza S
+# Description: Malbaza MTU
+*
+NEDSRC_GAYA_CAT Q
+# Description: GAYA_CAT
+*
+NEDSRC_Tahou_CAT P
+# Description: Tahou_CAT
+*
+NEDSRC_Maradi_CAT O
+# Description: Maradi_CAT
+*
+NEDSRC_DIFFA_GR1_10 N
+# Description: DIFFA_GR1_10
+*
+NEDSRC_Malbaza_MTU1 L
+# Description: Malbaza_MTU1-4
+*
+NEDSRC_Agagez_GR1_6 K
+# Description: Agagez_GR1_6
+*
+NEDSRC_Zinder T
+# Description: Zinder MTU1_4
+*
+NEDSRC_Tahou_Volvo_P1_2 J
+# Description: Tahou_Volvo_P1_2
+*
+NEDSRC_Maradi U
+# Description: Maradi MTU1_1
+*
+NEDSRC_Maradi_Volvo_P1_3 I
+# Description: Maradi_Volvo_P1_3
+*
+NEDSRC_Tillabery_ H
+# Description: Tillabery_
+*
+NEDSRC_Niamey_2_ G
+# Description: Niamey_2_GOUDEL MTU1-7
+*
+NEDSRC_Gourou_Banda F
+# Description: Gourou_Banda1, Bande 2 and Bande 3
+*
+NEDSRC_Goudel_ E
+# Description: Goudel_
+*
+NEDSRC_Gaya_ D
+# Description: Gaya_Volvo
+*
+NEDSRC_Dossou_ C
+# Description: Dossou_
+*
+NEDSRC_Diesel_Generators_ODS B
+# Description: Diesel_Generators_ODS
+*
+NEDSRC_AGr_diesel A
+# Description: Aggrekko 1, 2 and 3_diesel
+*
+NEDSRI00 g
+# Description: Generic Diesel 100 kW system (Industry)
+*
+NEDSRU00 g
+# Description: Generic Diesel/Gasoline 1kW system (urban)
+*
+NEDSRB00 g
+# Description: Generic Diesel/Gasoline 1kW system (commercial buildings)
+*
+NEDSRR00 g
+# Description: Generic Diesel/Gasoline 1kW system (rural)
+*
+NEHFRC00 g
+# Description: Generic HFO
+*
+NEHFRC_Niamey_2_ B
+# Description: Niamey_2_
+*
+NEHFRC_Diesel_Generators_OHF A
+# Description: Diesel_Generators_OHF
+*
+NENGSC00 g
+# Description: Generic Gas Open Cycle
+*
+NENGSC_Zinder_ C
+# Description: Zinder_
+*
+NENGSC_TAG_Niamey_2_ B
+# Description: TAG_Niamey_2_
+*
+NENGSC_Gas_Turbine_GAS A
+# Description: Gas_Turbine_GAS
+*
+NENGCC00 h
+# Description: Generic Gas Combined Cycle
+*
+NECOCS00 g
+# Description: Generic Coal w CCS
+*
+NECOSC00 g
+# Description: Generic Coal
+*
+NECOSC_Sonichar G
+# Description: Sonichar
+*
+NECOSC_Salkadamna_phase2 F
+# Description: Salkadamna_phase2
+*
+NECOSC_GAT1_2 D
+# Description: Sonichar_GAT1_2
+*
+NECOSC_Tchiro C
+# Description: Tchiro
+*
+NECOSC_Steam_Turbine_COA B
+# Description: Steam_Turbine_COA
+*
+NECOSC_Salkadamna_ A
+# Description: Salkadamna_
+*
+NEHYRO00 h
+# Description: Generic Hydro ROR
+*
+NEHYRO_Namari_Goungo G
+# Description: Namari_Goungo
+*
+NEHYDM00 g
+# Description: Generic Hydro With Dam
+*
+NEHYDM_Kandadji D
+# Description: Kandadji
+*
+NEHYDM_Gambou B
+# Description: Gambou
+*
+NEHYDM_Dyodyonga A
+# Description: Dyodyonga_
+*
+NEHYMI00 g
+# Description: Generic Hydro Small
+*
+NEBMST00 g
+# Description: Generic Bagasse
+*
+NEBWST00 a
+# Description: Generic Wood
+*
+NEGOCV00 g
+# Description: Generic Geothermal
+*
+NEWDLC00 h
+# Description: Generic Wind
+*
+NEWDLC_Tarka H
+# Description: Tarka
+*
+NEWDOC00 G
+# Description: Generic OffShore Wind
+*
+NEWDLCZ005 F
+# Description: Wind Zone 005
+*
+NEWDLCZ004 E
+# Description: Wind Zone 004
+*
+NEWDLCZ003 D
+# Description: Wind Zone 003
+*
+NEWDLCZ002 C
+# Description: Wind Zone 002
+*
+NEWDLCZ001 B
+# Description: Wind Zone 001
+*
+NEWDLC_Wind A
+# Description: Wind
+*
+NESOPC00 i
+# Description: Generic PV System (utility)
+*
+NESOPC_Agadez H
+# Description: Agadez
+*
+NESOPC_Gorou_Banda G
+# Description: Gorou_Banda
+*
+NESOPCZ005 F
+# Description: Solar PV Zone 005
+*
+NESOPCZ004 E
+# Description: Solar PV Zone 004
+*
+NESOPCZ003 D
+# Description: Solar PV Zone 003
+*
+NESOPCZ002 C
+# Description: Solar PV Zone 002
+*
+NESOPCZ001 B
+# Description: Solar PV Zone 001
+*
+NESOPC_Solar_Mal A
+# Description: Solar_Mal
+*
+NESOPU00 g
+# Description: Generic PV system (roof top - urban)
+*
+NESOPB00 g
+# Description: Generic PV system (roof top - commercial buildings)
+*
+NESOPR00 g
+# Description: Generic PV system (roof top - rural)
+*
+NESOPS00 h
+# Description: Generic PV with 2h Battery (roof top - rural)
+*
+NESOTN00 j
+# Description: Generic Solar thermal no storage
+*
+NESOTN_Agadez F
+# Description: Agadez
+*
+NESOTNZ002 C
+# Description: Solar CSP 6hrStor Zone 002
+*
+NESOTNZ001 B
+# Description: Solar CSP 6hrStor Zone 001
+*
+NESOTS00 k
+# Description: Generic Solar thermal with Storage
+*
+NESOTSZ002 E
+# Description: Solar CSP 12hrStor Zone 002
+*
+NESOTSZ001 D
+# Description: Solar CSP 12hrStor Zone 001
+*
+NESOTG00 i
+# Description: Generic Solar thermal with Gas co-firing
+*
+NEBM00X00 a
+# Description: Extraction of Bagasse
+*
+NEBW00X00 a
+# Description: Extraction of Wood
+*
+NEHY00X00 a
+# Description: Supply of Hydro
+*
+NESO00X00 a
+# Description: Supply of Solar
+*
+NEWD00X00 a
+# Description: Supply of Wind
+*
+NEHF00I00 a
+# Description: Import of HFO
+*
+NEDS00I00 a
+# Description: Import of Diesel
+*
+NENG00X00 a
+# Description: Extraction of Natural Gas
+*
+NECO00I00 a
+# Description: Import of Coal
+*
+NERIDM_Dyodyonga D
+*
+NERIDM_Kandadji A
+*
+NERIDM_Gambou B
+*
+NEELST04 A
+# Description: Battery Storage 4 hrs
+2. activity B
+*
+NEELPT04 C
+*
+NEELDT04_01 E
+2. activity F
+*
+NEELDT04_02 G
+2. activity H
+*
+NEELDT04_03 I
+2. activity J
+*
+resources: 
+endata
+

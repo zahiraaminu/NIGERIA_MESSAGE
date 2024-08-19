@@ -1,0 +1,900 @@
+TDB: empty
+ADB: ZAa
+problem: ZAa
+description:
+# MAINa
+# NDC  Target RE 6030
+drate: 0
+timesteps: 2018 2019 2020 2021 2022 2023 2024 2025 2026 2027 2028 2029 2030 2031 2032 2033 2034 2035 2036 2037 2038 2039 2040 2041 2042
+loadregions:
+ltype ordered seasonal 1 0
+year 2019 1 10
+name aaa aab aac \
+baa bab bac bad \
+caa cab cac 
+length 0.096689 0.165753 0.069064 \
+0.101484 0.173974 0.028995 0.043493 \
+0.093493 0.160274 0.066781 
+energyforms:
+Final f
+# Final Energy
+Industry e l
+# Industry Electricity Final
+Commerce c l
+# Commerce Electricity Final
+Urban u l
+# Urban Electricity Final
+Rural r l
+# Rural Electricity Final
+SentOut s l f
+# Sentout Electricity Final
+Export E 
+# Export Elc
+*
+Tertiary t
+# Tertiary Energy
+Industry i l
+# Industry Electricity Tertiary
+Commerce c l
+# Commerce Electricity Tertiary
+Urban u l
+# Urban Electricity Tertiary
+Rural r l
+# Rural Electricity Tertiary
+Electricity e l f
+# Tertiary Electricity
+*
+Secondary s
+# Secondary Energy
+Electricity R l f
+# Secondary Electricity
+ElcDummy d l
+# Dummy elc for PS
+*
+Primary p
+# Primary Energy
+Bagasse b 
+# Bagasse
+Wood B 
+# Wood
+Hydro H 
+# Hydro
+Solar s 
+# Solar
+Wind w 
+# Wind
+Coal c 
+# Coal
+CoalCCS C 
+# Coal CCS
+Gas g 
+# Gas
+Nuclear n 
+# Nuclear
+Diesel o 
+# Diesel
+HFO h 
+# HFO
+Crude p 
+# Crude
+*
+Resources r
+# Resources
+Biomass b 
+# Biomass resource
+Coal c 
+# Coal resource
+*
+demand:
+e-f  ts 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+c-f  ts 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+u-f  ts 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+r-f  ts 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+s-f  ts 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+loadcurve:
+year 2019
+e-f 0.096689 0.165753 0.069064 0.101484 0.173974 \
+0.028995 0.043493 0.093493 0.160274 0.066781
+c-f 0.091841 0.175245 0.065601 0.096395 0.182081 \
+0.027541 0.041313 0.088806 0.167744 0.063433
+u-f 0.057109 0.183975 0.11559 0.055774 0.192544 \
+0.042864 0.04366 0.056128 0.177094 0.075262
+r-f 0.057109 0.183975 0.11559 0.055774 0.192544 \
+0.042864 0.04366 0.056128 0.177094 0.075262
+s-f 0.078927 0.16339 0.06454 0.087305 0.229876 \
+0.032366 0.040749 0.078053 0.161099 0.063695
+systems.ZAHYRO00.B.capfac 0 0 0 0 0 \
+0 0 0 0 0
+systems.ZAHYRO_Neusberg_Kruisvallei_Stortemelk.B.capfac 0.997475 0.997475 0.997475 0.489722 0.489722 \
+0.489722 0.489722 0.727144 0.727144 0.727144
+systems.ZAWDLC00.h.capfac 0.227919 0.263824 0.45765 0.391281 0.43232 \
+0.378057 0.328637 0.273658 0.393689 0.533213
+systems.ZAWDOC00.T.capfac 0.227919 0.263824 0.45765 0.391281 0.43232 \
+0.378057 0.328637 0.273658 0.393689 0.533213
+systems.ZAWDOCZ002.V.capfac 0.448781 0.467023 0.67082 0.523722 0.527361 \
+0.540492 0.528758 0.545714 0.544961 0.729709
+systems.ZAWDOCZ001.U.capfac 0.469058 0.515489 0.504272 0.463404 0.481961 \
+0.478488 0.468882 0.558338 0.594066 0.603679
+systems.ZAWDLC_BW5_Zone03_WEFS.S.capfac 0.374309 0.374507 0.51633 0.581965 0.530695 \
+0.618121 0.622697 0.513969 0.515377 0.675057
+systems.ZAWDLC_BW5_Zone01_WEFS.R.capfac 0.585431 0.426043 0.53984 0.543688 0.457646 \
+0.459794 0.533573 0.640928 0.495386 0.654245
+systems.ZAWDLC_BW5_Zone10_WEFS.I.capfac 0.502959 0.359709 0.668124 0.554634 0.483328 \
+0.517187 0.569028 0.627013 0.437613 0.714983
+systems.ZAWDLC_BW5_Zone07_WEFS.B.capfac 0.546437 0.491198 0.532535 0.494874 0.464452 \
+0.486671 0.49815 0.62999 0.537922 0.63428
+systems.ZAWDLC_BW1to4_Zone10_WEFs.Q.capfac 0.502959 0.359709 0.668124 0.554634 0.483328 \
+0.517187 0.569028 0.627013 0.437613 0.714983
+systems.ZAWDLC_BW1to4_Zone9_WEFs.P.capfac 0.417297 0.386481 0.690969 0.519162 0.495904 \
+0.538011 0.540926 0.512802 0.454621 0.732615
+systems.ZAWDLC_BW1to4_Zone7_WEFS.O.capfac 0.546437 0.491198 0.532535 0.494874 0.464452 \
+0.486671 0.49815 0.62999 0.537922 0.63428
+systems.ZAWDLC_BW1to4_Zone5_WEFs.N.capfac 0.571267 0.437284 0.517767 0.502784 0.42144 \
+0.451904 0.518731 0.655739 0.507677 0.666804
+systems.ZAWDLC_ChabaWF.M.capfac 0.499515 0.531255 0.529853 0.468112 0.501983 \
+0.495733 0.472402 0.55396 0.61181 0.607133
+systems.ZAWDLCZ010.L.capfac 0.502959 0.359709 0.668124 0.554634 0.483328 \
+0.517187 0.569028 0.627013 0.437613 0.714983
+systems.ZAWDLCZ009.K.capfac 0.417297 0.386481 0.690969 0.519162 0.495904 \
+0.538011 0.540926 0.512802 0.454621 0.732615
+systems.ZAWDLCZ008.J.capfac 0.380989 0.457119 0.523549 0.552466 0.581308 \
+0.610201 0.591466 0.48622 0.587226 0.626006
+systems.ZAWDLCZ007.H.capfac 0.546437 0.491198 0.532535 0.494874 0.464452 \
+0.486671 0.49815 0.62999 0.537922 0.63428
+systems.ZAWDLCZ006.G.capfac 0.368062 0.492558 0.540135 0.471592 0.481891 \
+0.544261 0.489543 0.478754 0.605015 0.623949
+systems.ZAWDLCZ005.F.capfac 0.571267 0.437284 0.517767 0.502784 0.42144 \
+0.451904 0.518731 0.655739 0.507677 0.666804
+systems.ZAWDLCZ004.E.capfac 0.357187 0.533755 0.367463 0.495042 0.581055 \
+0.472551 0.47158 0.45527 0.717761 0.506524
+systems.ZAWDLCZ003.D.capfac 0.374309 0.374507 0.51633 0.581965 0.530695 \
+0.618121 0.622697 0.513969 0.515377 0.675057
+systems.ZAWDLCZ002.C.capfac 0.499515 0.531255 0.529853 0.468112 0.501983 \
+0.495733 0.472402 0.55396 0.61181 0.607133
+systems.ZAWDLCZ001.A.capfac 0.585431 0.426043 0.53984 0.543688 0.457646 \
+0.459794 0.533573 0.640928 0.495386 0.654245
+systems.ZASOPC00.i.capfac 0.00473 0.55394 0.001208 0 0.335846 \
+0 0 0.007205 0.616664 0.002355
+systems.ZASOPC_RMIPP_solarPV_plants_Z8.T.capfac 0.00473 0.55394 0.001208 0 0.335846 \
+0 0 0.007205 0.616664 0.002355
+systems.ZASOPC_RMIPP_solarPV_plants_Z6.S.capfac 0.00473 0.55394 0.001208 0 0.335846 \
+0 0 0.007205 0.616664 0.002355
+systems.ZASOPC_RMIPP_solarPV_plants_Z9.R.capfac 0.00473 0.55394 0.001208 0 0.335846 \
+0 0 0.007205 0.616664 0.002355
+systems.ZASOPC_BW5_solarPV_plants_Z9.F.capfac 0.00473 0.55394 0.001208 0 0.335846 \
+0 0 0.007205 0.616664 0.002355
+systems.ZASOPC_BW5_solarPV_plants_Z6.E.capfac 0.00473 0.55394 0.001208 0 0.335846 \
+0 0 0.007205 0.616664 0.002355
+systems.ZASOPC_BW5_solarPV_plants_Z8.B.capfac 0.00473 0.55394 0.001208 0 0.335846 \
+0 0 0.007205 0.616664 0.002355
+systems.ZASOPC_WesternCape.Q.capfac 0 0.492786 0.016461 0 0.304821 \
+0 0 0 0.556023 0.012942
+systems.ZASOPC_Limpopo.P.capfac 0 0.472346 0.011391 0 0.322364 \
+0 0 0.000021 0.547523 0.00901
+systems.ZASOPC_EasternCape.O.capfac 0 0.481743 0.011983 0 0.309492 \
+0 0 0.000021 0.551108 0.0095
+systems.ZASOPC_NorthernCape.N.capfac 0 0.493764 0.015324 0 0.31544 \
+0 0 0 0.553929 0.011834
+systems.ZASOPCZ010.M.capfac 0 0.499463 0.018437 0 0.313534 \
+0.000001 0 0 0.558789 0.013995
+systems.ZASOPCZ009.L.capfac 0 0.481743 0.011983 0 0.309492 \
+0 0 0.000021 0.551108 0.0095
+systems.ZASOPCZ008.K.capfac 0 0.492786 0.016461 0 0.304821 \
+0 0 0 0.556023 0.012942
+systems.ZASOPCZ007.J.capfac 0 0.498896 0.022909 0 0.302308 \
+0.000121 0 0 0.559053 0.018203
+systems.ZASOPCZ006.I.capfac 0 0.472346 0.011391 0 0.322364 \
+0 0 0.000021 0.547523 0.00901
+systems.ZASOPCZ005.H.capfac 0 0.474511 0.012733 0 0.340105 \
+0 0 0 0.542845 0.009382
+systems.ZASOPCZ004.G.capfac 0 0.485641 0.024211 0 0.300423 \
+0.00028 0 0 0.548864 0.019725
+systems.ZASOPCZ003.D.capfac 0 0.493764 0.015324 0 0.31544 \
+0 0 0 0.553929 0.011834
+systems.ZASOPCZ002.C.capfac 0 0.487824 0.01443 0 0.319348 \
+0 0 0 0.547498 0.011153
+systems.ZASOPCZ001.A.capfac 0 0.504657 0.021342 0 0.312283 \
+0.00007 0 0 0.564803 0.016897
+systems.ZASOPU00.g.capfac 0.009319 0.466973 0.000039 0.000094 0.314016 \
+0 0 0.013813 0.517379 0.000112
+systems.ZASOPB00.g.capfac 0.009319 0.466973 0.000039 0.000094 0.314016 \
+0 0 0.013813 0.517379 0.000112
+systems.ZASOPR00.g.capfac 0.199958 0.375981 0.382546 0.186311 0.37491 \
+0.500435 0.339964 0.203368 0.374301 0.381769
+systems.ZASOPS00.h.capfac 0.009319 0.466973 0.000039 0.000094 0.314016 \
+0 0 0.013813 0.517379 0.000112
+systems.ZASOTN00.j.capfac 0.013697 0.651984 0.000057 0.000139 0.45984 \
+0 0 0.020302 0.709432 0.000164
+systems.ZASOTNZ002.G.capfac 0.080534 0.859051 0.813789 0.000005 0.717421 \
+0.854282 0.368458 0.073197 0.914089 0.887243
+systems.ZASOTNZ001.D.capfac 0.053083 0.847725 0.737182 0.000044 0.737866 \
+0.876012 0.415542 0.062426 0.920453 0.871149
+systems.ZASOTS00.k.capfac 0 0.637345 0.178538 0 0.637345 \
+0.33105 0.076863 0.000254 0.637461 0.177905
+systems.ZASOTSZ002.F.capfac 0.534166 0.88634 0.929566 0.402143 0.779686 \
+0.949984 0.894693 0.627868 0.945273 0.96693
+systems.ZASOTSZ001.E.capfac 0.613868 0.893531 0.957603 0.384161 0.764244 \
+0.920859 0.873296 0.655565 0.941368 0.968103
+systems.ZASOTS02.B.capfac 0 0.637345 0.178538 0 0.637345 \
+0.33105 0.076863 0.000254 0.637461 0.177905
+systems.ZASOTS01.A.capfac 0 0.637345 0.178538 0 0.637345 \
+0.33105 0.076863 0.000254 0.637461 0.177905
+systems.ZARIDM_Gariep_Vanderkloof_Collywobbles_Ncora.B.capfac 0.810535 0.810535 0.810535 0.250264 0.250264 \
+0.250264 0.250264 0.576265 0.576265 0.576265
+systems.ZAELPT04.A.capfac 0.055251 0.055251 0 0.057991 0.057991 \
+0.057991 0 0.053425 0.053425 0
+systems.ZAELDT04_01.C.capfac 1 0 0 0 0 \
+0 0 0 0 0
+systems.ZAELDT04_01.D.capfac 0 0 1 0 0 \
+0 0 0 0 0
+systems.ZAELDT04_02.E.capfac 0 0 0 1 0 \
+0 0 0 0 0
+systems.ZAELDT04_02.F.capfac 0 0 0 0 0 \
+0 1 0 0 0
+systems.ZAELDT04_03.G.capfac 0 0 0 0 0 \
+0 0 1 0 0
+systems.ZAELDT04_03.H.capfac 0 0 0 0 0 \
+0 0 0 0 1
+systems.ZAELPTPSDrakensberg.I.capfac 0.331507 0.331507 0 0.347945 0.347945 \
+0.347945 0 0.320548 0.320548 0
+systems.ZAELDTPSDrakensberg_01.J.capfac 1 0 0 0 0 \
+0 0 0 0 0
+systems.ZAELDTPSDrakensberg_01.K.capfac 0 0 1 0 0 \
+0 0 0 0 0
+systems.ZAELDTPSDrakensberg_02.L.capfac 0 0 0 1 0 \
+0 0 0 0 0
+systems.ZAELDTPSDrakensberg_02.M.capfac 0 0 0 0 0 \
+0 1 0 0 0
+systems.ZAELDTPSDrakensberg_03.N.capfac 0 0 0 0 0 \
+0 0 1 0 0
+systems.ZAELDTPSDrakensberg_03.O.capfac 0 0 0 0 0 \
+0 0 0 0 1
+systems.ZAELPTPSPalmiet.P.capfac 0.428196 0.428196 0 0.449429 0.449429 \
+0.449429 0 0.414041 0.414041 0
+systems.ZAELDTPSPalmiet_01.Q.capfac 1 0 0 0 0 \
+0 0 0 0 0
+systems.ZAELDTPSPalmiet_01.R.capfac 0 0 1 0 0 \
+0 0 0 0 0
+systems.ZAELDTPSPalmiet_02.S.capfac 0 0 0 1 0 \
+0 0 0 0 0
+systems.ZAELDTPSPalmiet_02.T.capfac 0 0 0 0 0 \
+0 1 0 0 0
+systems.ZAELDTPSPalmiet_03.U.capfac 0 0 0 0 0 \
+0 0 1 0 0
+systems.ZAELDTPSPalmiet_03.V.capfac 0 0 0 0 0 \
+0 0 0 0 1
+systems.ZAELPTPSIngula.W.capfac 0.221005 0.221005 0 0.231963 0.231963 \
+0.231963 0 0.213699 0.213699 0
+systems.ZAELDTPSIngula_01.X.capfac 1 0 0 0 0 \
+0 0 0 0 0
+systems.ZAELDTPSIngula_01.Y.capfac 0 0 1 0 0 \
+0 0 0 0 0
+systems.ZAELDTPSIngula_02.Z.capfac 0 0 0 1 0 \
+0 0 0 0 0
+systems.ZAELDTPSIngula_02.a.capfac 0 0 0 0 0 \
+0 1 0 0 0
+systems.ZAELDTPSIngula_03.b.capfac 0 0 0 0 0 \
+0 0 1 0 0
+systems.ZAELDTPSIngula_03.c.capfac 0 0 0 0 0 \
+0 0 0 0 1
+systems.ZAELPTPSSteenbras.d.capfac 0.138128 0.138128 0 0.144977 0.144977 \
+0.144977 0 0.133562 0.133562 0
+systems.ZAELDTPSSteenbras_01.e.capfac 1 0 0 0 0 \
+0 0 0 0 0
+systems.ZAELDTPSSteenbras_01.f.capfac 0 0 1 0 0 \
+0 0 0 0 0
+systems.ZAELDTPSSteenbras_02.g.capfac 0 0 0 1 0 \
+0 0 0 0 0
+systems.ZAELDTPSSteenbras_02.h.capfac 0 0 0 0 0 \
+0 1 0 0 0
+systems.ZAELDTPSSteenbras_03.i.capfac 0 0 0 0 0 \
+0 0 1 0 0
+systems.ZAELDTPSSteenbras_03.j.capfac 0 0 0 0 0 \
+0 0 0 0 1
+systems.ZAELPTPSTubatse.k.capfac 0.221005 0.221005 0 0.231963 0.231963 \
+0.231963 0 0.213699 0.213699 0
+systems.ZAELDTPSTubatse_01.l.capfac 1 0 0 0 0 \
+0 0 0 0 0
+systems.ZAELDTPSTubatse_01.m.capfac 0 0 1 0 0 \
+0 0 0 0 0
+systems.ZAELDTPSTubatse_02.n.capfac 0 0 0 1 0 \
+0 0 0 0 0
+systems.ZAELDTPSTubatse_02.o.capfac 0 0 0 0 0 \
+0 1 0 0 0
+systems.ZAELDTPSTubatse_03.p.capfac 0 0 0 0 0 \
+0 0 1 0 0
+systems.ZAELDTPSTubatse_03.q.capfac 0 0 0 0 0 \
+0 0 0 0 1
+relationsc:
+relationsp:
+relationss:
+PSd1 PSd1 o 0
+*
+PSd2 PSd2 o 0
+*
+PSd3 PSd3 o 0
+*
+D_ZAHYDM_Gariep_Vanderkloof_Collywobbles_Ncora D001 o 0
+*
+SS_ZAELST04 SS04 o 0
+*
+SS_ZAELSTPSDrakensberg SS05 o 0
+*
+SS_ZAELSTPSPalmiet SS06 o 0
+*
+SS_ZAELSTPSIngula SS07 o 0
+*
+SS_ZAELSTPSSteenbras SS08 o 0
+*
+SS_ZAELSTPSTubatse SS09 o 0
+*
+relations1:
+ReserveMargin RM o 
+*
+PSEX PSEX o 
+*
+CO2emissionskt CO2 o 
+*
+LocalRE RE o 
+*
+WDBR WDBR o 
+*
+PVBR PVBR o 
+*
+BMTC BMTC o 
+*
+Domestic DOM o 
+*
+InstantaneousWindPV IPW o 0
+*
+PSo1 PSo1 o 
+*
+PSo2 PSo2 o 
+*
+PC_ZAELST04 PC01 o 
+*
+PS_ZAELST04 PS04 o 0
+*
+DC_ZAELST04_01 DC01 o 
+*
+DC_ZAELST04_02 DC02 o 
+*
+DC_ZAELST04_03 DC03 o 
+*
+PC_ZAELSTPSDrakensberg PC02 o 
+*
+PS_ZAELSTPSDrakensberg PS05 o 0
+*
+DC_ZAELSTPSDrakensberg_01 DC04 o 
+*
+DC_ZAELSTPSDrakensberg_02 DC05 o 
+*
+DC_ZAELSTPSDrakensberg_03 DC06 o 
+*
+PC_ZAELSTPSPalmiet PC03 o 
+*
+PS_ZAELSTPSPalmiet PS06 o 0
+*
+DC_ZAELSTPSPalmiet_01 DC07 o 
+*
+DC_ZAELSTPSPalmiet_02 DC08 o 
+*
+DC_ZAELSTPSPalmiet_03 DC09 o 
+*
+PC_ZAELSTPSIngula PC04 o 
+*
+PS_ZAELSTPSIngula PS07 o 0
+*
+DC_ZAELSTPSIngula_01 DC10 o 
+*
+DC_ZAELSTPSIngula_02 DC11 o 
+*
+DC_ZAELSTPSIngula_03 DC12 o 
+*
+PC_ZAELSTPSSteenbras PC05 o 
+*
+PS_ZAELSTPSSteenbras PS08 o 0
+*
+DC_ZAELSTPSSteenbras_01 DC13 o 
+*
+DC_ZAELSTPSSteenbras_02 DC14 o 
+*
+DC_ZAELSTPSSteenbras_03 DC15 o 
+*
+PC_ZAELSTPSTubatse PC06 o 
+*
+PS_ZAELSTPSTubatse PS09 o 0
+*
+DC_ZAELSTPSTubatse_01 DC16 o 
+*
+DC_ZAELSTPSTubatse_02 DC17 o 
+*
+DC_ZAELSTPSTubatse_03 DC18 o 
+*
+relations2:
+variables:
+test test
+*
+systems:
+ZAEL00TDI a
+# Description: Industry Distribution
+*
+ZAEL00TDU a
+# Description: Urban Distribution
+*
+ZAEL00TDC a
+# Description: Commerce Distribution
+*
+ZAEL00TDR a
+# Description: Rural Distribution
+*
+ZAEL00T00 a
+# Description: Transmission
+*
+ZAEL00TUI a
+# Description: Industry Demand
+*
+ZAEL00TUU a
+# Description: Urban Demand
+*
+ZAEL00TUC a
+# Description: Commerce Demand
+*
+ZAEL00TUR a
+# Description: Rural Demand
+*
+ZAEL00TUS a
+# Description: SentOut Demand
+*
+ZAEL00e00 a
+# Description: Export of Electricity
+*
+ZAEL00i00 I
+# Description: Import of Electricity
+*
+ZAELBS00 z
+# Description: Backstop
+*
+ZAEPPP01 a
+# Description: Existing Pump Storage (Pump)
+*
+ZAEPPP10 i
+# Description: Committed New Pump Storage (Pump)
+*
+ZADSRC00 g
+# Description: Generic Diesel Centralized
+*
+ZADSSC00 h
+# Description: Generic Diesel Open Cycle 
+*
+ZADSSC03 C
+# Description: Existing E_Port Rex Gas (G)/E_Gourikwa OCGT (Mossel Bay) (G)/E_Dedisa (G)
+*
+ZADSSC02 B
+# Description: Existing E_Avon (G)
+*
+ZADSSC01 A
+# Description: Existing E_Acacia (G)/E_Ankerlig (Atlantis) OCGTs
+*
+ZADSRI00 g
+# Description: Generic Diesel 100 kW system (Industry)
+*
+ZADSRU00 g
+# Description: Generic Diesel/Gasoline 1kW system (urban)
+*
+ZADSRB00 g
+# Description: Generic Diesel/Gasoline 1kW system (commercial buildings)
+*
+ZADSRR00 g
+# Description: Generic Diesel/Gasoline 1kW system (rural)
+*
+ZAHFRC00 g
+# Description: Generic HFO
+*
+ZANGSC00 g
+# Description: Generic Gas Open Cycle
+*
+ZANGSC30 e
+# Description: Committed P_SA_Karpower NG
+*
+ZANGSC02 B
+# Description: Existing E_Secunda (Sasol Synthetic Fuels) (G)
+*
+ZANGCC00 h
+# Description: Generic Gas Combined Cycle
+*
+ZANGCC30 d
+# Description: Candidate P_SA_CCGT NG
+*
+ZANGRC00 i
+# Description: Generic Gas Engine
+*
+ZANGRC01 A
+# Description: Existing E_Sasolburg (Eng)
+*
+ZACOSC17 Q
+# Description: Candidate E_Khanyisa (St)
+*
+ZACOSC14 N
+# Description: Existing E_Kelvin B (St)_Joburg/E_Rooiwal (St)_Pretoria/E_Secunda (Sasol Chemical) (St)
+*
+ZACOSC13 M
+# Description: Existing E_Komati I (St)/E_Komati II (St)
+*
+ZACOSC12 L
+# Description: Existing E_Grootvlei (St)
+*
+ZACOSC11 K
+# Description: Existing E_Camden (St)
+*
+ZACOSC10 J
+# Description: Existing E_Hendrina (St)
+*
+ZACOSC09 I
+# Description: Existing E_Arnot (St)
+*
+ZACOSC08 H
+# Description: Existing E_Majuba II (St)/E_Majuba I (St)
+*
+ZACOSC07 G
+# Description: Existing E_Kriel (St)
+*
+ZACOSC06 F
+# Description: Existing E_Matla (St)
+*
+ZACOSC05 E
+# Description: Existing E_Duvha (St)
+*
+ZACOSC04 D
+# Description: Existing E_Tutuka (St)
+*
+ZACOSC03 C
+# Description: Existing E_Lethabo (St)
+*
+ZACOSC02 B
+# Description: Existing E_Matimba (St)
+*
+ZACOSC01 A
+# Description: Existing E_Kendal (St)
+*
+ZACOSC16 P
+# Description: Committed E_Kusile (St)
+*
+ZACOSC15 O
+# Description: Committed E_Medupi (St)
+*
+ZANUPW00 g
+# Description: Generic Nuclear
+*
+ZANUPW30 d
+# Description: Candidate P_SA_Nuclear
+*
+ZANUPW01 A
+# Description: Existing Koeberg
+*
+ZAHYDM00 g
+# Description: Generic Hydro With Dam
+*
+ZAHYRO00 B
+# Description: Generic Hydro ROR
+*
+ZAHYDM_Gariep_Vanderkloof_Collywobbles_Ncora A
+# Description: Existing E_Gariep (H)/E_Vanderkloof (H)/E_Collywobbles (H)
+*
+ZAHYMI00 g
+# Description: Generic Hydro Small
+*
+ZAHYRO_Neusberg_Kruisvallei_Stortemelk B
+# Description: Existing E_Neusberg HEP (H)/E_Kruisvallei Hydro (H)/E_Stortemelk Hydro (H)
+*
+ZABMST00 g
+# Description: Candidate P_SA_Biomass
+*
+ZABWST00 a
+# Description: Generic Wood
+*
+ZABMST02 B
+# Description: Existing E_REIPPPP4-Ngodwana Energy Project (St)
+*
+ZABMST01 A
+# Description: Existing E_REIPPPP3-Johannesburg Landfill Gas (St)
+*
+ZAGOCV00 g
+# Description: Generic Geothermal
+*
+ZAWDLC00 h
+# Description: Generic Wind
+*
+ZAWDOC00 T
+# Description: Generic OffShore Wind
+*
+ZAWDOCZ002 V
+# Description: Offshore Wind Zone 002
+*
+ZAWDOCZ001 U
+# Description: Offshore Wind Zone 001
+*
+ZAWDLC_BW5_Zone03_WEFS S
+# Description: Committed _REIPPPP_5 Waaihoek WEF in Zone 003
+*
+ZAWDLC_BW5_Zone01_WEFS R
+# Description: Committed _REIPPPP_5 WEFs in Zone 001
+*
+ZAWDLC_BW5_Zone10_WEFS I
+# Description: Committed _REIPPPP_5 Dwarsrug WEF in Zone 010
+*
+ZAWDLC_BW5_Zone07_WEFS B
+# Description: Committed _REIPPPP_5 WEFs in Zone 007
+*
+ZAWDLC_BW1to4_Zone10_WEFs Q
+# Description: Existing E_REIPPPP_1 to 4_WEFs_NC and WC_Wind Zone 010
+*
+ZAWDLC_BW1to4_Zone9_WEFs P
+# Description: Existing E_REIPPPP_1 to 2_Darling_Sere_WEFs_WC _Wind Zone 009
+*
+ZAWDLC_BW1to4_Zone7_WEFS O
+# Description: Existing E_REIPPPP_1 to 4_WEFs_EC_Wind Zone 007
+*
+ZAWDLC_BW1to4_Zone5_WEFs N
+# Description: Existing E_REIPPPP_1 to 4_WEFs_EC_Wind Zone 005
+*
+ZAWDLC_ChabaWF M
+# Description: Existing E_REIPPPP2_Chaba Wind Farm_ EC_Wind Zone 002
+*
+ZAWDLCZ010 L
+# Description: Wind Zone 010
+*
+ZAWDLCZ009 K
+# Description: Wind Zone 009
+*
+ZAWDLCZ008 J
+# Description: Wind Zone 008
+*
+ZAWDLCZ007 H
+# Description: Wind Zone 007
+*
+ZAWDLCZ006 G
+# Description: Wind Zone 006
+*
+ZAWDLCZ005 F
+# Description: Wind Zone 005
+*
+ZAWDLCZ004 E
+# Description: Wind Zone 004
+*
+ZAWDLCZ003 D
+# Description: Wind Zone 003
+*
+ZAWDLCZ002 C
+# Description: Wind Zone 002
+*
+ZAWDLCZ001 A
+# Description: Wind Zone 001
+*
+ZASOPC00 i
+# Description: Generic PV System (utility)
+*
+ZASOPC_RMIPP_solarPV_plants_Z8 T
+# Description: Committed P_Risk Mitigation Prog. Solar PV plants in Zone 8
+*
+ZASOPC_RMIPP_solarPV_plants_Z6 S
+# Description: Committed P_Risk Mitigation Prog. Solar PV plants in Zone 6
+*
+ZASOPC_RMIPP_solarPV_plants_Z9 R
+# Description: Committed P_Risk Mitigation Prog. Solar PV plants in Zone 9
+*
+ZASOPC_BW5_solarPV_plants_Z9 F
+# Description: Committed P_Bid Window 5 Solar PV plants in Zone 9
+*
+ZASOPC_BW5_solarPV_plants_Z6 E
+# Description: Committed P_Bid Window 5 Solar PV plants in Zone 6
+*
+ZASOPC_BW5_solarPV_plants_Z8 B
+# Description: Committed P_Bid Window 5 Solar PV plants in Zone 8
+*
+ZASOPC_WesternCape Q
+# Description: Existing E_PV REIPPPP1_BW_1 to 4_in Western Cape
+*
+ZASOPC_Limpopo P
+# Description: Existing E_PV REIPPPP1_BW_1 to 4_in Limpopo
+*
+ZASOPC_EasternCape O
+# Description: Existing E_PV REIPPPP1_BW_1 to 4_in Eastern Cape
+*
+ZASOPC_NorthernCape N
+# Description: Existing E_PV REIPPPP_BW_1 to 4_in Northern Cape
+*
+ZASOPCZ010 M
+# Description: Solar PV Zone 010
+*
+ZASOPCZ009 L
+# Description: Solar PV Zone 009
+*
+ZASOPCZ008 K
+# Description: Solar PV Zone 008
+*
+ZASOPCZ007 J
+# Description: Solar PV Zone 007
+*
+ZASOPCZ006 I
+# Description: Solar PV Zone 006
+*
+ZASOPCZ005 H
+# Description: Solar PV Zone 005
+*
+ZASOPCZ004 G
+# Description: Solar PV Zone 004
+*
+ZASOPCZ003 D
+# Description: Solar PV Zone 003
+*
+ZASOPCZ002 C
+# Description: Solar PV Zone 002
+*
+ZASOPCZ001 A
+# Description: Solar PV Zone 001
+*
+ZASOPU00 g
+# Description: Generic PV system (roof top - urban)
+*
+ZASOPB00 g
+# Description: Generic PV system (roof top - commercial buildings)
+*
+ZASOPR00 g
+# Description: Generic PV system (roof top - rural)
+*
+ZASOPS00 h
+# Description: Generic PV with 2h Battery (roof top - rural)
+*
+ZASOTN00 j
+# Description: Generic Solar thermal no storage
+*
+ZASOTNZ002 G
+# Description: Solar CSP 6hrStor Zone 002
+*
+ZASOTNZ001 D
+# Description: Solar CSP 6hrStor Zone 001
+*
+ZASOTS00 k
+# Description: Generic Solar thermal with Storage
+*
+ZASOTSZ002 F
+# Description: Solar CSP 12hrStor Zone 002
+*
+ZASOTSZ001 E
+# Description: Solar CSP 12hrStor Zone 001
+*
+ZASOTS02 B
+# Description: Existing E_REIPPPP1-Khi Solar One CSP (CSP)/E_REIPPPP2-Bokpoort CSP (CSP)
+*
+ZASOTS01 A
+# Description: Existing E_REIPPPP1-KaXu Solar CSP (CSP)/E_REIPPPP3-Karoshoek CSP (CSP)/E_REIPPPP3-Xina CSP (CSP)/P_SA_CSP
+*
+ZASOTG00 j
+# Description: Generic Solar thermal with Gas co-firing
+*
+ZABM00X00 a
+# Description: Extraction of Bagasse
+*
+ZABW00X00 a
+# Description: Extraction of Wood
+*
+ZAHY00X00 g
+# Description: Supply of Hydro
+*
+ZASO00X00 a
+# Description: Supply of Solar
+*
+ZAWD00X00 g
+# Description: Supply of Wind
+*
+ZAHF00I00 g
+# Description: Import of HFO
+*
+ZADS00I00 g
+# Description: Import of Diesel
+*
+ZANG00I00 g
+# Description: Import of Natural Gas
+*
+ZACO00X00 g
+# Description: Extraction of Coal
+*
+ZANU00I00 g
+# Description: Import of Nuclear
+*
+ZARIDM_Gariep_Vanderkloof_Collywobbles_Ncora B
+*
+ZAELST04 C
+# Description: Battery Storage 4 hrs
+2. activity B
+*
+ZAELPT04 A
+*
+ZAELDT04_01 C
+2. activity D
+*
+ZAELDT04_02 E
+2. activity F
+*
+ZAELDT04_03 G
+2. activity H
+*
+ZAELSTPSDrakensberg H
+# Description: Existing E_Drakensberg Pump Storage
+2. activity A
+*
+ZAELPTPSDrakensberg I
+*
+ZAELDTPSDrakensberg_01 J
+2. activity K
+*
+ZAELDTPSDrakensberg_02 L
+2. activity M
+*
+ZAELDTPSDrakensberg_03 N
+2. activity O
+*
+ZAELSTPSPalmiet J
+# Description: Existing E_Palmiet Pump Storage
+2. activity C
+*
+ZAELPTPSPalmiet P
+*
+ZAELDTPSPalmiet_01 Q
+2. activity R
+*
+ZAELDTPSPalmiet_02 S
+2. activity T
+*
+ZAELDTPSPalmiet_03 U
+2. activity V
+*
+ZAELSTPSIngula K
+# Description: Existing E_Ingula Pump Storage
+2. activity D
+*
+ZAELPTPSIngula W
+*
+ZAELDTPSIngula_01 X
+2. activity Y
+*
+ZAELDTPSIngula_02 Z
+2. activity a
+*
+ZAELDTPSIngula_03 b
+2. activity c
+*
+ZAELSTPSSteenbras L
+# Description: Existing E_Steenbras Pump Storage
+2. activity E
+*
+ZAELPTPSSteenbras d
+*
+ZAELDTPSSteenbras_01 e
+2. activity f
+*
+ZAELDTPSSteenbras_02 g
+2. activity h
+*
+ZAELDTPSSteenbras_03 i
+2. activity j
+*
+ZAELSTPSTubatse M
+# Description: Candidate Tubatse Pump Storage
+2. activity F
+*
+ZAELPTPSTubatse k
+*
+ZAELDTPSTubatse_01 l
+2. activity m
+*
+ZAELDTPSTubatse_02 n
+2. activity o
+*
+ZAELDTPSTubatse_03 p
+2. activity q
+*
+resources: 
+endata
+

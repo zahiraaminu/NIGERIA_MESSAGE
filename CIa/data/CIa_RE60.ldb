@@ -1,0 +1,633 @@
+TDB: empty
+ADB: CIa
+problem: CIa
+description:
+# MAINa
+# NDC  Target RE 6030
+drate: 0
+timesteps: 2018 2019 2020 2021 2022 2023 2024 2025 2026 2027 2028 2029 2030 2031 2032 2033 2034 2035 2036 2037 2038 2039 2040 2041 2042
+loadregions:
+ltype ordered seasonal 1 0
+year 2019 1 10
+name aaa aab aac \
+baa bab bac bad \
+caa cab cac 
+length 0.096689 0.165753 0.069064 \
+0.101484 0.173974 0.028995 0.043493 \
+0.093493 0.160274 0.066781 
+energyforms:
+Final f
+# Final Energy
+Industry e l
+# Industry Electricity Final
+Commerce c l
+# Commerce Electricity Final
+Urban u l
+# Urban Electricity Final
+Rural r l
+# Rural Electricity Final
+SentOut s l f
+# Sentout Electricity Final
+Export E 
+# Export Elc
+*
+Tertiary t
+# Tertiary Energy
+Industry i l
+# Industry Electricity Tertiary
+Commerce c l
+# Commerce Electricity Tertiary
+Urban u l
+# Urban Electricity Tertiary
+Rural r l
+# Rural Electricity Tertiary
+Electricity e l f
+# Tertiary Electricity
+*
+Secondary s
+# Secondary Energy
+Electricity W l f
+# Secondary Electricity
+ElcDummy d l
+# Dummy elc for PS
+*
+Primary p
+# Primary Energy
+Bagasse b 
+# Bagasse
+Wood B 
+# Wood
+Hydro H 
+# Hydro
+Solar s l
+# Solar
+Wind w 
+# Wind
+Coal c 
+# Coal
+CoalCCS C 
+# Coal CCS
+Gas g 
+# Gas
+Nuclear n 
+# Nuclear
+Oil o 
+# Oil
+HFO h 
+# diesel
+Diesel d 
+# HFO
+Crude p 
+# Crude
+*
+Resources r
+# Resources
+Biomass b 
+# Biomass resource
+Coal c 
+# Coal resource
+*
+demand:
+c-f  ts 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+e-f  ts 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+r-f  ts 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+s-f  ts 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+u-f  ts 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+loadcurve:
+year 2019
+c-f 0.091518 0.175245 0.068275 0.096056 0.178391 \
+0.030494 0.041167 0.088493 0.164343 0.066018
+e-f 0.096689 0.165753 0.069064 0.101484 0.173974 \
+0.028995 0.043493 0.093493 0.160274 0.066781
+r-f 0.060015 0.175921 0.11559 0.058822 0.182783 \
+0.032932 0.062985 0.058128 0.169964 0.08286
+s-f 0.129113 0.158255 0.07271 0.106141 0.151472 \
+0.024639 0.045938 0.098624 0.141689 0.071419
+u-f 0.060015 0.175921 0.11559 0.058822 0.182783 \
+0.032932 0.062985 0.058128 0.169964 0.08286
+systems.CIHYRO_Tiboto.i.capfac 0.121102 0.122038 0.122038 0.6982 0.699419 \
+0.699419 0.699419 0.592645 0.590354 0.590354
+systems.CIHYRO_Tiassale.f.capfac 0.128851 0.12981 0.12981 0.589315 0.589501 \
+0.589501 0.589501 0.508941 0.507746 0.507746
+systems.CIHYRO_Tahibli.e.capfac 0.067892 0.068673 0.068673 0.614006 0.615463 \
+0.615463 0.615463 0.531794 0.529404 0.529404
+systems.CIHYRO_NDieliesso.d.capfac 0.180051 0.18172 0.18172 0.73095 0.731411 \
+0.731411 0.731411 0.533048 0.530822 0.530822
+systems.CIHYRO_Malasso.c.capfac 0.180051 0.18172 0.18172 0.73095 0.731411 \
+0.731411 0.731411 0.533048 0.530822 0.530822
+systems.CIHYRO_Louga.b.capfac 0.340372 0.340576 0.340576 0.651762 0.653057 \
+0.653057 0.653057 0.60548 0.603863 0.603863
+systems.CIHYRO_Kokumbo.Z.capfac 0.140451 0.141013 0.141013 0.441714 0.442628 \
+0.442628 0.442628 0.539257 0.537684 0.537684
+systems.CIHYRO_Gribo_Popoli.Y.capfac 0.327766 0.327962 0.327962 0.628997 0.630328 \
+0.630328 0.630328 0.591059 0.589411 0.589411
+systems.CIHYRO_Faye.X.capfac 0.008794 0.009756 0.009756 0.40206 0.401089 \
+0.401089 0.401089 0.091044 0.091103 0.091103
+systems.CIHYRO_Daboitier.W.capfac 0.19596 0.19682 0.19682 0.595172 0.595805 \
+0.595805 0.595805 0.618095 0.616518 0.616518
+systems.CIHYRO_Brou_Atakro.V.capfac 0.139545 0.140838 0.140838 0.602686 0.603043 \
+0.603043 0.603043 0.413598 0.411873 0.411873
+systems.CIHYRO_Boutoubre.U.capfac 0.359281 0.359497 0.359497 0.685908 0.687151 \
+0.687151 0.687151 0.627112 0.62554 0.62554
+systems.CIHYRO_Ayame_II.S.capfac 0.251222 0.251726 0.251726 0.428122 0.427769 \
+0.427769 0.427769 0.337343 0.337205 0.337205
+systems.CIWDLC00.h.capfac 0.285424 0.164778 0.189195 0.139119 0.093235 \
+0.067331 0.131839 0.091284 0.050022 0.069028
+systems.CIWDOC00.B.capfac 0.285424 0.164778 0.189195 0.139119 0.093235 \
+0.067331 0.131839 0.091284 0.050022 0.069028
+systems.CIWDLCZ001.A.capfac 0.568322 0.270429 0.575858 0.556184 0.341375 \
+0.424169 0.599724 0.387654 0.141491 0.362291
+systems.CISOPC00.i.capfac 0 0.351053 0.014557 0 0.330939 \
+0.049945 0 0 0.347785 0.012887
+systems.CISOPC_Laboa.L.capfac 0 0.351053 0.014557 0 0.330939 \
+0.049945 0 0 0.347785 0.012887
+systems.CISOPC_Louba.K.capfac 0 0.351053 0.014557 0 0.330939 \
+0.049945 0 0 0.347785 0.012887
+systems.CISOPC_Ferke.J.capfac 0 0.399319 0.081042 0 0.328762 \
+0.193818 0.003194 0 0.377312 0.056522
+systems.CISOPC_Daoukro.I.capfac 0 0.389506 0.098141 0 0.309444 \
+0.221167 0.011205 0 0.370577 0.073238
+systems.CISOPC_Boundiali.H.capfac 0 0.399319 0.081042 0 0.328762 \
+0.193818 0.003194 0 0.377312 0.056522
+systems.CISOPC_Poro.G.capfac 0 0.399319 0.081042 0 0.328762 \
+0.193818 0.003194 0 0.377312 0.056522
+systems.CISOPC_Korhogo_Solar.F.capfac 0 0.397067 0.088547 0 0.318172 \
+0.201594 0.00692 0 0.373869 0.064078
+systems.CISOPCZ005.E.capfac 0 0.389506 0.098141 0 0.309444 \
+0.221167 0.011205 0 0.370577 0.073237
+systems.CISOPCZ004.D.capfac 0 0.396307 0.094924 0 0.322852 \
+0.21607 0.010319 0 0.381216 0.072435
+systems.CISOPCZ003.C.capfac 0 0.402779 0.089253 0 0.328409 \
+0.200794 0.006909 0 0.382316 0.06337
+systems.CISOPCZ002.B.capfac 0 0.397067 0.088547 0 0.318172 \
+0.201594 0.006919 0 0.373869 0.064078
+systems.CISOPCZ001.A.capfac 0 0.399318 0.081042 0 0.328761 \
+0.193818 0.003195 0 0.377312 0.056522
+systems.CISOPU00.g.capfac 0 0.351053 0.014557 0 0.330939 \
+0.049945 0 0 0.347785 0.012887
+systems.CISOPB00.g.capfac 0 0.351053 0.014557 0 0.330939 \
+0.049945 0 0 0.347785 0.012887
+systems.CISOPR00.g.capfac 0 0.351053 0.014557 0 0.330939 \
+0.049945 0 0 0.347785 0.012887
+systems.CISOPS00.h.capfac 0 0.351053 0.014557 0 0.330939 \
+0.049945 0 0 0.347785 0.012887
+systems.CISOTN00.j.capfac 0 0 0 0 0 \
+0 0 0 0 0
+systems.CISOTNZ002.C.capfac 0.030317 0.643503 0.579436 0 0.380227 \
+0.478667 0.074096 0.02718 0.602414 0.542807
+systems.CISOTNZ001.B.capfac 0.035268 0.632483 0.573331 0 0.379424 \
+0.442557 0.066286 0.030769 0.592693 0.530438
+systems.CISOTS00.k.capfac 0 0.470999 0.367085 0 0.470999 \
+0.526419 0.260862 0 0.471387 0.366153
+systems.CISOTSZ002.E.capfac 0.335179 0.695468 0.886289 0.064068 0.453363 \
+0.666467 0.356176 0.317485 0.652902 0.807044
+systems.CISOTSZ001.D.capfac 0.341491 0.687638 0.893857 0.05784 0.458917 \
+0.645137 0.361536 0.318196 0.650191 0.80642
+systems.CIRIDM_Tayaboui.A.capfac 0.027049 0.02725 0.02725 0.409933 0.411933 \
+0.411933 0.411933 0.388765 0.386386 0.386386
+systems.CIRIDM_Taabo.B.capfac 0.108214 0.108863 0.108863 0.409658 0.410136 \
+0.410136 0.410136 0.502389 0.501199 0.501199
+systems.CIRIDM_Soubre.C.capfac 0.058606 0.059013 0.059013 0.451446 0.453229 \
+0.453229 0.453229 0.447207 0.44485 0.44485
+systems.CIRIDM_Singrobo_Ahouaty.D.capfac 0.108214 0.108863 0.108863 0.409658 0.410136 \
+0.410136 0.410136 0.502389 0.501199 0.501199
+systems.CIRIDM_Kossou.E.capfac 0.056701 0.056823 0.056823 0.415789 0.417362 \
+0.417362 0.417362 0.565656 0.563821 0.563821
+systems.CIRIDM_Gao.F.capfac 0.019694 0.019908 0.019908 0.412268 0.414255 \
+0.414255 0.414255 0.370091 0.367713 0.367713
+systems.CIRIDM_Buyo.G.capfac 0.029766 0.030031 0.030031 0.437736 0.439674 \
+0.439674 0.439674 0.398331 0.395953 0.395953
+systems.CIRIDM_Ayame_I.H.capfac 0.176717 0.177815 0.177815 0.562014 0.561245 \
+0.561245 0.561245 0.364293 0.363991 0.363991
+systems.CIELPT04.I.capfac 0.055251 0.055251 0 0.057991 0.057991 \
+0.057991 0 0.053425 0.053425 0
+systems.CIELDT04_01.J.capfac 1 0 0 0 0 \
+0 0 0 0 0
+systems.CIELDT04_01.K.capfac 0 0 1 0 0 \
+0 0 0 0 0
+systems.CIELDT04_02.L.capfac 0 0 0 1 0 \
+0 0 0 0 0
+systems.CIELDT04_02.M.capfac 0 0 0 0 0 \
+0 1 0 0 0
+systems.CIELDT04_03.N.capfac 0 0 0 0 0 \
+0 0 1 0 0
+systems.CIELDT04_03.O.capfac 0 0 0 0 0 \
+0 0 0 0 1
+relationsc:
+relationsp:
+relationss:
+D_CIHYDM_Tayaboui D001 o 0
+*
+D_CIHYDM_Taabo D002 o 0
+*
+D_CIHYDM_Soubre D003 o 0
+*
+D_CIHYDM_Singrobo_Ahouaty D004 o 0
+*
+D_CIHYDM_Kossou D005 o 0
+*
+D_CIHYDM_Gao D006 o 0
+*
+D_CIHYDM_Buyo D007 o 0
+*
+D_CIHYDM_Ayame_I D008 o 0
+*
+SS_CIELST04 SS01 o 0
+*
+relations1:
+ReserveMargin RM o 
+*
+CO2emissionskt CO2 o 
+*
+LocalRE RE o 
+*
+WDBR WDBR o 
+*
+PVBR PVBR o 
+*
+BMTC BMTC o 
+*
+Domestic DOM o 
+*
+InstantaneousWindPV IPW o 0
+*
+PC_CIELST04 PC01 o 
+*
+PS_CIELST04 PS01 o 0
+*
+DC_CIELST04_01 DC01 o 
+*
+DC_CIELST04_02 DC02 o 
+*
+DC_CIELST04_03 DC03 o 
+*
+relations2:
+variables:
+systems:
+CIEL00TDI a
+# Description: Industry Distribution
+*
+CIEL00TDU a
+# Description: Urban Distribution
+*
+CIEL00TDC a
+# Description: Commerce Distribution
+*
+CIEL00TDR a
+# Description: Rural Distribution
+*
+CIEL00T00 a
+# Description: Transmission
+*
+CIEL00TUI a
+# Description: Industry Demand
+*
+CIEL00TUU a
+# Description: Urban Demand
+*
+CIEL00TUC a
+# Description: Commerce Demand
+*
+CIEL00TUR a
+# Description: Rural Demand
+*
+CIEL00TUS a
+# Description: SentOut Demand
+*
+CIEL00e00 a
+# Description: Export of Electricity
+*
+CIEL00i00 I
+# Description: Import of Electricity
+*
+CIELBS00 z
+# Description: Backstop
+*
+CIDSRC00 g
+# Description: Generic Diesel Centralized
+*
+CIDSRI00 g
+# Description: Generic Diesel 100 kW system (Industry)
+*
+CIDSRU00 g
+# Description: Generic Diesel/Gasoline 1kW system (urban)
+*
+CIDSRB00 g
+# Description: Generic Diesel/Gasoline 1kW system (commercial buildings)
+*
+CIDSRR00 g
+# Description: Generic Diesel/Gasoline 1kW system (rural)
+*
+CIHFRC00 g
+# Description: Generic HFO
+*
+CINGSC00 g
+# Description: Generic Gas Open Cycle
+*
+CINGSC_Vridi_(CIPREL)_ I
+# Description: Vridi_(CIPREL)_TG10+TAV
+*
+CINGSC_GTVridi G
+# Description: GTVridi_TG1-TG4
+*
+CINGSC_GTC1prel E
+# Description: GTC1prel_TG5_TG6_TG7_TG8
+*
+CINGSC_Aggreko C
+# Description: Aggreko
+*
+CINGSC_5e_centrale_IPP_(Bassam)_ B
+# Description: 5e_centrale_IPP_(Bassam)_Azito
+*
+CINGSC_4e_centrale_IPP_(Abbata)_ A
+# Description: 4e_centrale_IPP_(Abbata)_
+*
+CINGCC00 h
+# Description: Generic Gas Combined Cycle
+*
+CINGCC_Songon_III P
+# Description: Songon_III
+*
+CINGCC_Songon_II O
+# Description: Songon_II
+*
+CINGCC_Songon_I N
+# Description: Songon_I
+*
+CINGCC_Ciprel_V_II M
+# Description: Ciprel_V_II
+*
+CINGCC_Ciprel_V_I L
+# Description: Ciprel_V_I
+*
+CINGCC_Azito_TAV K
+# Description: Azito_TAV
+*
+CINGCC_Azito_TAG J
+# Description: Azito_TAG
+*
+CICOCS00 g
+# Description: Generic Coal w CCS
+*
+CICOSC00 g
+# Description: Generic Coal
+*
+CICOSC_S_Energies_II B
+# Description: S_Energies_II
+*
+CICOSC_S_Energies_I A
+# Description: S_Energies_I
+*
+CIHYRO00 h
+# Description: Generic Hydro ROR
+*
+CIHYRO_Tiboto i
+# Description: Tiboto
+*
+CIHYRO_Tiassale f
+# Description: Tiassale
+*
+CIHYRO_Tahibli e
+# Description: Tahibli
+*
+CIHYRO_NDieliesso d
+# Description: N'Dieliesso
+*
+CIHYRO_Malasso c
+# Description: Malasso
+*
+CIHYRO_Louga b
+# Description: Louga_I_et_II
+*
+CIHYRO_Kouroukoro a
+# Description: Kouroukoro
+*
+CIHYRO_Kokumbo Z
+# Description: Kokumbo
+*
+CIHYRO_Gribo_Popoli Y
+# Description: Gribo_Popoli
+*
+CIHYRO_Faye X
+# Description: Faye_
+*
+CIHYRO_Daboitier W
+# Description: Daboitier
+*
+CIHYRO_Brou_Atakro V
+# Description: Brou_Atakro
+*
+CIHYRO_Boutoubre U
+# Description: Boutoubre
+*
+CIHYRO_Bouloumere T
+# Description: Bouloumere
+*
+CIHYRO_Ayame_II S
+# Description: Ayame_II
+*
+CIHYRO_Aboisso_Comoe R
+# Description: Aboisso_Comoe
+*
+CIHYDM00 g
+# Description: Generic Hydro With Dam
+*
+CIHYRO_Tiboto/Cavally(Intl.)partCI50 Q
+# Description: Tiboto/Cavally(Intl.)partCI50
+*
+CIHYDM_Tayaboui P
+# Description: Tayaboui
+*
+CIHYDM_Taabo N
+# Description: Taabo
+*
+CIHYDM_Soubre M
+# Description: Soubre
+*
+CIHYDM_Singrobo_Ahouaty L
+# Description: Singrobo_Ahouaty
+*
+CIHYDM_Kossou J
+# Description: Kossou
+*
+CIHYDM_Gao H
+# Description: Gao
+*
+CIHYDM_Buyo F
+# Description: Buyo
+*
+CIHYDM_Ayame_I D
+# Description: Ayame_I
+*
+CIHYRO_AboissoComoe A
+# Description: AboissoComoe
+*
+CIHYMI00 g
+# Description: Generic Hydro Small
+*
+CIHYRO_Faye_San_Pedro_Grah D
+# Description: Faye_(San_Pedro_Grah)
+*
+CIHYRO_Drou_(Man) C
+# Description: Drou_(Man)
+*
+CIHYRO_Agneby B
+# Description: Agneby
+*
+CIHYRO_Aboisso_Bia A
+# Description: Aboisso_Bia
+*
+CIBMST00 g
+# Description: Generic Bagasse
+*
+CIBMST_BIOKALA A
+# Description: BIOKALA
+*
+CIBWST00 a
+# Description: Generic Wood
+*
+CIGOCV00 g
+# Description: Generic Geothermal
+*
+CIWDLC00 h
+# Description: Generic Wind
+*
+CIWDOC00 B
+# Description: Generic OffShore Wind
+*
+CIWDLCZ001 A
+# Description: Wind Zone 001
+*
+CISOPC00 i
+# Description: Generic PV System (utility)
+*
+CISOPC_Laboa L
+# Description: Laboa
+*
+CISOPC_Louba K
+# Description: Louba
+*
+CISOPC_Ferke J
+# Description: Ferke
+*
+CISOPC_Daoukro I
+# Description: Daoukro
+*
+CISOPC_Boundiali H
+# Description: Boundiali
+*
+CISOPC_Poro G
+# Description: Poro
+*
+CISOPC_Korhogo_Solar F
+# Description: Korhogo_Solar
+*
+CISOPCZ005 E
+# Description: Solar PV Zone 005
+*
+CISOPCZ004 D
+# Description: Solar PV Zone 004
+*
+CISOPCZ003 C
+# Description: Solar PV Zone 003
+*
+CISOPCZ002 B
+# Description: Solar PV Zone 002
+*
+CISOPCZ001 A
+# Description: Solar PV Zone 001
+*
+CISOPU00 g
+# Description: Generic PV system (roof top - urban)
+*
+CISOPB00 g
+# Description: Generic PV system (roof top - commercial buildings)
+*
+CISOPR00 g
+# Description: Generic PV system (roof top - rural)
+*
+CISOPS00 h
+# Description: Generic PV with 2h Battery (roof top - rural)
+*
+CISOTN00 j
+# Description: Generic Solar thermal no storage
+*
+CISOTNZ002 C
+# Description: Solar CSP 6hrStor Zone 002
+*
+CISOTNZ001 B
+# Description: Solar CSP 6hrStor Zone 001
+*
+CISOTS00 k
+# Description: Generic Solar thermal with Storage
+*
+CISOTSZ002 E
+# Description: Solar CSP 12hrStor Zone 002
+*
+CISOTSZ001 D
+# Description: Solar CSP 12hrStor Zone 001
+*
+CISOTG00 i
+# Description: Generic Solar thermal with Gas co-firing
+*
+CIBM00X00 a
+# Description: Extraction of Bagasse
+*
+CIBW00X00 a
+# Description: Extraction of Wood
+*
+CIHY00X00 a
+# Description: Supply of Hydro
+*
+CISO00X00 a
+# Description: Supply of Solar
+*
+CIWD00X00 a
+# Description: Supply of Wind
+*
+CIHF00I00 a
+# Description: Import of HFO
+*
+CIDS00I00 a
+# Description: Import of Diesel
+*
+CING00X00 a
+# Description: Extraction of Natural Gas
+*
+CICO00I00 a
+# Description: Import of Coal
+*
+CIRIDM_Tayaboui A
+*
+CIRIDM_Taabo B
+*
+CIRIDM_Soubre C
+*
+CIRIDM_Singrobo_Ahouaty D
+*
+CIRIDM_Kossou E
+*
+CIRIDM_Gao F
+*
+CIRIDM_Buyo G
+*
+CIRIDM_Ayame_I H
+*
+CIELST04 A
+# Description: Battery Storage 4 hrs
+2. activity B
+*
+CIELPT04 I
+*
+CIELDT04_01 J
+2. activity K
+*
+CIELDT04_02 L
+2. activity M
+*
+CIELDT04_03 N
+2. activity O
+*
+resources: 
+endata
+

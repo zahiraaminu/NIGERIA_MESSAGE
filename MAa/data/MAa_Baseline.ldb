@@ -1,0 +1,1537 @@
+TDB: empty
+ADB: MAa
+problem: MAa
+description:
+# Morocco
+drate: 10
+timesteps: 2018 2019 2020 2021 2022 2023 2024 2025 2026 2027 2028 2029 2030 2031 2032 2033 2034 2035 2036 2037 2038 2039 2040 2041 2042
+loadregions:
+ltype ordered seasonal 1 0
+year 2019 1 10
+name aaa aab aac \
+baa bab bac bad \
+caa cab cac 
+length 0.096689 0.165753 0.069064 \
+0.101484 0.173974 0.028995 0.043493 \
+0.093493 0.160274 0.066781 
+energyforms:
+Final f
+# Final Energy
+Industry e l
+# Industry Electricity Final
+Commerce c l
+# Commerce Electricity Final
+Urban u l
+# Urban Electricity Final
+Rural r l
+# Rural Electricity Final
+SentOut s l f
+# Sentout Electricity Final
+Export E 
+# Export Elc
+*
+Tertiary t
+# Tertiary Energy
+Industry i l
+# Industry Electricity Tertiary
+Commerce c l
+# Commerce Electricity Tertiary
+Urban u l
+# Urban Electricity Tertiary
+Rural r l
+# Rural Electricity Tertiary
+Electricity e l f
+# Tertiary Electricity
+ElcHydrogen a l
+# Tertiary Electricity for Hydrogen production
+Hydrogen h l
+# Tertiary Hydrogen
+HgnDummy j 
+# Tertiary Hydrogen dummy for export
+*
+Secondary s
+# Secondary Energy
+Electricity A l f
+# Secondary Electricity
+ElcDummy d l
+# Dummy elc for PS
+*
+Primary p
+# Primary Energy
+Bagasse b 
+# Bagasse
+Wood B 
+# Wood
+Hydro H 
+# Hydro
+Solar s l
+# Solar
+Wind w 
+# Wind
+Coal c 
+# Coal
+CoalCCS C 
+# Coal CCS
+Gas g 
+# Gas
+Nuclear n 
+# Nuclear
+Oil o 
+# Oil
+HFO h 
+# diesel
+Diesel d 
+# HFO
+Crude p 
+# Crude
+*
+Resources r
+# Resources
+Biomass b 
+# Biomass resource
+Coal c 
+# Coal resource
+*
+DummyLevelStorage d
+# DummyLevelStorage
+DummyCom_MAELST04 A l
+# DummyCom_MAELST04
+DummyCom_MAELSTPSHydro B l
+# DummyCom_MAELSTPSHydro
+DummyCom_MAELSTPSSTEP1to8 C l
+# DummyCom_MAELSTPSSTEP1to8
+DummyCom_MAELSTPSSTEPAfourer D l
+# DummyCom_MAELSTPSSTEPAfourer
+DummyCom_MAELSTPSSTEPAbdelmoumen E l
+# DummyCom_MAELSTPSSTEPAbdelmoumen
+*
+demand:
+e-f  ts 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+c-f  ts 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+u-f  ts 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+r-f  ts 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+s-f  ts 4435.27 4380.31 4896.93 5092.38 5292.55 5497.75 5708.27 5924.97 6147.89 6377.05 6612.52 6854.39 7103.25 7358.98 7621.53 7890.88 8167.1 8448.68 8735.93 9029.09 9328.41 9634.09 9634.09
+loadcurve:
+year 2019
+e-f 0.096689 0.165753 0.069064 0.101484 0.173974 \
+0.028995 0.043493 0.093493 0.160274 0.066781
+c-f 0.091679 0.175245 0.066941 0.096225 0.180233 \
+0.02902 0.04124 0.088649 0.16604 0.064728
+u-f 0.055689 0.182832 0.11559 0.05341 0.191565 \
+0.039736 0.051465 0.054146 0.176521 0.079046
+r-f 0.055689 0.182832 0.11559 0.05341 0.191565 \
+0.039736 0.051465 0.054146 0.176521 0.079046
+s-f 0.078002 0.159327 0.075853 0.09821 0.181659 \
+0.031793 0.060104 0.078415 0.159888 0.076749
+systems.MAEL00i00_Spain.y.vom 0.795949 0.942524 1.04786 0.915419 1.003869 \
+0.999595 1.038224 0.963776 1.131126 1.218346
+systems.MAEL00i00_Spain.d.vom 0.795949 0.942524 1.04786 0.915419 1.003869 \
+0.999595 1.038224 0.963776 1.131126 1.218346
+systems.MAEL00i00_Portugal.O.vom 0.795949 0.942524 1.04786 0.915419 1.003869 \
+0.999595 1.038224 0.963776 1.131126 1.218346
+systems.MAEL00i00_Portugal.e.vom 0.795949 0.942524 1.04786 0.915419 1.003869 \
+0.999595 1.038224 0.963776 1.131126 1.218346
+systems.MAHYRO_El_Kansera.6.capfac 0.995186 0.994465 0.994465 0.118421 0.118243 \
+0.118243 0.118243 0.83478 0.835719 0.835719
+systems.MAHYRO_Al_Missara.2.capfac 0.986201 0.985544 0.985544 0.180035 0.17954 \
+0.17954 0.17954 0.442416 0.443633 0.443633
+systems.MAHYRO_Afourer.0.capfac 0.996133 0.995489 0.995489 0.123416 0.122907 \
+0.122907 0.122907 0.457982 0.459201 0.459201
+systems.MAHYRO_El_Borj.L.capfac 0.996431 0.995836 0.995836 0.226728 0.226196 \
+0.226196 0.226196 0.584249 0.585441 0.585441
+systems.MAHYRO_Tanafnit.K.capfac 0.996431 0.995836 0.995836 0.226728 0.226196 \
+0.226196 0.226196 0.584249 0.585441 0.585441
+systems.MAHYRO_Ait_Messaoud.J.capfac 1 1 1 1 1 \
+1 1 1 1 1
+systems.MAHYRO_Moulay_Youssef.I.capfac 0.896609 0.895882 0.895882 0.121017 0.120594 \
+0.120594 0.120594 0.390611 0.391822 0.391822
+systems.MAHYRO_Sidi_Said_Maachou.H.capfac 0.333535 0.333419 0.333419 0.026091 0.025986 \
+0.025986 0.025986 0.168515 0.168749 0.168749
+systems.MAHYRO_Daourat.G.capfac 0.986201 0.985544 0.985544 0.180035 0.17954 \
+0.17954 0.17954 0.442416 0.443633 0.443633
+systems.MAHYRO_Imfout.F.capfac 0.325291 0.32518 0.32518 0.033797 0.033698 \
+0.033698 0.033698 0.168832 0.169054 0.169054
+systems.MAWDLC00.h.capfac 0.151711 0.150783 0.171666 0.252271 0.296194 \
+0.198611 0.165996 0.1756 0.224278 0.253444
+systems.MAWDLC_Ext_Akhfennir.u.capfac 0.690003 0.619802 0.747717 0.804693 0.741402 \
+0.887727 0.876332 0.61696 0.472901 0.642004
+systems.MAWDLC_IFTISSAT_3.t.capfac 0.553809 0.549081 0.647002 0.645405 0.64805 \
+0.815033 0.766632 0.335517 0.310558 0.411872
+systems.MAWDLC_IFTISSAT_2.s.capfac 0.553809 0.549081 0.647002 0.645405 0.64805 \
+0.815033 0.766632 0.335517 0.310558 0.411872
+systems.MAWDLC_Laayoune.r.capfac 0.711684 0.634023 0.767396 0.809151 0.722781 \
+0.875329 0.910132 0.595716 0.448126 0.583721
+systems.MAWDLC_Guelmim.q.capfac 0.584696 0.565734 0.641333 0.669321 0.576233 \
+0.716066 0.750996 0.413583 0.430717 0.467693
+systems.MAWDLC_Eolien_futur.p.capfac 0.584696 0.565734 0.641333 0.669321 0.576233 \
+0.716066 0.750996 0.413583 0.430717 0.467693
+systems.MAWDOC00.k.capfac 0.151711 0.150783 0.171666 0.252271 0.296194 \
+0.198611 0.165996 0.1756 0.224278 0.253444
+systems.MAWDOCZ004.o.capfac 0.667566 0.550392 0.725612 0.810748 0.718603 \
+0.886017 0.885764 0.603332 0.429986 0.627161
+systems.MAWDOCZ003.n.capfac 0.754342 0.620461 0.78704 0.860191 0.780532 \
+0.905598 0.908541 0.655874 0.480997 0.661304
+systems.MAWDOCZ002.m.capfac 0.559235 0.547413 0.611124 0.409955 0.46939 \
+0.57824 0.480138 0.549841 0.516835 0.563518
+systems.MAWDOCZ001.l.capfac 0.547261 0.510632 0.619443 0.631528 0.621938 \
+0.752118 0.731428 0.349217 0.294979 0.428472
+systems.MAWDLCZ010.j.capfac 0.721259 0.670685 0.788417 0.853584 0.758438 \
+0.888285 0.928755 0.611712 0.508766 0.643405
+systems.MAWDLCZ009.i.capfac 0.732502 0.636622 0.784177 0.864076 0.733933 \
+0.907836 0.934562 0.68781 0.521076 0.662934
+systems.MAWDLCZ008.f.capfac 0.80897 0.68865 0.683488 0.912115 0.691867 \
+0.625343 0.808925 0.698767 0.519381 0.522371
+systems.MAWDLCZ007.e.capfac 0.690003 0.619802 0.747717 0.804693 0.741402 \
+0.887727 0.876332 0.61696 0.472901 0.642004
+systems.MAWDLCZ006.d.capfac 0.711684 0.634023 0.767396 0.809151 0.722781 \
+0.875329 0.910132 0.595716 0.448126 0.583721
+systems.MAWDLCZ005.c.capfac 0.635698 0.648326 0.735936 0.596992 0.474567 \
+0.564395 0.643206 0.441163 0.432941 0.502683
+systems.MAWDLCZ004.b.capfac 0.584696 0.565734 0.641333 0.669321 0.576233 \
+0.716066 0.750996 0.413583 0.430717 0.467693
+systems.MAWDLCZ003.a.capfac 0.562216 0.600063 0.6938 0.651208 0.652541 \
+0.876567 0.809334 0.358293 0.403631 0.50104
+systems.MAWDLCZ002.Z.capfac 0.553809 0.549081 0.647002 0.645405 0.64805 \
+0.815033 0.766632 0.335517 0.310558 0.411872
+systems.MAWDLCZ001.Y.capfac 0.592965 0.564911 0.655679 0.68412 0.558077 \
+0.757598 0.755501 0.434582 0.489615 0.483525
+systems.MAWDLC_Tis-krad_Wind.X.capfac 0.413861 0.345948 0.461434 0.600587 0.547531 \
+0.732316 0.67475 0.406223 0.339361 0.443118
+systems.MAWDLC_Tetouan_LAFARGE_Wind.W.capfac 0.635698 0.648326 0.735936 0.596992 0.474567 \
+0.564395 0.643206 0.441163 0.432941 0.502683
+systems.MAWDLC_Taza_Phase_I_Wind.U.capfac 0.635698 0.648326 0.735936 0.596992 0.474567 \
+0.564395 0.643206 0.441163 0.432941 0.502683
+systems.MAWDLC_Tarfaya_Wind.T.capfac 0.690003 0.619802 0.747717 0.804693 0.741402 \
+0.887727 0.876332 0.61696 0.472901 0.642004
+systems.MAWDLC_Repowering_CED_Wind.R.capfac 0.362282 0.390092 0.386705 0.302451 0.316525 \
+0.368292 0.334274 0.124069 0.135414 0.13528
+systems.MAWDLC_Parc_eolien_Tanger_Wind.Q.capfac 0.362282 0.390092 0.386705 0.302451 0.316525 \
+0.368292 0.334274 0.124069 0.135414 0.13528
+systems.MAWDLC_Parc_eolien_CED_Wind.O.capfac 0.362282 0.390092 0.386705 0.302451 0.316525 \
+0.368292 0.334274 0.124069 0.135414 0.13528
+systems.MAWDLC_Oualidia_Wind.N.capfac 0.369556 0.33773 0.398004 0.556207 0.45501 \
+0.593488 0.589206 0.400014 0.367313 0.383113
+systems.MAWDLC_Midelt_Wind.M.capfac 0.13224 0.163757 0.168616 0.039993 0.086077 \
+0.140741 0.071914 0.148191 0.197073 0.155021
+systems.MAWDLC_Laayoune_CIMAR_Wind.K.capfac 0.413861 0.345948 0.461434 0.600587 0.547531 \
+0.732316 0.67475 0.406223 0.339361 0.443118
+systems.MAWDLC_Koudia_Baida_Wind.J.capfac 0.635698 0.648326 0.735936 0.596992 0.474567 \
+0.564395 0.643206 0.441163 0.432941 0.502683
+systems.MAWDLC_Khalladi_Wind.I.capfac 0.635698 0.648326 0.735936 0.596992 0.474567 \
+0.564395 0.643206 0.441163 0.432941 0.502683
+systems.MAWDLC_Jbel_Lahdid_Wind.H.capfac 0.369556 0.33773 0.398004 0.556207 0.45501 \
+0.593488 0.589206 0.400014 0.367313 0.383113
+systems.MAWDLC_Haouma_Wind.G.capfac 0.413861 0.345948 0.461434 0.600587 0.547531 \
+0.732316 0.67475 0.406223 0.339361 0.443118
+systems.MAWDLC_Forum_El_Oued_Wind.F.capfac 0.413861 0.345948 0.461434 0.600587 0.547531 \
+0.732316 0.67475 0.406223 0.339361 0.443118
+systems.MAWDLC_Extension_Akhfenir_Wind.E.capfac 0.553809 0.549081 0.647002 0.645405 0.64805 \
+0.815033 0.766632 0.335517 0.310558 0.411872
+systems.MAWDLC_Boujdour_Wind.D.capfac 0.732502 0.636622 0.784177 0.864076 0.733933 \
+0.907836 0.934562 0.68781 0.521076 0.662934
+systems.MAWDLC_Amougdoul_Wind.C.capfac 0.369556 0.33773 0.398004 0.556207 0.45501 \
+0.593488 0.589206 0.400014 0.367313 0.383113
+systems.MAWDLC_Akhfenir_Wind.B.capfac 0.553809 0.549081 0.647002 0.645405 0.64805 \
+0.815033 0.766632 0.335517 0.310558 0.411872
+systems.MAWDLC_Aftissat_Wind.A.capfac 0.690003 0.619802 0.747717 0.804693 0.741402 \
+0.887727 0.876332 0.61696 0.472901 0.642004
+systems.MASOPC00.i.capfac 0 0.47345 0 0 0.525336 \
+0 0 0 0.555263 0
+systems.MASOPC_PV_MT.W.capfac 0 0.47345 0 0 0.525336 \
+0 0 0 0.555263 0
+systems.MASOPC_Noor_Erfoud_Solar.V.capfac 0 0.39096 0.085422 0 0.471993 \
+0.307509 0.021055 0 0.32893 0.036947
+systems.MASOPC_Noor_Misour_Solar.U.capfac 0 0.39096 0.085422 0 0.471993 \
+0.307509 0.021055 0 0.32893 0.036947
+systems.MASOPC_Noor_Zagora_Solar.T.capfac 0 0.39096 0.085422 0 0.471993 \
+0.307509 0.021055 0 0.32893 0.036947
+systems.MASOPCZ010.S.capfac 0 0.375532 0.120795 0 0.464573 \
+0.410278 0.039696 0 0.330312 0.06552
+systems.MASOPCZ009.R.capfac 0 0.357816 0.1158 0 0.45577 \
+0.423366 0.043045 0 0.325205 0.064826
+systems.MASOPCZ008.Q.capfac 0 0.362495 0.137702 0 0.450687 \
+0.448341 0.052001 0 0.333792 0.08283
+systems.MASOPCZ007.P.capfac 0 0.363977 0.12337 0 0.456593 \
+0.420417 0.044 0 0.328128 0.069749
+systems.MASOPCZ006.O.capfac 0 0.356551 0.127001 0 0.445567 \
+0.435057 0.048301 0 0.322613 0.072952
+systems.MASOPCZ005.N.capfac 0 0.390174 0.094018 0 0.48133 \
+0.339793 0.026663 0 0.332513 0.042771
+systems.MASOPCZ004.M.capfac 0 0.374573 0.098687 0 0.472407 \
+0.368802 0.030241 0 0.325406 0.047896
+systems.MASOPCZ003.L.capfac 0 0.35981 0.102276 0 0.473142 \
+0.389091 0.04421 0 0.317612 0.052348
+systems.MASOPCZ002.K.capfac 0 0.385185 0.097034 0 0.486458 \
+0.361116 0.030789 0 0.331866 0.046329
+systems.MASOPCZ001.J.capfac 0 0.39096 0.085422 0 0.471993 \
+0.30751 0.021056 0 0.328929 0.036948
+systems.MASOPC_Noor_PV_II.H.capfac 0 0.449509 0 0 0.575653 \
+0.04943 0 0 0.383785 0
+systems.MASOPC_Noor_Ourzazate_4_Solar.G.capfac 0 0.449509 0 0 0.575653 \
+0.04943 0 0 0.383785 0
+systems.MASOPC_Noor_Midelt_Phase_I_Solar_PV.F.capfac 0 0.422884 0 0 0.5688 \
+0.037118 0 0 0.344815 0
+systems.MASOPC_Noor_Layyoune_Solar.E.capfac 0.068662 0.36845 0.07568 0 0.569696 \
+0.070131 0 0 0.382408 0
+systems.MASOPC_Noor_Boujdour_Solar.D.capfac 0.068662 0.36845 0.07568 0 0.569696 \
+0.070131 0 0 0.382408 0
+systems.MASOPC_Noor_Atlas_Solar.C.capfac 0 0.449509 0 0 0.575653 \
+0.04943 0 0 0.383785 0
+systems.MASOPU00.g.capfac 0 0.429875 0 0 0.476985 \
+0 0 0 0.504159 0
+systems.MASOPB00.g.capfac 0 0.429875 0 0 0.476985 \
+0 0 0 0.504159 0
+systems.MASOPR00.g.capfac 0.21015 0.402764 0.432648 0.192335 0.402073 \
+0.500054 0.431942 0.211472 0.402163 0.43221
+systems.MASOPS00.h.capfac 0 0.429875 0 0 0.476985 \
+0 0 0 0.504159 0
+systems.MASOTNZ004.F.capfac 0.17266 0.617149 0.857748 0.159652 0.717531 \
+0.960132 0.839838 0.057527 0.621415 0.754583
+systems.MASOTNZ003.J.capfac 0.17846 0.590749 0.85314 0.147527 0.684611 \
+0.984508 0.910026 0.078901 0.578883 0.751522
+systems.MASOTNZ002.D.capfac 0.106406 0.60296 0.716555 0.099354 0.717136 \
+0.922161 0.652506 0.037092 0.601301 0.653449
+systems.MASOTNZ001.B.capfac 0.162556 0.653047 0.854331 0.157455 0.752819 \
+0.954302 0.785895 0.031098 0.627795 0.728831
+systems.MASOTN_Ain_Beni_Mathar_Solar.C.capfac 0 0.410956 0 0 0.549824 \
+0.022895 0 0 0.362426 0
+systems.MASOTS00.k.capfac 0 0.516411 0.258096 0 0.516411 \
+0.41617 0.152713 0 0.516772 0.257228
+systems.MASOTS_Noor_Ouarzazate_1_Solar_CSP.G.capfac 0 0.516411 0.258096 0 0.516411 \
+0.41617 0.152713 0 0.516772 0.257228
+systems.MASOTSZ004.L.capfac 0.707112 0.624994 0.922926 0.795087 0.720585 \
+0.995897 0.982771 0.539528 0.613549 0.877847
+systems.MASOTSZ003.K.capfac 0.703449 0.648282 0.918195 0.770578 0.751617 \
+0.983003 0.961924 0.529239 0.653477 0.872929
+systems.MASOTSZ002.H.capfac 0.546181 0.656589 0.877575 0.570406 0.783778 \
+0.98489 0.928108 0.474461 0.647136 0.826795
+systems.MASOTSZ001.E.capfac 0.686365 0.675537 0.922709 0.733761 0.78944 \
+0.990998 0.961203 0.475472 0.659228 0.883587
+systems.MASOTS_Noor_Ourzazate_3_Solar.N.capfac 0 0.516411 0.258096 0 0.516411 \
+0.41617 0.152713 0 0.516772 0.257228
+systems.MASOTS_Noor_Ourzazate_2_Solar.M.capfac 0 0.516411 0.258096 0 0.516411 \
+0.41617 0.152713 0 0.516772 0.257228
+systems.MARIDM_Oued_El_Makhazine.K.capfac 0.769995 0.769008 0.769008 0.041365 0.041219 \
+0.041219 0.041219 0.592393 0.593572 0.593572
+systems.MARIDM_Mansour_Eddahbi.M.capfac 0.466302 0.465796 0.465796 0 0 \
+0 0 0.177154 0.17772 0.17772
+systems.MARIDM_Lalla_Takerkoust.N.capfac 0.652897 0.652042 0.652042 0.1104 0.110195 \
+0.110195 0.110195 0.399221 0.400328 0.400328
+systems.MARIDM_Idriss_1er.O.capfac 0.889125 0.888448 0.888448 0.172209 0.171761 \
+0.171761 0.171761 0.618436 0.619622 0.619622
+systems.MARIDM_Hassan_1er.P.capfac 0.642572 0.642156 0.642156 0.060509 0.060297 \
+0.060297 0.060297 0.207058 0.207718 0.207718
+systems.MARIDM_Bine_El_Ouidane.S.capfac 0.688779 0.688177 0.688177 0.045729 0.045539 \
+0.045539 0.045539 0.290079 0.290909 0.290909
+systems.MARIDM_Allal_El_Fassi.T.capfac 0.825628 0.824849 0.824849 0.0833 0.083164 \
+0.083164 0.083164 0.680599 0.681552 0.681552
+systems.MARIDM_Ahmed_El_Hansali.V.capfac 0.841097 0.840424 0.840424 0.113364 0.113098 \
+0.113098 0.113098 0.375937 0.376921 0.376921
+systems.MAELPT04.A.capfac 0.055251 0.055251 0 0.057991 0.057991 \
+0.057991 0 0.053425 0.053425 0
+systems.MAELDT04_01.B.capfac 1 0 0 0 0 \
+0 0 0 0 0
+systems.MAELDT04_01.C.capfac 0 0 1 0 0 \
+0 0 0 0 0
+systems.MAELDT04_02.D.capfac 0 0 0 1 0 \
+0 0 0 0 0
+systems.MAELDT04_02.E.capfac 0 0 0 0 0 \
+0 1 0 0 0
+systems.MAELDT04_03.F.capfac 0 0 0 0 0 \
+0 0 1 0 0
+systems.MAELDT04_03.G.capfac 0 0 0 0 0 \
+0 0 0 0 1
+systems.MARIDM_Mohamed_El_Khamis.H.capfac 0.717643 0.717117 0.717117 0.15588 0.155399 \
+0.155399 0.155399 0.721008 0.722075 0.722075
+systems.MARIDM_Al_Wahda.I.capfac 0.801856 0.801502 0.801502 0.098382 0.098072 \
+0.098072 0.098072 0.513601 0.514303 0.514303
+systems.MAELPTPSHydro.Y.capfac 0.24863 0.24863 0 0.260959 0.260959 \
+0.260959 0 0.240411 0.240411 0
+systems.MAELDTPSHydro_01.Z.capfac 1 0 0 0 0 \
+0 0 0 0 0
+systems.MAELDTPSHydro_01.a.capfac 0 0 1 0 0 \
+0 0 0 0 0
+systems.MAELDTPSHydro_02.b.capfac 0 0 0 1 0 \
+0 0 0 0 0
+systems.MAELDTPSHydro_02.c.capfac 0 0 0 0 0 \
+0 1 0 0 0
+systems.MAELDTPSHydro_03.d.capfac 0 0 0 0 0 \
+0 0 1 0 0
+systems.MAELDTPSHydro_03.e.capfac 0 0 0 0 0 \
+0 0 0 0 1
+systems.MAELPTPSSTEP1to8.f.capfac 0.24863 0.24863 0 0.260959 0.260959 \
+0.260959 0 0.240411 0.240411 0
+systems.MAELDTPSSTEP1to8_01.g.capfac 1 0 0 0 0 \
+0 0 0 0 0
+systems.MAELDTPSSTEP1to8_01.h.capfac 0 0 1 0 0 \
+0 0 0 0 0
+systems.MAELDTPSSTEP1to8_02.i.capfac 0 0 0 1 0 \
+0 0 0 0 0
+systems.MAELDTPSSTEP1to8_02.j.capfac 0 0 0 0 0 \
+0 1 0 0 0
+systems.MAELDTPSSTEP1to8_03.k.capfac 0 0 0 0 0 \
+0 0 1 0 0
+systems.MAELDTPSSTEP1to8_03.l.capfac 0 0 0 0 0 \
+0 0 0 0 1
+systems.MAELPTPSSTEPAfourer.m.capfac 0.24863 0.24863 0 0.260959 0.260959 \
+0.260959 0 0.240411 0.240411 0
+systems.MAELDTPSSTEPAfourer_01.n.capfac 1 0 0 0 0 \
+0 0 0 0 0
+systems.MAELDTPSSTEPAfourer_01.o.capfac 0 0 1 0 0 \
+0 0 0 0 0
+systems.MAELDTPSSTEPAfourer_02.p.capfac 0 0 0 1 0 \
+0 0 0 0 0
+systems.MAELDTPSSTEPAfourer_02.q.capfac 0 0 0 0 0 \
+0 1 0 0 0
+systems.MAELDTPSSTEPAfourer_03.r.capfac 0 0 0 0 0 \
+0 0 1 0 0
+systems.MAELDTPSSTEPAfourer_03.s.capfac 0 0 0 0 0 \
+0 0 0 0 1
+systems.MAELPTPSSTEPAbdelmoumen.t.capfac 0.24863 0.24863 0 0.260959 0.260959 \
+0.260959 0 0.240411 0.240411 0
+systems.MAELDTPSSTEPAbdelmoumen_01.u.capfac 1 0 0 0 0 \
+0 0 0 0 0
+systems.MAELDTPSSTEPAbdelmoumen_01.v.capfac 0 0 1 0 0 \
+0 0 0 0 0
+systems.MAELDTPSSTEPAbdelmoumen_02.w.capfac 0 0 0 1 0 \
+0 0 0 0 0
+systems.MAELDTPSSTEPAbdelmoumen_02.x.capfac 0 0 0 0 0 \
+0 1 0 0 0
+systems.MAELDTPSSTEPAbdelmoumen_03.y.capfac 0 0 0 0 0 \
+0 0 1 0 0
+systems.MAELDTPSSTEPAbdelmoumen_03.z.capfac 0 0 0 0 0 \
+0 0 0 0 1
+relationsc:
+relationsp:
+relationss:
+D_MAHYDM_Oued_El_Makhazine D001 o 0
+*
+D_MAHYDM_Mansour_Eddahbi D002 o 0
+*
+D_MAHYDM_Lalla_Takerkoust D003 o 0
+*
+D_MAHYDM_Idriss_1er D004 o 0
+*
+D_MAHYDM_Hassan_1er D005 o 0
+*
+D_MAHYDM_Bine_El_Ouidane D006 o 0
+*
+D_MAHYDM_Allal_El_Fassi D007 o 0
+*
+D_MAHYDM_Ahmed_El_Hansali D008 o 0
+*
+SS_MAELST04 SS04 o 0
+*
+D_MAHYDM_Mohamed_El_Khamis D009 o 0
+*
+D_MAHYDM_Al_Wahda D010 o 0
+*
+SS_MAELSTPSHydro SS06 o 0
+*
+SS_MAELSTPSSTEP1to8 SS07 o 0
+*
+SS_MAELSTPSSTEPAfourer SS08 o 0
+*
+SS_MAELSTPSSTEPAbdelmoumen SS09 o 0
+*
+relations1:
+ReserveMargin RM o 
+*
+CO2emissionskt CO2 o 
+*
+LocalRE RE o 
+lower c 0
+*
+WDBR WDBR o 
+upper ts 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000 1000
+*
+PVBR PVBR o 
+upper ts 1532.301 1513.3134 1691.7957 1759.3199 1828.4748 1899.3675 1972.0982 2046.9639 2123.9785 2203.1489 2284.4992 2368.0607 2458.7639 2549.4672 2640.1704 2730.8737 2821.5769 2922.9403 3024.3037 3125.6671 3227.0305 3328.3939 3328.3939
+*
+BMTC BMTC o 
+*
+Domestic DOM o 
+*
+InstantaneousWindPV IPW o 0
+*
+PC_MAELST04 PC01 o 
+*
+PS_MAELST04 PS04 o 0
+*
+DC_MAELST04_01 DC01 o 
+*
+DC_MAELST04_02 DC02 o 
+*
+DC_MAELST04_03 DC03 o 
+*
+PC_MAELSTPSHydro PC03 o 
+*
+PS_MAELSTPSHydro PS06 o 0
+*
+DC_MAELSTPSHydro_01 DC07 o 
+*
+DC_MAELSTPSHydro_02 DC08 o 
+*
+DC_MAELSTPSHydro_03 DC09 o 
+*
+PC_MAELSTPSSTEP1to8 PC04 o 
+*
+PS_MAELSTPSSTEP1to8 PS07 o 0
+*
+DC_MAELSTPSSTEP1to8_01 DC10 o 
+*
+DC_MAELSTPSSTEP1to8_02 DC11 o 
+*
+DC_MAELSTPSSTEP1to8_03 DC12 o 
+*
+PC_MAELSTPSSTEPAfourer PC05 o 
+*
+PS_MAELSTPSSTEPAfourer PS08 o 0
+*
+DC_MAELSTPSSTEPAfourer_01 DC13 o 
+*
+DC_MAELSTPSSTEPAfourer_02 DC14 o 
+*
+DC_MAELSTPSSTEPAfourer_03 DC15 o 
+*
+PC_MAELSTPSSTEPAbdelmoumen PC06 o 
+*
+PS_MAELSTPSSTEPAbdelmoumen PS09 o 0
+*
+DC_MAELSTPSSTEPAbdelmoumen_01 DC16 o 
+*
+DC_MAELSTPSSTEPAbdelmoumen_02 DC17 o 
+*
+DC_MAELSTPSSTEPAbdelmoumen_03 DC18 o 
+*
+RC_MAHYDM_Oued_El_Makhazine_01 RC01 o 
+*
+RC_MAHYDM_Mohamed_El_Khamis_02 RC02 o 
+*
+RC_MAHYDM_Mansour_Eddahbi_03 RC03 o 
+*
+RC_MAHYDM_Lalla_Takerkoust_04 RC04 o 
+*
+RC_MAHYDM_Idriss_1er_05 RC05 o 
+*
+RC_MAHYDM_Hassan_1er_06 RC06 o 
+*
+RC_MAHYDM_Bine_El_Ouidane_07 RC07 o 
+*
+RC_MAHYDM_Allal_El_Fassi_08 RC08 o 
+*
+RC_MAHYDM_Ahmed_El_Hansali_09 RC09 o 
+*
+RC_MAHYDM_Al_Wahda_10 RC10 o 
+*
+DX_MAEXDT00 DX01 o 
+*
+relations2:
+variables:
+systems:
+MAEL00TDI a
+moutp i-t c 1
+inv c 1
+# Description: Industry Distribution
+*
+MAEL00TDU a
+moutp u-t c 1
+inv c 1
+# Description: Urban Distribution
+*
+MAEL00TDC a
+moutp c-t c 1
+inv c 1
+# Description: Commerce Distribution
+*
+MAEL00TDR a
+moutp r-t c 1
+inv c 1
+# Description: Rural Distribution
+*
+MAEL00T00 a
+moutp e-t c 1
+inv c 1
+fom c 1
+# Description: Transmission
+*
+MAEL00TUI a
+# Description: Industry Demand
+*
+MAEL00TUU a
+# Description: Urban Demand
+*
+MAEL00TUC a
+# Description: Commerce Demand
+*
+MAEL00TUR a
+# Description: Rural Demand
+*
+MAEL00TUS a
+# Description: SentOut Demand
+*
+MAEL00e00 a
+# Description: Export of Electricity
+*
+MAEL00i00 I
+# Description: Import/export of Electricity (Algeria)
+*
+MAEL00i00_Spain y
+# Description: Import/Export of Electricity (Spain)
+2. activity d
+*
+MAEL00i00_Portugal O
+# Description: Import/Export of Electricity (Portugal)
+2. activity e
+*
+MAHG00i00_HydrogenExport y
+# Description: Hydrogen Exports
+*
+MAELBS00 z
+# Description: Backstop
+*
+MADSRC00 g
+moutp A-s c 0.35
+fyear 2021
+plf c 0.894
+optm c 0.894
+minutil c 0.05
+# Description: Generic Diesel Centralized
+*
+MADSRC_Tanger_Engine E
+moutp A-s c 0.33
+plf c 0.894
+optm c 0.894
+bdc up c 0
+bdi up c 6.4
+# Description: Tanger_Engine
+*
+MADSRC_Tan_Tan_Engine D
+# Description: Tan_Tan_Engine
+*
+MADSRC_Reseaux_isoles_Engine C
+# Description: Reseaux_isoles_Engine
+*
+MADSRC_Laayoune_Engine B
+# Description: Laayoune_Engine
+*
+MADSRC_Dakhla_Engine A
+# Description: Dakhla_Engine
+*
+MADSRI00 g
+moutp i-t c 0.35
+fyear 2020
+plf c 0.894
+optm c 0.894
+minutil c 0.05
+# Description: Generic Diesel 100 kW system (Industry)
+*
+MADSRU00 g
+moutp u-t c 0.16
+fyear 2020
+plf c 0.548
+optm c 0.548
+minutil c 0.05
+# Description: Generic Diesel/Gasoline 1kW system (urban)
+*
+MADSRB00 g
+moutp c-t c 0.16
+fyear 2020
+plf c 0.548
+optm c 0.548
+minutil c 0.05
+# Description: Generic Diesel/Gasoline 1kW system (commercial buildings)
+*
+MADSRR00 g
+moutp r-t c 0.16
+fyear 2020
+plf c 0.548
+optm c 0.548
+minutil c 0.05
+# Description: Generic Diesel/Gasoline 1kW system (rural)
+*
+MAHFSC00 h
+moutp A-s c 0.35
+fyear 2025
+plf c 0.894
+optm c 0.894
+minutil c 0.05
+# Description: Generic HFO Turbine
+*
+MAHFSC_Mohammedia_Steam_Turbines B
+# Description: Mohammedia_Steam_Turbines
+*
+MAHFRC00 g
+moutp A-s c 0.35
+fyear 2024
+plf c 0.894
+optm c 0.894
+minutil c 0.05
+# Description: Generic HFO
+*
+MANGSC00 g
+moutp A-s c 0.35
+fyear 2024
+plf c 0.922
+optm c 0.922
+minutil c 0.05
+# Description: Generic Gas Open Cycle
+*
+MANGRC00 a
+moutp A-s c 0.45
+fyear 2024
+plf c 0.922
+optm c 0.922
+minutil c 0.05
+# Description: Generic Gas Engine
+*
+MADSSC00 b
+moutp A-s c 0.35
+fyear 2025
+plf c 0.922
+optm c 0.922
+minutil c 0.05
+# Description: Generic Diesel Open Cycle
+*
+MAHFSC_Tit_Melil_Gas_Turbines N
+# Description: Tit_Melil_Gas_Turbines
+*
+MAHFSC_Tetouan_Gas_Turbines M
+# Description: Tetouan_Gas_Turbines
+*
+MAHFSC_Mohammedia_Gas_Turbines I
+# Description: Mohammedia_Gas_Turbines
+*
+MAHFSC_Laayoune_Gas_Turbines H
+# Description: Laayoune_Gas_Turbines
+*
+MAHFSC_Kenitra_Gas_Turbines G
+# Description: Kenitra_Gas_Turbines
+*
+MANGCC00 h
+moutp A-s c 0.58
+fyear 2024
+plf c 0.922
+optm c 0.922
+minutil c 0.15
+# Description: Generic Gas Combined Cycle
+*
+MANGCC_CCGT2 E
+# Description: CCGT2 
+*
+MANGCC_Conversion F
+# Description: Conversion OCGT
+*
+MANGCC_OCGT D
+# Description: OCGT
+*
+MANGCC_CCGT C
+# Description: CCGT 
+*
+MANGCC_Tahaddart_Combined_Cycles B
+# Description: Tahaddart_Combined_Cycles
+*
+MANGCC_Ain_Beni_Mathar_NG A
+# Description: Ain_Beni_Mathar_NG
+*
+MACOCS00 g
+moutp A-s c 0.345
+fyear 2030
+plf c 0.922
+optm c 0.922
+minutil c 0.2
+# Description: Generic Coal w CCS
+*
+MACOSC00 g
+moutp A-s c 0.39
+fyear 2050
+plf c 0.922
+optm c 0.922
+minutil c 0.2
+# Description: Generic Coal
+*
+MACOSC_Safi_Steam_Turbines D
+# Description: Safi_Steam_Turbines
+*
+MACOSC_Mohammedia_Steam_Turbines C
+# Description: Mohammedia_Steam_Turbines
+*
+MACOSC_Jerada_Steam_Turbines B
+# Description: Jerada_Steam_Turbines
+*
+MACOSC_Jorf_Lasfar_Steam_Turbines A
+# Description: Jorf_Lasfar_Steam_Turbines
+*
+MAHYDM00 g
+moutp A-s c 1
+fyear 2050
+plf c 1
+optm c 0.5
+minutil c 0
+# Description: Generic Hydro With Dam
+*
+MAHYRO_Taurart E
+moutp A-s c 1
+plf c 0.5
+optm c 1
+bdi up c 2
+# Description: Taurart_Hydro
+*
+MAHYRO_Oued_Lau D
+moutp A-s c 1
+plf c 0.5
+optm c 1
+bdi up c 14.1
+# Description: Oued_Lau_Hydro
+*
+MAHYDM_Oued_El_Makhazine C
+moutp A-s c 1
+plf c 1
+optm c 1
+bdi up c 36
+# Description: Oued_El_Makhazine_Hydro
+*
+MAHYDM_Mohamed_El_Khamis B
+moutp A-s c 1
+plf c 1
+optm c 1
+bdi up c 23.2
+# Description: Mohamed_El_Khamis_Hydro
+*
+MAHYDM_Mansour_Eddahbi A
+moutp A-s c 1
+plf c 1
+optm c 1
+bdi up c 10
+# Description: Mansour_Eddahbi_Hydro
+*
+MAHYDM_Lalla_Takerkoust 9
+moutp A-s c 1
+plf c 1
+optm c 1
+bdi up c 12
+# Description: Lalla_Takerkoust_Hydro
+*
+MAHYDM_Idriss_1er 8
+moutp A-s c 1
+plf c 1
+optm c 1
+bdi up c 40.6
+# Description: Idriss_1er_Hydro
+*
+MAHYDM_Hassan_1er 7
+moutp A-s c 1
+plf c 1
+optm c 1
+bdi up c 67
+# Description: Hassan_1er_Hydro
+*
+MAHYRO_El_Kansera 6
+moutp A-s c 1
+plf c 1
+optm c 1
+bdi up c 14.4
+# Description: El_Kansera_Hydro
+*
+MAHYRO_Bou_Areg 5
+moutp A-s c 1
+plf c 0.5
+optm c 1
+bdi up c 6.4
+# Description: Bou_Areg_Hydro
+*
+MAHYDM_Bine_El_Ouidane 4
+moutp A-s c 1
+plf c 1
+optm c 1
+bdi up c 135
+# Description: Bine_El_Ouidane_Hydro
+*
+MAHYDM_Allal_El_Fassi 3
+moutp A-s c 1
+plf c 1
+optm c 1
+bdi up c 240
+# Description: Allal_El_Fassi_Hydro
+*
+MAHYRO_Al_Missara 2
+moutp A-s c 1
+plf c 1
+optm c 1
+bdi up c 128
+# Description: Al_Missara_Hydro
+*
+MAHYDM_Ahmed_El_Hansali 1
+moutp A-s c 1
+plf c 1
+optm c 1
+bdi up c 92
+# Description: Ahmed_El_Hansali_Hydro
+*
+MAHYRO_Afourer 0
+moutp A-s c 1
+plf c 1
+optm c 1
+bdi up c 93.6
+# Description: Afourer_Hydro
+*
+MAHYRO00 a
+moutp A-s c 1
+fyear 2050
+plf c 0.112
+optm c 1
+minutil c 0
+# Description: Generic Hydro Run of River
+*
+MAHYRO_El_Borj L
+moutp A-s c 1
+plf c 1
+optm c 1
+bdi up c 22
+# Description: El_Borj_Hydro
+*
+MAHYRO_Tanafnit K
+moutp A-s c 1
+plf c 1
+optm c 1
+bdi up c 18
+# Description: Tanafnit_Hydro
+*
+MAHYRO_Ait_Messaoud J
+moutp A-s c 1
+plf c 1
+optm c 1
+bdi up c 6.4
+# Description: Ait_Messaoud_Hydro
+*
+MAHYRO_Moulay_Youssef I
+moutp A-s c 1
+plf c 1
+optm c 1
+bdi up c 24
+# Description: Moulay_Youssef_Hydro
+*
+MAHYRO_Sidi_Said_Maachou H
+moutp A-s c 1
+plf c 1
+optm c 1
+bdi up c 20.8
+# Description: Sidi_Said_Maachou_Hydro
+*
+MAHYRO_Daourat G
+moutp A-s c 1
+plf c 1
+optm c 1
+bdi up c 17
+# Description: Daourat_Hydro
+*
+MAHYRO_Imfout F
+moutp A-s c 1
+plf c 1
+optm c 1
+bdi up c 31.2
+# Description: Imfout_Hydro
+*
+MAHYMI00 g
+moutp r-t c 1
+fyear 2050
+plf c 0.112
+optm c 1
+minutil c 0
+# Description: Generic Hydro Small
+*
+MAHYRO_Kasba_Zidania 3
+moutp r-t c 1
+plf c 0.5
+optm c 1
+bdi up c 7.1
+# Description: Kasba_Zidania_Hydro
+*
+MAHYDM_Al_Wahda h
+moutp A-s c 1
+plf c 1
+optm c 1
+bdi up c 240
+# Description: Al_Wahda_Hydro
+*
+MABMST00 g
+moutp A-s c 0.26
+fyear 2024
+plf c 0.818
+optm c 0.818
+minutil c 0.2
+# Description: Generic Bagasse
+*
+MABWST00 a
+moutp A-s c 0.26
+fyear 2024
+plf c 0.818
+optm c 0.818
+minutil c 0.2
+# Description: Generic Wood
+*
+MAGOCV00 g
+moutp A-s c 1
+fyear 2050
+plf c 0.775
+optm c 0.775
+minutil c 0.2
+# Description: Generic Geothermal
+*
+MAWDLC00 h
+moutp A-s c 1
+fyear 2050
+plf c 0.8
+optm c 1
+minutil c 0
+# Description: Generic Wind
+*
+MAWDLC_Ext_Akhfennir u
+# Description: Ext Akhfennir
+*
+MAWDLC_IFTISSAT_3 t
+# Description: IFTISSAT_3
+*
+MAWDLC_IFTISSAT_2 s
+# Description: IFTISSAT_2
+*
+MAWDLC_Laayoune r
+# Description: Laayoune
+*
+MAWDLC_Guelmim q
+# Description: Guelmim
+*
+MAWDLC_Eolien_futur p
+# Description: Eolien_futur
+*
+MAWDOC00 k
+moutp A-s c 1
+fyear 2050
+plf c 0.8
+optm c 1
+minutil c 0
+# Description: Generic OffShore Wind
+*
+MAWDOCZ004 o
+fyear 2027
+# Description: Offshore Wind Zone 004
+*
+MAWDOCZ003 n
+fyear 2027
+# Description: Offshore Wind Zone 003
+*
+MAWDOCZ002 m
+fyear 2027
+# Description: Offshore Wind Zone 002
+*
+MAWDOCZ001 l
+fyear 2027
+# Description: Offshore Wind Zone 001
+*
+MAWDLCZ010 j
+moutp A-s c 1
+fyear 2024
+plf c 0.83
+optm c 1
+bdi up c 4085.33
+# Description: Wind Zone 010
+*
+MAWDLCZ009 i
+moutp A-s c 1
+fyear 2024
+plf c 0.83
+optm c 1
+bdi up c 6690.35
+# Description: Wind Zone 009
+*
+MAWDLCZ008 f
+moutp A-s c 1
+fyear 2024
+plf c 0.83
+optm c 1
+bdi up c 4507.87
+# Description: Wind Zone 008
+*
+MAWDLCZ007 e
+moutp A-s c 1
+fyear 2024
+plf c 0.83
+optm c 1
+bdi up c 14434.01
+# Description: Wind Zone 007
+*
+MAWDLCZ006 d
+moutp A-s c 1
+fyear 2024
+plf c 0.83
+optm c 1
+bdi up c 8829.89
+# Description: Wind Zone 006
+*
+MAWDLCZ005 c
+moutp A-s c 1
+fyear 2024
+plf c 0.83
+optm c 1
+bdi up c 4059.39
+# Description: Wind Zone 005
+*
+MAWDLCZ004 b
+moutp A-s c 1
+fyear 2024
+plf c 0.83
+optm c 1
+bdi up c 21168.45
+# Description: Wind Zone 004
+*
+MAWDLCZ003 a
+moutp A-s c 1
+fyear 2024
+plf c 0.83
+optm c 1
+bdi up c 10906.09
+# Description: Wind Zone 003
+*
+MAWDLCZ002 Z
+moutp A-s c 1
+fyear 2024
+plf c 0.83
+optm c 1
+bdi up c 16171.62
+# Description: Wind Zone 002
+*
+MAWDLCZ001 Y
+moutp A-s c 1
+fyear 2024
+plf c 0.83
+optm c 1
+bdi up c 7648.18
+# Description: Wind Zone 001
+*
+MAWDLC_Tis-krad_Wind X
+# Description: Tis-krad_Wind
+*
+MAWDLC_Tetouan_LAFARGE_Wind W
+# Description: Tetouan_LAFARGE_Wind
+*
+MAWDLC_Taza_Phase_I_Wind U
+# Description: Taza_Phase_I_Wind
+*
+MAWDLC_Tarfaya_Wind T
+# Description: Tarfaya_Wind
+*
+MAWDLC_Repowering_CED_Wind R
+# Description: Repowering_CED_Wind
+*
+MAWDLC_Parc_eolien_Tanger_Wind Q
+# Description: Parc_eolien_Tanger_Wind
+*
+MAWDLC_Parc_eolien_CED_Wind O
+# Description: Parc_eolien_CED_Wind
+*
+MAWDLC_Oualidia_Wind N
+# Description: Oualidia_Wind
+*
+MAWDLC_Midelt_Wind M
+# Description: Midelt_Wind
+*
+MAWDLC_Laayoune_CIMAR_Wind K
+# Description: Laayoune_CIMAR_Wind
+*
+MAWDLC_Koudia_Baida_Wind J
+# Description: Koudia_Baida_Wind
+*
+MAWDLC_Khalladi_Wind I
+# Description: Khalladi_Wind
+*
+MAWDLC_Jbel_Lahdid_Wind H
+# Description: Jbel_Lahdid_Wind
+*
+MAWDLC_Haouma_Wind G
+# Description: Haouma_Wind
+*
+MAWDLC_Forum_El_Oued_Wind F
+# Description: Forum_El_Oued_Wind
+*
+MAWDLC_Extension_Akhfenir_Wind E
+# Description: Extension_Akhfenir_Wind
+*
+MAWDLC_Boujdour_Wind D
+# Description: Boujdour_Wind
+*
+MAWDLC_Amougdoul_Wind C
+# Description: Amougdoul_Wind
+*
+MAWDLC_Akhfenir_Wind B
+# Description: Akhfenir_Wind
+*
+MAWDLC_Aftissat_Wind A
+# Description: Aftissat_Wind
+*
+MASOPC00 i
+moutp A-s c 1
+fyear 2050
+plf c 1.15
+optm c 1
+minutil c 0
+# Description: Generic PV System (utility)
+*
+MASOPC_PV_MT W
+# Description: PV_MT
+*
+MASOPC_Noor_Erfoud_Solar V
+# Description: Noor_Erfoud_Solar
+*
+MASOPC_Noor_Misour_Solar U
+# Description: Noor_Misour_Solar
+*
+MASOPC_Noor_Zagora_Solar T
+# Description: Noor_Zagora_Solar
+*
+MASOPCZ010 S
+moutp A-s c 1
+fyear 2050
+plf c 0.92
+optm c 1
+bdi up c 7277.99
+# Description: Solar PV Zone 010
+*
+MASOPCZ009 R
+moutp A-s c 1
+fyear 2024
+plf c 0.92
+optm c 1
+bdi up c 2409.71
+# Description: Solar PV Zone 009
+*
+MASOPCZ008 Q
+moutp A-s c 1
+fyear 2024
+plf c 0.92
+optm c 1
+bdi up c 11811.19
+# Description: Solar PV Zone 008
+*
+MASOPCZ007 P
+moutp A-s c 1
+fyear 2024
+plf c 0.92
+optm c 1
+bdi up c 7277.99
+# Description: Solar PV Zone 007
+*
+MASOPCZ006 O
+moutp A-s c 1
+fyear 2024
+plf c 0.92
+optm c 1
+bdi up c 14790.42
+# Description: Solar PV Zone 006
+*
+MASOPCZ005 N
+moutp A-s c 1
+fyear 2024
+plf c 0.92
+optm c 1
+bdi up c 19865.04
+# Description: Solar PV Zone 005
+*
+MASOPCZ004 M
+moutp A-s c 1
+fyear 2024
+plf c 0.92
+optm c 1
+bdi up c 25033.8
+# Description: Solar PV Zone 004
+*
+MASOPCZ003 L
+moutp A-s c 1
+fyear 2024
+plf c 0.92
+optm c 1
+bdi up c 3225.22
+# Description: Solar PV Zone 003
+*
+MASOPCZ002 K
+moutp A-s c 1
+fyear 2024
+plf c 0.92
+optm c 1
+bdi up c 13865.86
+# Description: Solar PV Zone 002
+*
+MASOPCZ001 J
+moutp A-s c 1
+fyear 2022
+plf c 0.92
+optm c 1
+bdi up c 6360.23
+# Description: Solar PV Zone 001
+*
+MASOPC_Noor_PV_II H
+# Description: Noor_PV_II
+*
+MASOPC_Noor_Ourzazate_4_Solar G
+# Description: Noor_Ourzazate_4_Solar
+*
+MASOPC_Noor_Midelt_Phase_I_Solar_PV F
+# Description: Noor_Midelt_Phase_I_Solar_PV
+*
+MASOPC_Noor_Layyoune_Solar E
+# Description: Noor_Layyoune_Solar
+*
+MASOPC_Noor_Boujdour_Solar D
+# Description: Noor_Boujdour_Solar
+*
+MASOPC_Noor_Atlas_Solar C
+# Description: Noor_Atlas_Solar
+*
+MASOPU00 g
+moutp u-t c 1
+plf c 1
+optm c 1
+minutil c 0
+# Description: Generic PV system (roof top - urban)
+*
+MASOPB00 g
+moutp c-t c 1
+plf c 1
+optm c 1
+minutil c 0
+# Description: Generic PV system (roof top - commercial buildings)
+*
+MASOPR00 g
+moutp r-t c 1
+plf c 1
+optm c 1
+minutil c 0
+# Description: Generic PV system (roof top - rural)
+*
+MASOPS00 h
+moutp r-t c 1
+fyear 2020
+plf c 1
+optm c 1
+minutil c 0
+# Description: Generic PV with 2h Battery (roof top - rural)
+*
+MASOTN00 j
+moutp A-s c 1
+fyear 2050
+plf c 1
+optm c 1
+minutil c 0
+# Description: Generic Solar thermal no storage
+*
+MASOTNZ004 F
+# Description: Solar CSP 6hrStor Zone 004
+*
+MASOTNZ003 J
+# Description: Solar CSP 6hrStor Zone 003
+*
+MASOTNZ002 D
+# Description: Solar CSP 6hrStor Zone 002
+*
+MASOTNZ001 B
+# Description: Solar CSP 6hrStor Zone 001
+*
+MASOTN_Ain_Beni_Mathar_Solar C
+# Description: Ain_Beni_Mathar_Solar_CSP
+*
+MASOTS00 k
+moutp A-s c 1
+fyear 2050
+plf c 1
+optm c 1
+minutil c 0
+# Description: Generic Solar thermal with Storage
+*
+MASOTS_Noor_Ouarzazate_1_Solar_CSP G
+# Description: Noor_Ouarzazate_1_Solar_CSP
+*
+MASOTSZ004 L
+fyear 2050
+# Description: Solar CSP 12hrStor Zone 004
+*
+MASOTSZ003 K
+fyear 2050
+# Description: Solar CSP 12hrStor Zone 003
+*
+MASOTSZ002 H
+fyear 2050
+# Description: Solar CSP 12hrStor Zone 002
+*
+MASOTSZ001 E
+fyear 2050
+# Description: Solar CSP 12hrStor Zone 001
+*
+MASOTS_Noor_Ourzazate_3_Solar N
+# Description: Noor_Ourzazate_3_Solar_CSP
+*
+MASOTS_Noor_Ourzazate_2_Solar M
+# Description: Noor_Ourzazate_2_Solar_CSP
+*
+MASOTG00 i
+moutp A-s c 0.53
+fyear 2050
+plf c 0.922
+optm c 0.922
+minutil c 0
+# Description: Generic Solar thermal with Gas co-firing
+*
+MAELHGT00 a
+# Description: Transmission to Hydrogen Production
+*
+MAHGNEL25_HydrogenProduction a
+# Description: Hydrogen Production Plant 2025 Vintage
+*
+MAHGNEL30_HydrogenProduction b
+# Description: Hydrogen Production Plant 2030 Vintage
+*
+MAHGNEL35_HydrogenProduction c
+# Description: Hydrogen Production Plant 2035 Vintage
+*
+MABM00X00 a
+# Description: Extraction of Bagasse
+*
+MABW00X00 a
+# Description: Extraction of Wood
+*
+MAHY00X00 a
+# Description: Supply of Hydro
+*
+MASO00X00 a
+# Description: Supply of Solar
+*
+MAWD00X00 a
+# Description: Supply of Wind
+*
+MAHF00I00 a
+# Description: Import of HFO
+*
+MADS00I00 a
+# Description: Import of Diesel
+*
+MANG00X00 a
+# Description: Pipeline Gas/LNG
+*
+MANU00I00 b
+# Description: Import of Nuclear
+*
+MACO00I00 a
+# Description: Import of Coal
+*
+MARIDM_Oued_El_Makhazine K
+*
+MARIDM_Mansour_Eddahbi M
+*
+MARIDM_Lalla_Takerkoust N
+*
+MARIDM_Idriss_1er O
+*
+MARIDM_Hassan_1er P
+*
+MARIDM_Bine_El_Ouidane S
+*
+MARIDM_Allal_El_Fassi T
+*
+MARIDM_Ahmed_El_Hansali V
+*
+MAELST04 A
+fyear 2028
+bdc fx ts 0 0 0 0 0 0 0 0 0 50 0 50 100 0 50 50 0 0 0 0 0 0 0
+bdi up c 300
+# Description: Battery Storage 4 hrs
+2. activity B
+*
+MAELPT04 A
+*
+MAELDT04_01 B
+2. activity C
+*
+MAELDT04_02 D
+2. activity E
+*
+MAELDT04_03 F
+2. activity G
+*
+MARIDM_Mohamed_El_Khamis H
+*
+MARIDM_Al_Wahda I
+*
+MAELSTPSHydro P
+# Description: STEP Hydro
+2. activity C
+*
+MAELPTPSHydro Y
+*
+MAELDTPSHydro_01 Z
+2. activity a
+*
+MAELDTPSHydro_02 b
+2. activity c
+*
+MAELDTPSHydro_03 d
+2. activity e
+*
+MAELSTPSSTEP1to8 Q
+moutp A-s c 1
+fyear 2028
+plf c 1
+optm c 0.23
+bdc fx ts 0 0 0 0 0 0 0 0 0 300 300 300 300 300 300 300 300 0 0 0 0 0 0
+bdi up c 2400
+# Description: STEP 1to8 Pump Storage
+2. activity D
+moutp C-d c 1
+*
+MAELPTPSSTEP1to8 f
+*
+MAELDTPSSTEP1to8_01 g
+2. activity h
+*
+MAELDTPSSTEP1to8_02 i
+2. activity j
+*
+MAELDTPSSTEP1to8_03 k
+2. activity l
+*
+MAELSTPSSTEPAfourer R
+bdc up c 0
+bdi up c 460
+# Description: STEPAfourer Pump Storage
+2. activity E
+*
+MAELPTPSSTEPAfourer m
+*
+MAELDTPSSTEPAfourer_01 n
+2. activity o
+*
+MAELDTPSSTEPAfourer_02 p
+2. activity q
+*
+MAELDTPSSTEPAfourer_03 r
+2. activity s
+*
+MAELSTPSSTEPAbdelmoumen S
+bdc fx ts 0 0 0 0 350 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+bdi up c 350
+# Description: STEPAbdelmoumen Pump Storage
+2. activity F
+*
+MAELPTPSSTEPAbdelmoumen t
+*
+MAELDTPSSTEPAbdelmoumen_01 u
+2. activity v
+*
+MAELDTPSSTEPAbdelmoumen_02 w
+2. activity x
+*
+MAELDTPSSTEPAbdelmoumen_03 y
+2. activity z
+*
+MAEXDT00 J
+*
+resources: 
+endata
+

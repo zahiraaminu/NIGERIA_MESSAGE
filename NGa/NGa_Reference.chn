@@ -1,0 +1,400 @@
+# Energy forms:
+Final      f:
+  Industry   e
+    Producers:
+      NGEL00TUI f fiae e-f c 1
+    *
+    *
+  Commerce   c
+    Producers:
+      NGEL00TUC f fcac c-f c 1
+    *
+    *
+  Urban      u
+    Producers:
+      NGEL00TUU f fuau u-f c 1
+    *
+    *
+  Rural      r
+    Producers:
+      NGEL00TUR f frar r-f c 1
+    *
+    *
+  SentOut    s
+    Producers:
+      NGEL00TUS f feas s-f c 1
+    *
+    *
+  Export     E
+    Producers:
+      NGEL00e00 f fqaE E-f c 1
+    *
+    *
+*
+Tertiary   t:
+  Industry   i
+    Producers:
+      NGEL00TDI f teai i-t c 1
+      NGDSRI00 f togi i-t c 0.35
+    *
+    Consumers:
+      NGEL00TUI f fiae i-t 0 1
+    *
+  Commerce   c
+    Producers:
+      NGEL00TDC f teac c-t c 1
+      NGDSRB00 f togc c-t c 0.16
+      NGSOPB00 f t.gc c-t c 1
+    *
+    Consumers:
+      NGEL00TUC f fcac c-t 0 1
+    *
+  Urban      u
+    Producers:
+      NGEL00TDU f teau u-t c 1
+      NGDSRU00 f togu u-t c 0.16
+      NGSOPU00 f t.gu u-t c 1
+    *
+    Consumers:
+      NGEL00TUU f fuau u-t 0 1
+    *
+  Rural      r
+    Producers:
+      NGEL00TDR f tear r-t c 1
+      NGDSRR00 f togr r-t c 0.16
+      NGHYMI00 f tHgr r-t c 1
+      NGHYRO_Tunga f tHNr r-t c 1
+      NGHYRO_Tiga_(Kano) f tHMr r-t c 1
+      NGHYRO_Ouree f tHLr r-t c 1
+      NGHYRO_Ngell f tHKr r-t c 1
+      NGHYRO_Lere_II f tHJr r-t c 1
+      NGHYRO_Lere_I f tHIr r-t c 1
+      NGHYRO_Kwali_Falls f tHHr r-t c 1
+      NGHYRO_Kwa_Falls f tHGr r-t c 1
+      NGHYRO_Kurra_Falls f tHFr r-t c 1
+      NGHYRO_Jekko_II f tHEr r-t c 1
+      NGHYRO_Jekko_I f tHDr r-t c 1
+      NGHYRO_Ikere_Gorge f tHCr r-t c 1
+      NGHYRO_Ankwil_II_(Bagel_II) f tHBr r-t c 1
+      NGHYRO_Ankwil_I_(Bagel_I) f tHAr r-t c 1
+      NGSOPR00 f t.gr r-t c 1
+      NGSOPS00 f t.hr r-t c 1
+    *
+    Consumers:
+      NGEL00TUR f frar r-t 0 1
+    *
+  Electricity e
+    Producers:
+      NGEL00T00 f tqae e-t c 1
+    *
+    Consumers:
+      NGEL00TDI f teai e-t 0 1
+      NGEL00TDU f teau e-t 0 1
+      NGEL00TDC f teac e-t 0 1
+      NGEL00TDR f tear e-t 0 1
+      NGEL00TUS f feas e-t 0 1
+    *
+*
+Secondary  s:
+  Electricity q
+    Producers:
+      NGEL00i00 f s.Iq q-s c 1
+      NGELBS00 f s.zq q-s c 1
+      NGDSRC00 f sogq q-s c 0.35
+      NGHFRC00 f shgq q-s c 0.35
+      NGNGSC00 f sggq q-s c 0.35
+      NGNGSC_Alaoji_II f sgLq q-s c 0.35
+      NGNGSC_Okpai_II f sgKq q-s c 0.35
+      NGNGSC_Westcom_ f sgJq q-s c 0.283
+      NGNGSC_SupertekNig f sgIq q-s c 0.45
+      NGNGSC_Steam_Turbine_GAS f sgHq q-s c 0.34
+      NGNGSC_Sapele/Geregu/Ihovbor/Omotosho f sgGq q-s c 0.283
+      NGNGSC_OlorunsogoII f sgFq q-s c 0.45
+      NGNGSC_ICSPower(Alaoji) f sgEq q-s c 0.45
+      NGNGSC_Gas_Turbine_GAS f sgDq q-s c 0.283
+      NGNGSC_Ethiope f sgCq q-s c 0.283
+      NGNGSC_CPG_Okija f sgBq q-s c 0.45
+      NGNGCC00 f sghq q-s c 0.58
+      NGNGCC_Combined_Cycle_GAS f sgAq q-s c 0.4
+      NGCOCS00 f sCgq q-s c 0.28
+      NGCOSC00 f scgq q-s c 0.39
+      NGHYRO00 f sHhq q-s c 1
+      NGHYRO_Zamfara f sHfq q-s c 1
+      NGHYRO_Yola f sHeq q-s c 1
+      NGHYRO_Onitsha f sHdq q-s c 1
+      NGHYRO_Middle_Gurara f sHcq q-s c 1
+      NGHYRO_Makurdi f sHbq q-s c 1
+      NGHYRO_Lokoja f sHaq q-s c 1
+      NGHYRO_Katsina_Ala f sHZq q-s c 1
+      NGHYRO_Karamti f sHYq q-s c 1
+      NGHYRO_Kano f sHXq q-s c 1
+      NGHYRO_Ikom f sHWq q-s c 1
+      NGHYRO_Gurara_II f sHVq q-s c 1
+      NGHYRO_Garin_Dali f sHUq q-s c 1
+      NGHYRO_Ekiti f sHTq q-s c 1
+      NGHYRO_Donka f sHSq q-s c 1
+      NGHYRO_Dasin_Hausa f sHRq q-s c 1
+      NGHYRO_Beli f sHQq q-s c 1
+      NGHYRO_Atan f sHPq q-s c 1
+      NGHYRO_Afikpo f sHOq q-s c 1
+      NGHYDM00 f sHgq q-s c 1
+      NGHYDM_Zungeru f sHMq q-s c 1
+      NGHYDM_Shiroro f sHKq q-s c 1
+      NGHYDM_Oyan f sHJq q-s c 1
+      NGHYDM_Mambilla f sHIq q-s c 1
+      NGHYDM_Kiri f sHHq q-s c 1
+      NGHYDM_Kashimbilla f sHGq q-s c 1
+      NGHYDM_Kainji f sHEq q-s c 1
+      NGHYDM_Jebba f sHCq q-s c 1
+      NGHYDM_Gurara_I f sHBq q-s c 1
+      NGHYDM_Dadin_Kowa f sHAq q-s c 1
+      NGBMST00 f sbgq q-s c 0.26
+      NGBWST00 f sBaq q-s c 0.26
+      NGGOCV00 f s.gq q-s c 1
+      NGWDLC00 f swhq q-s c 1
+      NGWDLC_Katsina f swLq q-s c 1
+      NGWDOC00 f swKq q-s c 1
+      NGWDLCZ010 f swJq q-s c 1
+      NGWDLCZ009 f swIq q-s c 1
+      NGWDLCZ008 f swHq q-s c 1
+      NGWDLCZ007 f swGq q-s c 1
+      NGWDLCZ006 f swFq q-s c 1
+      NGWDLCZ005 f swEq q-s c 1
+      NGWDLCZ004 f swDq q-s c 1
+      NGWDLCZ003 f swCq q-s c 1
+      NGWDLCZ002 f swBq q-s c 1
+      NGWDLCZ001 f swAq q-s c 1
+      NGSOPC00 f ssiq q-s c 1
+      NGSOPC_Ashama f ssKq q-s c 1
+      NGSOPCZ010 f ssJq q-s c 1
+      NGSOPCZ009 f ssIq q-s c 1
+      NGSOPCZ008 f ssHq q-s c 1
+      NGSOPCZ007 f ssGq q-s c 1
+      NGSOPCZ006 f ssFq q-s c 1
+      NGSOPCZ005 f ssEq q-s c 1
+      NGSOPCZ004 f ssDq q-s c 1
+      NGSOPCZ003 f ssCq q-s c 1
+      NGSOPCZ002 f ssBq q-s c 1
+      NGSOPCZ001 f ssAq q-s c 1
+      NGSOTN00 f s.jq q-s c 1
+      NGSOTNZ002 f s.Cq q-s c 1
+      NGSOTNZ001 f s.Bq q-s c 1
+      NGSOTS00 f s.kq q-s c 1
+      NGSOTSZ002 f s.Eq q-s c 1
+      NGSOTSZ001 f s.Dq q-s c 1
+      NGSOTG00 f sgiq q-s c 0.53
+      NGNUPW00 f snaq q-s c 0.33
+      NGELST04 f s.Aq q-s c 1
+      NGEXDT00 f snRq q-s c 0.33
+    *
+    Consumers:
+      NGEL00T00 f tqae q-s 0 1
+      NGEL00e00 f fqaE q-s 0 1
+      NGELST04[2.] f dqBA q-s 0 1
+    *
+  ElcDummy   d
+    Producers:
+      NGRIDM_Zungeru f s.Ad d-s c 1
+      NGRIDM_Shiroro f s.Bd d-s c 1
+      NGRIDM_Oyan f s.Cd d-s c 1
+      NGRIDM_Mambilla f s.Dd d-s c 1
+      NGRIDM_Kiri f s.Ed d-s c 1
+      NGRIDM_Kashimbilla f s.Fd d-s c 1
+      NGRIDM_Kainji f s.Gd d-s c 1
+      NGRIDM_Jebba f s.Hd d-s c 1
+      NGRIDM_Gurara_I f s.Id d-s c 1
+      NGRIDM_Dadin_Kowa f s.Jd d-s c 1
+    *
+    *
+*
+Primary    p:
+  Bagasse    b
+    Producers:
+      NGBM00X00 f p.ab b-p c 1
+    *
+    Consumers:
+      NGBMST00 f sbgq b-p 0 1
+    *
+  Wood       B
+    Producers:
+      NGBW00X00 f p.aB B-p c 1
+    *
+    Consumers:
+      NGBWST00 f sBaq B-p 0 1
+    *
+  Hydro      H
+    Producers:
+      NGHY00X00 f p.aH H-p c 1
+    *
+    Consumers:
+      NGHYRO00 f sHhq H-p 0 1
+      NGHYRO_Zamfara f sHfq H-p 0 1
+      NGHYRO_Yola f sHeq H-p 0 1
+      NGHYRO_Onitsha f sHdq H-p 0 1
+      NGHYRO_Middle_Gurara f sHcq H-p 0 1
+      NGHYRO_Makurdi f sHbq H-p 0 1
+      NGHYRO_Lokoja f sHaq H-p 0 1
+      NGHYRO_Katsina_Ala f sHZq H-p 0 1
+      NGHYRO_Karamti f sHYq H-p 0 1
+      NGHYRO_Kano f sHXq H-p 0 1
+      NGHYRO_Ikom f sHWq H-p 0 1
+      NGHYRO_Gurara_II f sHVq H-p 0 1
+      NGHYRO_Garin_Dali f sHUq H-p 0 1
+      NGHYRO_Ekiti f sHTq H-p 0 1
+      NGHYRO_Donka f sHSq H-p 0 1
+      NGHYRO_Dasin_Hausa f sHRq H-p 0 1
+      NGHYRO_Beli f sHQq H-p 0 1
+      NGHYRO_Atan f sHPq H-p 0 1
+      NGHYRO_Afikpo f sHOq H-p 0 1
+      NGHYDM00 f sHgq H-p 0 1
+      NGHYDM_Zungeru f sHMq H-p 0 1
+      NGHYDM_Shiroro f sHKq H-p 0 1
+      NGHYDM_Oyan f sHJq H-p 0 1
+      NGHYDM_Mambilla f sHIq H-p 0 1
+      NGHYDM_Kiri f sHHq H-p 0 1
+      NGHYDM_Kashimbilla f sHGq H-p 0 1
+      NGHYDM_Kainji f sHEq H-p 0 1
+      NGHYDM_Jebba f sHCq H-p 0 1
+      NGHYDM_Gurara_I f sHBq H-p 0 1
+      NGHYDM_Dadin_Kowa f sHAq H-p 0 1
+      NGHYMI00 f tHgr H-p 0 1
+      NGHYRO_Tunga f tHNr H-p 0 1
+      NGHYRO_Tiga_(Kano) f tHMr H-p 0 1
+      NGHYRO_Ouree f tHLr H-p 0 1
+      NGHYRO_Ngell f tHKr H-p 0 1
+      NGHYRO_Lere_II f tHJr H-p 0 1
+      NGHYRO_Lere_I f tHIr H-p 0 1
+      NGHYRO_Kwali_Falls f tHHr H-p 0 1
+      NGHYRO_Kwa_Falls f tHGr H-p 0 1
+      NGHYRO_Kurra_Falls f tHFr H-p 0 1
+      NGHYRO_Jekko_II f tHEr H-p 0 1
+      NGHYRO_Jekko_I f tHDr H-p 0 1
+      NGHYRO_Ikere_Gorge f tHCr H-p 0 1
+      NGHYRO_Ankwil_II_(Bagel_II) f tHBr H-p 0 1
+      NGHYRO_Ankwil_I_(Bagel_I) f tHAr H-p 0 1
+    *
+  Solar      s
+    Producers:
+      NGSO00X00 f p.as s-p c 1
+    *
+    Consumers:
+      NGSOPC00 f ssiq s-p 0 1
+      NGSOPC_Ashama f ssKq s-p 0 1
+      NGSOPCZ010 f ssJq s-p 0 1
+      NGSOPCZ009 f ssIq s-p 0 1
+      NGSOPCZ008 f ssHq s-p 0 1
+      NGSOPCZ007 f ssGq s-p 0 1
+      NGSOPCZ006 f ssFq s-p 0 1
+      NGSOPCZ005 f ssEq s-p 0 1
+      NGSOPCZ004 f ssDq s-p 0 1
+      NGSOPCZ003 f ssCq s-p 0 1
+      NGSOPCZ002 f ssBq s-p 0 1
+      NGSOPCZ001 f ssAq s-p 0 1
+    *
+  Wind       w
+    Producers:
+      NGWD00X00 f p.aw w-p c 1
+    *
+    Consumers:
+      NGWDLC00 f swhq w-p 0 1
+      NGWDLC_Katsina f swLq w-p 0 1
+      NGWDOC00 f swKq w-p 0 1
+      NGWDLCZ010 f swJq w-p 0 1
+      NGWDLCZ009 f swIq w-p 0 1
+      NGWDLCZ008 f swHq w-p 0 1
+      NGWDLCZ007 f swGq w-p 0 1
+      NGWDLCZ006 f swFq w-p 0 1
+      NGWDLCZ005 f swEq w-p 0 1
+      NGWDLCZ004 f swDq w-p 0 1
+      NGWDLCZ003 f swCq w-p 0 1
+      NGWDLCZ002 f swBq w-p 0 1
+      NGWDLCZ001 f swAq w-p 0 1
+    *
+  Coal       c
+    Producers:
+      NGCO00I00 f p.ac c-p c 1
+    *
+    Consumers:
+      NGCOSC00 f scgq c-p 0 1
+    *
+  CoalCCS    C
+    *
+    Consumers:
+      NGCOCS00 f sCgq C-p 0 1
+    *
+  Gas        g
+    Producers:
+      NGNG00X00 f p.ag g-p c 1
+    *
+    Consumers:
+      NGNGSC00 f sggq g-p 0 1
+      NGNGSC_Alaoji_II f sgLq g-p 0 1
+      NGNGSC_Okpai_II f sgKq g-p 0 1
+      NGNGSC_Westcom_ f sgJq g-p 0 1
+      NGNGSC_SupertekNig f sgIq g-p 0 1
+      NGNGSC_Steam_Turbine_GAS f sgHq g-p 0 1
+      NGNGSC_Sapele/Geregu/Ihovbor/Omotosho f sgGq g-p 0 1
+      NGNGSC_OlorunsogoII f sgFq g-p 0 1
+      NGNGSC_ICSPower(Alaoji) f sgEq g-p 0 1
+      NGNGSC_Gas_Turbine_GAS f sgDq g-p 0 1
+      NGNGSC_Ethiope f sgCq g-p 0 1
+      NGNGSC_CPG_Okija f sgBq g-p 0 1
+      NGNGCC00 f sghq g-p 0 1
+      NGNGCC_Combined_Cycle_GAS f sgAq g-p 0 1
+      NGSOTG00 f sgiq g-p 0 1
+    *
+  Nuclear    n
+    Producers:
+      NGNU00I00 f p.an n-p c 1
+    *
+    Consumers:
+      NGNUPW00 f snaq n-p 0 1
+      NGEXDT00 f snRq n-p 0 1
+    *
+  Oil        o
+    Producers:
+      NGDS00I00 f p.ao o-p c 1
+    *
+    Consumers:
+      NGDSRC00 f sogq o-p 0 1
+      NGDSRI00 f togi o-p 0 1
+      NGDSRU00 f togu o-p 0 1
+      NGDSRB00 f togc o-p 0 1
+      NGDSRR00 f togr o-p 0 1
+    *
+  HFO        h
+    Producers:
+      NGHF00I00 f p.ah h-p c 1
+    *
+    Consumers:
+      NGHFRC00 f shgq h-p 0 1
+    *
+  Diesel     d
+    *
+    *
+  Crude      p
+    *
+    *
+*
+Resources  r:
+  Biomass    b
+    *
+    *
+  Coal       c
+    *
+    *
+*
+DummyLevelStorage d:
+  DummyCom_NGELST04 A
+    Producers:
+      NGELST04[2.] f dqBA A-d c 1
+      NGELPT04 f d.KA A-d c 1
+      NGELDT04_01 f d.LA A-d c 1
+      NGELDT04_01[2.] f d.MA A-d c 1
+      NGELDT04_02 f d.NA A-d c 1
+      NGELDT04_02[2.] f d.OA A-d c 1
+      NGELDT04_03 f d.PA A-d c 1
+      NGELDT04_03[2.] f d.QA A-d c 1
+    *
+    *
+*

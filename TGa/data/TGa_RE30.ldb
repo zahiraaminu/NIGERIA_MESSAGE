@@ -1,0 +1,513 @@
+TDB: empty
+ADB: TGa
+problem: TGa
+description:
+# MAINa
+# NDC  Target RE 3030
+drate: 0
+timesteps: 2018 2019 2020 2021 2022 2023 2024 2025 2026 2027 2028 2029 2030 2031 2032 2033 2034 2035 2036 2037 2038 2039 2040 2041 2042
+loadregions:
+ltype ordered seasonal 1 0
+year 2019 1 10
+name aaa aab aac \
+baa bab bac bad \
+caa cab cac 
+length 0.096689 0.165753 0.069064 \
+0.101484 0.173974 0.028995 0.043493 \
+0.093493 0.160274 0.066781 
+energyforms:
+Final f
+# Final Energy
+Industry e l
+# Industry Electricity Final
+Commerce c l
+# Commerce Electricity Final
+Urban u l
+# Urban Electricity Final
+Rural r l
+# Rural Electricity Final
+SentOut s l f
+# Sentout Electricity Final
+Export E 
+# Export Elc
+*
+Tertiary t
+# Tertiary Energy
+Industry i l
+# Industry Electricity Tertiary
+Commerce c l
+# Commerce Electricity Tertiary
+Urban u l
+# Urban Electricity Tertiary
+Rural r l
+# Rural Electricity Tertiary
+Electricity e l f
+# Tertiary Electricity
+*
+Secondary s
+# Secondary Energy
+Electricity x l f
+# Secondary Electricity
+ElcDummy d l
+# Dummy elc for PS
+*
+Primary p
+# Primary Energy
+Bagasse b 
+# Bagasse
+Wood B 
+# Wood
+Hydro H 
+# Hydro
+Solar s l
+# Solar
+Wind w 
+# Wind
+Coal c 
+# Coal
+CoalCCS C 
+# Coal CCS
+Gas g 
+# Gas
+Nuclear n 
+# Nuclear
+Oil o 
+# Oil
+HFO h 
+# diesel
+Diesel d 
+# HFO
+Crude p 
+# Crude
+*
+Resources r
+# Resources
+Biomass b 
+# Biomass resource
+Coal c 
+# Coal resource
+*
+demand:
+c-f  ts 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+e-f  ts 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+r-f  ts 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+s-f  ts 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+u-f  ts 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+loadcurve:
+year 2019
+c-f 0.091518 0.175245 0.068275 0.096056 0.178391 \
+0.030494 0.041167 0.088493 0.164343 0.066018
+e-f 0.096689 0.165753 0.069064 0.101484 0.173974 \
+0.028995 0.043493 0.093493 0.160274 0.066781
+r-f 0.060015 0.175921 0.11559 0.058822 0.182783 \
+0.032932 0.062985 0.058128 0.169964 0.08286
+s-f 0.10074 0.153228 0.080319 0.098173 0.149731 \
+0.028615 0.051325 0.097103 0.147437 0.093329
+u-f 0.060015 0.175921 0.11559 0.058822 0.182783 \
+0.032932 0.062985 0.058128 0.169964 0.08286
+systems.TGHYRO_Kpime.Q.capfac 0.025249 0.025474 0.025474 0.358369 0.35947 \
+0.35947 0.35947 0.43385 0.432422 0.432422
+systems.TGHYRO_Kpessi.G.capfac 0.025249 0.025474 0.025474 0.358369 0.35947 \
+0.35947 0.35947 0.43385 0.432422 0.432422
+systems.TGHYRO_Adjarala.A.capfac 0.242688 0.242716 0.242716 0.310247 0.310426 \
+0.310426 0.310426 0.286278 0.286055 0.286055
+systems.TGWDLC00.h.capfac 0.368194 0.225758 0.247523 0.145673 0.094438 \
+0.045867 0.108212 0.107197 0.057798 0.055801
+systems.TGWDOC00.G.capfac 0.368194 0.225758 0.247523 0.145673 0.094438 \
+0.045867 0.108212 0.107197 0.057798 0.055801
+systems.TGWDLCZ005.F.capfac 0.77295 0.402539 0.327422 0.443205 0.371254 \
+0.170197 0.333722 0.404361 0.21812 0.167033
+systems.TGWDLCZ004.E.capfac 0.755869 0.386451 0.341072 0.442377 0.348503 \
+0.145556 0.317354 0.401234 0.211669 0.187236
+systems.TGWDLCZ003.D.capfac 0.76444 0.335849 0.453033 0.442857 0.376999 \
+0.187594 0.390436 0.396801 0.157372 0.257568
+systems.TGWDLCZ002.C.capfac 0.5006 0.280539 0.737868 0.506021 0.362283 \
+0.423465 0.568016 0.244095 0.075329 0.41995
+systems.TGWDLCZ001.B.capfac 0.777993 0.429686 0.312401 0.456157 0.394384 \
+0.163665 0.318604 0.395378 0.243471 0.155324
+systems.TGWDLC_IPP_WIND.A.capfac 0.368194 0.225758 0.247523 0.145673 0.094438 \
+0.045867 0.108212 0.107197 0.057798 0.055801
+systems.TGSOPC00.i.capfac 0 0.374778 0.006555 0 0.321316 \
+0.024482 0 0 0.350691 0.004907
+systems.TGSOPC_Blitta.I.capfac 0 0.374778 0.006555 0 0.321316 \
+0.024482 0 0 0.350691 0.004907
+systems.TGSOPCZ005.H.capfac 0 0.409012 0.051193 0 0.3369 \
+0.122676 0 0 0.39126 0.03118
+systems.TGSOPCZ004.G.capfac 0 0.408342 0.045952 0 0.315678 \
+0.098869 0 0 0.382387 0.026823
+systems.TGSOPCZ003.F.capfac 0 0.411797 0.047408 0 0.320457 \
+0.102415 0 0 0.388802 0.02695
+systems.TGSOPCZ002.E.capfac 0 0.408732 0.049328 0 0.338294 \
+0.118717 0 0 0.390749 0.029156
+systems.TGSOPCZ001.D.capfac 0 0.4098 0.046742 0 0.318172 \
+0.099592 0 0 0.38547 0.02649
+systems.TGSOPC_IPP_SOLAR_3_(Kara).C.capfac 0 0.374778 0.006555 0 0.321316 \
+0.024482 0 0 0.350691 0.004907
+systems.TGSOPC_IPP_SOLAR.B.capfac 0 0.374778 0.006555 0 0.321316 \
+0.024482 0 0 0.350691 0.004907
+systems.TGSOPC_CEB_SOLAR.A.capfac 0 0.374778 0.006555 0 0.321316 \
+0.024482 0 0 0.350691 0.004907
+systems.TGSOPU00.g.capfac 0 0.374778 0.006555 0 0.321316 \
+0.024482 0 0 0.350691 0.004907
+systems.TGSOPB00.g.capfac 0 0.374778 0.006555 0 0.321316 \
+0.024482 0 0 0.350691 0.004907
+systems.TGSOPR00.g.capfac 0 0.374778 0.006555 0 0.321316 \
+0.024482 0 0 0.350691 0.004907
+systems.TGSOPS00.h.capfac 0 0.374778 0.006555 0 0.321316 \
+0.024482 0 0 0.350691 0.004907
+systems.TGSOTN00.j.capfac 0 0 0 0 0 \
+0 0 0 0 0
+systems.TGSOTS00.k.capfac 0 0.470999 0.367085 0 0.470999 \
+0.526419 0.260862 0 0.471387 0.366153
+systems.TGRIDM_Djamde_Tihalea.J.capfac 0.035733 0.035629 0.035629 0.126413 0.128631 \
+0.128631 0.128631 0.340072 0.337772 0.337772
+systems.TGRIDM_Titira.A.capfac 0.022483 0.022421 0.022421 0.114806 0.117032 \
+0.117032 0.117032 0.28584 0.283487 0.283487
+systems.TGRIDM_Tetetou.B.capfac 0.059885 0.060126 0.060126 0.649689 0.651256 \
+0.651256 0.651256 0.440438 0.438487 0.438487
+systems.TGRIDM_Nangbeto.C.capfac 0.059885 0.060126 0.060126 0.649689 0.651256 \
+0.651256 0.651256 0.440438 0.438487 0.438487
+systems.TGELPT04.D.capfac 0.055251 0.055251 0 0.057991 0.057991 \
+0.057991 0 0.053425 0.053425 0
+systems.TGELDT04_01.E.capfac 1 0 0 0 0 \
+0 0 0 0 0
+systems.TGELDT04_01.F.capfac 0 0 1 0 0 \
+0 0 0 0 0
+systems.TGELDT04_02.G.capfac 0 0 0 1 0 \
+0 0 0 0 0
+systems.TGELDT04_02.H.capfac 0 0 0 0 0 \
+0 1 0 0 0
+systems.TGELDT04_03.I.capfac 0 0 0 0 0 \
+0 0 1 0 0
+systems.TGELDT04_03.K.capfac 0 0 0 0 0 \
+0 0 0 0 1
+relationsc:
+relationsp:
+relationss:
+D_TGHYDM_Titira D001 o 0
+*
+D_TGHYDM_Tetetou D002 o 0
+*
+D_TGHYDM_Nangbeto D003 o 0
+*
+D_TGHYDM_Djamde_Tihalea D004 o 0
+*
+SS_TGELST04 SS01 o 0
+*
+relations1:
+ReserveMargin RM o 
+*
+CO2emissionskt CO2 o 
+*
+LocalRE RE o 
+*
+WDBR WDBR o 
+*
+PVBR PVBR o 
+*
+BMTC BMTC o 
+*
+Domestic DOM o 
+*
+InstantaneousWindPV IPW o 0
+*
+PC_TGELST04 PC01 o 
+*
+PS_TGELST04 PS01 o 0
+*
+DC_TGELST04_01 DC01 o 
+*
+DC_TGELST04_02 DC02 o 
+*
+DC_TGELST04_03 DC03 o 
+*
+relations2:
+variables:
+systems:
+TGEL00TDI a
+# Description: Industry Distribution
+*
+TGEL00TDU a
+# Description: Urban Distribution
+*
+TGEL00TDC a
+# Description: Commerce Distribution
+*
+TGEL00TDR a
+# Description: Rural Distribution
+*
+TGEL00T00 a
+# Description: Transmission
+*
+TGEL00TUI a
+# Description: Industry Demand
+*
+TGEL00TUU a
+# Description: Urban Demand
+*
+TGEL00TUC a
+# Description: Commerce Demand
+*
+TGEL00TUR a
+# Description: Rural Demand
+*
+TGEL00TUS a
+# Description: SentOut Demand
+*
+TGEL00e00 a
+# Description: Export of Electricity
+*
+TGEL00i00 I
+# Description: Import of Electricity
+*
+TGELBS00 z
+# Description: Backstop
+*
+TGDSRC00 g
+# Description: Generic Diesel Centralized
+*
+TGDSRC_Sokode_CEET D
+# Description: Sokode_CEET
+*
+TGDSRC_Kara_CEET C
+# Description: Kara_CEET
+*
+TGDSRC_Lome_CEET B
+# Description: Lome_CEET
+*
+TGDSRC_Diesel_Generators_ODS A
+# Description: Diesel_Generators_ODS
+*
+TGDSRI00 g
+# Description: Generic Diesel 100 kW system (Industry)
+*
+TGDSRU00 g
+# Description: Generic Diesel/Gasoline 1kW system (urban)
+*
+TGDSRB00 g
+# Description: Generic Diesel/Gasoline 1kW system (commercial buildings)
+*
+TGDSRR00 g
+# Description: Generic Diesel/Gasoline 1kW system (rural)
+*
+TGHFRC00 g
+# Description: Generic HFO
+*
+TGHFRC_Diesel_Generators_OHF A
+# Description: Diesel_Generators_OHF
+*
+TGNGSC00 g
+# Description: Generic Gas Open Cycle
+*
+TGNGSC_IPP_THERMAL B
+# Description: IPP_THERMAL_Lome
+*
+TGNGSC_Gas_Turbine_GAS A
+# Description: Gas_Turbine_GAS
+*
+TGNGCC00 h
+# Description: Generic Gas Combined Cycle
+*
+TGCOCS00 g
+# Description: Generic Coal w CCS
+*
+TGCOSC00 g
+# Description: Generic Coal
+*
+TGHYRO00 h
+# Description: Generic Hydro ROR
+*
+TGHYRO_Sarakawa R
+# Description: Sarakawa
+*
+TGHYRO_Kpime Q
+# Description: Kpime
+*
+TGHYRO_Kolo_Kope O
+# Description: Kolo_Kope
+*
+TGHYRO_Gban_Hou N
+# Description: Gban_Hou
+*
+TGHYDM00 g
+# Description: Generic Hydro With Dam
+*
+TGHYRO_Tomegbe M
+# Description: Tomegbe
+*
+TGHYDM_Titira L
+# Description: Titira
+*
+TGHYDM_Tetetou K
+# Description: Tetetou
+*
+TGHYDM_Nangbeto I
+# Description: Nangbeto
+*
+TGHYRO_Landa H
+# Description: Landa
+*
+TGHYRO_Kpessi G
+# Description: Kpessi
+*
+TGHYRO_Kara_(College_Militaire) F
+# Description: Kara_(College_Militaire)
+*
+TGHYRO_Glei E
+# Description: Glei
+*
+TGHYDM_Djamde_Tihalea D
+# Description: Djamde_/_Tihalea
+*
+TGHYRO_Banga C
+# Description: Banga
+*
+TGHYRO_Amou_Oblo B
+# Description: Amou_Oblo
+*
+TGHYRO_Adjarala A
+# Description: Adjarala
+*
+TGHYMI00 g
+# Description: Generic Hydro Small
+*
+TGHYRO_Dotekope A
+# Description: Dotekope
+*
+TGBMST00 g
+# Description: Generic Bagasse
+*
+TGBWST00 a
+# Description: Generic Wood
+*
+TGGOCV00 g
+# Description: Generic Geothermal
+*
+TGWDLC00 h
+# Description: Generic Wind
+*
+TGWDOC00 G
+# Description: Generic OffShore Wind
+*
+TGWDLCZ005 F
+# Description: Wind Zone 005
+*
+TGWDLCZ004 E
+# Description: Wind Zone 004
+*
+TGWDLCZ003 D
+# Description: Wind Zone 003
+*
+TGWDLCZ002 C
+# Description: Wind Zone 002
+*
+TGWDLCZ001 B
+# Description: Wind Zone 001
+*
+TGWDLC_IPP_WIND A
+# Description: IPP_WIND
+*
+TGSOPC00 i
+# Description: Generic PV System (utility)
+*
+TGSOPC_Blitta I
+# Description: Blitta
+*
+TGSOPCZ005 H
+# Description: Solar PV Zone 005
+*
+TGSOPCZ004 G
+# Description: Solar PV Zone 004
+*
+TGSOPCZ003 F
+# Description: Solar PV Zone 003
+*
+TGSOPCZ002 E
+# Description: Solar PV Zone 002
+*
+TGSOPCZ001 D
+# Description: Solar PV Zone 001
+*
+TGSOPC_IPP_SOLAR_3_(Kara) C
+# Description: IPP_SOLAR_3_(Kara)
+*
+TGSOPC_IPP_SOLAR B
+# Description: IPP_SOLAR
+*
+TGSOPC_CEB_SOLAR A
+# Description: CEB_SOLAR
+*
+TGSOPU00 g
+# Description: Generic PV system (roof top - urban)
+*
+TGSOPB00 g
+# Description: Generic PV system (roof top - commercial buildings)
+*
+TGSOPR00 g
+# Description: Generic PV system (roof top - rural)
+*
+TGSOPS00 h
+# Description: Generic PV with 2h Battery (roof top - rural)
+*
+TGSOTN00 j
+# Description: Generic Solar thermal no storage
+*
+TGSOTS00 k
+# Description: Generic Solar thermal with Storage
+*
+TGSOTG00 i
+# Description: Generic Solar thermal with Gas co-firing
+*
+TGBM00X00 a
+# Description: Extraction of Bagasse
+*
+TGBW00X00 a
+# Description: Extraction of Wood
+*
+TGHY00X00 a
+# Description: Supply of Hydro
+*
+TGSO00X00 a
+# Description: Supply of Solar
+*
+TGWD00X00 a
+# Description: Supply of Wind
+*
+TGHF00I00 a
+# Description: Import of HFO
+*
+TGDS00I00 a
+# Description: Import of Diesel
+*
+TGNG00X00 a
+# Description: Extraction of Natural Gas
+*
+TGCO00I00 a
+# Description: Import of Coal
+*
+TGRIDM_Djamde_Tihalea J
+*
+TGRIDM_Titira A
+*
+TGRIDM_Tetetou B
+*
+TGRIDM_Nangbeto C
+*
+TGELST04 A
+# Description: Battery Storage 4 hrs
+2. activity B
+*
+TGELPT04 D
+*
+TGELDT04_01 E
+2. activity F
+*
+TGELDT04_02 G
+2. activity H
+*
+TGELDT04_03 I
+2. activity K
+*
+resources: 
+endata
+

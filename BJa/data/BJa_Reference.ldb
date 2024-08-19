@@ -1,0 +1,683 @@
+TDB: empty
+ADB: BJa
+problem: BJa
+description:
+# Benin
+drate: 10
+timesteps: 2018 2019 2020 2021 2022 2023 2024 2025 2026 2027 2028 2029 2030 2031 2032 2033 2034 2035 2036 2037 2038 2039 2040 2041 2042
+loadregions:
+ltype ordered seasonal 1 0
+year 2019 1 10
+name aaa aab aac \
+baa bab bac bad \
+caa cab cac 
+length 0.096689 0.165753 0.069064 \
+0.101484 0.173974 0.028995 0.043493 \
+0.093493 0.160274 0.066781 
+energyforms:
+Final f
+# Final Energy
+Industry e l
+# Industry Electricity Final
+Commerce c l
+# Commerce Electricity Final
+Urban u l
+# Urban Electricity Final
+Rural r l
+# Rural Electricity Final
+SentOut s l f
+# Sentout Electricity Final
+Export E 
+# Export Elc
+*
+Tertiary t
+# Tertiary Energy
+Industry i l
+# Industry Electricity Tertiary
+Commerce c l
+# Commerce Electricity Tertiary
+Urban u l
+# Urban Electricity Tertiary
+Rural r l
+# Rural Electricity Tertiary
+Electricity e l f
+# Tertiary Electricity
+*
+Secondary s
+# Secondary Energy
+Electricity g l f
+# Secondary Electricity
+ElcDummy d l
+# Dummy elc for PS
+*
+Primary p
+# Primary Energy
+Bagasse b 
+# Bagasse
+Wood B 
+# Wood
+Hydro H 
+# Hydro
+Solar s l
+# Solar
+Wind w 
+# Wind
+Coal c 
+# Coal
+CoalCCS C 
+# Coal CCS
+Gas g 
+# Gas
+Nuclear n 
+# Nuclear
+Oil o 
+# Oil
+HFO h 
+# diesel
+Diesel d 
+# HFO
+Crude p 
+# Crude
+*
+Resources r
+# Resources
+Biomass b 
+# Biomass resource
+Coal c 
+# Coal resource
+*
+DummyLevelStorage d
+# DummyLevelStorage
+DummyCom_BJELST04 A l
+# DummyCom_BJELST04
+*
+demand:
+c-f  ts 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+e-f  ts 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+r-f  ts 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+s-f  ts 168.04 179.79 192.38 204.47 217.51 231.49 246.43 262.61 280.04 298.7 318.59 339.72 362.45 386.78 412.69 440.19 469.26 500.37 533.52 568.67 605.82 644.95 644.95
+u-f  ts 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+loadcurve:
+year 2019
+c-f 0.091679 0.175245 0.066941 0.096225 0.180233 \
+0.02902 0.04124 0.088649 0.16604 0.064728
+e-f 0.096689 0.165753 0.069064 0.101484 0.173974 \
+0.028995 0.043493 0.093493 0.160274 0.066781
+r-f 0.055689 0.182832 0.11559 0.05341 0.191565 \
+0.039736 0.051465 0.054146 0.176521 0.079046
+s-f 0.099006 0.16849 0.092667 0.089121 0.158664 \
+0.032545 0.046446 0.086173 0.151922 0.074966
+u-f 0.055689 0.182832 0.11559 0.05341 0.191565 \
+0.039736 0.051465 0.054146 0.176521 0.079046
+systems.BJHYRO_Olougbe.S.capfac 0.49622 0.496219 0.496219 0.499057 0.499086 \
+0.499086 0.499086 0.504928 0.504897 0.504897
+systems.BJHYRO_Ketou_Dogo.R.capfac 0.35 0.35 0.35 0.35 0.35 \
+0.35 0.35 0.35 0.35 0.35
+systems.BJHYRO_Batchanga.N.capfac 0.042212 0.042153 0.042153 0.152101 0.153204 \
+0.153204 0.153204 0.387336 0.3862 0.3862
+systems.BJWDLC00.h.capfac 0.151711 0.150783 0.171666 0.252271 0.296194 \
+0.198611 0.165996 0.1756 0.224278 0.253444
+systems.BJWDOC00.G.capfac 0.151711 0.150783 0.171666 0.252271 0.296194 \
+0.198611 0.165996 0.1756 0.224278 0.253444
+systems.BJWDLCZ005.F.capfac 0.740385 0.406692 0.421388 0.519289 0.435508 \
+0.232131 0.45685 0.44299 0.227545 0.318523
+systems.BJWDLCZ004.E.capfac 0.732002 0.375622 0.446414 0.470056 0.381176 \
+0.182452 0.392103 0.435475 0.228315 0.326631
+systems.BJWDLCZ003.D.capfac 0.54888 0.290205 0.692862 0.534272 0.37828 \
+0.46272 0.565873 0.285915 0.092074 0.459406
+systems.BJWDLCZ002.C.capfac 0.746799 0.39341 0.445193 0.500304 0.420468 \
+0.213506 0.440471 0.442687 0.217493 0.287981
+systems.BJWDLCZ001.B.capfac 0.703217 0.363216 0.405582 0.465227 0.339103 \
+0.18465 0.371042 0.45612 0.221613 0.323484
+systems.BJWDLC_IPP_WIND.A.capfac 0.22998 0.190254 0.266878 0.137398 0.083667 \
+0.03994 0.092582 0.090787 0.052135 0.053504
+systems.BJSOPC00.i.capfac 0 0.372128 0 0 0.302528 \
+0 0 0 0.346481 0
+systems.BJSOPC_SOBES.O.capfac 0 0.415279 0.045293 0 0.33704 \
+0.102832 0 0 0.393781 0.025276
+systems.BJSOPC_greenheart.N.capfac 0 0.415279 0.045293 0 0.33704 \
+0.102832 0 0 0.393781 0.025276
+systems.BJSOPC_illoulofin.M.capfac 0 0.412034 0.047969 0 0.320598 \
+0.102693 0 0 0.387781 0.027549
+systems.BJSOPC_Natitingou_MCA.L.capfac 0 0.41386 0.045247 0 0.324375 \
+0.100675 0 0 0.389706 0.026701
+systems.BJSOPC_Parakou_MCA.K.capfac 0 0.415279 0.045293 0 0.33704 \
+0.102832 0 0 0.393781 0.025276
+systems.BJSOPC_Bohicon_MCA.J.capfac 0 0.412034 0.047969 0 0.320598 \
+0.102693 0 0 0.387781 0.027549
+systems.BJSOPC_DJOUGOU_MCA.I.capfac 0 0.41386 0.045247 0 0.324375 \
+0.100675 0 0 0.389706 0.026701
+systems.BJSOPCZ005.H.capfac 0 0.415279 0.045292 0 0.33704 \
+0.102833 0 0 0.393781 0.025276
+systems.BJSOPCZ004.G.capfac 0 0.41386 0.045248 0 0.324375 \
+0.100675 0 0 0.389706 0.026701
+systems.BJSOPCZ003.F.capfac 0 0.411191 0.038544 0 0.330434 \
+0.089098 0 0 0.386392 0.022015
+systems.BJSOPCZ002.E.capfac 0 0.414401 0.046026 0 0.326899 \
+0.103161 0 0 0.390908 0.026407
+systems.BJSOPCZ001.D.capfac 0 0.412034 0.047969 0 0.320598 \
+0.102693 0 0 0.387781 0.027549
+systems.BJSOPC_IPP_SOLAR.C.capfac 0 0.372128 0 0 0.302528 \
+0 0 0 0.346481 0
+systems.BJSOPC_CEB_SOLAR.B.capfac 0 0.372128 0 0 0.302528 \
+0 0 0 0.346481 0
+systems.BJSOPC_AFD_SOLAR.A.capfac 0 0.372128 0 0 0.302528 \
+0 0 0 0.346481 0
+systems.BJSOPU00.g.capfac 0 0.372128 0 0 0.302528 \
+0 0 0 0.346481 0
+systems.BJSOPB00.g.capfac 0 0.372128 0 0 0.302528 \
+0 0 0 0.346481 0
+systems.BJSOPR00.g.capfac 0 0.372128 0 0 0.302528 \
+0 0 0 0.346481 0
+systems.BJSOPS00.h.capfac 0 0.372128 0 0 0.302528 \
+0 0 0 0.346481 0
+systems.BJSOTN00.j.capfac 0 0.516411 0.258096 0 0.516411 \
+0.41617 0.152713 0 0.516772 0.257228
+systems.BJSOTNZ002.C.capfac 0 0.69659 0.58282 0 0.422448 \
+0.301996 0 0 0.674369 0.518643
+systems.BJSOTNZ001.B.capfac 0 0.70125 0.590181 0 0.416252 \
+0.293728 0 0 0.673839 0.514301
+systems.BJSOTS00.k.capfac 0 0.516411 0.258096 0 0.516411 \
+0.41617 0.152713 0 0.516772 0.257228
+systems.BJSOTSZ002.E.capfac 0.317966 0.732548 0.881488 0 0.494341 \
+0.617161 0.270008 0.281481 0.720895 0.79935
+systems.BJSOTSZ001.D.capfac 0.319534 0.736391 0.884752 0 0.486099 \
+0.594044 0.262465 0.275157 0.72008 0.790722
+systems.BJRIDM_Zouka_Tondji.A.capfac 0 0 0 0.057353 0.058469 \
+0.058469 0.058469 0.288195 0.286997 0.286997
+systems.BJRIDM_Vossa.B.capfac 0.025487 0.025475 0.025475 0.131197 0.132289 \
+0.132289 0.132289 0.354039 0.352867 0.352867
+systems.BJRIDM_Sokologbo.C.capfac 0.042328 0.042349 0.042349 0.159876 0.160915 \
+0.160915 0.160915 0.370546 0.369397 0.369397
+systems.BJRIDM_Okpa.D.capfac 0.0453 0.045321 0.045321 0.159876 0.160915 \
+0.160915 0.160915 0.370546 0.369397 0.369397
+systems.BJRIDM_Dyodyonga.E.capfac 0 0 0 0.105674 0.106786 \
+0.106786 0.106786 0.273197 0.272006 0.272006
+systems.BJRIDM_Dekoussou.F.capfac 0.024677 0.024665 0.024665 0.132004 0.133096 \
+0.133096 0.133096 0.354039 0.352867 0.352867
+systems.BJRIDM_Cove.G.capfac 0.034496 0.034526 0.034526 0.297734 0.298765 \
+0.298765 0.298765 0.396999 0.395849 0.395849
+systems.BJRIDM_Beterou.H.capfac 0.024677 0.024665 0.024665 0.132004 0.133096 \
+0.133096 0.133096 0.354039 0.352867 0.352867
+systems.BJRIDM_Assante.I.capfac 0.025487 0.025475 0.025475 0.131197 0.132289 \
+0.132289 0.132289 0.354039 0.352867 0.352867
+systems.BJRIDM_Adjarala.J.capfac 0.060006 0.060126 0.060126 0.650473 0.651256 \
+0.651256 0.651256 0.439462 0.438487 0.438487
+systems.BJRIDM_Dogo_Bis.K.capfac 0.042328 0.042349 0.042349 0.159876 0.160915 \
+0.160915 0.160915 0.370546 0.369397 0.369397
+systems.BJELPT04.L.capfac 0.055251 0.055251 0 0.057991 0.057991 \
+0.057991 0 0.053425 0.053425 0
+systems.BJELDT04_01.M.capfac 1 0 0 0 0 \
+0 0 0 0 0
+systems.BJELDT04_01.N.capfac 0 0 1 0 0 \
+0 0 0 0 0
+systems.BJELDT04_02.O.capfac 0 0 0 1 0 \
+0 0 0 0 0
+systems.BJELDT04_02.P.capfac 0 0 0 0 0 \
+0 1 0 0 0
+systems.BJELDT04_03.Q.capfac 0 0 0 0 0 \
+0 0 1 0 0
+systems.BJELDT04_03.R.capfac 0 0 0 0 0 \
+0 0 0 0 1
+relationsc:
+relationsp:
+relationss:
+D_BJHYDM_Zouka_Tondji D001 o 0
+*
+D_BJHYDM_Vossa D002 o 0
+*
+D_BJHYDM_Sokologbo D003 o 0
+*
+D_BJHYDM_Okpa D004 o 0
+*
+D_BJHYDM_Dyodyonga D005 o 0
+*
+D_BJHYDM_Dogo_Bis D006 o 0
+*
+D_BJHYDM_Dekoussou D007 o 0
+*
+D_BJHYDM_Cove D008 o 0
+*
+D_BJHYDM_Beterou D009 o 0
+*
+D_BJHYDM_Assante D010 o 0
+*
+D_BJHYDM_Adjarala D011 o 0
+*
+SS_BJELST04 SS01 o 0
+*
+relations1:
+ReserveMargin RM o 
+*
+CO2emissionskt CO2 o 
+*
+LocalRE RE o 
+*
+WDBR WDBR o 
+*
+PVBR PVBR o 
+upper ts 100 100 100 100 100 100 100 100 100 100.1956 106.8675 100 110 120 130 140 150 150 150 150 150 150 150
+*
+BMTC BMTC o 
+*
+Domestic DOM o 
+*
+InstantaneousWindPV IPW o 0
+*
+PC_BJELST04 PC01 o 
+*
+PS_BJELST04 PS01 o 0
+*
+DC_BJELST04_01 DC01 o 
+*
+DC_BJELST04_02 DC02 o 
+*
+DC_BJELST04_03 DC03 o 
+*
+relations2:
+variables:
+systems:
+BJEL00TDI a
+moutp i-t c 1
+inv c 1
+fom c 1
+# Description: Industry Distribution
+*
+BJEL00TDU a
+moutp u-t c 1
+inv c 1
+fom c 1
+# Description: Urban Distribution
+*
+BJEL00TDC a
+moutp c-t c 1
+inv c 1
+fom c 1
+# Description: Commerce Distribution
+*
+BJEL00TDR a
+moutp r-t c 1
+inv c 1
+fom c 1
+# Description: Rural Distribution
+*
+BJEL00T00 a
+moutp e-t c 1
+inv c 1
+fom c 1
+# Description: Transmission
+*
+BJEL00TUI a
+# Description: Industry Demand
+*
+BJEL00TUU a
+# Description: Urban Demand
+*
+BJEL00TUC a
+# Description: Commerce Demand
+*
+BJEL00TUR a
+# Description: Rural Demand
+*
+BJEL00TUS a
+# Description: SentOut Demand
+*
+BJEL00e00 a
+# Description: Export of Electricity
+*
+BJEL00i00 I
+# Description: Import of Electricity
+*
+BJELBS00 z
+# Description: Backstop
+*
+BJDSRC00 g
+# Description: Generic Diesel Centralized
+*
+BJDSRC_Maria_Gleta_Aggreko H
+# Description: Maria Gleta_Aggreko
+*
+BJDSRC_Gbegamey_Aggreko I
+# Description: Gbegamey _Aggreko
+*
+BJDSRC_Akpakpa_Aggreko G
+# Description: Akpakpa_Aggreko
+*
+BJDSRC_Vedoko_MRI F
+# Description: Vedoko_MRI
+*
+BJDSRC_Parakou_MRI E
+# Description: Parakou_MRI
+*
+BJDSRC_Porto_Novo_SBEE D
+# Description: Porto_Novo_SBEE
+*
+BJDSRC_Parakou_SBEE C
+# Description: Parakou_SBEE
+*
+BJDSRC_Natitingou_SBEE B
+# Description: Natitingou_SBEE
+*
+BJDSRI00 g
+# Description: Generic Diesel 100 kW system (Industry)
+*
+BJDSRU00 g
+# Description: Generic Diesel/Gasoline 1kW system (urban)
+*
+BJDSRB00 g
+# Description: Generic Diesel/Gasoline 1kW system (commercial buildings)
+*
+BJDSRR00 g
+# Description: Generic Diesel/Gasoline 1kW system (rural)
+*
+BJHFRC00 g
+# Description: Generic HFO
+*
+BJHFRC_Aleche E
+# Description: Aleche
+*
+BJHFRC_Akpakpa_SBEE D
+# Description: Akpakpa_SBEE
+*
+BJNGSC00 g
+# Description: Generic Gas Open Cycle
+*
+BJNGSC_Satar_Gas_Project G
+# Description: Satar_Gas_Project_genesis
+*
+BJNGSC_MariaGleta F
+# Description: MariaGleta
+*
+BJNGSC_IPP_THERMAL E
+# Description: IPP_THERMAL
+*
+BJNGSC_GTBID_Gas_Project D
+# Description: GTBID_Gas_Project
+*
+BJNGSC_CAI B
+# Description: CAI
+*
+BJNGCC00 h
+# Description: Generic Gas Combined Cycle
+*
+BJNGCC_MariaGleta_WAPP I
+# Description: MariaGleta_WAPP
+*
+BJNGCC_Maria_Gleta_BWSC H
+# Description: Maria_Gleta_BWSC
+*
+BJNGCC_150_MW_CCGT_project A
+# Description: 150_MW_CCGT_project_maria_gleta
+*
+BJHFSC00 h
+# Description: Generic HFO Turbine
+*
+BJCOCS00 g
+# Description: Generic Coal w CCS
+*
+BJCOSC00 g
+# Description: Generic Coal
+*
+BJHYDM00 g
+# Description: Generic Hydro With Dam
+*
+BJHYDM_Zouka_Tondji M
+# Description: Zouka_Tondji
+*
+BJHYRO_Yeri L
+# Description: Yeri_Hydro_Dam
+*
+BJHYDM_Vossa K
+# Description: Vossa
+*
+BJHYDM_Sokologbo J
+# Description: Sokologbo
+*
+BJHYDM_Okpa I
+# Description: Okpa
+*
+BJHYRO_Ketou H
+# Description: Ketou
+*
+BJHYDM_Dyodyonga G
+# Description: Dyodyonga
+*
+BJHYDM_Dogo_Bis F
+# Description: Dogo_bis
+*
+BJHYDM_Dekoussou E
+# Description: Dekoussou
+*
+BJHYDM_Cove D
+# Description: Cove
+*
+BJHYDM_Beterou C
+# Description: Beterou
+*
+BJHYDM_Assante B
+# Description: Assante
+*
+BJHYDM_Adjarala A
+# Description: Adjarala
+*
+BJHYRO00 h
+# Description: Generic Hydro ROR
+*
+BJHYRO_Olougbe S
+# Description: Olougbe
+*
+BJHYRO_Ketou_Dogo R
+# Description: Ketou_Dogo
+*
+BJHYRO_Djegbe Q
+# Description: Djegbe
+*
+BJHYRO_Bethel P
+# Description: Bethel
+*
+BJHYRO_Beterou_Bis O
+# Description: Beterou_Bis
+*
+BJHYRO_Batchanga N
+# Description: Batchanga
+*
+BJHYMI00 g
+# Description: Generic Hydro Small
+*
+BJHYRO_Yeripao A
+# Description: Yeripao
+*
+BJBMST00 g
+# Description: Generic Bagasse
+*
+BJBMST_projet_biomass C
+# Description: projet_biomass
+*
+BJBMST_Negoce_inter B
+# Description: Negoce_inter
+*
+BJBMST_PNUD A
+# Description: PNUD
+*
+BJBWST00 a
+# Description: Generic Wood
+*
+BJGOCV00 g
+# Description: Generic Geothermal
+*
+BJWDLC00 h
+# Description: Generic Wind
+*
+BJWDOC00 G
+# Description: Generic OffShore Wind
+*
+BJWDLCZ005 F
+# Description: Wind Zone 005
+*
+BJWDLCZ004 E
+# Description: Wind Zone 004
+*
+BJWDLCZ003 D
+# Description: Wind Zone 003
+*
+BJWDLCZ002 C
+# Description: Wind Zone 002
+*
+BJWDLCZ001 B
+# Description: Wind Zone 001
+*
+BJWDLC_IPP_WIND A
+# Description: IPP_WIND
+*
+BJSOPC00 i
+# Description: Generic PV System (utility)
+*
+BJSOPC_SOBES O
+# Description: SOBES
+*
+BJSOPC_greenheart N
+# Description: greenheart
+*
+BJSOPC_illoulofin M
+# Description: illoulofin
+*
+BJSOPC_Natitingou_MCA L
+# Description: Natitingou_MCA
+*
+BJSOPC_Parakou_MCA K
+# Description: Parakou_MCA
+*
+BJSOPC_Bohicon_MCA J
+# Description: Bohicon_MCA
+*
+BJSOPC_DJOUGOU_MCA I
+# Description: DJOUGOU_MCA
+*
+BJSOPCZ005 H
+# Description: Solar PV Zone 005
+*
+BJSOPCZ004 G
+# Description: Solar PV Zone 004
+*
+BJSOPCZ003 F
+# Description: Solar PV Zone 003
+*
+BJSOPCZ002 E
+# Description: Solar PV Zone 002
+*
+BJSOPCZ001 D
+# Description: Solar PV Zone 001
+*
+BJSOPC_IPP_SOLAR C
+# Description: IPP_SOLAR
+*
+BJSOPC_CEB_SOLAR B
+# Description: CEB_SOLAR
+*
+BJSOPC_AFD_SOLAR A
+# Description: AFD_SOLAR
+*
+BJSOPU00 g
+# Description: Generic PV system (roof top - urban)
+*
+BJSOPB00 g
+# Description: Generic PV system (roof top - commercial buildings)
+*
+BJSOPR00 g
+# Description: Generic PV system (roof top - rural)
+*
+BJSOPS00 h
+# Description: Generic PV with 2h Battery (roof top - rural)
+*
+BJSOTN00 j
+# Description: Generic Solar thermal no storage
+*
+BJSOTNZ002 C
+# Description: Solar CSP 6hrStor Zone 002
+*
+BJSOTNZ001 B
+# Description: Solar CSP 6hrStor Zone 001
+*
+BJSOTS00 k
+# Description: Generic Solar thermal with Storage
+*
+BJSOTSZ002 E
+fyear 2050
+# Description: Solar CSP 12hrStor Zone 002
+*
+BJSOTSZ001 D
+fyear 2050
+# Description: Solar CSP 12hrStor Zone 001
+*
+BJSOTG00 i
+# Description: Generic Solar thermal with Gas co-firing
+*
+BJBM00X00 a
+# Description: Extraction of Bagasse
+*
+BJBW00X00 a
+# Description: Extraction of Wood
+*
+BJHY00X00 a
+# Description: Supply of Hydro
+*
+BJSO00X00 a
+# Description: Supply of Solar
+*
+BJWD00X00 a
+# Description: Supply of Wind
+*
+BJHF00I00 a
+# Description: Import of HFO
+*
+BJDS00I00 a
+# Description: Import of Diesel
+*
+BJNG00X00 a
+# Description: Extraction of Natural Gas
+*
+BJCO00I00 a
+# Description: Import of Coal
+*
+BJRIDM_Zouka_Tondji A
+*
+BJRIDM_Vossa B
+*
+BJRIDM_Sokologbo C
+*
+BJRIDM_Okpa D
+*
+BJRIDM_Dyodyonga E
+*
+BJRIDM_Dekoussou F
+*
+BJRIDM_Cove G
+*
+BJRIDM_Beterou H
+*
+BJRIDM_Assante I
+*
+BJRIDM_Adjarala J
+*
+BJRIDM_Dogo_Bis K
+*
+BJELST04 A
+# Description: Battery Storage 4 hrs
+2. activity B
+*
+BJELPT04 L
+*
+BJELDT04_01 M
+2. activity N
+*
+BJELDT04_02 O
+2. activity P
+*
+BJELDT04_03 Q
+2. activity R
+*
+BJEXDT00 S
+*
+resources: 
+endata
+
