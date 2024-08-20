@@ -738,6 +738,7 @@ NGEL00TDR a
 # Description: Rural Distribution
 *
 NGEL00T00 a
+con1a RE ts 0 0 0 0 0 0 0 -0.12 -0.24 -0.36 -0.48 -0.6 -0.61 -0.62 -0.63 -0.64 -0.65 -0.66 -0.67 -0.68 -0.69 -0.7 -0.7
 # Description: Transmission
 *
 NGEL00TUI a
