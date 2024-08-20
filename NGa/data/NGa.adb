@@ -742,6 +742,7 @@ type None
 LocalRE RE o 
 units group: activity, type: energy, cost:US$'00/kWyr, upper:MWyr, lower:MWyr
 for_ldr none
+lower c 0
 type None
 *
 WDBR WDBR o 
@@ -950,7 +951,7 @@ vom c 0
 hisc 0 hc 2014 0
 con1c RM:tin c -1.1
 con1c RMG:tin c -1.1
-con1a RE ts 0 0 0 0 0 0 0 -0.12 -0.24 -0.36 -0.48 -0.6 -0.61 -0.62 -0.63 -0.64 -0.65 -0.66 -0.67 -0.68 -0.69 -0.7 -0.7
+con1a RE ts 0 0 0 0 0 0 0 -0.05 -0.1 -0.15 -0.2 -0.25 -0.29 -0.33 -0.37 -0.41 -0.45 -0.46 -0.47 -0.48 -0.49 -0.5 -0.5
 con1a IPW c -0.7
 # Description: Transmission
 # fom: Assumption based on South Africa. Needs review by Country.%%user:Bruno%%date:2020/05/21 11:15:58 AM
@@ -2715,7 +2716,6 @@ con1c BMTC:tin c 1
 con1a RELO ts -0.05 -0.05 -0.055 -0.06 -0.065 -0.07 -0.075 -0.08 -0.085 -0.09 -0.095 -0.1 -0.11 -0.12 -0.13 -0.14 -0.15 -0.16 -0.17 -0.18 -0.19 -0.2 -0.2
 con1a REHI ts 0 0 0 0 0 0 0 -0.05 -0.1 -0.15 -0.2 -0.25 -0.275 -0.3 -0.325 -0.35 -0.375 -0.4 -0.425 -0.45 -0.475 -0.5 -0.5
 con1a DOM c 1
-con1a RE c 1
 # Description: Generic Bagasse
 # lat: -8.833333333
 # long: 13.216667
@@ -2748,7 +2748,6 @@ con1c BMTC:tin c 1
 con1a RELO ts -0.05 -0.05 -0.055 -0.06 -0.065 -0.07 -0.075 -0.08 -0.085 -0.09 -0.095 -0.1 -0.11 -0.12 -0.13 -0.14 -0.15 -0.16 -0.17 -0.18 -0.19 -0.2 -0.2
 con1a REHI ts 0 0 0 0 0 0 0 -0.05 -0.1 -0.15 -0.2 -0.25 -0.275 -0.3 -0.325 -0.35 -0.375 -0.4 -0.425 -0.45 -0.475 -0.5 -0.5
 con1a DOM c 1
-con1a RE c 1
 # Description: Generic Wood
 # vom: IRENA Power Costs report (2019)%%user:Bruno%%date:2020/04/09 4:30:13 PM
 # fom: IRENA Power Costs report (2019)%%user:Bruno%%date:2020/04/09 4:30:13 PM
@@ -2775,7 +2774,6 @@ con1c RMG:tin c 1
 con1a RELO ts -0.05 -0.05 -0.055 -0.06 -0.065 -0.07 -0.075 -0.08 -0.085 -0.09 -0.095 -0.1 -0.11 -0.12 -0.13 -0.14 -0.15 -0.16 -0.17 -0.18 -0.19 -0.2 -0.2
 con1a REHI ts 0 0 0 0 0 0 0 -0.05 -0.1 -0.15 -0.2 -0.25 -0.275 -0.3 -0.325 -0.35 -0.375 -0.4 -0.425 -0.45 -0.475 -0.5 -0.5
 con1a DOM c 1
-con1a RE c 1
 # Description: Generic Geothermal
 # lat: -8.833333333
 # long: 13.216667
@@ -2822,6 +2820,7 @@ fom ts 29.54 29.56 28.67 27.78 26.89 26 25.11 24.23 23.34 22.45 21.56 20.67 20.3
 vom c 0
 optm c 1
 ctime c 2
+bdc fx ts 0 0 10 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 con1c RM:tin c 1
 con1c RMG:tin c 1
 con1a RE c 1

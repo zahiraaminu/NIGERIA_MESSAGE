@@ -676,7 +676,6 @@ ReserveMargin RM o
 CO2emissionskt CO2 o 
 *
 LocalRE RE o 
-upper c 0
 *
 WDBR WDBR o 
 *
@@ -753,6 +752,7 @@ NGEL00T00 a
 moutp e-t c 1
 inv c 1
 fom c 1
+con1a RE ts 0 0 0 0 0 0 0 -0.06 -0.12 -0.18 -0.24 -0.3 -0.32 -0.34 -0.36 -0.38 -0.4 -0.42 -0.44 -0.46 -0.48 -0.5 -0.5
 # Description: Transmission
 *
 NGEL00TUI a

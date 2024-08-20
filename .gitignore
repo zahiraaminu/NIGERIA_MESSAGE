@@ -4,3 +4,7 @@
 NGa/intm/
 
 NGa/cer/
+
+*.lbu
+
+NGa/data/svunits.dat

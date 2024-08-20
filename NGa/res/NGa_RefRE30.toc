@@ -1,4 +1,0 @@
-Table 1: 	Objective [in ]
-Table 2: 	NGaOutput [in ]
-Table 3: 	NGaCumulNewCapacity [in ]
-Table 4: 	NGaTotalCapacity [in ]

@@ -3,7 +3,7 @@ ADB: BJa
 problem: BJa
 description:
 # MAINa
-# NDC  Target RE 6030
+#  Scenario  RE 60&% by 2030
 drate: 0
 timesteps: 2018 2019 2020 2021 2022 2023 2024 2025 2026 2027 2028 2029 2030 2031 2032 2033 2034 2035 2036 2037 2038 2039 2040 2041 2042
 loadregions:

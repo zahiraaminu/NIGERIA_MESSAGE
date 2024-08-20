@@ -11,7 +11,7 @@ chkacc:	2 	; check accounting rows
 unsw:	0 1 0 0 ; isw(5) - isw(8)
 imat:	3	; generation of accounting rows
 ibas:	0	; extr base load modeling
-invSwit:	4	
+invSwit:	4
 country:	MAINa	
 enerunit:	MWyr	
 powerunit:	MW	
@@ -21,5 +21,5 @@ volumeunit:	Mm3
 weightunit:	kton	
 otherunit:	MWyr	
 Weekend:	Sunday	
-language:	english	
+language:	english
 repyears:	2020 2025 2030 2041 	

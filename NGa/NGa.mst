@@ -19,10 +19,10 @@
 	  9 secs used
 
 	matrix statistics:
-	rows:   129880
+	rows:   129887
 	cols:   97131
-	elms:   1733635
-	rhs:    30274
+	elms:   1733656
+	rhs:    30280
 	rngs:   345
-	bnds:   19562
+	bnds:   19569
 	dens:   0

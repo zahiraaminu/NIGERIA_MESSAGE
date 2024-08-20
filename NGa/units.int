@@ -179,8 +179,29 @@ Tbtu/yr 33.4538
 Tcal/yr 0.132763
 Mcmg/yr 1.18141
 Gcfg/yr 3.34538
-TYPE time 1
-yr 1.0
+TYPE energycost 22
+EUR'00/kWyr 1.0
+EUR'00/TJ 0.0315359999839
+EUR'00/toe 0.753224176086
+EUR'00/boe 5.52114044677
+EUR'00/boe 5.52114044677
+EUR'00/tce 1.07603476884
+EUR'00/MWh 8.76001927204
+EUR'00/Gbtu 0.0298919704189
+EUR'00/Gcal 7.53221906706
+EUR'00/kcmg 0.846446195648
+EUR'00/Mcfg 0.298919704189
+US$'00/kWyr 0.869565
+US$'00/TJ 0.027422601826
+US$'00/toe 0.654977380678
+US$'00/boe 4.8009904926
+US$'00/boe 4.8009904926
+US$'00/tce 0.935682173762
+US$'00/MWh 7.61740615829
+US$'00/Gbtu 0.0259930112573
+US$'00/Gcal 6.54975407305
+US$'00/kcmg 0.736039986118
+US$'00/Mcfg 0.259930112573
 TYPE volume 1
 Mm3 1.0
 TYPE costscost 4
@@ -223,29 +244,8 @@ US$'00/Mcfg/yr 0.259930112573
 TYPE costs 2
 kEUR'00 1.0
 kUS$'00 0.869565
-TYPE energycost 22
-EUR'00/kWyr 1.0
-EUR'00/TJ 0.0315359999839
-EUR'00/toe 0.753224176086
-EUR'00/boe 5.52114044677
-EUR'00/boe 5.52114044677
-EUR'00/tce 1.07603476884
-EUR'00/MWh 8.76001927204
-EUR'00/Gbtu 0.0298919704189
-EUR'00/Gcal 7.53221906706
-EUR'00/kcmg 0.846446195648
-EUR'00/Mcfg 0.298919704189
-US$'00/kWyr 0.869565
-US$'00/TJ 0.027422601826
-US$'00/toe 0.654977380678
-US$'00/boe 4.8009904926
-US$'00/boe 4.8009904926
-US$'00/tce 0.935682173762
-US$'00/MWh 7.61740615829
-US$'00/Gbtu 0.0259930112573
-US$'00/Gcal 6.54975407305
-US$'00/kcmg 0.736039986118
-US$'00/Mcfg 0.259930112573
+TYPE time 1
+yr 1.0
 TYPE weight/yrcost 6
 EUR'00/ton/yr 1.0
 EUR'00/kton/yr 0.001
@@ -368,6 +368,401 @@ ELEM u-f 1
 - MWyr
 ELEM s-f 1
 - MWyr
+TYPE alttecs 36
+ELEM NGNGSC_Gas_Turbine_GAS 1
+ITEM D 5
+minp MWyr
+vom US$'00/kWyr
+hiscact MWyr
+moutp MWyr
+unittype energy
+ELEM NGEL00e00 1
+ITEM a 3
+minp MWyr
+unittype energy
+moutp MWyr
+ELEM NGDSRI00 1
+ITEM g 4
+minp MWyr
+vom US$'00/kWyr
+unittype energy
+moutp MWyr
+ELEM NGNGSC00 1
+ITEM g 4
+minp MWyr
+vom US$'00/kWyr
+unittype energy
+moutp MWyr
+ELEM NGHYDM_Shiroro 1
+ITEM K 5
+minp MWyr
+vom US$'00/kWyr
+hiscact MWyr
+moutp MWyr
+unittype energy
+ELEM NGSOTNZ001 1
+ITEM B 4
+minp MWyr
+vom US$'00/kWyr
+unittype energy
+moutp MWyr
+ELEM NGDSRU00 1
+ITEM g 4
+minp MWyr
+vom US$'00/kWyr
+unittype energy
+moutp MWyr
+ELEM NGSOTNZ002 1
+ITEM C 4
+minp MWyr
+vom US$'00/kWyr
+unittype energy
+moutp MWyr
+ELEM NGNGSC_Sapele/Geregu/Ihovbor/Omotosho 1
+ITEM G 5
+minp MWyr
+vom US$'00/kWyr
+hiscact MWyr
+moutp MWyr
+unittype energy
+ELEM NGSOTSZ001 1
+ITEM D 4
+minp MWyr
+vom US$'00/kWyr
+unittype energy
+moutp MWyr
+ELEM NGSOTSZ002 1
+ITEM E 4
+minp MWyr
+vom US$'00/kWyr
+unittype energy
+moutp MWyr
+ELEM NGNGSC_OlorunsogoII 1
+ITEM F 5
+minp MWyr
+vom US$'00/kWyr
+hiscact MWyr
+moutp MWyr
+unittype energy
+ELEM NGNU00I00 1
+ITEM a 5
+vom US$'00/kWyr
+con1a_CO2 MWyr/MWyr
+moutp MWyr
+unittype energy
+con1a_CO2emissionskt MWyr/MWyr
+ELEM NGELPT04 1
+ITEM K 3
+minp MWyr
+unittype energy
+moutp MWyr
+ELEM NGNGSC_Westcom_ 1
+ITEM J 4
+minp MWyr
+vom US$'00/kWyr
+unittype energy
+moutp MWyr
+ELEM NGEL00i00 1
+ITEM I 4
+minp MWyr
+vom US$'00/kWyr
+unittype energy
+moutp MWyr
+ELEM NGELBS00 1
+ITEM z 4
+minp MWyr
+vom US$'00/kWyr
+unittype energy
+moutp MWyr
+ELEM NGNGCC_Combined_Cycle_GAS 1
+ITEM A 5
+minp MWyr
+vom US$'00/kWyr
+hiscact MWyr
+moutp MWyr
+unittype energy
+ELEM NGDSRR00 1
+ITEM g 4
+minp MWyr
+vom US$'00/kWyr
+unittype energy
+moutp MWyr
+ELEM NGRIDM_Dadin_Kowa 1
+ITEM J 3
+minp MWyr
+unittype energy
+moutp MWyr
+ELEM NGEL00TDU 1
+ITEM a 4
+minp MWyr
+hiscact MWyr
+moutp MWyr
+unittype energy
+ELEM NGEL00T00 1
+ITEM a 5
+minp MWyr
+vom US$'00/kWyr
+hiscact MWyr
+moutp MWyr
+unittype energy
+ELEM NGEL00TDR 1
+ITEM a 4
+minp MWyr
+hiscact MWyr
+moutp MWyr
+unittype energy
+ELEM NGDSRC00 1
+ITEM g 4
+minp MWyr
+vom US$'00/kWyr
+unittype energy
+moutp MWyr
+ELEM NGNUPW00 1
+ITEM a 9
+con1a_Domestic MWyr/MWyr
+vom US$'00/kWyr
+moutp MWyr
+con1a_NUC MWyr/MWyr
+unittype energy
+con1a_REHI MWyr/MWyr
+minp MWyr
+con1a_RELO MWyr/MWyr
+con1a_DOM MWyr/MWyr
+ELEM NGEL00TUR 1
+ITEM a 3
+minp MWyr
+unittype energy
+moutp MWyr
+ELEM NGEL00TUS 1
+ITEM a 3
+minp MWyr
+unittype energy
+moutp MWyr
+ELEM NGEL00TUU 1
+ITEM a 3
+minp MWyr
+unittype energy
+moutp MWyr
+ELEM NGDSRB00 1
+ITEM g 4
+minp MWyr
+vom US$'00/kWyr
+unittype energy
+moutp MWyr
+ELEM NGEL00TUI 1
+ITEM a 3
+minp MWyr
+unittype energy
+moutp MWyr
+ELEM NGNGSC_SupertekNig 1
+ITEM I 4
+minp MWyr
+vom US$'00/kWyr
+unittype energy
+moutp MWyr
+ELEM NGEL00TDC 1
+ITEM a 4
+minp MWyr
+hiscact MWyr
+moutp MWyr
+unittype energy
+ELEM NGEL00TUC 1
+ITEM a 3
+minp MWyr
+unittype energy
+moutp MWyr
+ELEM NGNGSC_Steam_Turbine_GAS 1
+ITEM H 5
+minp MWyr
+vom US$'00/kWyr
+hiscact MWyr
+moutp MWyr
+unittype energy
+ELEM NGHFRC00 1
+ITEM g 4
+minp MWyr
+vom US$'00/kWyr
+unittype energy
+moutp MWyr
+ELEM NGEL00TDI 1
+ITEM a 4
+minp MWyr
+hiscact MWyr
+moutp MWyr
+unittype energy
+TYPE enforms 7
+ELEM DummyLevelStorage 1
+ITEM DummyCom_NGELST04 2
+unittype energy
+unit MWyr
+ELEM Primary 13
+ITEM Oil 2
+unittype energy
+unit MWyr
+ITEM Solar 2
+unittype energy
+unit MWyr
+ITEM Coal 2
+unittype energy
+unit MWyr
+ITEM Nuclear 2
+unittype energy
+unit MWyr
+ITEM Gas 2
+unittype energy
+unit MWyr
+ITEM CoalCCS 2
+unittype energy
+unit MWyr
+ITEM Crude 2
+unittype energy
+unit MWyr
+ITEM Wood 2
+unittype energy
+unit MWyr
+ITEM Wind 2
+unittype energy
+unit MWyr
+ITEM HFO 2
+unittype energy
+unit MWyr
+ITEM Bagasse 2
+unittype energy
+unit MWyr
+ITEM Diesel 2
+unittype energy
+unit MWyr
+ITEM Hydro 2
+unittype energy
+unit MWyr
+ELEM any 1
+ITEM oil 2
+unittype energy
+unit MWyr
+ELEM Tertiary 5
+ITEM Electricity 2
+unittype energy
+unit MWyr
+ITEM Commerce 2
+unittype energy
+unit MWyr
+ITEM Industry 2
+unittype energy
+unit MWyr
+ITEM Urban 2
+unittype energy
+unit MWyr
+ITEM Rural 2
+unittype energy
+unit MWyr
+ELEM Final 6
+ITEM Commerce 2
+unittype energy
+unit MWyr
+ITEM Urban 2
+unittype energy
+unit MWyr
+ITEM Industry 2
+unittype energy
+unit MWyr
+ITEM SentOut 2
+unittype energy
+unit MWyr
+ITEM Export 2
+unittype energy
+unit MWyr
+ITEM Rural 2
+unittype energy
+unit MWyr
+ELEM Resources 2
+ITEM Coal 2
+unittype energy
+unit MWyr
+ITEM Biomass 2
+unittype energy
+unit MWyr
+ELEM Secondary 2
+ITEM Electricity 2
+unittype energy
+unit MWyr
+ITEM ElcDummy 2
+unittype energy
+unit MWyr
+TYPE relations1 25
+ELEM RC_NGHYDM_Mambilla_04 1
+upper MWyr
+ELEM LocalRE 9
+upper MWyr
+lower MWyr
+cost US$'00/kWyr
+penaltylim MWyr
+unittype energy
+limgroup activity
+penaltycost US$'00/kWyr
+softlimslim MWyr
+softlimscost US$'00/kWyr
+ELEM InstantaneousWindPV 1
+upper MWyr
+ELEM PS_NGELST04 1
+upper MWyr
+ELEM RC_NGHYDM_Shiroro_02 1
+upper MWyr
+ELEM WDBR 1
+upper MWyr
+ELEM BMTC 9
+upper MWyr
+lower MWyr
+cost US$'00/kWyr
+penaltylim MWyr
+unittype energy
+limgroup activity
+penaltycost US$'00/kWyr
+softlimslim MWyr
+softlimscost US$'00/kWyr
+ELEM RC_NGHYDM_Gurara_I_09 1
+upper MWyr
+ELEM ReserveMargin 1
+upper MWyr
+ELEM RC_NGHYDM_Oyan_03 1
+upper MWyr
+ELEM NUC 9
+upper MWyr
+lower MWyr
+cost US$'00/kWyr
+penaltylim MWyr
+unittype energy
+limgroup activity
+penaltycost US$'00/kWyr
+softlimslim MWyr
+softlimscost US$'00/kWyr
+ELEM RC_NGHYDM_Kainji_07 1
+upper MWyr
+ELEM DX_NGEXDT00 1
+upper MWyr
+ELEM RC_NGHYDM_Zungeru_01 1
+upper MWyr
+ELEM PVBR 1
+upper MWyr
+ELEM CO2emissionskt 1
+upper MWyr
+ELEM RC_NGHYDM_Jebba_08 1
+upper MWyr
+ELEM PC_NGELST04 1
+upper MWyr
+ELEM RC_NGHYDM_Dadin_Kowa_10 1
+upper MWyr
+ELEM DC_NGELST04_02 1
+upper MWyr
+ELEM DC_NGELST04_03 1
+upper MWyr
+ELEM DC_NGELST04_01 1
+upper MWyr
+ELEM RC_NGHYDM_Kashimbilla_06 1
+upper MWyr
+ELEM Domestic 1
+upper MWyr
+ELEM RC_NGHYDM_Kiri_05 1
+upper MWyr
 TYPE systems 36
 ELEM NGNGSC_Gas_Turbine_GAS 10
 optm share
@@ -544,22 +939,24 @@ minutil share
 fom US$'00/kW/yr
 pll yr
 capunit MW
-ELEM NGNUPW00 15
-optm share
-con1c_ReserveMargin MWyr/MW
+ELEM NGNUPW00 17
 hiscact MWyr
-ctime yr
 inv US$'00/kW
-con1c_RM MWyr/MW
 con1c_RMG MWyr/MW
-plf share
-unittype power
 bdi_ MW
-fom US$'00/kW/yr
+con1c_ReserveMarginGlobal MWyr/MW
 capunit MW
+unittype power
+fom US$'00/kW/yr
+con1c_ReserveMargin MWyr/MW
+con1c_RM MWyr/MW
+plf share
 pll yr
 bdc_fx MW
-con1c_ReserveMarginGlobal MWyr/MW
+optm share
+ctime yr
+bdc_ MW
+bdi_up MW
 ELEM NGEL00TUR 1
 capunit MW
 ELEM NGEL00TUS 1
@@ -620,398 +1017,3 @@ inv US$'00/kW
 pll yr
 hisccap MW
 capunit MW
-TYPE enforms 7
-ELEM DummyLevelStorage 1
-ITEM DummyCom_NGELST04 2
-unittype energy
-unit MWyr
-ELEM Primary 13
-ITEM Oil 2
-unittype energy
-unit MWyr
-ITEM HFO 2
-unittype energy
-unit MWyr
-ITEM CoalCCS 2
-unittype energy
-unit MWyr
-ITEM Nuclear 2
-unittype energy
-unit MWyr
-ITEM Gas 2
-unittype energy
-unit MWyr
-ITEM Coal 2
-unittype energy
-unit MWyr
-ITEM Wood 2
-unittype energy
-unit MWyr
-ITEM Bagasse 2
-unittype energy
-unit MWyr
-ITEM Solar 2
-unittype energy
-unit MWyr
-ITEM Crude 2
-unittype energy
-unit MWyr
-ITEM Diesel 2
-unittype energy
-unit MWyr
-ITEM Wind 2
-unittype energy
-unit MWyr
-ITEM Hydro 2
-unittype energy
-unit MWyr
-ELEM any 1
-ITEM oil 2
-unittype energy
-unit MWyr
-ELEM Tertiary 5
-ITEM Electricity 2
-unittype energy
-unit MWyr
-ITEM Commerce 2
-unittype energy
-unit MWyr
-ITEM Industry 2
-unittype energy
-unit MWyr
-ITEM Rural 2
-unittype energy
-unit MWyr
-ITEM Urban 2
-unittype energy
-unit MWyr
-ELEM Final 6
-ITEM Commerce 2
-unittype energy
-unit MWyr
-ITEM Urban 2
-unittype energy
-unit MWyr
-ITEM Industry 2
-unittype energy
-unit MWyr
-ITEM SentOut 2
-unittype energy
-unit MWyr
-ITEM Export 2
-unittype energy
-unit MWyr
-ITEM Rural 2
-unittype energy
-unit MWyr
-ELEM Resources 2
-ITEM Coal 2
-unittype energy
-unit MWyr
-ITEM Biomass 2
-unittype energy
-unit MWyr
-ELEM Secondary 2
-ITEM Electricity 2
-unittype energy
-unit MWyr
-ITEM ElcDummy 2
-unittype energy
-unit MWyr
-TYPE relations1 25
-ELEM RC_NGHYDM_Mambilla_04 1
-upper MWyr
-ELEM LocalRE 9
-upper MWyr
-lower MWyr
-cost US$'00/kWyr
-penaltylim MWyr
-unittype energy
-limgroup activity
-penaltycost US$'00/kWyr
-softlimslim MWyr
-softlimscost US$'00/kWyr
-ELEM InstantaneousWindPV 1
-upper MWyr
-ELEM PS_NGELST04 1
-upper MWyr
-ELEM RC_NGHYDM_Shiroro_02 1
-upper MWyr
-ELEM WDBR 1
-upper MWyr
-ELEM BMTC 9
-upper MWyr
-lower MWyr
-cost US$'00/kWyr
-penaltylim MWyr
-unittype energy
-limgroup activity
-penaltycost US$'00/kWyr
-softlimslim MWyr
-softlimscost US$'00/kWyr
-ELEM RC_NGHYDM_Gurara_I_09 1
-upper MWyr
-ELEM ReserveMargin 1
-upper MWyr
-ELEM RC_NGHYDM_Oyan_03 1
-upper MWyr
-ELEM NUC 9
-upper MWyr
-lower MWyr
-cost US$'00/kWyr
-penaltylim MWyr
-unittype energy
-limgroup activity
-penaltycost US$'00/kWyr
-softlimslim MWyr
-softlimscost US$'00/kWyr
-ELEM RC_NGHYDM_Kainji_07 1
-upper MWyr
-ELEM DX_NGEXDT00 1
-upper MWyr
-ELEM RC_NGHYDM_Zungeru_01 1
-upper MWyr
-ELEM PVBR 1
-upper MWyr
-ELEM CO2emissionskt 1
-upper MWyr
-ELEM RC_NGHYDM_Jebba_08 1
-upper MWyr
-ELEM PC_NGELST04 1
-upper MWyr
-ELEM RC_NGHYDM_Dadin_Kowa_10 1
-upper MWyr
-ELEM DC_NGELST04_02 1
-upper MWyr
-ELEM DC_NGELST04_03 1
-upper MWyr
-ELEM DC_NGELST04_01 1
-upper MWyr
-ELEM RC_NGHYDM_Kashimbilla_06 1
-upper MWyr
-ELEM Domestic 1
-upper MWyr
-ELEM RC_NGHYDM_Kiri_05 1
-upper MWyr
-TYPE alttecs 36
-ELEM NGNGSC_Gas_Turbine_GAS 1
-ITEM D 5
-minp MWyr
-vom US$'00/kWyr
-hiscact MWyr
-moutp MWyr
-unittype energy
-ELEM NGEL00e00 1
-ITEM a 3
-minp MWyr
-unittype energy
-moutp MWyr
-ELEM NGDSRI00 1
-ITEM g 4
-minp MWyr
-vom US$'00/kWyr
-unittype energy
-moutp MWyr
-ELEM NGNGSC00 1
-ITEM g 4
-minp MWyr
-vom US$'00/kWyr
-unittype energy
-moutp MWyr
-ELEM NGHYDM_Shiroro 1
-ITEM K 5
-minp MWyr
-vom US$'00/kWyr
-hiscact MWyr
-moutp MWyr
-unittype energy
-ELEM NGSOTNZ001 1
-ITEM B 4
-minp MWyr
-vom US$'00/kWyr
-unittype energy
-moutp MWyr
-ELEM NGDSRU00 1
-ITEM g 4
-minp MWyr
-vom US$'00/kWyr
-unittype energy
-moutp MWyr
-ELEM NGSOTNZ002 1
-ITEM C 4
-minp MWyr
-vom US$'00/kWyr
-unittype energy
-moutp MWyr
-ELEM NGNGSC_Sapele/Geregu/Ihovbor/Omotosho 1
-ITEM G 5
-minp MWyr
-vom US$'00/kWyr
-hiscact MWyr
-moutp MWyr
-unittype energy
-ELEM NGSOTSZ001 1
-ITEM D 4
-minp MWyr
-vom US$'00/kWyr
-unittype energy
-moutp MWyr
-ELEM NGSOTSZ002 1
-ITEM E 4
-minp MWyr
-vom US$'00/kWyr
-unittype energy
-moutp MWyr
-ELEM NGNGSC_OlorunsogoII 1
-ITEM F 5
-minp MWyr
-vom US$'00/kWyr
-hiscact MWyr
-moutp MWyr
-unittype energy
-ELEM NGNU00I00 1
-ITEM a 5
-vom US$'00/kWyr
-con1a_CO2 MWyr/MWyr
-moutp MWyr
-unittype energy
-con1a_CO2emissionskt MWyr/MWyr
-ELEM NGELPT04 1
-ITEM K 3
-minp MWyr
-unittype energy
-moutp MWyr
-ELEM NGNGSC_Westcom_ 1
-ITEM J 4
-minp MWyr
-vom US$'00/kWyr
-unittype energy
-moutp MWyr
-ELEM NGEL00i00 1
-ITEM I 4
-minp MWyr
-vom US$'00/kWyr
-unittype energy
-moutp MWyr
-ELEM NGELBS00 1
-ITEM z 4
-minp MWyr
-vom US$'00/kWyr
-unittype energy
-moutp MWyr
-ELEM NGNGCC_Combined_Cycle_GAS 1
-ITEM A 5
-minp MWyr
-vom US$'00/kWyr
-hiscact MWyr
-moutp MWyr
-unittype energy
-ELEM NGDSRR00 1
-ITEM g 4
-minp MWyr
-vom US$'00/kWyr
-unittype energy
-moutp MWyr
-ELEM NGRIDM_Dadin_Kowa 1
-ITEM J 3
-minp MWyr
-unittype energy
-moutp MWyr
-ELEM NGEL00TDU 1
-ITEM a 4
-minp MWyr
-hiscact MWyr
-moutp MWyr
-unittype energy
-ELEM NGEL00T00 1
-ITEM a 5
-minp MWyr
-vom US$'00/kWyr
-hiscact MWyr
-moutp MWyr
-unittype energy
-ELEM NGEL00TDR 1
-ITEM a 4
-minp MWyr
-hiscact MWyr
-moutp MWyr
-unittype energy
-ELEM NGDSRC00 1
-ITEM g 4
-minp MWyr
-vom US$'00/kWyr
-unittype energy
-moutp MWyr
-ELEM NGNUPW00 1
-ITEM a 9
-con1a_Domestic MWyr/MWyr
-vom US$'00/kWyr
-moutp MWyr
-minp MWyr
-unittype energy
-con1a_REHI MWyr/MWyr
-con1a_NUC MWyr/MWyr
-con1a_RELO MWyr/MWyr
-con1a_DOM MWyr/MWyr
-ELEM NGEL00TUR 1
-ITEM a 3
-minp MWyr
-unittype energy
-moutp MWyr
-ELEM NGEL00TUS 1
-ITEM a 3
-minp MWyr
-unittype energy
-moutp MWyr
-ELEM NGEL00TUU 1
-ITEM a 3
-minp MWyr
-unittype energy
-moutp MWyr
-ELEM NGDSRB00 1
-ITEM g 4
-minp MWyr
-vom US$'00/kWyr
-unittype energy
-moutp MWyr
-ELEM NGEL00TUI 1
-ITEM a 3
-minp MWyr
-unittype energy
-moutp MWyr
-ELEM NGNGSC_SupertekNig 1
-ITEM I 4
-minp MWyr
-vom US$'00/kWyr
-unittype energy
-moutp MWyr
-ELEM NGEL00TDC 1
-ITEM a 4
-minp MWyr
-hiscact MWyr
-moutp MWyr
-unittype energy
-ELEM NGEL00TUC 1
-ITEM a 3
-minp MWyr
-unittype energy
-moutp MWyr
-ELEM NGNGSC_Steam_Turbine_GAS 1
-ITEM H 5
-minp MWyr
-vom US$'00/kWyr
-hiscact MWyr
-moutp MWyr
-unittype energy
-ELEM NGHFRC00 1
-ITEM g 4
-minp MWyr
-vom US$'00/kWyr
-unittype energy
-moutp MWyr
-ELEM NGEL00TDI 1
-ITEM a 4
-minp MWyr
-hiscact MWyr
-moutp MWyr
-unittype energy
